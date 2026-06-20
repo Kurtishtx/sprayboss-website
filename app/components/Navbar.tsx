@@ -1,0 +1,48 @@
+'use client';
+
+const solutions = [
+  { label: 'Lawn Care Software',           href: '/lawn-care-software' },
+  { label: 'Lawn Care Scheduling',         href: '/lawn-care-scheduling-software' },
+  { label: 'Mosquito Control Software',    href: '/mosquito-control-software' },
+  { label: 'Mosquito Spray Software',      href: '/mosquito-spray-software' },
+  { label: 'Pest Control Software',        href: '/pest-control-software' },
+  { label: 'Pest Control Scheduling',      href: '/pest-control-scheduling-software' },
+  { label: 'Spray Business Software',      href: '/spray-business-software' },
+  { label: 'Weed Control Software',        href: '/weed-control-software' },
+  { label: 'Fertilizer Software',          href: '/fertilizer-software' },
+];
+
+export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElement) => void }) {
+  return (
+    <nav className="navbar">
+      <div className="navbar-inner">
+        <div className="navbar-brand">
+          <a href="/" style={{textDecoration:'none', display:'flex', alignItems:'center', gap:'8px'}}>
+            <span className="navbar-icon">🌿</span>
+            <span className="navbar-name">SprayBossPro</span>
+          </a>
+        </div>
+        <div className="navbar-links">
+          <div className="nav-dropdown">
+            <span className="nav-dropdown-trigger">Solutions ▾</span>
+            <div className="nav-dropdown-menu">
+              {solutions.map(s => (
+                <a key={s.href} href={s.href} className="nav-dropdown-item">{s.label}</a>
+              ))}
+            </div>
+          </div>
+          <a href="/features">Features</a>
+          <a href="/pricing">Pricing</a>
+          <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
+          <button
+            className="navbar-cta"
+            onClick={(e) => onTrialClick(e.currentTarget as HTMLElement)}
+            style={{background:'var(--orange)', color:'#fff', border:'none', borderRadius:'6px', padding:'10px 20px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}
+          >
+            Start Free Trial
+          </button>
+        </div>
+      </div>
+    </nav>
+  );
+}

@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import Navbar from '../components/Navbar';
 
 const SBP_URL  = 'https://knjdbgroiyhvqwrpqzcx.supabase.co';
 const SBP_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g';
@@ -216,20 +217,7 @@ export default function MosquitoControlSoftware() {
 
   return (
     <>
-      <nav className="navbar">
-        <div className="navbar-inner">
-          <div className="navbar-brand">
-            <span className="navbar-icon">🌿</span>
-            <span className="navbar-name">SprayBossPro</span>
-          </div>
-          <div className="navbar-links">
-            <a href="/">Home</a>
-            <a href="/#pricing">Pricing</a>
-            <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
-            <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="navbar-cta">Start Free Trial</a>
-          </div>
-        </div>
-      </nav>
+      <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
       <div className="hero">
         <div className="hero-badge">Mosquito Control Software</div>
