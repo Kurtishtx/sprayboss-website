@@ -74,6 +74,29 @@ const weedControlPosts = [
   { title: 'How to Scale a Weed Control Program Without Manually Scheduling Every Round', description: 'The systems that let a weed control company grow to hundreds of program customers without adding scheduling labor between visits.', href: '/blogs/scale-weed-control-program' },
 ];
 
+const pestControlPosts = [
+  { title: 'How to Manage Quarterly, Bi-Monthly, and Monthly Pest Control Programs in One System', description: 'How a single platform handles different recurrence intervals, compliance logs, and SMS alerts for every program type your company runs.', href: '/blogs/manage-quarterly-bi-monthly-monthly-pest-control-programs' },
+  { title: 'What Auto-Scheduling After Every Pest Control Visit Actually Looks Like', description: 'A step-by-step look at what happens after a quarterly treatment is completed and how the next visit schedules itself without anyone touching it.', href: '/blogs/auto-scheduling-pest-control-visits' },
+  { title: 'How to Build Pest Control Routes Using Circle Map Route Building', description: 'How drawing a circle on any neighborhood pulls every pest control stop due inside into an optimized, dispatchable route in minutes.', href: '/blogs/build-pest-control-routes-circle-map' },
+  { title: 'What EPA Compliance Records Do Pest Control Companies Need on Every Job?', description: 'The complete compliance log requirements for pest control applications and how to capture every field in a state-ready format.', href: '/blogs/epa-compliance-records-pest-control' },
+  { title: 'How to Send Re-Entry Interval Texts After Every Pest Control Application Automatically', description: 'How re-entry interval SMS fires automatically based on the product and interval logged by the technician in the field.', href: '/blogs/re-entry-interval-texts-pest-control' },
+  { title: 'How to Dispatch Pest Control Technicians With Everything They Need Before the First Stop', description: 'What goes into a properly dispatched pest control route and how digital dispatch eliminates the morning briefing bottleneck.', href: '/blogs/dispatch-pest-control-technicians' },
+  { title: 'Quarterly vs. Bi-Monthly Pest Control: How to Manage Both Programs Without Mixing Up Due Dates', description: 'The operational differences between quarterly and bi-monthly pest control programs and how to run both from the same scheduling system.', href: '/blogs/quarterly-vs-bi-monthly-pest-control-programs' },
+  { title: 'What to Do When a Pest Control Customer Is Overdue for Their Treatment', description: 'How to identify overdue pest control accounts, prioritize them in routing, and communicate with customers before the gap creates a problem.', href: '/blogs/handle-overdue-pest-control-treatments' },
+  { title: 'How to See Route Revenue Before You Build the Route — Pest Control Waiting List', description: 'Why seeing expected revenue by area before committing to a route makes pest control scheduling a financial decision, not just a logistical one.', href: '/blogs/pest-control-route-revenue-waiting-list' },
+  { title: 'How to Log Target Pests, Treatment Areas, and EPA Reg Numbers on Every Stop', description: 'The field logging structure that captures target pest, treatment area, and EPA registration number data on every pest control stop without slowing technicians down.', href: '/blogs/log-target-pest-treatment-areas-epa-reg-numbers' },
+  { title: 'How to Add Mosquito Treatments as an Add-On for Existing Pest Control Customers', description: 'How to structure mosquito add-on programs for existing recurring customers and schedule them alongside quarterly and bi-monthly pest control without confusion.', href: '/blogs/mosquito-add-on-pest-control-customers' },
+  { title: 'How to Scale a Pest Control Business on Recurring Customers, Not New Leads', description: 'Why recurring program retention and upsells generate more sustainable revenue growth than constant new customer acquisition in pest control.', href: '/blogs/scale-pest-control-business-recurring-customers' },
+  { title: 'What Pest Control Customers Actually Expect From a Recurring Program', description: 'The five things recurring pest control customers consistently cite as reasons to stay or cancel — and how to deliver all five.', href: '/blogs/what-pest-control-customers-expect' },
+  { title: 'How to Train Pest Control Technicians to Submit Complete Application Logs Every Time', description: 'The training approach and software structure that produces consistently complete compliance logs from every technician on every stop.', href: '/blogs/train-pest-control-technicians-application-logs' },
+  { title: 'Pest Control Software vs. Generic Field Service Software: What\'s Actually Different', description: 'Why generic field service platforms fall short for pest control companies running recurring programs that require compliance logging, interval-based scheduling, and re-entry SMS.', href: '/blogs/pest-control-software-vs-field-service-software' },
+  { title: 'How to Log Interior and Exterior Pest Control Treatments as Separate Records', description: 'Why interior and exterior pest control treatments need separate compliance log entries and how to structure logs when both are done in the same visit.', href: '/blogs/interior-exterior-pest-control-treatment-logs' },
+  { title: 'How Monthly Pest Control Programs Create Predictable Revenue for Your Business', description: 'Why monthly pest control programs are the highest-revenue-per-customer model and how to manage 12 visits per year per account without adding scheduling staff.', href: '/blogs/monthly-pest-control-programs-predictable-revenue' },
+  { title: 'How SMS Alerts Before and After Every Visit Reduce Pest Control Cancellations', description: 'The data on SMS communication and pest control cancellation rates — and how to configure pre-visit and post-visit alerts that make customers more likely to stay.', href: '/blogs/reduce-pest-control-cancellations-sms-alerts' },
+  { title: 'How to Know Which Pest Control Customers Are Due Without Checking Every Account', description: 'How the waiting list in pest control scheduling software surfaces every due account automatically so dispatchers never need to manually review individual records.', href: '/blogs/know-which-pest-control-customers-due' },
+  { title: 'Why Pest Control Companies Need Software Built for Recurring Programs, Not One-Time Jobs', description: 'The fundamental difference between pest control operations and one-time service trades — and why software built for generic job dispatch fails recurring program management.', href: '/blogs/pest-control-software-recurring-programs' },
+];
+
 export default function BlogIndexPage() {
   return (
     <BlogShell>
@@ -104,6 +127,16 @@ export default function BlogIndexPage() {
         <h2 className="blog-index-silo-title">Weed Control Software</h2>
         <div className="blog-index-grid">
           {weedControlPosts.map((post) => (
+            <a key={post.href} href={post.href} className="blog-index-card">
+              <h3>{post.title}</h3>
+              <p>{post.description}</p>
+            </a>
+          ))}
+        </div>
+
+        <h2 className="blog-index-silo-title">Pest Control Scheduling Software</h2>
+        <div className="blog-index-grid">
+          {pestControlPosts.map((post) => (
             <a key={post.href} href={post.href} className="blog-index-card">
               <h3>{post.title}</h3>
               <p>{post.description}</p>

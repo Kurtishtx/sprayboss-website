@@ -431,7 +431,7 @@ export default function PestControlSchedulingSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Compliance Log — Every Recurring Pest Control Program, Managed Automatically</h2>
-          <p className="section-sub">SprayBossPro manages quarterly, bi-monthly, and monthly pest control programs end-to-end — routing, compliance logging, SMS alerts, and auto-rescheduling — without your team manually managing the schedule between any visits.</p>
+          <p className="section-sub">SprayBossPro manages quarterly, bi-monthly, and monthly pest control programs end-to-end — routing, compliance logging, SMS alerts, and auto-rescheduling — without your team manually managing the schedule between any visits. For a closer look at how multiple program types run simultaneously in one system, read <a href="/blogs/manage-quarterly-bi-monthly-monthly-pest-control-programs" style={{color:'var(--orange)', fontWeight:600}}>How to Manage Quarterly, Bi-Monthly, and Monthly Pest Control Programs in One System</a>.</p>
         </div>
         <div className="steps-grid">
           <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>See every pest control visit due today — quarterly, bi-monthly, monthly, mosquito — organized by program with stop count and route revenue. Know the day&#39;s full scope before you build any routes.</p></div>
