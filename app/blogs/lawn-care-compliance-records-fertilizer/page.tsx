@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Lawn Care Compliance Records Do You Need for Fertilizer Applications? | SprayBossPro',
+  title: 'Fertilizer Compliance Records That Pass Inspection | SprayBossPro',
   description: 'The complete list of what state inspectors look for on fertilizer application records and how to have all of it ready on demand.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Handle Overdue Fertilizer Rounds Without Losing Program Customers | SprayBossPro',
+  title: 'How to Handle Overdue Fertilizer Rounds | SprayBossPro',
   description: 'How to find, prioritize, and route overdue fertilizer treatments before customers cancel their program over a missed round.',
 };
 

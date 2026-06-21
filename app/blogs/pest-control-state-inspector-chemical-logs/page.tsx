@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Chemical Logs Does a State Pest Control Inspector Actually Ask For? | SprayBossPro',
+  title: 'Pest Control Chemical Logs for State Inspectors | SprayBossPro',
   description: 'The specific records, fields, and formats that state pesticide inspectors request from pest control companies — and how to have every record ready before they ask.',
 };
 

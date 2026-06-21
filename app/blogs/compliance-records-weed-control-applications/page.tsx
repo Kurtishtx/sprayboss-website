@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Compliance Records Do You Need for Weed Control Applications? | SprayBossPro',
+  title: 'Compliance Records for Weed Control Applications | SprayBossPro',
   description: 'A breakdown of what state regulators require for weed control application logs and how to have every record audit-ready on demand.',
 };
 

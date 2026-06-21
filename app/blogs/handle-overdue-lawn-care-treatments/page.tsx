@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Handle Overdue Lawn Care Treatments Without Losing Customers | SprayBossPro',
+  title: 'Handle Overdue Lawn Care Treatments | SprayBossPro',
   description: "How to identify, prioritize, and route overdue treatments before customers notice they've been skipped.",
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Spray Business Profitability: How Much Can You Make Per Route Day? | SprayBossPro',
+  title: 'Mosquito Spray Business Profitability Per Route Day | SprayBossPro',
   description: 'How to calculate per-route-day revenue and margin for a mosquito spray business — and how software shows you revenue totals before dispatch so you know what each day generates.',
 };
 

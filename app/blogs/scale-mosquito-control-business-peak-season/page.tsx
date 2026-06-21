@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Scale a Mosquito Control Business During Peak Season Without Losing Stops | SprayBossPro',
+  title: 'Scale a Mosquito Control Business at Peak Season | SprayBossPro',
   description: 'The routing, dispatch, and scheduling systems that keep a mosquito company on schedule when demand peaks in June and July.',
 };
 

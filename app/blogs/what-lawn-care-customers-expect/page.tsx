@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Lawn Care Customers Expect Before, During, and After Every Visit | SprayBossPro',
+  title: 'What Lawn Care Customers Expect on Every Visit | SprayBossPro',
   description: 'The three SMS touchpoints that reduce callbacks, cancellations, and "when are you coming?" calls from customers.',
 };
 

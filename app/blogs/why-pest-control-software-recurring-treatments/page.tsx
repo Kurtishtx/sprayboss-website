@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Why Pest Control Businesses Need Software Built for Recurring Treatments | SprayBossPro',
+  title: 'Pest Control Software for Recurring Treatments | SprayBossPro',
   description: 'Why generic field service software fails pest control companies — and what purpose-built pest control software handles differently for recurring program management.',
 };
 

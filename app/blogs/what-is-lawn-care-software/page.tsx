@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Is Lawn Care Software and Does Your Business Actually Need It? | SprayBossPro',
+  title: 'What Is Lawn Care Software and Do You Need It? | SprayBossPro',
   description: 'A plain-language breakdown of what lawn care software does, what problems it solves, and at what point a lawn care business genuinely needs it.',
 };
 

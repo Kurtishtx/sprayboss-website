@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Replaces Spreadsheets, Paper Routes, and Phone Calls | SprayBossPro',
+  title: 'How Lawn Care Software Replaces Spreadsheets | SprayBossPro',
   description: 'A function-by-function comparison of what spreadsheets and paper systems do vs. what purpose-built lawn care software replaces them with.',
 };
 

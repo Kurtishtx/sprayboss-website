@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What to Look for in Spray Business Software Before You Sign Up | SprayBossPro',
+  title: 'What to Look for in Spray Business Software | SprayBossPro',
   description: 'The specific features a spray company needs — waiting list, circle routing, compliance logs, SMS alerts — and how to evaluate tools against that list.',
 };
 

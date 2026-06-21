@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care Software Pricing: What You Should Expect to Pay and What You Get | SprayBossPro',
+  title: 'Lawn Care Software Pricing: What to Expect | SprayBossPro',
   description: 'A plain breakdown of lawn care software pricing models — per-user, per-account, per-feature, and flat monthly — and what each model means for a growing lawn care business.',
 };
 

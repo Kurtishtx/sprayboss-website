@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Granular vs. Liquid Fertilizer Application Tracking: What\'s Different for Compliance | SprayBossPro',
+  title: 'Granular vs Liquid Fertilizer Application Tracking | SprayBossPro',
   description: "How logging differs between granular (lbs per 1,000 sq ft) and liquid (oz per gallon per 1,000 sq ft) fertilizer applications.",
 };
 

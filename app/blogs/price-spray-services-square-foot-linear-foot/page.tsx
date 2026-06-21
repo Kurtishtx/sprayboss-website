@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Price Spray Services by Square Foot or Linear Foot | SprayBossPro',
+  title: 'Price Spray Services by Square Foot or Linear Foot | SprayBossPro',
   description: 'How to structure per-sq-ft and per-linear-ft pricing for different service types and track program revenue per stop and per route.',
 };
 

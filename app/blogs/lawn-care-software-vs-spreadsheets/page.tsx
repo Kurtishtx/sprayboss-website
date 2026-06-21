@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care Software vs. Spreadsheets: Why Spreadsheets Break After 100 Customers | SprayBossPro',
+  title: 'Lawn Care Software vs. Spreadsheets | SprayBossPro',
   description: "The exact point where spreadsheet scheduling falls apart and what a purpose-built tool handles that spreadsheets can't.",
 };
 

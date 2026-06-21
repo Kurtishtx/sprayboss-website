@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Track Chemical Applications for Compliance Across a Spray Business | SprayBossPro',
+  title: 'Chemical Compliance Tracking for Spray Businesses | SprayBossPro',
   description: 'How structured in-field application logs capture EPA reg numbers, rates, and applicator license on every job in a state-ready format.',
 };
 

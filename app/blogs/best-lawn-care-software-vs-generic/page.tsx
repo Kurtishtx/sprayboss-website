@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What the Best Lawn Care Software Does That Generic Tools Don\'t | SprayBossPro',
+  title: 'What the Best Lawn Care Software Does Differently | SprayBossPro',
   description: 'The specific capabilities that separate purpose-built lawn care software from generic field service tools adapted for lawn care use.',
 };
 

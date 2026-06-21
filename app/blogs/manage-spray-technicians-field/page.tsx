@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Spray Technicians in the Field Without Calling Them All Day | SprayBossPro',
+  title: 'Manage Spray Technicians in the Field | SprayBossPro',
   description: 'How mobile-first dispatch, in-field logging, and route tracking eliminate the need for office-to-field phone calls during the workday.',
 };
 

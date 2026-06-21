@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Customers Want to Know After Every Mosquito Barrier Spray Treatment | SprayBossPro',
+  title: 'What Customers Want After Mosquito Barrier Spray | SprayBossPro',
   description: 'The automated SMS that tells customers the re-entry interval, when it\'s safe for kids and pets, and when the next treatment is scheduled.',
 };
 

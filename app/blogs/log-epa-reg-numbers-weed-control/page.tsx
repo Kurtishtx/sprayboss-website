@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Log EPA Reg Numbers for Weed Control Products in the Field | SprayBossPro',
+  title: 'Log EPA Reg Numbers for Weed Control Products | SprayBossPro',
   description: 'The in-field logging workflow for capturing EPA registration numbers, application rates, and conditions on every weed control application.',
 };
 

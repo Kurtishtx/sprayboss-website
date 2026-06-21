@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Price Mosquito Control Services by Linear Foot or Square Foot | SprayBossPro',
+  title: 'How to Price Mosquito Control Services | SprayBossPro',
   description: 'How to structure per-linear-ft and per-sq-ft pricing for barrier spray programs and package pricing for seasonal programs.',
 };
 

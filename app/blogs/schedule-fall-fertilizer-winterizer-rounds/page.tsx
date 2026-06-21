@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Schedule Fall Fertilizer and Winterizer Rounds Across Hundreds of Properties | SprayBossPro',
+  title: 'Schedule Fall Fertilizer and Winterizer Rounds | SprayBossPro',
   description: 'The logistics of managing fall round scheduling at scale — timing, routing, and making sure every customer gets their winterizer before the window closes.',
 };
 

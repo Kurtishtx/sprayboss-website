@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Handle Nutsedge and Specialty Weed Control Programs | SprayBossPro',
+  title: 'Nutsedge and Specialty Weed Control Programs | SprayBossPro',
   description: 'How to schedule and track specialty weed treatments like nutsedge and sedge control alongside main program rounds in one waiting list.',
 };
 

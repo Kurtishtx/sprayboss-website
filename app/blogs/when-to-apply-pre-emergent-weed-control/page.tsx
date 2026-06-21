@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'When Should You Apply Pre-Emergent Weed Control? Timing Windows Explained | SprayBossPro',
+  title: 'When to Apply Pre-Emergent Weed Control | SprayBossPro',
   description: 'A practical guide to pre-emergent application timing, soil temperature targets, and how to manage the window across a large customer base.',
 };
 

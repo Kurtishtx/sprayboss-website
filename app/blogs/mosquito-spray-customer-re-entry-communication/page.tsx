@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Handle Customer Re-Entry After Mosquito Barrier Spray — The Right Way | SprayBossPro',
+  title: 'Mosquito Barrier Spray: Customer Re-Entry Guide | SprayBossPro',
   description: 'Why the re-entry interval matters after barrier spray, what to communicate to customers, and how automated post-service SMS delivers the message at exactly the right moment — when the treatment is completed.',
 };
 

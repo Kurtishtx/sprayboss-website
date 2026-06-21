@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage 21-Day Interval Mosquito Programs Without Manually Rebooking Every Visit | SprayBossPro',
+  title: 'Managing 21-Day Interval Mosquito Programs | SprayBossPro',
   description: 'How automatic interval scheduling eliminates the rebooking burden for 21-day mosquito spray programs — and what happens to the waiting list at each treatment completion.',
 };
 

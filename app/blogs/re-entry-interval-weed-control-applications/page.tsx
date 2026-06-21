@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Re-Entry Interval Should You Send Customers After Weed Control Applications? | SprayBossPro',
+  title: 'Re-Entry Interval After Weed Control Applications | SprayBossPro',
   description: 'How re-entry intervals vary by weed control product and how to capture the correct interval from the compliance log to send the right SMS.',
 };
 

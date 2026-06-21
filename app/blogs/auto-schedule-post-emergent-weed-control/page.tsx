@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Auto-Schedule Post-Emergent Weed Control Rounds at the Right Interval | SprayBossPro',
+  title: 'Auto-Schedule Post-Emergent Weed Control Rounds | SprayBossPro',
   description: 'How 4-week, 6-week, and 8-week post-emergent cycles auto-reschedule on completion so your team never manually books a follow-up visit.',
 };
 

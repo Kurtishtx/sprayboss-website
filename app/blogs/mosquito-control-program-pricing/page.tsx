@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Mosquito Control Program Pricing: How to Package and Price for Maximum Retention | SprayBossPro',
+  title: 'Mosquito Control Program Pricing for Retention | SprayBossPro',
   description: 'How seasonal packages, per-visit pricing, and prepay discounts affect mosquito customer retention and average program revenue.',
 };
 

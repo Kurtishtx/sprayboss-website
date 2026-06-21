@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Dispatch Pest Control Technicians With Everything They Need Before the First Stop | SprayBossPro',
+  title: 'How to Dispatch Pest Control Technicians Right | SprayBossPro',
   description: 'What goes into a properly dispatched pest control route and how digital dispatch eliminates the morning briefing bottleneck.',
 };
 

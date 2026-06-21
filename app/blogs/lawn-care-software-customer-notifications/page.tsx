@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Sends Customer Notifications Without Your Team Doing Anything | SprayBossPro',
+  title: 'Lawn Care Software Customer Notifications | SprayBossPro',
   description: 'How automated SMS alerts in lawn care software fire at every customer touchpoint — dispatch, completion, payment declined — without any manual action from the office team.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Fertilizer Application Rates by Lawn Size: How to Log Them Correctly for Compliance | SprayBossPro',
+  title: 'Fertilizer Application Rates: Compliance Logging | SprayBossPro',
   description: 'How to log lbs per 1,000 sq ft, total product applied, and area treated for every fertilizer application in a state-ready format.',
 };
 

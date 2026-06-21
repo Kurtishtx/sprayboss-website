@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Use Map-Based Routing to Grow a Lawn Care Route Business | SprayBossPro',
+  title: 'Map-Based Routing for Lawn Care Route Growth | SprayBossPro',
   description: 'How drawing circles on a map to build routes reduces scheduling time and opens up geographic expansion.',
 };
 

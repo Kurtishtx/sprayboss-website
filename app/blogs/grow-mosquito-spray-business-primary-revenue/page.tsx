@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Grow a Mosquito Spray Business From Add-On Service to Primary Revenue | SprayBossPro',
+  title: 'Grow a Mosquito Spray Business to Primary Revenue | SprayBossPro',
   description: 'How mosquito spray shifts from a secondary service offering to the primary revenue driver — what changes operationally, how software scales with the volume, and what makes the transition sustainable.',
 };
 

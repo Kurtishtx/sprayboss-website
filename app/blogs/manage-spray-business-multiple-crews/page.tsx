@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage a Spray Business Across Multiple Crews and Service Areas | SprayBossPro',
+  title: 'Manage a Spray Business Across Multiple Crews | SprayBossPro',
   description: 'How to split waiting lists by crew, build non-overlapping routes, and dispatch multiple teams simultaneously from one platform.',
 };
 

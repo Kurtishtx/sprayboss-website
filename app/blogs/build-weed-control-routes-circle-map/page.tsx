@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build Weed Control Routes Using Circle Map Route Building | SprayBossPro',
+  title: 'Build Weed Control Routes With Circle Map Routing | SprayBossPro',
   description: 'How to draw a circle on any neighborhood and pull every weed control stop due inside into an optimized route in minutes.',
 };
 

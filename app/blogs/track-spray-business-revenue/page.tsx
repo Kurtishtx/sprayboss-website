@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Track Spray Business Revenue by Service Type and Route | SprayBossPro',
+  title: 'Track Spray Business Revenue by Service Type | SprayBossPro',
   description: 'How to see daily, weekly, and monthly revenue broken down by service type so you know which programs are driving growth.',
 };
 

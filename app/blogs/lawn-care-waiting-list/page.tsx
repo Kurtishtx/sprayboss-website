@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Is a Lawn Care Waiting List and Why Your Schedule Depends on One | SprayBossPro',
+  title: 'What Is a Lawn Care Waiting List? | SprayBossPro',
   description: 'How a sq ft or linear ft waiting list organized by service type tells you the full scope of your day before you build a single route.',
 };
 

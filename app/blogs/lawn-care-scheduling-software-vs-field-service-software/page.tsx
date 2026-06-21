@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Difference Between Lawn Care Scheduling Software and Generic Field Service Software | SprayBossPro',
+  title: 'Lawn Care vs Generic Field Service Software | SprayBossPro',
   description: 'Why software built for recurring chemical programs handles routing, compliance, and SMS differently than job board tools.',
 };
 

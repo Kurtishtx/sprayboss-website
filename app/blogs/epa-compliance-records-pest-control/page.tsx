@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What EPA Compliance Records Do Pest Control Companies Need on Every Job? | SprayBossPro',
+  title: 'EPA Compliance Records for Pest Control Companies | SprayBossPro',
   description: 'The complete compliance log requirements for pest control applications and how to capture every field in a state-ready format.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Automate Customer Reminders for Every Lawn Care Visit | SprayBossPro',
+  title: 'Automate Lawn Care Customer Reminders | SprayBossPro',
   description: 'How day-before, on-the-way, and service complete SMS alerts fire automatically so your team never manually sends a single text.',
 };
 

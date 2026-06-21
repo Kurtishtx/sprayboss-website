@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How SMS Alerts Before and After Every Visit Reduce Pest Control Cancellations | SprayBossPro',
+  title: 'Reduce Pest Control Cancellations With SMS Alerts | SprayBossPro',
   description: 'The data on SMS communication and pest control cancellation rates — and how to configure pre-visit and post-visit alerts that make customers more likely to stay.',
 };
 

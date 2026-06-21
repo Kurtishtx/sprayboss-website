@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Train Technicians to Log Weed Control Applications Before Leaving the Property | SprayBossPro',
+  title: 'Train Technicians to Log Weed Control Applications | SprayBossPro',
   description: 'The field logging workflow that captures product, EPA reg number, re-entry interval, and conditions at the door on every visit.',
 };
 

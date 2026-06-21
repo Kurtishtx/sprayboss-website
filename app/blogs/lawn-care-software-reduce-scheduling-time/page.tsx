@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Reduces the Time You Spend on Scheduling Every Week | SprayBossPro',
+  title: 'How Lawn Care Software Reduces Scheduling Time | SprayBossPro',
   description: 'The scheduling time that lawn care software eliminates across the weekly workflow — from morning dispatch to customer rebooking to end-of-day auto-scheduling.',
 };
 

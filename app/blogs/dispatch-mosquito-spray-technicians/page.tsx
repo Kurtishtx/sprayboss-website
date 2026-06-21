@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Dispatch Mosquito Spray Technicians Without Morning Phone Calls | SprayBossPro',
+  title: 'Dispatch Mosquito Spray Technicians Without Calls | SprayBossPro',
   description: 'How mobile dispatch eliminates the morning route briefing call for mosquito spray technicians — routes, addresses, notes, and compliance log forms delivered to mobile before they leave the shop.',
 };
 

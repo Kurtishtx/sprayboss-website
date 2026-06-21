@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Train Technicians to Log Fertilizer Applications in the Field | SprayBossPro',
+  title: 'Train Technicians to Log Fertilizer Applications | SprayBossPro',
   description: 'The in-field compliance log workflow that gets accurate records submitted at the property before the tech leaves.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Pest Control Software Reduces the Gap Between Estimate and First Service | SprayBossPro',
+  title: 'Pest Control Software: Estimate to First Service | SprayBossPro',
   description: 'How fast estimate-to-service conversion in pest control software improves customer acquisition rates and why a long setup gap is the most common point of customer loss.',
 };
 

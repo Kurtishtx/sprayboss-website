@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Set Up Quarterly, Bi-Monthly, and Monthly Programs in Pest Control Software | SprayBossPro',
+  title: 'Set Up Recurring Pest Control Programs in Software | SprayBossPro',
   description: 'The exact setup steps for configuring quarterly, bi-monthly, and monthly pest control programs in software so each interval auto-schedules correctly and tracks independently.',
 };
 

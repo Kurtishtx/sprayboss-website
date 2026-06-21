@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Track Every Chemical Application Your Business Makes With Lawn Care Software | SprayBossPro',
+  title: 'Chemical Application Tracking: Lawn Care Software | SprayBossPro',
   description: 'How lawn care software records every pesticide and fertilizer application in a searchable database — and how to generate a chemical usage report for any date range.',
 };
 

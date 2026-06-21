@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Fall Pre-Emergent Scheduling: How to Hit the Right Window Across Your Entire Customer Base | SprayBossPro',
+  title: 'Fall Pre-Emergent Scheduling: Hitting the Window | SprayBossPro',
   description: 'The logistics of routing and completing fall pre-emergent applications before the window closes across hundreds of properties.',
 };
 

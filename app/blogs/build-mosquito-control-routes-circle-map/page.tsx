@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build Mosquito Control Routes Using Circle Map Route Building | SprayBossPro',
+  title: 'Mosquito Control Route Building With Circle Map | SprayBossPro',
   description: 'How circle-based map routing pulls every mosquito treatment due in a neighborhood into an optimized route in minutes during peak season.',
 };
 

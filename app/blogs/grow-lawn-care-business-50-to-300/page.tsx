@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Grow a Lawn Care Business From 50 to 300 Customers Using Software | SprayBossPro',
+  title: 'Grow a Lawn Care Business From 50 to 300 Customers | SprayBossPro',
   description: 'The operational changes that software makes possible as a lawn care business scales from 50 recurring accounts to 300 — and why manual systems fail before you get there.',
 };
 

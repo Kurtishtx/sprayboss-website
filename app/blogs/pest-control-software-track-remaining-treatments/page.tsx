@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Pest Control Software Tracks Remaining Treatments in a Package Plan | SprayBossPro',
+  title: 'Pest Control Software: Track Remaining Treatments | SprayBossPro',
   description: 'How package plan tracking in pest control software shows how many treatments each customer has used and how many remain — and how this drives renewal timing.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Difference Between Fertilizer Software and General Lawn Care Scheduling Tools | SprayBossPro',
+  title: 'Fertilizer Software vs Lawn Care Scheduling Tools | SprayBossPro',
   description: 'Why EPA reg number logging, round tracking, and re-entry SMS require features that generic scheduling tools don\'t have.',
 };
 

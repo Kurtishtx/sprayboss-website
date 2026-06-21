@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Know When Each Customer Is Due for Their Next Fertilizer Round | SprayBossPro',
+  title: 'Know When Customers Are Due for Fertilizer Rounds | SprayBossPro',
   description: 'How a round-organized waiting list tells you exactly which customers are due, how many sq ft, and what round they\'re on before you route anything.',
 };
 

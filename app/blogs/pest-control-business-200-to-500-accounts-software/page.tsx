@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What a Pest Control Business Looks Like at 200 Accounts vs. 500 — and the Software That Bridges the Gap | SprayBossPro',
+  title: 'Scaling Pest Control From 200 to 500 Accounts | SprayBossPro',
   description: 'The operational changes that happen as a pest control business scales from 200 to 500 recurring accounts — and why the right software is the primary lever that makes the difference.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Pest Control Software Automates the Full Customer Lifecycle — Estimate to Renewal | SprayBossPro',
+  title: 'Pest Control Software: Estimate to Renewal | SprayBossPro',
   description: 'How pest control software manages every stage of the customer relationship — estimate, first service, recurring program, re-service, and renewal — without manual handoffs between stages.',
 };
 

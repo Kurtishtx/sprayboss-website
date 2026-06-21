@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What to Look for in Lawn Care Scheduling Software Before You Buy | SprayBossPro',
+  title: 'What to Look for in Lawn Care Scheduling Software | SprayBossPro',
   description: 'The features that actually matter for companies running recurring chemical programs — and what to skip.',
 };
 

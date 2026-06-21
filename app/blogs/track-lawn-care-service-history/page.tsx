@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Track Lawn Care Service History for Every Customer | SprayBossPro',
+  title: 'Track Lawn Care Service History Per Customer | SprayBossPro',
   description: 'Why a complete per-property service history log matters for compliance, customer retention, and technician training.',
 };
 

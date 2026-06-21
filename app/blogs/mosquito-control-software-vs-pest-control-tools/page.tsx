@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Difference Between Mosquito Control Software and Generic Pest Control Scheduling Tools | SprayBossPro',
+  title: 'Mosquito Control Software vs Pest Control Tools | SprayBossPro',
   description: 'Why mosquito barrier spray programs — with their specific intervals, re-entry SMS, and compliance logs — need more than a generic job board.',
 };
 

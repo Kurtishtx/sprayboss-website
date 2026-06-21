@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Track Mosquito Control Revenue by Route and Program Type | SprayBossPro',
+  title: 'Track Mosquito Control Revenue by Route and Type | SprayBossPro',
   description: 'How to see daily and weekly mosquito program revenue by route and service type so you can make staffing and routing decisions based on real numbers.',
 };
 

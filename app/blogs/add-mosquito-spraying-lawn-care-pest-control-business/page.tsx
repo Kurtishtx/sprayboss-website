@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Add Mosquito Spraying to an Existing Lawn Care or Pest Control Business | SprayBossPro',
+  title: 'Add Mosquito Spraying to Your Existing Business | SprayBossPro',
   description: 'How lawn care and pest control companies can add mosquito barrier spray as a recurring revenue service — without a separate scheduling system or communication workflow.',
 };
 

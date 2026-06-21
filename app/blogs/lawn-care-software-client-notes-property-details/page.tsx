@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Client Notes and Property Details in Lawn Care Software | SprayBossPro',
+  title: 'Property Notes and Details in Lawn Care Software | SprayBossPro',
   description: 'How lawn care software stores property notes, access instructions, and service details so every technician has the right information before arriving at the stop.',
 };
 

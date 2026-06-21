@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pest Control Software vs. Generic Field Service Software: What\'s Actually Different | SprayBossPro',
+  title: 'Pest Control vs Generic Field Service Software | SprayBossPro',
   description: 'Why generic field service platforms fall short for pest control companies running recurring programs that require compliance logging, interval-based scheduling, and re-entry SMS.',
 };
 

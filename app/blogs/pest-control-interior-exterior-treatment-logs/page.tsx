@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Pest Control Software Logs Interior and Exterior Treatments as Separate Records | SprayBossPro',
+  title: 'Pest Control Interior and Exterior Treatment Logs | SprayBossPro',
   description: 'Why interior and exterior pest control treatments require separate compliance log entries and how to structure logs when both are completed in the same visit.',
 };
 

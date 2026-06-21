@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Scale a Lawn Care Business from 50 to 500 Customers Without Hiring an Office Manager | SprayBossPro',
+  title: 'Scale Lawn Care to 500 Without Office Staff | SprayBossPro',
   description: 'The scheduling systems and automation that let a lawn care company scale without adding admin headcount.',
 };
 

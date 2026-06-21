@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build a Waiting List for Mosquito Control Treatments Due This Week | SprayBossPro',
+  title: 'Build a Mosquito Control Treatment Waiting List | SprayBossPro',
   description: 'How a mosquito-specific waiting list shows every treatment due with stop count and route revenue before you open the map.',
 };
 

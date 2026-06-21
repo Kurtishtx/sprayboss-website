@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Add Mosquito Treatments as an Add-On for Existing Pest Control Customers | SprayBossPro',
+  title: 'Mosquito Treatments as a Pest Control Add-On | SprayBossPro',
   description: 'How to structure mosquito add-on programs for existing recurring customers and schedule them alongside quarterly and bi-monthly pest control without confusion.',
 };
 

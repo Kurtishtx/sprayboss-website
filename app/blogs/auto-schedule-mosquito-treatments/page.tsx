@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Auto-Schedule the Next Mosquito Treatment When the Previous One Is Complete | SprayBossPro',
+  title: 'Auto-Schedule Mosquito Treatments After Each Visit | SprayBossPro',
   description: 'How auto-rescheduling at your set interval keeps every customer\'s program running all season without manually booking follow-up visits.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Know Which Mosquito Spray Customers Are Overdue During Peak Season | SprayBossPro',
+  title: 'Overdue Mosquito Spray Customers During Peak Season | SprayBossPro',
   description: 'How the waiting list surfaces overdue mosquito spray accounts automatically — sorted by days past due — so nothing gets dropped during the busiest weeks of peak season.',
 };
 

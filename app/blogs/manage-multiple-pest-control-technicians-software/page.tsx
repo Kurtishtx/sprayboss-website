@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Multiple Pest Control Technicians With Software | SprayBossPro',
+  title: 'Managing Multiple Pest Control Technicians | SprayBossPro',
   description: 'How pest control software assigns routes, tracks completions, and manages compliance logging across multiple technicians without requiring the office to make individual coordination calls.',
 };
 

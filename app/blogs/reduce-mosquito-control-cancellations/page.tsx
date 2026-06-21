@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Reduce Mosquito Control Customer Cancellations With Automated Communication | SprayBossPro',
+  title: 'Reduce Mosquito Control Cancellations With SMS | SprayBossPro',
   description: 'Why pre-service reminders and post-service follow-up texts reduce no-access stops and mid-season cancellations on mosquito programs.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Calculates Route Revenue Before You Build the Route | SprayBossPro',
+  title: 'Lawn Care Software: Route Revenue Before Dispatch | SprayBossPro',
   description: 'How the waiting list total in lawn care software shows expected revenue for due accounts before any routing begins — and why that matters for daily production planning.',
 };
 

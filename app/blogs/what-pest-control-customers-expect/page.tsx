@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Pest Control Customers Actually Expect From a Recurring Program | SprayBossPro',
+  title: 'What Pest Control Customers Expect From Programs | SprayBossPro',
   description: 'The five things recurring pest control customers consistently cite as reasons to stay or cancel — and how to deliver all five.',
 };
 

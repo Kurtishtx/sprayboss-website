@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Why Pest Control Companies Need Software Built for Recurring Programs, Not One-Time Jobs | SprayBossPro',
+  title: 'Pest Control Software for Recurring Programs | SprayBossPro',
   description: 'The fundamental difference between pest control operations and one-time service trades — and why software built for generic job dispatch fails recurring program management.',
 };
 

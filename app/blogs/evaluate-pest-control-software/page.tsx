@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Evaluate Pest Control Software — The Questions That Reveal Whether It\'s Built for This Industry | SprayBossPro',
+  title: 'How to Evaluate Pest Control Software | SprayBossPro',
   description: 'The specific evaluation questions that reveal whether a pest control software platform is purpose-built for recurring programs or a generic tool adapted for the industry.',
 };
 

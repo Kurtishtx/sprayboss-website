@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Run a Spray Business Without an Office Manager | SprayBossPro',
+  title: 'Run a Spray Business Without an Office Manager | SprayBossPro',
   description: 'The scheduling, dispatch, and communication automation that let a spray company operate efficiently without a dedicated office person managing the day.',
 };
 

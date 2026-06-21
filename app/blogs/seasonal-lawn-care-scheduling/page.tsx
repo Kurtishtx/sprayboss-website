@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Seasonal Lawn Care Scheduling: Spring, Summer, Fall, and Winterizer Programs | SprayBossPro',
+  title: 'Seasonal Lawn Care Scheduling: All Rounds | SprayBossPro',
   description: 'How to manage the full calendar of lawn care rounds across all seasons without manually scheduling anything between rounds.',
 };
 

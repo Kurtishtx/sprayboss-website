@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Mosquito Spray Software Handles Seasonal Program Start and Shutdown | SprayBossPro',
+  title: 'Mosquito Spray Software: Season Start and Shutdown | SprayBossPro',
   description: 'How to manage the spring startup and fall close of a mosquito spray season in software — activating programs, communicating season start to customers, and closing programs cleanly at the end.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Customers Expect After a Weed Control Application | SprayBossPro',
+  title: 'What Customers Expect After Weed Control | SprayBossPro',
   description: 'The three automated messages that tell customers the re-entry interval, when to water, and when their next visit is scheduled — sent without your team doing anything.',
 };
 

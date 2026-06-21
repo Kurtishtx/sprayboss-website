@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Weed Control Pricing by Square Foot: How to Track Revenue Per Round | SprayBossPro',
+  title: 'Weed Control Pricing by Square Foot | SprayBossPro',
   description: 'How to set per-sq-ft pricing for pre-emergent and post-emergent rounds and track total program revenue per customer and per route.',
 };
 

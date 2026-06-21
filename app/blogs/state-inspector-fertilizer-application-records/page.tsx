@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Happens When a State Inspector Asks for Your Fertilizer Application Records? | SprayBossPro',
+  title: 'State Inspector Fertilizer Application Records | SprayBossPro',
   description: 'A realistic look at what a state compliance audit involves and how to pull every record you need in seconds.',
 };
 

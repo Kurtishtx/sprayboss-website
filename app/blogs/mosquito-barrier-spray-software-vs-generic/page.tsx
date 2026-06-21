@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Difference Between Mosquito Barrier Spray Software and Generic Scheduling Tools | SprayBossPro',
+  title: 'Mosquito Barrier Spray Software vs Generic Tools | SprayBossPro',
   description: 'Why generic field service software falls short for a mosquito spray business — and what purpose-built mosquito spray software does differently for interval scheduling, sq ft routing, and chemical compliance.',
 };
 

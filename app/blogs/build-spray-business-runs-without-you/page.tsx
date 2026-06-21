@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build a Spray Business That Runs Without You in the Field Every Day | SprayBossPro',
+  title: 'Build a Spray Business That Runs Without You | SprayBossPro',
   description: 'The systems, workflows, and automation that let a spray business owner step back from day-to-day operations without losing control.',
 };
 

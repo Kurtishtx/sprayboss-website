@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Handle Overdue Mosquito Control Treatments During Peak Season | SprayBossPro',
+  title: 'Handle Overdue Mosquito Control Treatments | SprayBossPro',
   description: 'How to find customers past their treatment window, route them in with active stops, and recover the treatment before the protection gap gets noticed.',
 };
 

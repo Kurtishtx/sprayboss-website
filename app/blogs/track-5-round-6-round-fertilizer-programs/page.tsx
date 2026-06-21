@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Track 5-Round and 6-Round Fertilizer Programs Without Losing Count | SprayBossPro',
+  title: 'Track 5-Round and 6-Round Fertilizer Programs | SprayBossPro',
   description: 'How purpose-built fertilizer software tracks each round per property so no customer misses a treatment between seasons.',
 };
 

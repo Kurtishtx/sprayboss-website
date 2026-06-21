@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Log Mosquito Control Applications for EPA Compliance | SprayBossPro',
+  title: 'Log Mosquito Control Applications: EPA Compliance | SprayBossPro',
   description: 'The in-field compliance log workflow for mosquito barrier spray — product, EPA reg number, rate, area treated, re-entry interval, and applicator license.',
 };
 

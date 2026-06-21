@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Quarterly vs. Bi-Monthly Pest Control: How to Manage Both Programs Without Mixing Up Due Dates | SprayBossPro',
+  title: 'Quarterly vs Bi-Monthly Pest Control Programs | SprayBossPro',
   description: 'The operational differences between quarterly and bi-monthly pest control programs and how to run both from the same scheduling system.',
 };
 

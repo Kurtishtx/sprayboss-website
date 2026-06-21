@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Know Which Pest Control Customers Are Due Without Checking Every Account | SprayBossPro',
+  title: 'Know Which Pest Control Customers Are Due | SprayBossPro',
   description: 'How the waiting list in pest control scheduling software surfaces every due account automatically so dispatchers never need to manually review individual records.',
 };
 

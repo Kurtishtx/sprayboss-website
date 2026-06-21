@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Weed Control Programs for Customers Who Also Have Fertilizer Rounds | SprayBossPro',
+  title: 'Weed Control and Fertilizer for the Same Customers | SprayBossPro',
   description: 'How to schedule, route, and log weed control and fertilizer visits for the same customers without creating scheduling conflicts.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Features Every Lawn Care Software Needs (And Most Are Missing) | SprayBossPro',
+  title: 'The Features Every Lawn Care Software Needs | SprayBossPro',
   description: 'A checklist of the features that a lawn care business actually needs in software — and which ones commonly missing from platforms not built specifically for the industry.',
 };
 

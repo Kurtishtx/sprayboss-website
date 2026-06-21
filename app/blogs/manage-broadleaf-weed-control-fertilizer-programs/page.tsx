@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Broadleaf Weed Control Programs Alongside Fertilizer Rounds | SprayBossPro',
+  title: 'Manage Broadleaf Weed Control With Fertilizer | SprayBossPro',
   description: 'How to run broadleaf, fertilizer, and pre-emergent programs under the same customer account without mixing schedules or compliance logs.',
 };
 

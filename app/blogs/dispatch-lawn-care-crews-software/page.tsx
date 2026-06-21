@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Dispatch Lawn Care Crews With Software Instead of Phone Calls | SprayBossPro',
+  title: 'Dispatch Lawn Care Crews With Software | SprayBossPro',
   description: 'How digital dispatch in lawn care software sends routes, property notes, and field log forms to technicians without a single phone call from the office.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Automated SMS Makes Mosquito Spray Customers Stay on Their Programs | SprayBossPro',
+  title: 'How Automated SMS Retains Mosquito Spray Customers | SprayBossPro',
   description: 'How pre-service and post-service SMS automation reduces cancellations and keeps mosquito spray customers engaged throughout the season — without manual texting from the office.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Grow a Pest Control Business Without Hiring an Office Manager | SprayBossPro',
+  title: 'Grow Pest Control Without Hiring an Office Manager | SprayBossPro',
   description: 'The automation and systems in pest control software that let a growing pest control operation scale account volume without adding office headcount.',
 };
 

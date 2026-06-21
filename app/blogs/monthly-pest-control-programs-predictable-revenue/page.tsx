@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Monthly Pest Control Programs Create Predictable Revenue for Your Business | SprayBossPro',
+  title: 'Monthly Pest Control Programs: Predictable Revenue | SprayBossPro',
   description: 'Why monthly pest control programs are the highest-revenue-per-customer model and how to manage 12 visits per year per account without adding scheduling staff.',
 };
 

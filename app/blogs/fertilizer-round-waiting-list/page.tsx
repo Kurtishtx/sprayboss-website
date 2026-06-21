@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Is a Fertilizer Round Waiting List and How Does It Help You Route Faster? | SprayBossPro',
+  title: 'What Is a Fertilizer Round Waiting List? | SprayBossPro',
   description: 'How a round-organized waiting list with sq ft totals tells you the full scope of the day\'s fertilizer work before you open the map.',
 };
 

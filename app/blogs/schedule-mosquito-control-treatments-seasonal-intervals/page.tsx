@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Schedule Mosquito Control Treatments at the Right Seasonal Intervals | SprayBossPro',
+  title: 'Schedule Mosquito Control at the Right Intervals | SprayBossPro',
   description: 'How to set up mosquito barrier spray programs that auto-reschedule at 21-day intervals so every customer stays protected all season.',
 };
 

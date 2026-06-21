@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Schedule Recurring Lawn Treatments Without Manually Booking Every Round | SprayBossPro',
+  title: 'Auto-Schedule Recurring Lawn Treatments | SprayBossPro',
   description: 'How auto-rescheduling works for multi-round lawn care programs so your schedule manages itself between visits.',
 };
 

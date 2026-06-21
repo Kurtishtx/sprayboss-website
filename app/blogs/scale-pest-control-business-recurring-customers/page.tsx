@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Scale a Pest Control Business on Recurring Customers, Not New Leads | SprayBossPro',
+  title: 'Scale Pest Control on Recurring Customers | SprayBossPro',
   description: 'Why recurring program retention and upsells generate more sustainable revenue growth than constant new customer acquisition in pest control.',
 };
 

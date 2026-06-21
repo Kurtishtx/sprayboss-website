@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Spray Business Software Pays for Itself in the First Month | SprayBossPro',
+  title: 'How Spray Business Software Pays for Itself | SprayBossPro',
   description: 'A realistic look at the time savings, route efficiency gains, and reduced admin costs that make purpose-built spray software ROI-positive immediately.',
 };
 

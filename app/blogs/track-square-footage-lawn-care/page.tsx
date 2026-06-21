@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Track Square Footage for Every Property in Your Lawn Care Business | SprayBossPro',
+  title: 'Track Square Footage for Every Property | SprayBossPro',
   description: 'Why sq ft tracking is the foundation of accurate lawn care scheduling, pricing, and compliance logging.',
 };
 

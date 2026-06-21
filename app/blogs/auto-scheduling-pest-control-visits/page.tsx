@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Auto-Scheduling After Every Pest Control Visit Actually Looks Like | SprayBossPro',
+  title: 'What Pest Control Auto-Scheduling Looks Like | SprayBossPro',
   description: 'A step-by-step look at what happens after a quarterly treatment is completed and how the next visit schedules itself without anyone touching it.',
 };
 

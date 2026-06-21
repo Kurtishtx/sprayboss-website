@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Re-Entry Interval Should You Send Customers After Mosquito Barrier Spray? | SprayBossPro',
+  title: 'Re-Entry Interval After Mosquito Barrier Spray | SprayBossPro',
   description: 'How re-entry intervals vary by mosquito control product and how to automatically send the right interval based on what the tech actually applied.',
 };
 

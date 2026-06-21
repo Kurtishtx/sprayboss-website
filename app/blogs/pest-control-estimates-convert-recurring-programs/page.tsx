@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build Pest Control Estimates That Convert to Recurring Programs | SprayBossPro',
+  title: 'Pest Control Estimates Into Recurring Programs | SprayBossPro',
   description: 'How to structure pest control estimates in software so accepted estimates convert directly to active recurring programs — without re-entering data or rebuilding the service schedule.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Why Weed Control Companies Need Dedicated Software, Not Generic Scheduling Tools | SprayBossPro',
+  title: 'Weed Control Software vs Generic Scheduling Tools | SprayBossPro',
   description: 'How seasonal timing windows, compliance logging, and re-entry SMS require features that generic field service tools don\'t provide.',
 };
 

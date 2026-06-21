@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage a Fertilizer Program from Round 1 to Winterizer Without Spreadsheets | SprayBossPro',
+  title: 'Manage a Fertilizer Program: Round 1 to Winterizer | SprayBossPro',
   description: 'How a purpose-built tool tracks every round of a seasonal fertilizer program without manual tracking between visits.',
 };
 

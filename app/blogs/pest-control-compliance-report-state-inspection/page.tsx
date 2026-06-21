@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Pull a Pest Control Compliance Report for a State Inspection in Under 30 Seconds | SprayBossPro',
+  title: 'Pull a Pest Control Compliance Report in Seconds | SprayBossPro',
   description: 'How pest control software generates a print-ready chemical application compliance report for any property, product, date range, or technician in seconds when a state inspector arrives.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What to Do When a Pest Control Customer Is Overdue for Their Treatment | SprayBossPro',
+  title: 'Handle Overdue Pest Control Treatments | SprayBossPro',
   description: 'How to identify overdue pest control accounts, prioritize them in routing, and communicate with customers before the gap creates a problem.',
 };
 

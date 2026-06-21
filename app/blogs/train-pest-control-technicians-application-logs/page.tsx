@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Train Pest Control Technicians to Submit Complete Application Logs Every Time | SprayBossPro',
+  title: 'Train Pest Control Technicians to Log Applications | SprayBossPro',
   description: 'The training approach and software structure that produces consistently complete compliance logs from every technician on every stop.',
 };
 

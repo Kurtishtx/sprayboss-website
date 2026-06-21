@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build Spray Routes Using Circle Map Route Building | SprayBossPro',
+  title: 'Build Spray Routes With Circle Map Route Building | SprayBossPro',
   description: 'How circle-based route building on a live map replaces manual stop-by-stop scheduling and cuts route build time from hours to minutes.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Pest Control Software Handles Re-Service Calls Without Disrupting the Schedule | SprayBossPro',
+  title: 'How Pest Control Software Handles Re-Service Calls | SprayBossPro',
   description: 'How to manage pest control re-service calls — callback visits between scheduled treatments — in software without creating scheduling conflicts or missing regular program appointments.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Grow a Spray Business from Startup to 500 Customers | SprayBossPro',
+  title: 'Grow a Spray Business From Zero to 500 Customers | SprayBossPro',
   description: 'The scheduling systems, pricing structure, and customer communication workflows that support growth from first truck to multi-crew operation.',
 };
 

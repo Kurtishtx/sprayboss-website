@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Add Mosquito Control Programs to an Existing Lawn Care or Pest Control Business | SprayBossPro',
+  title: 'Add Mosquito Control to Lawn Care or Pest Control | SprayBossPro',
   description: 'How to layer a mosquito add-on onto your existing customer base, schedule it alongside other services, and track it separately for compliance.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Biggest Lawn Care Scheduling Mistakes Companies Make | SprayBossPro',
+  title: 'The Biggest Lawn Care Scheduling Mistakes | SprayBossPro',
   description: 'The recurring scheduling errors that cause missed treatments, overdue accounts, and lost customers — and how to fix all of them.',
 };
 

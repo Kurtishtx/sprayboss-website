@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Know Which Pest Control Customers Are Up for Renewal | SprayBossPro',
+  title: 'Know Which Pest Control Customers Need Renewal | SprayBossPro',
   description: 'How pest control software surfaces accounts approaching the end of their contract so renewal outreach happens at the right time — before the customer lapses, not after.',
 };
 

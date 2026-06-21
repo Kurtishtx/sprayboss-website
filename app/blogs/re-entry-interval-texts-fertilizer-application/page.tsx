@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Send Re-Entry Interval Texts After Every Fertilizer Application Automatically | SprayBossPro',
+  title: 'Re-Entry Interval After Fertilizer Applications | SprayBossPro',
   description: 'How automated post-application SMS works so every customer gets the right re-entry window after every fertilizer visit.',
 };
 

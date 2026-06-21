@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Mosquito Control Customers Who Also Have Lawn Care Programs | SprayBossPro',
+  title: 'Manage Mosquito Control for Lawn Care Customers | SprayBossPro',
   description: 'How to track mosquito and lawn care programs under the same customer account on separate schedules without creating routing or billing conflicts.',
 };
 

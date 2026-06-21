@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Why Fertilizer Companies Need More Than a Spreadsheet for Compliance Logs | SprayBossPro',
+  title: 'Fertilizer Compliance Logs vs. Spreadsheets | SprayBossPro',
   description: 'The compliance gaps that show up when fertilizer companies track application records in spreadsheets instead of structured field logs.',
 };
 

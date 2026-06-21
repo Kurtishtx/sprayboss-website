@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Mosquito Spray Software Handles Linear Foot Measurements for Barrier Spray | SprayBossPro',
+  title: 'Mosquito Spray: Linear Foot Measurement Tracking | SprayBossPro',
   description: 'How linear ft measurements are stored per property, used for pricing, displayed on the waiting list, and tracked in the chemical compliance report for perimeter barrier spray applications.',
 };
 

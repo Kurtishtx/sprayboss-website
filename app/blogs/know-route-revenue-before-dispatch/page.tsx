@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Know Your Route Revenue Before You Leave the Parking Lot | SprayBossPro',
+  title: 'Know Your Route Revenue Before You Leave the Lot | SprayBossPro',
   description: 'How lawn care software makes route revenue visible before dispatch so the team can plan production targets, adjust for short days, and catch low-revenue routes before trucks leave.',
 };
 

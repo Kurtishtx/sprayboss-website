@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Evaluate Lawn Care Software Before You Sign Up | SprayBossPro',
+  title: 'How to Evaluate Lawn Care Software | SprayBossPro',
   description: 'A practical evaluation process for lawn care software — what to demo, what to test in a trial, and the questions that reveal whether a platform is actually built for lawn care.',
 };
 

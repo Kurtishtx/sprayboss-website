@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build Pest Control Routes Using Circle Map Route Building | SprayBossPro',
+  title: 'Build Pest Control Routes With Circle Map Routing | SprayBossPro',
   description: 'How drawing a circle on any neighborhood pulls every pest control stop due inside into an optimized, dispatchable route in minutes.',
 };
 

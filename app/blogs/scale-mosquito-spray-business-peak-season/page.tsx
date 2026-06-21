@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Scale a Mosquito Spray Business During Peak Season Without Dropping Stops | SprayBossPro',
+  title: 'Scale a Mosquito Spray Business at Peak Season | SprayBossPro',
   description: 'How mosquito spray businesses handle peak-season volume — more stops due, compressed schedules, multiple crews — without losing track of which accounts are overdue or missing re-service alerts.',
 };
 

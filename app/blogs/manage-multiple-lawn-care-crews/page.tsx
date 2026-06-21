@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Multiple Lawn Care Crews From One Scheduling Tool | SprayBossPro',
+  title: 'Manage Multiple Lawn Care Crews From One Tool | SprayBossPro',
   description: 'How to split waiting lists, assign routes, and dispatch multiple crews simultaneously without a separate tool for each truck.',
 };
 

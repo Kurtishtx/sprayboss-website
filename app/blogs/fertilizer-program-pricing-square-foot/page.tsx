@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Fertilizer Program Pricing: How to Charge by Square Foot and Track Revenue Per Round | SprayBossPro',
+  title: 'Fertilizer Program Pricing by Square Foot | SprayBossPro',
   description: 'How to set per-sq-ft pricing for each fertilizer round and track program revenue per customer and per route.',
 };
 

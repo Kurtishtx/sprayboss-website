@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Log Target Pests, Treatment Areas, and EPA Reg Numbers on Every Stop | SprayBossPro',
+  title: 'Log Target Pests and EPA Reg Numbers Per Stop | SprayBossPro',
   description: 'The field logging structure that captures target pest, treatment area, and EPA registration number data on every pest control stop without slowing technicians down.',
 };
 

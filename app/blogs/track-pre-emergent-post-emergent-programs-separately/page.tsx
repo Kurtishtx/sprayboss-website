@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Track Pre-Emergent and Post-Emergent Programs Separately in One System | SprayBossPro',
+  title: 'Track Pre- and Post-Emergent Programs Separately | SprayBossPro',
   description: 'Why pre-emergent and post-emergent rounds need separate tracking, separate compliance logs, and separate SMS templates.',
 };
 

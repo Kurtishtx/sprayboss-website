@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Biggest Weed Control Scheduling Mistakes Lawn Care Companies Make | SprayBossPro',
+  title: 'The Biggest Weed Control Scheduling Mistakes | SprayBossPro',
   description: 'The scheduling errors that cause missed pre-emergent windows, overdue post-emergent rounds, and lost weed control customers.',
 };
 

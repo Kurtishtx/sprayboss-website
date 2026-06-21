@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Train Technicians to Complete Mosquito Control Application Logs in the Field | SprayBossPro',
+  title: 'Train Techs to Log Mosquito Control Applications | SprayBossPro',
   description: 'The field logging workflow that captures EPA reg number, rate, re-entry interval, and conditions at every mosquito barrier spray property.',
 };
 

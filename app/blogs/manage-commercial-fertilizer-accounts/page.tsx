@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Multi-Property Commercial Fertilizer Accounts | SprayBossPro',
+  title: 'Manage Commercial Fertilizer Alongside Residential | SprayBossPro',
   description: 'How to handle commercial clients with multiple properties, each on its own sq ft measurement and fertilizer program under one account.',
 };
 

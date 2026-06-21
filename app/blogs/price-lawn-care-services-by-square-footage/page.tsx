@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Price Lawn Care Services by Square Footage | SprayBossPro',
+  title: 'Price Lawn Care Services by Square Footage | SprayBossPro',
   description: 'How to set per-sq-ft pricing for fertilizer, weed control, and insect programs and track revenue per stop and per route.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Annual Pest Control Contracts in Software | SprayBossPro',
+  title: 'Manage Annual Pest Control Contracts in Software | SprayBossPro',
   description: 'How pest control software tracks annual contract start and end dates, treatment counts, renewal timing, and billing cycles across a full book of recurring program customers.',
 };
 

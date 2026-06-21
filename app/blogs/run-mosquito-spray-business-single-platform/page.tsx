@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Run a Mosquito Spray Business From a Single Platform | SprayBossPro',
+  title: 'Run a Mosquito Spray Business From One Platform | SprayBossPro',
   description: 'How purpose-built mosquito spray software handles scheduling, routing, compliance logging, automated customer alerts, and billing from one platform — without stitching tools together.',
 };
 

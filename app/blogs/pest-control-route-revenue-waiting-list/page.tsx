@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to See Route Revenue Before You Build the Route — Pest Control Waiting List | SprayBossPro',
+  title: 'See Pest Control Route Revenue Before Dispatch | SprayBossPro',
   description: 'Why seeing expected revenue by area before committing to a route makes pest control scheduling a financial decision, not just a logistical one.',
 };
 

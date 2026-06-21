@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Scale a Fertilizer Program Business Without Hiring More Office Staff | SprayBossPro',
+  title: 'Scale a Fertilizer Program Without Office Staff | SprayBossPro',
   description: 'The automation and scheduling systems that let a fertilizer company grow its customer base without adding office headcount.',
 };
 

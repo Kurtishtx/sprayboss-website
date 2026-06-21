@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Collect Card-on-File Payments for Recurring Spray Programs | SprayBossPro',
+  title: 'Card-on-File Payments for Recurring Spray Programs | SprayBossPro',
   description: 'How automatic card-on-file charging after each completed visit eliminates invoicing, collections, and end-of-month billing cycles.',
 };
 

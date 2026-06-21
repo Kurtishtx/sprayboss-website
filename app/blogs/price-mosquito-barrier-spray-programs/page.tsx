@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Price Mosquito Barrier Spray Programs for Maximum Profitability | SprayBossPro',
+  title: 'Price Mosquito Barrier Spray Programs for Profit | SprayBossPro',
   description: 'How to set per-treatment pricing for mosquito barrier spray programs — factoring product cost, sq ft and linear ft, labor, and drive time to build pricing that holds margin all season.',
 };
 

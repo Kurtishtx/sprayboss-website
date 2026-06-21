@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Dispatch Spray Technicians in Under 30 Minutes Every Morning | SprayBossPro',
+  title: 'Dispatch Spray Technicians in Under 30 Minutes | SprayBossPro',
   description: 'The waiting list and circle route workflow that gets every tech dispatched with an optimized route before 8am without back-and-forth phone calls.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Pest Control Software Handles Payment Collection for Recurring Programs | SprayBossPro',
+  title: 'Pest Control Software: Payment Collection | SprayBossPro',
   description: 'How card-on-file billing in pest control software collects payment after each treatment automatically — eliminating invoice cycles, collection calls, and end-of-month billing gaps.',
 };
 

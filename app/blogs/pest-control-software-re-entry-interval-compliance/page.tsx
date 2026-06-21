@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Pest Control Software Makes Re-Entry Interval Compliance Automatic | SprayBossPro',
+  title: 'Pest Control Re-Entry Interval Compliance | SprayBossPro',
   description: 'How pest control software captures the re-entry interval from the product applied and fires the accurate REI to customers automatically — no manual lookup or SMS required.',
 };
 

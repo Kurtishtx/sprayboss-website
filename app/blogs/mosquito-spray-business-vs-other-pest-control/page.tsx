@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Makes a Mosquito Spray Business Different from Other Pest Control Companies | SprayBossPro',
+  title: 'Mosquito Spray vs Other Pest Control Businesses | SprayBossPro',
   description: 'How mosquito spray businesses differ from general pest control in service model, measurement, interval scheduling, product chemistry, seasonal structure, and the software requirements that follow.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Handle Recurring Spray Programs Without Manually Scheduling Every Round | SprayBossPro',
+  title: 'Auto-Schedule Recurring Spray Programs | SprayBossPro',
   description: 'How auto-rescheduling after treatment completion keeps recurring programs running all season without your office touching anything between visits.',
 };
 

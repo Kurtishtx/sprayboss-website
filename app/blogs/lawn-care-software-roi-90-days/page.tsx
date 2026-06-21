@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Pays for Itself in the First 90 Days | SprayBossPro',
+  title: 'How Lawn Care Software Pays for Itself in 90 Days | SprayBossPro',
   description: 'The specific time savings, missed-service recovery, and route efficiency gains that add up to a positive ROI on lawn care software within the first season.',
 };
 

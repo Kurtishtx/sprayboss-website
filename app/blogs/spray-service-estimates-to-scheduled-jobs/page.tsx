@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Write Estimates for Spray Services and Convert Them to Scheduled Jobs | SprayBossPro',
+  title: 'Convert Spray Service Estimates to Scheduled Jobs | SprayBossPro',
   description: 'How to build spray service estimates with per-sq-ft pricing and convert approved estimates directly into scheduled recurring programs.',
 };
 

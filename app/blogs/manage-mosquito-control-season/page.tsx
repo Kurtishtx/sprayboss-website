@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage the Mosquito Control Season From First Spray to Season Close | SprayBossPro',
+  title: 'Manage the Mosquito Control Season Start to Finish | SprayBossPro',
   description: 'A seasonal playbook for managing spring startup, peak season routing, and fall close-out for a mosquito control program.',
 };
 

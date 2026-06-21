@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Use Lawn Care Software to Manage Your Waiting List Every Morning | SprayBossPro',
+  title: 'Managing the Lawn Care Waiting List Every Morning | SprayBossPro',
   description: 'How the waiting list in lawn care software works as the daily operational hub — showing every due account, sq ft, and revenue before you build a single route.',
 };
 

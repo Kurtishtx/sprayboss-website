@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Pre-Emergent vs. Post-Emergent Weed Control: How to Schedule Both Correctly | SprayBossPro',
+  title: 'Pre-Emergent vs Post-Emergent Weed Control | SprayBossPro',
   description: 'How pre-emergent seasonal timing windows and post-emergent auto-rescheduling work differently and why they need separate scheduling logic.',
 };
 

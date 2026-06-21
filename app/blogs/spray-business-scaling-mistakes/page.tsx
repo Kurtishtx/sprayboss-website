@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'The Biggest Mistakes Spray Business Owners Make When Scaling Past 10 Trucks | SprayBossPro',
+  title: 'Biggest Spray Business Scaling Mistakes | SprayBossPro',
   description: 'The scheduling, dispatch, and compliance gaps that become expensive problems as a spray business grows beyond the owner-operator stage.',
 };
 

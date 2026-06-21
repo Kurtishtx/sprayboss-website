@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Close the Season for a Mosquito Spray Business — Last Treatments and Customer Communication | SprayBossPro',
+  title: 'How to Close a Mosquito Spray Season | SprayBossPro',
   description: 'How to wrap up a mosquito spray season cleanly — completing last treatments, communicating season-end to customers, and setting up renewal before the off-season starts.',
 };
 

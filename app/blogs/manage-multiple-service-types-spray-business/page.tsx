@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Multiple Service Types From One Spray Business Platform | SprayBossPro',
+  title: 'Manage Multiple Services in a Spray Business | SprayBossPro',
   description: 'How to run fertilizer, weed control, pest control, and mosquito programs from one waiting list, one map, and one dispatch workflow.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Auto-Schedule Fertilizer Rounds So You Never Miss a Treatment | SprayBossPro',
+  title: 'Auto-Schedule Fertilizer Rounds After Each Visit | SprayBossPro',
   description: 'How round auto-rescheduling works so the next fertilizer visit appears on the waiting list at the right interval without your team touching anything.',
 };
 

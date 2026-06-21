@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Pest Control Software Manages Commercial vs. Residential Accounts | SprayBossPro',
+  title: 'Pest Control Software: Commercial vs Residential | SprayBossPro',
   description: 'The operational differences between commercial and residential pest control accounts — and how software manages both from the same scheduling, compliance, and billing platform.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Know Which Customers Are Due for Weed Control Without Checking Every Account | SprayBossPro',
+  title: 'Know Which Customers Are Due for Weed Control | SprayBossPro',
   description: 'How a program-organized waiting list with sq ft totals shows every weed control treatment due without manual account review.',
 };
 

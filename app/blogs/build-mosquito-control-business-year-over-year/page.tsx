@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build a Mosquito Control Business That Grows Year Over Year | SprayBossPro',
+  title: 'Build a Mosquito Control Business Year Over Year | SprayBossPro',
   description: 'The program structure, customer communication, and scheduling systems that compound mosquito control business growth season after season.',
 };
 

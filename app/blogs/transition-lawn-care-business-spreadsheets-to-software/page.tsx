@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Transition a Lawn Care Business From Spreadsheets to Software | SprayBossPro',
+  title: 'Move Lawn Care From Spreadsheets to Software | SprayBossPro',
   description: 'A practical transition plan for moving a lawn care operation from spreadsheets to purpose-built software — without disrupting an active season or losing track of any accounts.',
 };
 

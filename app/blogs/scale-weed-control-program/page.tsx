@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Scale a Weed Control Program Without Manually Scheduling Every Round | SprayBossPro',
+  title: 'Scale a Weed Control Program Without Adding Staff | SprayBossPro',
   description: 'The systems that let a weed control company grow to hundreds of program customers without adding scheduling labor between visits.',
 };
 

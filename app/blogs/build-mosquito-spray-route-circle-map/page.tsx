@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build a Mosquito Spray Route Using Circle Map Routing | SprayBossPro',
+  title: 'Build a Mosquito Spray Route With Circle Mapping | SprayBossPro',
   description: 'How circle map routing (Lasso) builds a complete mosquito barrier spray route in under 10 minutes — from drawing the circle to dispatched route with sq ft and revenue totals.',
 };
 

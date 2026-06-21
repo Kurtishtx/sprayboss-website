@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Dispatch Lawn Care Technicians Without Calling or Texting Them Every Morning | SprayBossPro',
+  title: 'Dispatch Lawn Care Technicians Without Calls | SprayBossPro',
   description: 'How mobile dispatch works so technicians see their route, stops, property notes, and service details on their phone.',
 };
 

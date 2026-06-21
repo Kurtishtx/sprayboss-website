@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Send Re-Entry Interval Texts After Every Pest Control Application Automatically | SprayBossPro',
+  title: 'Re-Entry Interval Texts After Pest Control Visits | SprayBossPro',
   description: 'How re-entry interval SMS fires automatically based on the product and interval logged by the technician in the field.',
 };
 

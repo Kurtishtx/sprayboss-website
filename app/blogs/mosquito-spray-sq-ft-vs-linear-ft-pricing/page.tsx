@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Sq Ft vs. Linear Ft Pricing for Mosquito Barrier Spray — Which Works Better? | SprayBossPro',
+  title: 'Mosquito Spray: Sq Ft vs Linear Ft Pricing | SprayBossPro',
   description: 'How to choose between sq ft and linear ft pricing for mosquito barrier spray programs — and how software tracks both measurement types across your customer base.',
 };
 

@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Lawn Care Route Optimization: How to Cut Windshield Time and Fit More Stops Per Day | SprayBossPro',
+  title: 'Lawn Care Route Optimization: Cut Drive Time | SprayBossPro',
   description: 'How to optimize drive order across a day of lawn care stops to reduce fuel costs and increase stops per route.',
 };
 

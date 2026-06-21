@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Set Up a New Lawn Care Customer in Software and Start the First Program | SprayBossPro',
+  title: 'Set Up a New Lawn Care Customer in Software | SprayBossPro',
   description: 'The exact steps to add a new lawn care customer in software — client, property, sq ft areas, package plan, and first service — so they appear on the waiting list automatically.',
 };
 

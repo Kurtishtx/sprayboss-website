@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Handles Multiple Service Types Under One Account | SprayBossPro',
+  title: 'Lawn Care Software for Multiple Service Types | SprayBossPro',
   description: 'How lawn care software manages fertilizer, weed control, pest control, mosquito, and flower bed services for the same customer under a single account — and keeps each service type separately trackable.',
 };
 

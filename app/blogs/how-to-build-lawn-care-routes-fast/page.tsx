@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build Lawn Care Routes in Under 30 Minutes Every Morning | SprayBossPro',
+  title: 'Build Lawn Care Routes in 30 Minutes | SprayBossPro',
   description: 'How top lawn care companies use map-based routing to build and dispatch a full day of routes before the first truck leaves the lot.',
 };
 

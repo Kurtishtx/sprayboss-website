@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Manage Quarterly, Bi-Monthly, and Monthly Pest Control Programs in One System | SprayBossPro',
+  title: 'Manage Multiple Pest Control Program Intervals | SprayBossPro',
   description: 'How a single platform handles different recurrence intervals, compliance logs, and SMS alerts for every program type your company runs.',
 };
 

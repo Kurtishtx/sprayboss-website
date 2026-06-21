@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'What Equipment and Products Does a Mosquito Spray Business Actually Need? | SprayBossPro',
+  title: 'Mosquito Spray Business: Equipment and Products | SprayBossPro',
   description: 'A practical guide to barrier spray equipment and products for a mosquito spray business — backpack sprayers, ride-ons, bifenthrin, and natural alternatives — and how software tracks chemical usage across all of it.',
 };
 

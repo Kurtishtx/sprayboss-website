@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Mosquito Spray Software Tracks Barrier Spray Applications for EPA Compliance | SprayBossPro',
+  title: 'Mosquito Spray Software: EPA Compliance Tracking | SprayBossPro',
   description: 'How purpose-built mosquito spray software captures EPA registration numbers, application rates, and product details at each treatment — and generates the chemical tracking report for state inspection.',
 };
 

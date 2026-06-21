@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build a Fertilizer Route in Under 20 Minutes Using Map-Based Routing | SprayBossPro',
+  title: 'Build a Fertilizer Route With Map-Based Routing | SprayBossPro',
   description: 'How Lasso-style circle routing lets you pull every fertilizer stop due in a neighborhood into a route in minutes, not hours.',
 };
 

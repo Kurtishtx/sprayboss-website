@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Send Automated Customer Alerts for Every Spray Service Visit | SprayBossPro',
+  title: 'Automated Customer Alerts for Every Spray Service | SprayBossPro',
   description: 'How day-before, on-the-way, and service complete texts fire automatically across every service type without your team sending a single one manually.',
 };
 

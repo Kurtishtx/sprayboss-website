@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Reduce Customer Cancellations in a Spray Business With SMS Automation | SprayBossPro',
+  title: 'Reduce Spray Business Cancellations With SMS | SprayBossPro',
   description: 'Why automated pre-service communication reduces cancellations, no-access stops, and "I didn\'t know you were coming" calls.',
 };
 

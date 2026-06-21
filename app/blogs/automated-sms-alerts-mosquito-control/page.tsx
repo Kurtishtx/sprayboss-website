@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Send Automated SMS Alerts for Every Mosquito Control Visit | SprayBossPro',
+  title: 'Automated SMS Alerts for Mosquito Control Visits | SprayBossPro',
   description: 'How day-before, on-the-way, and post-application re-entry interval texts fire automatically on every mosquito visit without your team touching a phone.',
 };
 

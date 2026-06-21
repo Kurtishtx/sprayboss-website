@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How to Build a Weekly Lawn Care Schedule That Actually Works | SprayBossPro',
+  title: 'Build a Weekly Lawn Care Schedule That Works | SprayBossPro',
   description: 'A step-by-step look at how a well-structured weekly schedule keeps crews productive and customers on program all season.',
 };
 

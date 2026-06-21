@@ -1,7 +1,7 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How Lawn Care Software Handles Chemical Application Compliance Automatically | SprayBossPro',
+  title: 'Lawn Care Software and Chemical Compliance | SprayBossPro',
   description: 'How purpose-built lawn care software captures every required compliance field at the property and makes records available for inspection in seconds.',
 };
 
