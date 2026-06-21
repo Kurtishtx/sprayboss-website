@@ -429,7 +429,7 @@ export default function FertilizerSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Compliance Log — Every Fertilizer Round, Every Customer</h2>
-          <p className="section-sub">SprayBossPro manages your fertilizer programs from the first round of the season to the final winterizer — round tracking, routing, compliance logging, and auto-SMS all handled automatically.</p>
+          <p className="section-sub">SprayBossPro manages your fertilizer programs from the first round of the season to the final winterizer — round tracking, routing, compliance logging, and auto-SMS all handled automatically. For a closer look at how round tracking works in practice, read <a href="/blogs/track-5-round-6-round-fertilizer-programs" style={{color:'var(--orange)', fontWeight:600}}>How to Track 5-Round and 6-Round Fertilizer Programs Without Losing Count</a>.</p>
         </div>
         <div className="steps-grid">
           <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>See every fertilizer round due today — organized by round number with total sq ft and stop count. Know the full scope of the day&apos;s fertilizer work before you build any routes.</p></div>

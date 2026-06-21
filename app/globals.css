@@ -408,10 +408,11 @@ section { padding: 96px 40px; }
 .blog-index { max-width: 900px; margin: 0 auto; padding: 80px 24px 100px; }
 .blog-index h1 { font-size: 2.2rem; font-weight: 800; color: #0d0318; margin-bottom: 12px; }
 .blog-index-sub { color: #666; font-size: 1rem; margin-bottom: 48px; }
+.blog-index-silo-title { font-size: 1.5rem; font-weight: 700; color: #0d0318; margin: 56px 0 24px; padding-bottom: 12px; border-bottom: 2px solid #e8e4f0; }
 .blog-index-grid { display: grid; gap: 20px; }
 .blog-index-card { border: 1px solid #e8e4f0; border-radius: 12px; padding: 24px 28px; text-decoration: none; display: block; transition: border-color .15s, box-shadow .15s; }
 .blog-index-card:hover { border-color: #7c3aed; box-shadow: 0 4px 20px rgba(124,58,237,.1); }
-.blog-index-card h2 { font-size: 1.1rem; font-weight: 700; color: #0d0318; margin-bottom: 8px; }
+.blog-index-card h2, .blog-index-card h3 { font-size: 1.1rem; font-weight: 700; color: #0d0318; margin-bottom: 8px; }
 .blog-index-card p { color: #666; font-size: 0.9rem; line-height: 1.6; margin: 0; }
 @media (max-width: 700px) {
   .blog-article { padding: 40px 20px 80px; }
