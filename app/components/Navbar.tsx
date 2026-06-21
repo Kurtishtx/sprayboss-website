@@ -86,38 +86,38 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
             <span style={{display:'block', width:'22px', height:'2px', background:'#fff', transition:'transform .2s', transform: open ? 'rotate(-45deg) translate(5px,-5px)' : 'none'}}></span>
           </button>
         </div>
-
-        {/* Mobile menu */}
-        {open && (
-          <div className="nav-mobile-menu">
-            <div className="nav-mobile-section">
-              <div className="nav-mobile-group-trigger" onClick={() => setSolutionsOpen(!solutionsOpen)}>
-                Solutions {solutionsOpen ? '▴' : '▾'}
-              </div>
-              {solutionsOpen && solutions.map(s => (
-                <a key={s.href} href={s.href} className="nav-mobile-item" onClick={() => toggleMenu(false)}>{s.label}</a>
-              ))}
-            </div>
-            <div className="nav-mobile-section">
-              <div className="nav-mobile-group-trigger" onClick={() => setCompareOpen(!compareOpen)}>
-                Compare {compareOpen ? '▴' : '▾'}
-              </div>
-              {compareOpen && comparisons.map(c => (
-                <a key={c.href} href={c.href} className="nav-mobile-item" onClick={() => toggleMenu(false)}>{c.label}</a>
-              ))}
-            </div>
-            <a href="/features" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Features</a>
-            <a href="/pricing" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Pricing</a>
-            <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Log In</a>
-            <button
-              className="nav-mobile-cta"
-              onClick={(e) => { toggleMenu(false); onTrialClick(e.currentTarget as HTMLElement); }}
-            >
-              Start Free Trial
-            </button>
-          </div>
-        )}
       </nav>
+
+      {/* Mobile menu — outside <nav> so navbar's backdrop-filter doesn't trap fixed positioning */}
+      {open && (
+        <div className="nav-mobile-menu">
+          <div className="nav-mobile-section">
+            <div className="nav-mobile-group-trigger" onClick={() => setSolutionsOpen(!solutionsOpen)}>
+              Solutions {solutionsOpen ? '▴' : '▾'}
+            </div>
+            {solutionsOpen && solutions.map(s => (
+              <a key={s.href} href={s.href} className="nav-mobile-item" onClick={() => toggleMenu(false)}>{s.label}</a>
+            ))}
+          </div>
+          <div className="nav-mobile-section">
+            <div className="nav-mobile-group-trigger" onClick={() => setCompareOpen(!compareOpen)}>
+              Compare {compareOpen ? '▴' : '▾'}
+            </div>
+            {compareOpen && comparisons.map(c => (
+              <a key={c.href} href={c.href} className="nav-mobile-item" onClick={() => toggleMenu(false)}>{c.label}</a>
+            ))}
+          </div>
+          <a href="/features" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Features</a>
+          <a href="/pricing" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Pricing</a>
+          <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Log In</a>
+          <button
+            className="nav-mobile-cta"
+            onClick={(e) => { toggleMenu(false); onTrialClick(e.currentTarget as HTMLElement); }}
+          >
+            Start Free Trial
+          </button>
+        </div>
+      )}
     </>
   );
 }
