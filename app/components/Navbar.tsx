@@ -32,6 +32,11 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
   const [solutionsOpen, setSolutionsOpen] = useState(false);
   const [compareOpen, setCompareOpen] = useState(false);
 
+  const toggleMenu = (val: boolean) => {
+    setOpen(val);
+    document.body.style.overflow = val ? 'hidden' : '';
+  };
+
   return (
     <>
       <nav className="navbar">
@@ -75,7 +80,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
             </button>
           </div>
           {/* Hamburger — mobile only */}
-          <button className="nav-hamburger" onClick={() => setOpen(!open)} aria-label="Menu">
+          <button className="nav-hamburger" onClick={() => toggleMenu(!open)} aria-label="Menu">
             <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'transform .2s', transform: open ? 'rotate(45deg) translate(5px,5px)' : 'none'}}></span>
             <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'opacity .2s', opacity: open ? 0 : 1}}></span>
             <span style={{display:'block', width:'22px', height:'2px', background:'#fff', transition:'transform .2s', transform: open ? 'rotate(-45deg) translate(5px,-5px)' : 'none'}}></span>
@@ -90,7 +95,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
                 Solutions {solutionsOpen ? '▴' : '▾'}
               </div>
               {solutionsOpen && solutions.map(s => (
-                <a key={s.href} href={s.href} className="nav-mobile-item" onClick={() => setOpen(false)}>{s.label}</a>
+                <a key={s.href} href={s.href} className="nav-mobile-item" onClick={() => toggleMenu(false)}>{s.label}</a>
               ))}
             </div>
             <div className="nav-mobile-section">
@@ -98,15 +103,15 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
                 Compare {compareOpen ? '▴' : '▾'}
               </div>
               {compareOpen && comparisons.map(c => (
-                <a key={c.href} href={c.href} className="nav-mobile-item" onClick={() => setOpen(false)}>{c.label}</a>
+                <a key={c.href} href={c.href} className="nav-mobile-item" onClick={() => toggleMenu(false)}>{c.label}</a>
               ))}
             </div>
-            <a href="/features" className="nav-mobile-link" onClick={() => setOpen(false)}>Features</a>
-            <a href="/pricing" className="nav-mobile-link" onClick={() => setOpen(false)}>Pricing</a>
-            <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer" className="nav-mobile-link" onClick={() => setOpen(false)}>Log In</a>
+            <a href="/features" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Features</a>
+            <a href="/pricing" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Pricing</a>
+            <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Log In</a>
             <button
               className="nav-mobile-cta"
-              onClick={(e) => { setOpen(false); onTrialClick(e.currentTarget as HTMLElement); }}
+              onClick={(e) => { toggleMenu(false); onTrialClick(e.currentTarget as HTMLElement); }}
             >
               Start Free Trial
             </button>
