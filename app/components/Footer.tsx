@@ -27,6 +27,20 @@ export default function Footer() {
               <a href="/spray-business-software">Spray Business</a>
             </div>
             <div className="site-footer-col">
+              <h4>Compare</h4>
+              <a href="/vs-jobber">vs. Jobber</a>
+              <a href="/vs-servicetitan">vs. ServiceTitan</a>
+              <a href="/vs-housecallpro">vs. Housecall Pro</a>
+              <a href="/vs-gorilladesk">vs. GorillaDesk</a>
+              <a href="/vs-fieldroutes">vs. FieldRoutes</a>
+              <a href="/vs-serviceautopilot">vs. Service Autopilot</a>
+              <a href="/vs-realgreen">vs. RealGreen</a>
+              <a href="/vs-lawnpro">vs. LawnPro</a>
+              <a href="/vs-aspire">vs. Aspire</a>
+              <a href="/vs-clip">vs. CLIP</a>
+              <a href="/vs-spraye">vs. Spraye</a>
+            </div>
+            <div className="site-footer-col">
               <h4>Resources</h4>
               <a href="/blogs">Blog</a>
             </div>
