@@ -18,8 +18,12 @@ export default function Footer() {
               <h4>Solutions</h4>
               <a href="/lawn-care-software">Lawn Care Software</a>
               <a href="/lawn-care-scheduling-software">Lawn Care Scheduling</a>
+              <a href="/mosquito-spray-software">Mosquito Spray</a>
               <a href="/mosquito-control-software">Mosquito Control</a>
               <a href="/pest-control-software">Pest Control</a>
+              <a href="/pest-control-scheduling-software">Pest Control Scheduling</a>
+              <a href="/weed-control-software">Weed Control</a>
+              <a href="/fertilizer-software">Fertilizer Software</a>
               <a href="/spray-business-software">Spray Business</a>
             </div>
             <div className="site-footer-col">
