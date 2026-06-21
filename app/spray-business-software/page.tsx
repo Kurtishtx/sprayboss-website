@@ -408,7 +408,7 @@ export default function SprayBusinessSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Completed Spray Routes — Same Morning</h2>
-          <p className="section-sub">SprayBossPro is designed so that building and dispatching a full day of spray routes takes minutes, not an hour.</p>
+          <p className="section-sub">SprayBossPro is designed so that building and dispatching a full day of spray routes takes minutes, not an hour. For a closer look at how the waiting list and circle routing eliminate the morning dispatch bottleneck, read <a href="/blogs/run-spray-business-without-office-manager" style={{color:'var(--orange)', fontWeight:600}}>How to Run a Spray Business Without an Office Manager</a>.</p>
         </div>
         <div className="steps-grid">
           <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>Open SprayBossPro and see every service due today — organized by service type with total sq ft or linear ft waiting. Know your day before you build anything.</p></div>

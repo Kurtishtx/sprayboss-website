@@ -97,6 +97,29 @@ const pestControlPosts = [
   { title: 'Why Pest Control Companies Need Software Built for Recurring Programs, Not One-Time Jobs', description: 'The fundamental difference between pest control operations and one-time service trades — and why software built for generic job dispatch fails recurring program management.', href: '/blogs/pest-control-software-recurring-programs' },
 ];
 
+const sprayBusinessPosts = [
+  { title: 'How to Run a Spray Business Without an Office Manager', description: 'The scheduling, dispatch, and communication automation that let a spray company operate efficiently without a dedicated office person managing the day.', href: '/blogs/run-spray-business-without-office-manager' },
+  { title: 'How to Dispatch Spray Technicians in Under 30 Minutes Every Morning', description: 'The waiting list and circle route workflow that gets every tech dispatched with an optimized route before 8am without back-and-forth phone calls.', href: '/blogs/dispatch-spray-technicians-fast' },
+  { title: 'What Software Does a Spray Business Actually Need?', description: 'A practical breakdown of what features actually matter for companies applying chemical treatments on recurring programs — and what\'s just noise.', href: '/blogs/what-software-does-a-spray-business-need' },
+  { title: 'How to Build Spray Routes Using Circle Map Route Building', description: 'How circle-based route building on a live map replaces manual stop-by-stop scheduling and cuts route build time from hours to minutes.', href: '/blogs/build-spray-routes-circle-map' },
+  { title: 'How to Manage Multiple Service Types From One Spray Business Platform', description: 'How to run fertilizer, weed control, pest control, and mosquito programs from one waiting list, one map, and one dispatch workflow.', href: '/blogs/manage-multiple-service-types-spray-business' },
+  { title: 'How to Track Chemical Applications for Compliance Across a Spray Business', description: 'How structured in-field application logs capture EPA reg numbers, rates, and applicator license on every job in a state-ready format.', href: '/blogs/track-chemical-applications-compliance-spray-business' },
+  { title: 'How to Send Automated Customer Alerts for Every Spray Service Visit', description: 'How day-before, on-the-way, and service complete texts fire automatically across every service type without your team sending a single one manually.', href: '/blogs/automated-customer-alerts-spray-service' },
+  { title: 'How to Grow a Spray Business from Startup to 500 Customers', description: 'The scheduling systems, pricing structure, and customer communication workflows that support growth from first truck to multi-crew operation.', href: '/blogs/grow-spray-business-startup-to-500-customers' },
+  { title: 'How to Handle Recurring Spray Programs Without Manually Scheduling Every Round', description: 'How auto-rescheduling after treatment completion keeps recurring programs running all season without your office touching anything between visits.', href: '/blogs/handle-recurring-spray-programs-auto-scheduling' },
+  { title: 'How to Manage Spray Technicians in the Field Without Calling Them All Day', description: 'How mobile-first dispatch, in-field logging, and route tracking eliminate the need for office-to-field phone calls during the workday.', href: '/blogs/manage-spray-technicians-field' },
+  { title: 'How to Price Spray Services by Square Foot or Linear Foot', description: 'How to structure per-sq-ft and per-linear-ft pricing for different service types and track program revenue per stop and per route.', href: '/blogs/price-spray-services-square-foot-linear-foot' },
+  { title: 'How to Collect Card-on-File Payments for Recurring Spray Programs', description: 'How automatic card-on-file charging after each completed visit eliminates invoicing, collections, and end-of-month billing cycles.', href: '/blogs/card-on-file-payments-spray-programs' },
+  { title: 'How to Write Estimates for Spray Services and Convert Them to Scheduled Jobs', description: 'How to build spray service estimates with per-sq-ft pricing and convert approved estimates directly into scheduled recurring programs.', href: '/blogs/spray-service-estimates-to-scheduled-jobs' },
+  { title: 'How to Track Spray Business Revenue by Service Type and Route', description: 'How to see daily, weekly, and monthly revenue broken down by service type so you know which programs are driving growth.', href: '/blogs/track-spray-business-revenue' },
+  { title: 'The Biggest Mistakes Spray Business Owners Make When Scaling Past 10 Trucks', description: 'The scheduling, dispatch, and compliance gaps that become expensive problems as a spray business grows beyond the owner-operator stage.', href: '/blogs/spray-business-scaling-mistakes' },
+  { title: 'How to Reduce Customer Cancellations in a Spray Business With SMS Automation', description: 'Why automated pre-service communication reduces cancellations, no-access stops, and "I didn\'t know you were coming" calls.', href: '/blogs/reduce-spray-business-cancellations-sms' },
+  { title: 'How Spray Business Software Pays for Itself in the First Month', description: 'A realistic look at the time savings, route efficiency gains, and reduced admin costs that make purpose-built spray software ROI-positive immediately.', href: '/blogs/spray-business-software-roi' },
+  { title: 'How to Manage a Spray Business Across Multiple Crews and Service Areas', description: 'How to split waiting lists by crew, build non-overlapping routes, and dispatch multiple teams simultaneously from one platform.', href: '/blogs/manage-spray-business-multiple-crews' },
+  { title: 'What to Look for in Spray Business Software Before You Sign Up', description: 'The specific features a spray company needs — waiting list, circle routing, compliance logs, SMS alerts — and how to evaluate tools against that list.', href: '/blogs/what-to-look-for-spray-business-software' },
+  { title: 'How to Build a Spray Business That Runs Without You in the Field Every Day', description: 'The systems, workflows, and automation that let a spray business owner step back from day-to-day operations without losing control.', href: '/blogs/build-spray-business-runs-without-you' },
+];
+
 export default function BlogIndexPage() {
   return (
     <BlogShell>
@@ -137,6 +160,16 @@ export default function BlogIndexPage() {
         <h2 className="blog-index-silo-title">Pest Control Scheduling Software</h2>
         <div className="blog-index-grid">
           {pestControlPosts.map((post) => (
+            <a key={post.href} href={post.href} className="blog-index-card">
+              <h3>{post.title}</h3>
+              <p>{post.description}</p>
+            </a>
+          ))}
+        </div>
+
+        <h2 className="blog-index-silo-title">Spray Business Software</h2>
+        <div className="blog-index-grid">
+          {sprayBusinessPosts.map((post) => (
             <a key={post.href} href={post.href} className="blog-index-card">
               <h3>{post.title}</h3>
               <p>{post.description}</p>
