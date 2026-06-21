@@ -143,6 +143,29 @@ const sprayBusinessPosts = [
   { title: 'How to Build a Spray Business That Runs Without You in the Field Every Day', description: 'The systems, workflows, and automation that let a spray business owner step back from day-to-day operations without losing control.', href: '/blogs/build-spray-business-runs-without-you' },
 ];
 
+const pestControlSoftwarePosts = [
+  { title: 'Why Pest Control Businesses Need Software Built for Recurring Treatments', description: 'Why generic field service software fails pest control companies — and what purpose-built pest control software handles differently for recurring program management.', href: '/blogs/why-pest-control-software-recurring-treatments' },
+  { title: 'How Pest Control Software Tracks Remaining Treatments in a Package Plan', description: 'How package plan tracking in pest control software shows how many treatments each customer has used and how many remain — and how this drives renewal timing.', href: '/blogs/pest-control-software-track-remaining-treatments' },
+  { title: 'How to Pull a Pest Control Compliance Report for a State Inspection in Under 30 Seconds', description: 'How pest control software generates a print-ready chemical application compliance report for any property, product, or date range in seconds when a state inspector arrives.', href: '/blogs/pest-control-compliance-report-state-inspection' },
+  { title: 'How Pest Control Software Handles Re-Service Calls Without Disrupting the Schedule', description: 'How to manage pest control re-service calls — callback visits between scheduled treatments — without creating scheduling conflicts or missing regular program appointments.', href: '/blogs/pest-control-software-re-service-calls' },
+  { title: 'How to Manage Annual Pest Control Contracts in Software', description: 'How pest control software tracks annual contract start and end dates, treatment counts, renewal timing, and billing cycles across a full book of recurring program customers.', href: '/blogs/manage-annual-pest-control-contracts-software' },
+  { title: 'How Pest Control Software Automates the Full Customer Lifecycle — Estimate to Renewal', description: 'How pest control software manages every stage of the customer relationship — estimate, first service, recurring program, re-service, and renewal — without manual handoffs.', href: '/blogs/pest-control-software-estimate-to-renewal' },
+  { title: 'How to Know Which Pest Control Customers Are Up for Renewal', description: 'How pest control software surfaces accounts approaching the end of their contract so renewal outreach happens before the customer lapses — not after.', href: '/blogs/know-pest-control-customers-up-for-renewal' },
+  { title: 'How Pest Control Software Logs Interior and Exterior Treatments as Separate Records', description: 'Why interior and exterior pest control treatments require separate compliance log entries and how to structure logs when both are completed in the same visit.', href: '/blogs/pest-control-interior-exterior-treatment-logs' },
+  { title: 'What Chemical Logs Does a State Pest Control Inspector Actually Ask For?', description: 'The specific records, fields, and formats that state pesticide inspectors request from pest control companies — and how to have every record ready before they ask.', href: '/blogs/pest-control-state-inspector-chemical-logs' },
+  { title: 'How to Set Up Quarterly, Bi-Monthly, and Monthly Programs in Pest Control Software', description: 'The exact setup steps for configuring quarterly, bi-monthly, and monthly pest control programs so each interval auto-schedules correctly and tracks independently.', href: '/blogs/set-up-quarterly-bimonthly-monthly-pest-control-software' },
+  { title: 'How Pest Control Software Makes Re-Entry Interval Compliance Automatic', description: 'How pest control software captures the re-entry interval from the product applied and fires the accurate REI to customers automatically — no manual lookup or SMS required.', href: '/blogs/pest-control-software-re-entry-interval-compliance' },
+  { title: 'How to Build Pest Control Estimates That Convert to Recurring Programs', description: 'How to structure pest control estimates in software so accepted estimates convert directly to active recurring programs — without re-entering data or rebuilding the service schedule.', href: '/blogs/pest-control-estimates-convert-recurring-programs' },
+  { title: 'How Pest Control Software Reduces the Gap Between Estimate and First Service', description: 'How fast estimate-to-service conversion in pest control software improves customer acquisition rates and why a long setup gap is the most common point of customer loss.', href: '/blogs/pest-control-software-estimate-to-first-service' },
+  { title: 'How to Manage Multiple Pest Control Technicians With Software', description: 'How pest control software assigns routes, tracks completions, and manages compliance logging across multiple technicians without requiring individual coordination calls.', href: '/blogs/manage-multiple-pest-control-technicians-software' },
+  { title: 'How Pest Control Software Handles Payment Collection for Recurring Programs', description: 'How card-on-file billing in pest control software collects payment after each treatment automatically — eliminating invoice cycles, collection calls, and billing gaps.', href: '/blogs/pest-control-software-payment-collection-recurring' },
+  { title: 'How to Grow a Pest Control Business Without Hiring an Office Manager', description: 'The automation and systems in pest control software that let a growing operation scale account volume without adding office headcount.', href: '/blogs/grow-pest-control-business-without-office-manager' },
+  { title: 'The Operational Difference Between Pest Control Software and Generic Field Service Tools', description: 'How pest control software built for recurring programs differs operationally from generic field service tools — in scheduling architecture, compliance logging, and communication.', href: '/blogs/pest-control-software-vs-generic-field-service' },
+  { title: 'How Pest Control Software Manages Commercial vs. Residential Accounts', description: 'The operational differences between commercial and residential pest control accounts — and how software manages both from the same scheduling, compliance, and billing platform.', href: '/blogs/pest-control-software-commercial-vs-residential' },
+  { title: 'What a Pest Control Business Looks Like at 200 Accounts vs. 500 — and the Software That Bridges the Gap', description: 'The operational changes that happen as a pest control business scales from 200 to 500 recurring accounts — and why the right software is the primary lever.', href: '/blogs/pest-control-business-200-to-500-accounts-software' },
+  { title: 'How to Evaluate Pest Control Software — The Questions That Reveal Whether It\'s Built for This Industry', description: 'The specific evaluation questions that reveal whether a pest control software platform is purpose-built for recurring programs or a generic tool adapted for the industry.', href: '/blogs/evaluate-pest-control-software' },
+];
+
 const lawnCareSoftwarePosts = [
   { title: 'What Is Lawn Care Software and Does Your Business Actually Need It?', description: 'A plain-language breakdown of what lawn care software does, what problems it solves, and at what point a lawn care business genuinely needs it.', href: '/blogs/what-is-lawn-care-software' },
   { title: 'How Lawn Care Software Replaces Spreadsheets, Paper Routes, and Phone Calls', description: 'A function-by-function comparison of what spreadsheets and paper systems do vs. what purpose-built lawn care software replaces them with.', href: '/blogs/lawn-care-software-replaces-spreadsheets' },
@@ -226,6 +249,16 @@ export default function BlogIndexPage() {
         <h2 className="blog-index-silo-title">Spray Business Software</h2>
         <div className="blog-index-grid">
           {sprayBusinessPosts.map((post) => (
+            <a key={post.href} href={post.href} className="blog-index-card">
+              <h3>{post.title}</h3>
+              <p>{post.description}</p>
+            </a>
+          ))}
+        </div>
+
+        <h2 className="blog-index-silo-title">Pest Control Software</h2>
+        <div className="blog-index-grid">
+          {pestControlSoftwarePosts.map((post) => (
             <a key={post.href} href={post.href} className="blog-index-card">
               <h3>{post.title}</h3>
               <p>{post.description}</p>

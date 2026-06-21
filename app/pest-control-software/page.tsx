@@ -418,7 +418,7 @@ export default function PestControlSoftware() {
           <div className="highlight-text">
             <span className="section-label">Recurring Treatments</span>
             <h2>Never Miss a Treatment. Never Chase a Renewal.</h2>
-            <p>Pest control runs on recurring revenue — and SprayBossPro is built around it. Set a schedule for any property, track how many treatments remain in a package, and let SprayBossPro alert you and the customer when it&apos;s time for the next visit.</p>
+            <p>Pest control runs on recurring revenue — and SprayBossPro is built around it. Set a schedule for any property, track how many treatments remain in a package, and let SprayBossPro alert you and the customer when it&apos;s time for the next visit. For a closer look at how package plan tracking drives renewal timing across a full book of recurring accounts, read <a href="/blogs/why-pest-control-software-recurring-treatments" style={{color:'var(--orange)', fontWeight:600}}>Why Pest Control Businesses Need Software Built for Recurring Treatments</a>.</p>
             <ul className="check-list">
               <li>Set recurring schedules by service type per property</li>
               <li>Waiting list shows all properties due for each treatment</li>
