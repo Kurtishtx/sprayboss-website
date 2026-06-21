@@ -51,6 +51,29 @@ const fertilizerPosts = [
   { title: 'How to Scale a Fertilizer Program Business Without Hiring More Office Staff', description: 'The automation and scheduling systems that let a fertilizer company grow its customer base without adding office headcount.', href: '/blogs/scale-fertilizer-program-business' },
 ];
 
+const weedControlPosts = [
+  { title: 'Pre-Emergent vs. Post-Emergent Weed Control: How to Schedule Both Correctly', description: 'How pre-emergent seasonal timing windows and post-emergent auto-rescheduling work differently and why they need separate scheduling logic.', href: '/blogs/pre-emergent-vs-post-emergent-weed-control-scheduling' },
+  { title: 'When Should You Apply Pre-Emergent Weed Control? Timing Windows Explained', description: 'A practical guide to pre-emergent application timing, soil temperature targets, and how to manage the window across a large customer base.', href: '/blogs/when-to-apply-pre-emergent-weed-control' },
+  { title: 'How to Auto-Schedule Post-Emergent Weed Control Rounds at the Right Interval', description: 'How 4-week, 6-week, and 8-week post-emergent cycles auto-reschedule on completion so your team never manually books a follow-up visit.', href: '/blogs/auto-schedule-post-emergent-weed-control' },
+  { title: 'What Re-Entry Interval Should You Send Customers After Weed Control Applications?', description: 'How re-entry intervals vary by weed control product and how to capture the correct interval from the compliance log to send the right SMS.', href: '/blogs/re-entry-interval-weed-control-applications' },
+  { title: 'How to Log EPA Reg Numbers for Weed Control Products in the Field', description: 'The in-field logging workflow for capturing EPA registration numbers, application rates, and conditions on every weed control application.', href: '/blogs/log-epa-reg-numbers-weed-control' },
+  { title: 'How to Track Pre-Emergent and Post-Emergent Programs Separately in One System', description: 'Why pre-emergent and post-emergent rounds need separate tracking, separate compliance logs, and separate SMS templates.', href: '/blogs/track-pre-emergent-post-emergent-programs-separately' },
+  { title: 'How to Build Weed Control Routes Using Circle Map Route Building', description: 'How to draw a circle on any neighborhood and pull every weed control stop due inside into an optimized route in minutes.', href: '/blogs/build-weed-control-routes-circle-map' },
+  { title: 'What Compliance Records Do You Need for Weed Control Applications?', description: 'A breakdown of what state regulators require for weed control application logs and how to have every record audit-ready on demand.', href: '/blogs/compliance-records-weed-control-applications' },
+  { title: 'How to Manage Broadleaf Weed Control Programs Alongside Fertilizer Rounds', description: 'How to run broadleaf, fertilizer, and pre-emergent programs under the same customer account without mixing schedules or compliance logs.', href: '/blogs/manage-broadleaf-weed-control-fertilizer-programs' },
+  { title: 'How to Send Automatic Re-Entry Interval Texts After Every Weed Control Visit', description: 'How automated post-application SMS fires the correct re-entry interval based on the product logged by the technician in the field.', href: '/blogs/automatic-re-entry-interval-texts-weed-control' },
+  { title: 'How to Handle Nutsedge and Specialty Weed Control Programs', description: 'How to schedule and track specialty weed treatments like nutsedge and sedge control alongside main program rounds in one waiting list.', href: '/blogs/nutsedge-specialty-weed-control-programs' },
+  { title: 'Fall Pre-Emergent Scheduling: How to Hit the Right Window Across Your Entire Customer Base', description: 'The logistics of routing and completing fall pre-emergent applications before the window closes across hundreds of properties.', href: '/blogs/fall-pre-emergent-scheduling' },
+  { title: 'How to Know Which Customers Are Due for Weed Control Without Checking Every Account', description: 'How a program-organized waiting list with sq ft totals shows every weed control treatment due without manual account review.', href: '/blogs/know-which-customers-due-weed-control' },
+  { title: 'Weed Control Pricing by Square Foot: How to Track Revenue Per Round', description: 'How to set per-sq-ft pricing for pre-emergent and post-emergent rounds and track total program revenue per customer and per route.', href: '/blogs/weed-control-pricing-square-foot' },
+  { title: 'How to Train Technicians to Log Weed Control Applications Before Leaving the Property', description: 'The field logging workflow that captures product, EPA reg number, re-entry interval, and conditions at the door on every visit.', href: '/blogs/train-technicians-log-weed-control-applications' },
+  { title: 'The Biggest Weed Control Scheduling Mistakes Lawn Care Companies Make', description: 'The scheduling errors that cause missed pre-emergent windows, overdue post-emergent rounds, and lost weed control customers.', href: '/blogs/weed-control-scheduling-mistakes' },
+  { title: 'Why Weed Control Companies Need Dedicated Software, Not Generic Scheduling Tools', description: 'How seasonal timing windows, compliance logging, and re-entry SMS require features that generic field service tools don\'t provide.', href: '/blogs/weed-control-software-vs-generic-scheduling-tools' },
+  { title: 'How to Manage Weed Control Programs for Customers Who Also Have Fertilizer Rounds', description: 'How to schedule, route, and log weed control and fertilizer visits for the same customers without creating scheduling conflicts.', href: '/blogs/manage-weed-control-fertilizer-same-customers' },
+  { title: 'What Customers Expect After a Weed Control Application', description: 'The three automated messages that tell customers the re-entry interval, when to water, and when their next visit is scheduled — sent without your team doing anything.', href: '/blogs/what-customers-expect-after-weed-control' },
+  { title: 'How to Scale a Weed Control Program Without Manually Scheduling Every Round', description: 'The systems that let a weed control company grow to hundreds of program customers without adding scheduling labor between visits.', href: '/blogs/scale-weed-control-program' },
+];
+
 export default function BlogIndexPage() {
   return (
     <BlogShell>
@@ -71,6 +94,16 @@ export default function BlogIndexPage() {
         <h2 className="blog-index-silo-title">Fertilizer Software</h2>
         <div className="blog-index-grid">
           {fertilizerPosts.map((post) => (
+            <a key={post.href} href={post.href} className="blog-index-card">
+              <h3>{post.title}</h3>
+              <p>{post.description}</p>
+            </a>
+          ))}
+        </div>
+
+        <h2 className="blog-index-silo-title">Weed Control Software</h2>
+        <div className="blog-index-grid">
+          {weedControlPosts.map((post) => (
             <a key={post.href} href={post.href} className="blog-index-card">
               <h3>{post.title}</h3>
               <p>{post.description}</p>
