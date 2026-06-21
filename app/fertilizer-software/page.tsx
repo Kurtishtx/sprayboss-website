@@ -234,6 +234,15 @@ export default function FertilizerSoftware() {
         </div>
       </div>
 
+      {/* HERO IMAGE */}
+      <div style={{background:'var(--purple-dark)', padding:'0 40px 60px', textAlign:'center'}}>
+        <img
+          src="/dashboard-mockup.png"
+          alt="SprayBossPro fertilizer software showing round scheduling, sq ft route building, and EPA compliance log on laptop and mobile"
+          style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
+        />
+      </div>
+
       {/* PROGRAM TYPES */}
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>

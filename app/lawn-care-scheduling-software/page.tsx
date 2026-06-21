@@ -238,6 +238,15 @@ export default function LawnCareSchedulingSoftware() {
         </div>
       </div>
 
+      {/* HERO IMAGE */}
+      <div style={{background:'var(--purple-dark)', padding:'0 40px 60px', textAlign:'center'}}>
+        <img
+          src="/dashboard-mockup.png"
+          alt="SprayBossPro lawn care scheduling software showing route map, waiting list by square footage, and mobile app for technicians"
+          style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
+        />
+      </div>
+
       {/* ════ PROGRAM TYPES ════ */}
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>

@@ -234,6 +234,15 @@ export default function MosquitoControlSoftware() {
         </div>
       </div>
 
+      {/* HERO IMAGE */}
+      <div style={{background:'var(--purple-dark)', padding:'0 40px 60px', textAlign:'center'}}>
+        <img
+          src="/dashboard-mockup.png"
+          alt="SprayBossPro mosquito control software dashboard showing route scheduling, waiting list, and technician mobile app"
+          style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
+        />
+      </div>
+
       {/* PROGRAM MANAGEMENT */}
       <section>
         <div className="highlight-row">

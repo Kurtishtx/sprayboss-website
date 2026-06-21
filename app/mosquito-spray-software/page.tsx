@@ -234,6 +234,15 @@ export default function MosquitoSpraySoftware() {
         </div>
       </div>
 
+      {/* HERO IMAGE */}
+      <div style={{background:'var(--purple-dark)', padding:'0 40px 60px', textAlign:'center'}}>
+        <img
+          src="/dashboard-mockup.png"
+          alt="SprayBossPro mosquito spray software showing the waiting list, circle-map route builder, and mobile dispatch on laptop and phone"
+          style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
+        />
+      </div>
+
       {/* WHAT IT DOES */}
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>

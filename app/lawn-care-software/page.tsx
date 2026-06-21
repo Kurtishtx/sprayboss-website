@@ -234,6 +234,15 @@ export default function LawnCareSoftware() {
         </div>
       </div>
 
+      {/* HERO IMAGE */}
+      <div style={{background:'var(--purple-dark)', padding:'0 40px 60px', textAlign:'center'}}>
+        <img
+          src="/dashboard-mockup.png"
+          alt="SprayBossPro lawn care software dashboard on laptop showing circle-map route builder and waiting list, with mobile app on phone"
+          style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
+        />
+      </div>
+
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Lawn Care Software.</span></h2>

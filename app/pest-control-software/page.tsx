@@ -234,6 +234,15 @@ export default function PestControlSoftware() {
         </div>
       </div>
 
+      {/* HERO IMAGE */}
+      <div style={{background:'var(--purple-dark)', padding:'0 40px 60px', textAlign:'center'}}>
+        <img
+          src="/dashboard-mockup.png"
+          alt="SprayBossPro pest control software showing recurring program scheduling, compliance logs, and mobile dispatch on laptop and phone"
+          style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
+        />
+      </div>
+
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Pest Control Software.</span></h2>
