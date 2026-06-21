@@ -213,8 +213,15 @@ export default function Home() {
 
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
+      {/* ═══ MOCKUP IMAGE ═══ */}
+      <div style={{background:'linear-gradient(135deg,#080010 0%,#130520 60%,#1e0a35 100%)', padding:'80px 40px 0', textAlign:'center'}}>
+        <div style={{maxWidth:'1000px', margin:'0 auto'}}>
+          <img src="/dashboard-mockup.png" alt="SprayBossPro dashboard on laptop and mobile" style={{width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
+        </div>
+      </div>
+
       {/* ═══ HERO ═══ */}
-      <div className="hero">
+      <div className="hero" style={{paddingTop:'60px'}}>
         <div className="hero-badge">Built for Lawn Care &amp; Pest Control</div>
         <h1>Run Your Entire Operation<br /><span>From One Dashboard</span></h1>
         <p>SprayBossPro is the all-in-one field management platform built specifically for lawn care and pest control businesses. Schedule jobs, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
@@ -226,9 +233,6 @@ export default function Home() {
           <div><div className="hero-stat-val">89</div><div className="hero-stat-lbl">Screens &amp; Tools</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Apps to Install</div></div>
           <div><div className="hero-stat-val">24/7</div><div className="hero-stat-lbl">Access Anywhere</div></div>
-        </div>
-        <div style={{marginTop:'64px', maxWidth:'1000px', marginLeft:'auto', marginRight:'auto'}}>
-          <img src="/dashboard-mockup.png" alt="SprayBossPro dashboard on laptop and mobile" style={{width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)'}} />
         </div>
       </div>
 
