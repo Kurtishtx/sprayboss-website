@@ -1,6 +1,5 @@
 'use client';
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 export default function BlogShell({ children }: { children: React.ReactNode }) {
   const handleTrialClick = () => {
@@ -13,7 +12,6 @@ export default function BlogShell({ children }: { children: React.ReactNode }) {
       <main className="blog-main">
         {children}
       </main>
-      <Footer />
     </>
   );
 }
