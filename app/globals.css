@@ -69,8 +69,8 @@ html { scroll-behavior: smooth; }
 }
 .navbar-cta:hover { background: var(--orange-dark) !important; }
 @media (max-width: 1024px) {
-  .navbar-links a:not(.navbar-cta) { display: none; }
-  .nav-dropdown { display: none; }
+  .navbar-links a:not(.navbar-cta) { display: none !important; }
+  .nav-dropdown { display: none !important; }
   .navbar-inner { padding: 0 20px; }
 }
 
