@@ -514,6 +514,7 @@ export default function PestControlSchedulingSoftware() {
               <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
             </div>
           ))}
+          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>SprayBossPro is pest control scheduling software built for recurring programs — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a> to learn what's included.</p>
         </div>
       </section>
 

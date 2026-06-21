@@ -533,6 +533,7 @@ export default function LawnCareSoftware() {
               <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
             </div>
           ))}
+          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>SprayBossPro handles lawn care alongside weed control, fertilizer, pest control, and mosquito spray — all from one platform — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a>.</p>
         </div>
       </section>
 

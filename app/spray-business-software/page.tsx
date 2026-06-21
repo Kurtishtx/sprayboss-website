@@ -487,6 +487,7 @@ export default function SprayBusinessSoftware() {
               <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
             </div>
           ))}
+          <p style={{marginTop:'40px', color:'var(--muted)', fontSize:'15px', lineHeight:1.7}}>SprayBossPro is the all-in-one platform for spray businesses — <a href="/" style={{color:'var(--orange)', fontWeight:600}}>see the full platform overview</a> to learn everything that's included.</p>
         </div>
       </section>
 
