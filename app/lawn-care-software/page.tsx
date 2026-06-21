@@ -389,7 +389,7 @@ export default function LawnCareSoftware() {
           <div className="highlight-text">
             <span className="section-label">Lawn Care Scheduling</span>
             <h2>Know Exactly How Much Work Is Waiting Before You Schedule a Single Stop</h2>
-            <p>This is the feature no other lawn care software has. SprayBossPro&apos;s waiting list doesn&apos;t just show you what properties need service — it shows you the total square footage broken down by service type so you know exactly how much you can fit in a day before you start making calls.</p>
+            <p>This is the feature no other lawn care software has. SprayBossPro&apos;s waiting list doesn&apos;t just show you what properties need service — it shows you the total square footage broken down by service type so you know exactly how much you can fit in a day before you start making calls. For a closer look at how the waiting list works as the daily operational hub for a lawn care business, read <a href="/blogs/what-is-lawn-care-software" style={{color:'var(--orange)', fontWeight:600}}>What Is Lawn Care Software and Does Your Business Actually Need It?</a></p>
             <ul className="check-list">
               <li>Waiting list grouped by service type with sq ft totals</li>
               <li>Schedule directly from the waiting list in one click</li>

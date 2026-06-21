@@ -143,6 +143,29 @@ const sprayBusinessPosts = [
   { title: 'How to Build a Spray Business That Runs Without You in the Field Every Day', description: 'The systems, workflows, and automation that let a spray business owner step back from day-to-day operations without losing control.', href: '/blogs/build-spray-business-runs-without-you' },
 ];
 
+const lawnCareSoftwarePosts = [
+  { title: 'What Is Lawn Care Software and Does Your Business Actually Need It?', description: 'A plain-language breakdown of what lawn care software does, what problems it solves, and at what point a lawn care business genuinely needs it.', href: '/blogs/what-is-lawn-care-software' },
+  { title: 'How Lawn Care Software Replaces Spreadsheets, Paper Routes, and Phone Calls', description: 'A function-by-function comparison of what spreadsheets and paper systems do vs. what purpose-built lawn care software replaces them with.', href: '/blogs/lawn-care-software-replaces-spreadsheets' },
+  { title: 'How to Use Lawn Care Software to Manage Your Waiting List Every Morning', description: 'How the waiting list in lawn care software works as the daily operational hub — showing every due account, sq ft, and revenue before you build a single route.', href: '/blogs/lawn-care-software-waiting-list' },
+  { title: 'What the Best Lawn Care Software Does That Generic Tools Don\'t', description: 'The specific capabilities that separate purpose-built lawn care software from generic field service tools adapted for lawn care use.', href: '/blogs/best-lawn-care-software-vs-generic' },
+  { title: 'How Lawn Care Software Handles Chemical Application Compliance Automatically', description: 'How purpose-built lawn care software captures every required compliance field at the property and makes records available for inspection in seconds.', href: '/blogs/lawn-care-software-chemical-compliance' },
+  { title: 'How to Set Up a New Lawn Care Customer in Software and Start the First Program', description: 'The exact steps to add a new lawn care customer in software — client, property, sq ft areas, package plan, and first service — so they appear on the waiting list automatically.', href: '/blogs/set-up-lawn-care-customer-software' },
+  { title: 'How Lawn Care Software Calculates Route Revenue Before You Build the Route', description: 'How the waiting list total in lawn care software shows expected revenue for due accounts before any routing begins — and why that matters for daily production planning.', href: '/blogs/lawn-care-software-route-revenue' },
+  { title: 'How to Manage Client Notes and Property Details in Lawn Care Software', description: 'How lawn care software stores property notes, access instructions, and service details so every technician has the right information before arriving at the stop.', href: '/blogs/lawn-care-software-client-notes-property-details' },
+  { title: 'How Lawn Care Software Reduces the Time You Spend on Scheduling Every Week', description: 'The scheduling time that lawn care software eliminates across the weekly workflow — from morning dispatch to customer rebooking to end-of-day auto-scheduling.', href: '/blogs/lawn-care-software-reduce-scheduling-time' },
+  { title: 'How to Track Every Chemical Application Your Business Makes With Lawn Care Software', description: 'How lawn care software records every pesticide and fertilizer application in a searchable database — and how to generate a chemical usage report for any date range.', href: '/blogs/track-chemical-applications-lawn-care-software' },
+  { title: 'How Lawn Care Software Sends Customer Notifications Without Your Team Doing Anything', description: 'How automated SMS alerts in lawn care software fire at every customer touchpoint — dispatch, completion, payment declined — without any manual action from the office team.', href: '/blogs/lawn-care-software-customer-notifications' },
+  { title: 'How to Grow a Lawn Care Business From 50 to 300 Customers Using Software', description: 'The operational changes that software makes possible as a lawn care business scales from 50 recurring accounts to 300 — and why manual systems fail before you get there.', href: '/blogs/grow-lawn-care-business-50-to-300' },
+  { title: 'The Features Every Lawn Care Software Needs (And Most Are Missing)', description: 'A checklist of the features that a lawn care business actually needs in software — and which ones are commonly missing from platforms not built specifically for the industry.', href: '/blogs/lawn-care-software-features' },
+  { title: 'How Lawn Care Software Handles Multiple Service Types Under One Account', description: 'How lawn care software manages fertilizer, weed control, pest control, mosquito, and flower bed services for the same customer under a single account.', href: '/blogs/lawn-care-software-multiple-service-types' },
+  { title: 'How to Dispatch Lawn Care Crews With Software Instead of Phone Calls', description: 'How digital dispatch in lawn care software sends routes, property notes, and field log forms to technicians without a single phone call from the office.', href: '/blogs/dispatch-lawn-care-crews-software' },
+  { title: 'How to Know Your Route Revenue Before You Leave the Parking Lot', description: 'How lawn care software makes route revenue visible before dispatch so the team can plan production targets and adjust before trucks leave.', href: '/blogs/know-route-revenue-before-dispatch' },
+  { title: 'Lawn Care Software Pricing: What You Should Expect to Pay and What You Get', description: 'A plain breakdown of lawn care software pricing models — per-user, per-account, per-feature, and flat monthly — and what each means for a growing lawn care business.', href: '/blogs/lawn-care-software-pricing' },
+  { title: 'How Lawn Care Software Pays for Itself in the First 90 Days', description: 'The specific time savings, missed-service recovery, and route efficiency gains that add up to a positive ROI on lawn care software within the first season.', href: '/blogs/lawn-care-software-roi-90-days' },
+  { title: 'How to Evaluate Lawn Care Software Before You Sign Up', description: 'A practical evaluation process for lawn care software — what to demo, what to test in a trial, and the questions that reveal whether a platform is actually built for lawn care.', href: '/blogs/evaluate-lawn-care-software' },
+  { title: 'How to Transition a Lawn Care Business From Spreadsheets to Software', description: 'A practical transition plan for moving a lawn care operation from spreadsheets to purpose-built software — without disrupting an active season or losing track of any accounts.', href: '/blogs/transition-lawn-care-business-spreadsheets-to-software' },
+];
+
 export default function BlogIndexPage() {
   return (
     <BlogShell>
@@ -203,6 +226,16 @@ export default function BlogIndexPage() {
         <h2 className="blog-index-silo-title">Spray Business Software</h2>
         <div className="blog-index-grid">
           {sprayBusinessPosts.map((post) => (
+            <a key={post.href} href={post.href} className="blog-index-card">
+              <h3>{post.title}</h3>
+              <p>{post.description}</p>
+            </a>
+          ))}
+        </div>
+
+        <h2 className="blog-index-silo-title">Lawn Care Software</h2>
+        <div className="blog-index-grid">
+          {lawnCareSoftwarePosts.map((post) => (
             <a key={post.href} href={post.href} className="blog-index-card">
               <h3>{post.title}</h3>
               <p>{post.description}</p>
