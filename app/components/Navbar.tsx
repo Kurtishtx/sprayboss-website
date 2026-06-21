@@ -12,6 +12,20 @@ const solutions = [
   { label: 'Fertilizer Software',          href: '/fertilizer-software' },
 ];
 
+const comparisons = [
+  { label: 'vs. Jobber',             href: '/vs-jobber' },
+  { label: 'vs. ServiceTitan',       href: '/vs-servicetitan' },
+  { label: 'vs. GorillaDesk',        href: '/vs-gorilladesk' },
+  { label: 'vs. Housecall Pro',      href: '/vs-housecallpro' },
+  { label: 'vs. FieldRoutes',        href: '/vs-fieldroutes' },
+  { label: 'vs. Service AutoPilot',  href: '/vs-serviceautopilot' },
+  { label: 'vs. Spraye',             href: '/vs-spraye' },
+  { label: 'vs. RealGreen',          href: '/vs-realgreen' },
+  { label: 'vs. LawnPro',            href: '/vs-lawnpro' },
+  { label: 'vs. CLIP',               href: '/vs-clip' },
+  { label: 'vs. Aspire',             href: '/vs-aspire' },
+];
+
 export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElement) => void }) {
   return (
     <nav className="navbar">
@@ -29,6 +43,16 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
               <div className="nav-dropdown-inner">
                 {solutions.map(s => (
                   <a key={s.href} href={s.href} className="nav-dropdown-item">{s.label}</a>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="nav-dropdown">
+            <span className="nav-dropdown-trigger">Compare ▾</span>
+            <div className="nav-dropdown-menu">
+              <div className="nav-dropdown-inner">
+                {comparisons.map(c => (
+                  <a key={c.href} href={c.href} className="nav-dropdown-item">{c.label}</a>
                 ))}
               </div>
             </div>
