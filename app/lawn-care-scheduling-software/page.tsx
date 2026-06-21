@@ -435,7 +435,7 @@ export default function LawnCareSchedulingSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Dispatched Routes — Same Morning</h2>
-          <p className="section-sub">SprayBossPro is designed so that scheduling a full day of lawn care routes takes minutes, not the first two hours of your morning.</p>
+          <p className="section-sub">SprayBossPro is designed so that scheduling a full day of lawn care routes takes minutes, not the first two hours of your morning. For a step-by-step look at how top companies do it, read <a href="/blogs/how-to-build-lawn-care-routes-fast" style={{color:'var(--orange)', fontWeight:600}}>How to Build Lawn Care Routes in Under 30 Minutes Every Morning</a>.</p>
         </div>
         <div className="steps-grid">
           <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>See every lawn care treatment due today — organized by service type with total sq ft or linear ft. Know the full scope of your day before you open the map.</p></div>
