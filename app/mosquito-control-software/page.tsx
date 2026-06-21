@@ -357,7 +357,7 @@ export default function MosquitoControlSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Treated Properties — Same Morning</h2>
-          <p className="section-sub">SprayBossPro is built around the way mosquito control companies actually work — recurring programs, zone-based routes, and customers who want to know what&apos;s happening at every step.</p>
+          <p className="section-sub">SprayBossPro is built around the way mosquito control companies actually work — recurring programs, zone-based routes, and customers who want to know what&apos;s happening at every step. For a closer look at how 21-day interval scheduling runs automatically all season, read <a href="/blogs/schedule-mosquito-control-treatments-seasonal-intervals" style={{color:'var(--orange)', fontWeight:600}}>How to Schedule Mosquito Control Treatments at the Right Seasonal Intervals</a>.</p>
         </div>
         <div className="steps-grid">
           <div className="step-box"><div className="step-circle">1</div><h3>Check the Program Waiting List</h3><p>Every morning, see every mosquito control treatment due today — organized by program type, with total sq ft or linear ft and stops waiting. Know your full day instantly.</p></div>

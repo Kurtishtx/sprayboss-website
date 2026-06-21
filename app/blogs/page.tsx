@@ -97,6 +97,29 @@ const pestControlPosts = [
   { title: 'Why Pest Control Companies Need Software Built for Recurring Programs, Not One-Time Jobs', description: 'The fundamental difference between pest control operations and one-time service trades — and why software built for generic job dispatch fails recurring program management.', href: '/blogs/pest-control-software-recurring-programs' },
 ];
 
+const mosquitoControlPosts = [
+  { title: 'How to Schedule Mosquito Control Treatments at the Right Seasonal Intervals', description: 'How to set up mosquito barrier spray programs that auto-reschedule at 21-day intervals so every customer stays protected all season.', href: '/blogs/schedule-mosquito-control-treatments-seasonal-intervals' },
+  { title: 'How to Build Mosquito Control Routes Using Circle Map Route Building', description: 'How circle-based map routing pulls every mosquito treatment due in a neighborhood into an optimized route in minutes during peak season.', href: '/blogs/build-mosquito-control-routes-circle-map' },
+  { title: 'What Re-Entry Interval Should You Send Customers After Mosquito Barrier Spray?', description: 'How re-entry intervals vary by mosquito control product and how to automatically send the right interval based on what the tech actually applied.', href: '/blogs/re-entry-interval-mosquito-barrier-spray' },
+  { title: 'How to Auto-Schedule the Next Mosquito Treatment When the Previous One Is Complete', description: 'How auto-rescheduling at your set interval keeps every customer\'s program running all season without manually booking follow-up visits.', href: '/blogs/auto-schedule-mosquito-treatments' },
+  { title: 'How to Log Mosquito Control Applications for EPA Compliance', description: 'The in-field compliance log workflow for mosquito barrier spray — product, EPA reg number, rate, area treated, re-entry interval, and applicator license.', href: '/blogs/log-mosquito-control-applications-epa-compliance' },
+  { title: 'How to Add Mosquito Control Programs to an Existing Lawn Care or Pest Control Business', description: 'How to layer a mosquito add-on onto your existing customer base, schedule it alongside other services, and track it separately for compliance.', href: '/blogs/add-mosquito-control-programs-lawn-care-pest-control' },
+  { title: 'How to Send Automated SMS Alerts for Every Mosquito Control Visit', description: 'How day-before, on-the-way, and post-application re-entry interval texts fire automatically on every mosquito visit without your team touching a phone.', href: '/blogs/automated-sms-alerts-mosquito-control' },
+  { title: 'How to Manage the Mosquito Control Season From First Spray to Season Close', description: 'A seasonal playbook for managing spring startup, peak season routing, and fall close-out for a mosquito control program.', href: '/blogs/manage-mosquito-control-season' },
+  { title: 'How to Price Mosquito Control Services by Linear Foot or Square Foot', description: 'How to structure per-linear-ft and per-sq-ft pricing for barrier spray programs and package pricing for seasonal programs.', href: '/blogs/price-mosquito-control-services' },
+  { title: 'How to Build a Waiting List for Mosquito Control Treatments Due This Week', description: 'How a mosquito-specific waiting list shows every treatment due with stop count and route revenue before you open the map.', href: '/blogs/mosquito-control-waiting-list' },
+  { title: 'How to Train Technicians to Complete Mosquito Control Application Logs in the Field', description: 'The field logging workflow that captures EPA reg number, rate, re-entry interval, and conditions at every mosquito barrier spray property.', href: '/blogs/train-technicians-mosquito-control-application-logs' },
+  { title: 'How to Manage Mosquito Control Customers Who Also Have Lawn Care Programs', description: 'How to track mosquito and lawn care programs under the same customer account on separate schedules without creating routing or billing conflicts.', href: '/blogs/manage-mosquito-control-lawn-care-customers' },
+  { title: 'What Customers Want to Know After Every Mosquito Barrier Spray Treatment', description: 'The automated SMS that tells customers the re-entry interval, when it\'s safe for kids and pets, and when the next treatment is scheduled.', href: '/blogs/what-customers-want-after-mosquito-barrier-spray' },
+  { title: 'How to Scale a Mosquito Control Business During Peak Season Without Losing Stops', description: 'The routing, dispatch, and scheduling systems that keep a mosquito company on schedule when demand peaks in June and July.', href: '/blogs/scale-mosquito-control-business-peak-season' },
+  { title: 'How to Reduce Mosquito Control Customer Cancellations With Automated Communication', description: 'Why pre-service reminders and post-service follow-up texts reduce no-access stops and mid-season cancellations on mosquito programs.', href: '/blogs/reduce-mosquito-control-cancellations' },
+  { title: 'How to Track Mosquito Control Revenue by Route and Program Type', description: 'How to see daily and weekly mosquito program revenue by route and service type so you can make staffing and routing decisions based on real numbers.', href: '/blogs/track-mosquito-control-revenue' },
+  { title: 'The Difference Between Mosquito Control Software and Generic Pest Control Scheduling Tools', description: 'Why mosquito barrier spray programs — with their specific intervals, re-entry SMS, and compliance logs — need more than a generic job board.', href: '/blogs/mosquito-control-software-vs-pest-control-tools' },
+  { title: 'How to Handle Overdue Mosquito Control Treatments During Peak Season', description: 'How to find customers past their treatment window, route them in with active stops, and recover the treatment before the protection gap gets noticed.', href: '/blogs/handle-overdue-mosquito-control-treatments' },
+  { title: 'Mosquito Control Program Pricing: How to Package and Price for Maximum Retention', description: 'How seasonal packages, per-visit pricing, and prepay discounts affect mosquito customer retention and average program revenue.', href: '/blogs/mosquito-control-program-pricing' },
+  { title: 'How to Build a Mosquito Control Business That Grows Year Over Year', description: 'The program structure, customer communication, and scheduling systems that compound mosquito control business growth season after season.', href: '/blogs/build-mosquito-control-business-year-over-year' },
+];
+
 const sprayBusinessPosts = [
   { title: 'How to Run a Spray Business Without an Office Manager', description: 'The scheduling, dispatch, and communication automation that let a spray company operate efficiently without a dedicated office person managing the day.', href: '/blogs/run-spray-business-without-office-manager' },
   { title: 'How to Dispatch Spray Technicians in Under 30 Minutes Every Morning', description: 'The waiting list and circle route workflow that gets every tech dispatched with an optimized route before 8am without back-and-forth phone calls.', href: '/blogs/dispatch-spray-technicians-fast' },
@@ -160,6 +183,16 @@ export default function BlogIndexPage() {
         <h2 className="blog-index-silo-title">Pest Control Scheduling Software</h2>
         <div className="blog-index-grid">
           {pestControlPosts.map((post) => (
+            <a key={post.href} href={post.href} className="blog-index-card">
+              <h3>{post.title}</h3>
+              <p>{post.description}</p>
+            </a>
+          ))}
+        </div>
+
+        <h2 className="blog-index-silo-title">Mosquito Control Software</h2>
+        <div className="blog-index-grid">
+          {mosquitoControlPosts.map((post) => (
             <a key={post.href} href={post.href} className="blog-index-card">
               <h3>{post.title}</h3>
               <p>{post.description}</p>
