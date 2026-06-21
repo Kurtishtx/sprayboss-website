@@ -26,9 +26,11 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
           <div className="nav-dropdown">
             <span className="nav-dropdown-trigger">Solutions ▾</span>
             <div className="nav-dropdown-menu">
-              {solutions.map(s => (
-                <a key={s.href} href={s.href} className="nav-dropdown-item">{s.label}</a>
-              ))}
+              <div className="nav-dropdown-inner">
+                {solutions.map(s => (
+                  <a key={s.href} href={s.href} className="nav-dropdown-item">{s.label}</a>
+                ))}
+              </div>
             </div>
           </div>
           <a href="/features">Features</a>
