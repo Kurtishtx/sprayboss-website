@@ -384,7 +384,7 @@ export default function WeedControlSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Re-Entry SMS — Every Weed Control Round, Every Customer</h2>
-          <p className="section-sub">SprayBossPro manages pre-emergent and post-emergent weed control programs from first application to compliance log to automatic re-entry SMS — with no manual scheduling between rounds ever.</p>
+          <p className="section-sub">SprayBossPro manages pre-emergent and post-emergent weed control programs from first application to compliance log to automatic re-entry SMS — with no manual scheduling between rounds ever. For a closer look at how the two program types are scheduled differently, read <a href="/blogs/pre-emergent-vs-post-emergent-weed-control-scheduling" style={{color:'var(--orange)', fontWeight:600}}>Pre-Emergent vs. Post-Emergent Weed Control: How to Schedule Both Correctly</a>.</p>
         </div>
         <div className="steps-grid">
           <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>See every weed control treatment due today — pre-emergent, post-emergent, broadleaf — organized by program type with sq ft totals and stop count. Know the day&apos;s scope before you build any routes.</p></div>
