@@ -166,6 +166,29 @@ const pestControlSoftwarePosts = [
   { title: 'How to Evaluate Pest Control Software — The Questions That Reveal Whether It\'s Built for This Industry', description: 'The specific evaluation questions that reveal whether a pest control software platform is purpose-built for recurring programs or a generic tool adapted for the industry.', href: '/blogs/evaluate-pest-control-software' },
 ];
 
+const mosquitoSpraySoftwarePosts = [
+  { title: 'How to Run a Mosquito Spray Business From a Single Platform', description: 'How purpose-built software handles the waiting list, circle routing, mobile dispatch, compliance logs, SMS alerts, and billing for a mosquito spray operation from one place.', href: '/blogs/run-mosquito-spray-business-single-platform' },
+  { title: 'Sq Ft vs. Linear Ft Pricing for Mosquito Barrier Spray — Which Works Better?', description: 'How to choose between sq ft and linear ft pricing for barrier spray programs — and how software tracks both measurement types across your customer base.', href: '/blogs/mosquito-spray-sq-ft-vs-linear-ft-pricing' },
+  { title: 'How Mosquito Spray Software Handles Seasonal Program Start and Shutdown', description: 'How to manage spring startup and fall close for a mosquito spray season in software — activating programs, communicating season start, and closing cleanly at the end.', href: '/blogs/mosquito-spray-software-seasonal-startup-shutdown' },
+  { title: 'How to Build a Mosquito Spray Route Using Circle Map Routing', description: 'How circle map routing (Lasso) builds a complete mosquito barrier spray route in under 10 minutes — from drawing the circle to dispatched route with sq ft and revenue totals.', href: '/blogs/build-mosquito-spray-route-circle-map' },
+  { title: 'How to Price Mosquito Barrier Spray Programs for Maximum Profitability', description: 'How to set per-treatment pricing for mosquito barrier spray programs — factoring product cost, sq ft and linear ft, labor, and drive time to build pricing that holds margin all season.', href: '/blogs/price-mosquito-barrier-spray-programs' },
+  { title: 'How to Add Mosquito Spraying to an Existing Lawn Care or Pest Control Business', description: 'How lawn care and pest control companies add mosquito barrier spray as a recurring revenue service without a separate scheduling system or communication workflow.', href: '/blogs/add-mosquito-spraying-lawn-care-pest-control-business' },
+  { title: 'What Equipment and Products Does a Mosquito Spray Business Actually Need?', description: 'A practical guide to barrier spray equipment and products — backpack sprayers, bifenthrin, natural alternatives — and how software tracks chemical usage across all of it.', href: '/blogs/mosquito-spray-business-equipment-products' },
+  { title: 'How Mosquito Spray Software Tracks Barrier Spray Applications for EPA Compliance', description: 'How purpose-built mosquito spray software captures EPA registration numbers, application rates, and product details at each treatment for state inspection compliance.', href: '/blogs/mosquito-spray-software-barrier-spray-epa-compliance' },
+  { title: 'How to Scale a Mosquito Spray Business During Peak Season Without Dropping Stops', description: 'How mosquito spray businesses handle peak-season volume — more stops due, compressed schedules, multiple crews — without losing track of overdue accounts or missing re-service alerts.', href: '/blogs/scale-mosquito-spray-business-peak-season' },
+  { title: 'The Difference Between Mosquito Barrier Spray Software and Generic Scheduling Tools', description: 'Why generic field service software falls short for a mosquito spray business — and what purpose-built mosquito spray software does differently for interval scheduling, sq ft routing, and compliance.', href: '/blogs/mosquito-barrier-spray-software-vs-generic' },
+  { title: 'How to Manage 21-Day Interval Mosquito Programs Without Manually Rebooking Every Visit', description: 'How automatic interval scheduling eliminates the rebooking burden for 21-day mosquito spray programs — and what happens to the waiting list at each treatment completion.', href: '/blogs/manage-21-day-interval-mosquito-programs' },
+  { title: 'How Automated SMS Makes Mosquito Spray Customers Stay on Their Programs', description: 'How pre-service and post-service SMS automation reduces cancellations and keeps mosquito spray customers engaged throughout the season without manual texting from the office.', href: '/blogs/automated-sms-mosquito-spray-customer-retention' },
+  { title: 'How to Handle Customer Re-Entry After Mosquito Barrier Spray — The Right Way', description: 'Why the re-entry interval matters after barrier spray, what to communicate to customers, and how automated post-service SMS delivers the message at exactly the right moment.', href: '/blogs/mosquito-spray-customer-re-entry-communication' },
+  { title: 'How to Know Which Mosquito Spray Customers Are Overdue During Peak Season', description: 'How the waiting list surfaces overdue mosquito spray accounts automatically — sorted by days past due — so nothing gets dropped during the busiest weeks of peak season.', href: '/blogs/know-overdue-mosquito-spray-customers-peak-season' },
+  { title: 'How to Dispatch Mosquito Spray Technicians Without Morning Phone Calls', description: 'How mobile dispatch eliminates the morning route briefing call — routes, addresses, notes, and compliance log forms delivered to mobile before technicians leave the shop.', href: '/blogs/dispatch-mosquito-spray-technicians' },
+  { title: 'Mosquito Spray Business Profitability: How Much Can You Make Per Route Day?', description: 'How to calculate per-route-day revenue and margin for a mosquito spray business — and how software shows revenue totals before dispatch so you know what each day generates.', href: '/blogs/mosquito-spray-business-profitability-per-route-day' },
+  { title: 'How to Close the Season for a Mosquito Spray Business — Last Treatments and Customer Communication', description: 'How to wrap up a mosquito spray season — completing last treatments, communicating season-end to customers, and setting up renewal before the off-season starts.', href: '/blogs/close-mosquito-spray-season-last-treatments' },
+  { title: 'How Mosquito Spray Software Handles Linear Foot Measurements for Barrier Spray', description: 'How linear ft measurements are stored per property, used for pricing, displayed on the waiting list, and tracked in the chemical compliance report for perimeter barrier spray.', href: '/blogs/mosquito-spray-software-linear-foot-measurements' },
+  { title: 'How to Grow a Mosquito Spray Business From Add-On Service to Primary Revenue', description: 'How mosquito spray shifts from a secondary service offering to the primary revenue driver — what changes operationally, how software scales with the volume, and what makes the transition sustainable.', href: '/blogs/grow-mosquito-spray-business-primary-revenue' },
+  { title: 'What Makes a Mosquito Spray Business Different from Other Pest Control Companies', description: 'How mosquito spray businesses differ from general pest control in service model, measurement, interval scheduling, product chemistry, seasonal structure, and software requirements.', href: '/blogs/mosquito-spray-business-vs-other-pest-control' },
+];
+
 const lawnCareSoftwarePosts = [
   { title: 'What Is Lawn Care Software and Does Your Business Actually Need It?', description: 'A plain-language breakdown of what lawn care software does, what problems it solves, and at what point a lawn care business genuinely needs it.', href: '/blogs/what-is-lawn-care-software' },
   { title: 'How Lawn Care Software Replaces Spreadsheets, Paper Routes, and Phone Calls', description: 'A function-by-function comparison of what spreadsheets and paper systems do vs. what purpose-built lawn care software replaces them with.', href: '/blogs/lawn-care-software-replaces-spreadsheets' },
@@ -259,6 +282,16 @@ export default function BlogIndexPage() {
         <h2 className="blog-index-silo-title">Pest Control Software</h2>
         <div className="blog-index-grid">
           {pestControlSoftwarePosts.map((post) => (
+            <a key={post.href} href={post.href} className="blog-index-card">
+              <h3>{post.title}</h3>
+              <p>{post.description}</p>
+            </a>
+          ))}
+        </div>
+
+        <h2 className="blog-index-silo-title">Mosquito Spray Software</h2>
+        <div className="blog-index-grid">
+          {mosquitoSpraySoftwarePosts.map((post) => (
             <a key={post.href} href={post.href} className="blog-index-card">
               <h3>{post.title}</h3>
               <p>{post.description}</p>

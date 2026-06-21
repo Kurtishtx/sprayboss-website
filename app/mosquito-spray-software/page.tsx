@@ -375,7 +375,7 @@ export default function MosquitoSpraySoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 64px'}}>
           <span className="section-label">How It Works</span>
           <h2 className="section-title">From Waiting List to Completed Mosquito Routes — Same Day</h2>
-          <p className="section-sub">SprayBossPro is designed so that building and completing a full day of mosquito spray routes takes minutes, not hours.</p>
+          <p className="section-sub">SprayBossPro is designed so that building and completing a full day of mosquito spray routes takes minutes, not hours. For a closer look at how one platform handles the waiting list, circle routing, mobile dispatch, compliance logs, and automated SMS end to end, read <a href="/blogs/run-mosquito-spray-business-single-platform" style={{color:'var(--orange)', fontWeight:600}}>How to Run a Mosquito Spray Business From a Single Platform</a>.</p>
         </div>
         <div className="steps-grid">
           <div className="step-box"><div className="step-circle">1</div><h3>Check the Waiting List</h3><p>Open SprayBossPro and see exactly how many sq ft or linear ft of mosquito treatment is waiting — organized by service type. Know your day before you build anything.</p></div>
