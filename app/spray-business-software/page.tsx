@@ -469,6 +469,27 @@ export default function SprayBusinessSoftware() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
       </section>
 
+      {/* FAQ */}
+      <section style={{background:'#fff'}}>
+        <div style={{maxWidth:'860px', margin:'0 auto', padding:'80px 40px'}}>
+          <span className="section-label">FAQ</span>
+          <h2 className="section-title" style={{marginBottom:'48px'}}>Spray Business Software — Common Questions</h2>
+          {[
+            {q:'What types of spray businesses does SprayBossPro work for?', a:'SprayBossPro is built for any business that applies chemical treatments on recurring routes — mosquito spray, lawn care, weed control, fertilizer, and pest control. It handles multi-service scheduling, compliance logging, route building by sq ft, and automated SMS across all service types from one platform.'},
+            {q:'Does SprayBossPro handle chemical compliance for spray businesses?', a:'Yes. Every treatment logs the product, EPA registration number, application rate, target pest or weed, treatment area, weather, and applicator license. The chemical tracking report generates a print-ready compliance log for state inspection — no paper records needed.'},
+            {q:'Can I manage multiple service types in one account?', a:'Yes. SprayBossPro manages mosquito spray, lawn care, weed control, fertilizer, and pest control from one account. The waiting list filters by service type, each service has its own SMS alert configuration, and circle-map routing shows only the service type you\'re scheduling.'},
+            {q:'Does SprayBossPro send automated customer communication?', a:'Yes. Pre-built SMS alert templates cover every touchpoint: day-before appointment reminders, on-the-way notifications, completion messages, and re-entry interval notices. Alerts fire automatically from dispatch and completion events — configured once, sent on every job.'},
+            {q:'Can I run multiple technicians and trucks?', a:'Yes. SprayBossPro supports unlimited technicians at $129/month — no per-user fees regardless of crew size. The dispatch board assigns routes to specific technicians, and each uses the mobile app for their stops, property details, and chemical log.'},
+            {q:'How much does SprayBossPro cost?', a:'$129/month, flat. Every feature — route scheduling, chemical compliance logs, SMS alerts, card-on-file payments, estimates — is included. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+          ].map(({q, a}, i, arr) => (
+            <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
+              <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
+              <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* CTA */}
       <div className="cta-band">
         <h2>The Only Spray Business Software<br /><span style={{color:'var(--orange)'}}>Built for Companies That Spray.</span></h2>

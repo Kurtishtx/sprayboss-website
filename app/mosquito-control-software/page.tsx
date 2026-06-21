@@ -418,6 +418,27 @@ export default function MosquitoControlSoftware() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
       </section>
 
+      {/* FAQ */}
+      <section style={{background:'#fff'}}>
+        <div style={{maxWidth:'860px', margin:'0 auto', padding:'80px 40px'}}>
+          <span className="section-label">FAQ</span>
+          <h2 className="section-title" style={{marginBottom:'48px'}}>Mosquito Control Software — Common Questions</h2>
+          {[
+            {q:'Does SprayBossPro work for mosquito control businesses?', a:'Yes. SprayBossPro is built for recurring spray programs including mosquito control. It handles 21-day auto-interval scheduling, sq ft waiting list routing, chemical compliance logs, and automated SMS — specifically designed for the mosquito control model.'},
+            {q:'How does auto-interval scheduling work?', a:'When a mosquito control treatment is logged as complete, SprayBossPro automatically adds the next treatment to the waiting list with the correct due date — 21 days later by default. No calendar entry, no rebooking. The account reappears on the waiting list when it\'s due, with all property details pre-populated.'},
+            {q:'Can I add mosquito control to an existing lawn care or pest control business?', a:'Yes. SprayBossPro manages multiple service types from one account. You can run lawn care, pest control, and mosquito control routes simultaneously, with separate waiting lists by service type and service-specific SMS alert templates.'},
+            {q:'Does it handle chemical compliance logs for mosquito control?', a:'Yes. Every mosquito treatment logs the product, EPA registration number, application rate, target pest, and applicator license. The chemical tracking report exports a formatted compliance log for state inspector requirements — no paper records needed.'},
+            {q:'Can I track treatments remaining on a seasonal mosquito package?', a:'Yes. SprayBossPro tracks treatments remaining per customer on package programs. When a package is nearing completion, you\'re notified so you can initiate the renewal conversation before the season ends.'},
+            {q:'How much does SprayBossPro cost?', a:'$129/month, flat. Every feature — routes, compliance logs, SMS alerts, card-on-file payments — is included at one price. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+          ].map(({q, a}, i, arr) => (
+            <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
+              <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
+              <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* CTA */}
       <div className="cta-band">
         <h2>The Mosquito Control Software<br /><span style={{color:'var(--orange)'}}>Built for Recurring Programs and Real Routes.</span></h2>

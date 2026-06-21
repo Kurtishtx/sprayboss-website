@@ -492,6 +492,27 @@ export default function FertilizerSoftware() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
       </section>
 
+      {/* FAQ */}
+      <section style={{background:'#fff'}}>
+        <div style={{maxWidth:'860px', margin:'0 auto', padding:'80px 40px'}}>
+          <span className="section-label">FAQ</span>
+          <h2 className="section-title" style={{marginBottom:'48px'}}>Fertilizer Software — Common Questions</h2>
+          {[
+            {q:'Does SprayBossPro work for fertilizer businesses?', a:'Yes. SprayBossPro handles recurring fertilizer programs from Round 1 through Winterizer — tracking which round each customer is on, routing by sq ft, logging EPA registration numbers and application rates, and sending automated SMS alerts after each application.'},
+            {q:'Can I track multiple fertilizer rounds per customer?', a:'Yes. SprayBossPro tracks each customer\'s current round, treatments remaining, and next due date. When Round 3 is completed, Round 4 automatically goes back on the waiting list. You always know who is on which round without checking a spreadsheet.'},
+            {q:'Does it log EPA registration numbers and application rates for fertilizer compliance?', a:'Yes. SprayBossPro stores EPA registration numbers at the product level and captures them on every treatment log. Application rates, product, area treated, and applicator license are recorded per treatment and accessible in a print-ready compliance report.'},
+            {q:'Can I build fertilizer routes by square footage?', a:'Yes. The circle-map lasso tool shows sq ft totals in real time as you select accounts for a route. You can filter by service type to show only the round you\'re scheduling and see total sq ft and revenue for the route before dispatching.'},
+            {q:'Does SprayBossPro send re-entry interval notifications after fertilizer applications?', a:'Yes. Post-service SMS alerts can include re-entry timing — "Please keep pets off treated areas for 2 hours." Alerts fire automatically when the technician logs completion — before the customer has a chance to wonder whether it\'s safe to go outside.'},
+            {q:'What does SprayBossPro cost for a fertilizer business?', a:'$129/month, flat. All features included — compliance logs, route tools, SMS alerts, card payments. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+          ].map(({q, a}, i, arr) => (
+            <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
+              <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
+              <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* CTA */}
       <div className="cta-band">
         <h2>Fertilizer Software That Runs Your Rounds<br /><span style={{color:'var(--orange)'}}>From First App to Winterizer. Every Season.</span></h2>

@@ -496,6 +496,27 @@ export default function PestControlSchedulingSoftware() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
       </section>
 
+      {/* FAQ */}
+      <section style={{background:'#fff'}}>
+        <div style={{maxWidth:'860px', margin:'0 auto', padding:'80px 40px'}}>
+          <span className="section-label">FAQ</span>
+          <h2 className="section-title" style={{marginBottom:'48px'}}>Pest Control Scheduling Software — Common Questions</h2>
+          {[
+            {q:'Does SprayBossPro handle recurring pest control scheduling?', a:'Yes. SprayBossPro manages quarterly, bi-monthly, monthly, and custom-interval pest control programs. When a treatment is completed, the next one is automatically placed back on the waiting list at the correct interval — no manual rebooking, no calendar entry.'},
+            {q:'How does the dispatch board work for pest control?', a:'The dispatch board shows all accounts due for service in a waiting list sorted by due date. When you\'re building routes, you lasso a geographic area on the map and all pest control accounts due inside are added to your route. You see stop count and revenue totals before committing to the route.'},
+            {q:'Can I manage both residential and commercial pest control accounts?', a:'Yes. SprayBossPro stores property details, service notes, and treatment history for any account type. Commercial accounts can have separate service areas with independent treatment logs, and their program intervals can differ from residential customers.'},
+            {q:'Does it send automated service notifications?', a:'Yes. SprayBossPro sends automated SMS alerts at each step: appointment reminders, on-the-way notifications, and completion messages including re-entry interval if needed. Alerts are configured once per service type and fire automatically on every job.'},
+            {q:'Can I track renewals and know which customers are coming up for renewal?', a:'Yes. SprayBossPro shows treatments remaining on each customer\'s program. You can run a report to identify renewal candidates approaching the end of their contract — so you can initiate renewal conversations before the program lapses.'},
+            {q:'What does SprayBossPro cost?', a:'$129/month for everything. No per-user fees, no SMS add-ons, no extra charge for compliance logs or route tools. 14-day free trial, no credit card required.'},
+          ].map(({q, a}, i, arr) => (
+            <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
+              <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
+              <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* ════ CTA ════ */}
       <div className="cta-band">
         <h2>Pest Control Scheduling Software That Runs<br /><span style={{color:'var(--orange)'}}>Your Recurring Programs Without the Manual Work.</span></h2>

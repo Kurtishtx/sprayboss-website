@@ -500,6 +500,27 @@ export default function LawnCareSchedulingSoftware() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
       </section>
 
+      {/* FAQ */}
+      <section style={{background:'#fff'}}>
+        <div style={{maxWidth:'860px', margin:'0 auto', padding:'80px 40px'}}>
+          <span className="section-label">FAQ</span>
+          <h2 className="section-title" style={{marginBottom:'48px'}}>Lawn Care Scheduling Software — Common Questions</h2>
+          {[
+            {q:'Does SprayBossPro work for lawn care scheduling?', a:'Yes. SprayBossPro handles recurring lawn care program scheduling — pre-emergent, fertilizer, post-emergent, weed control — with a waiting list dispatch board, circle-map route building, sq ft pricing, and automated SMS for every visit.'},
+            {q:'How does the waiting list work for lawn care?', a:'The waiting list shows every customer due for service, sorted by due date. When you\'re building routes, you open the circle map, lasso a geographic area, and all the accounts inside are selected and added to your route. Sq ft and revenue totals update in real time as you select stops.'},
+            {q:'Can I schedule multiple rounds of a recurring program?', a:'Yes. You can set up recurring programs with any number of rounds. SprayBossPro tracks which round each customer is on, when they\'re due, and how many treatments remain. When a round is completed, the next goes back on the waiting list automatically.'},
+            {q:'Does it send automatic reminders to lawn care customers?', a:'Yes. SprayBossPro sends automated SMS alerts for every visit: day-before reminders, on-the-way notifications, and completion messages. Alerts are configured once and fire automatically for every service. 500 outbound SMS/month are included at no extra charge.'},
+            {q:'Can I price lawn care services by square footage?', a:'Yes. SprayBossPro stores sq ft per property and calculates service pricing based on per-sq-ft rates you set. Pricing appears automatically on the waiting list and in estimates — no manual calculation per stop.'},
+            {q:'How much does SprayBossPro cost for a lawn care business?', a:'$129/month, flat. No per-user fees, no SMS add-ons, no extra charge for chemical logs or route building. Every feature is included. 14-day free trial, no credit card required.'},
+          ].map(({q, a}, i, arr) => (
+            <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
+              <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
+              <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* ════ CTA ════ */}
       <div className="cta-band">
         <h2>Lawn Care Scheduling Software<br /><span style={{color:'var(--orange)'}}>That Actually Saves You Time Every Morning.</span></h2>

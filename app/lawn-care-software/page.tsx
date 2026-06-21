@@ -515,6 +515,27 @@ export default function LawnCareSoftware() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>
       </section>
 
+      {/* FAQ */}
+      <section style={{background:'#fff'}}>
+        <div style={{maxWidth:'860px', margin:'0 auto', padding:'80px 40px'}}>
+          <span className="section-label">FAQ</span>
+          <h2 className="section-title" style={{marginBottom:'48px'}}>Lawn Care Software — Common Questions</h2>
+          {[
+            {q:'Is SprayBossPro built for lawn care businesses?', a:'Yes. SprayBossPro handles the full lawn care operation: recurring program scheduling, sq ft-based route building, chemical application logs, estimate-to-service conversion, automated customer SMS, and card-on-file payments. It\'s designed for companies running treatment routes, not general service businesses.'},
+            {q:'Can I manage multiple service types — lawn care, weed control, fertilizer — in one platform?', a:'Yes. SprayBossPro supports multiple service types from one account, with separate waiting lists by service category. You can run lawn care, weed control, fertilizer, and pest control routes simultaneously with service-specific SMS alerts and independent pricing.'},
+            {q:'How does route building work for lawn care?', a:'You open the circle-map lasso tool, draw a circle around a geographic area, and every lawn care account due inside is selected and added to your route. Sq ft totals, stop count, and estimated revenue update in real time. Route planning that takes 30 minutes in a spreadsheet takes 5 minutes on the map.'},
+            {q:'Does SprayBossPro track chemical applications for lawn care?', a:'Yes. Every treatment logs the product, EPA registration number, rate, and area treated. The chemical compliance report generates a formatted log for state inspector requirements — no separate paper records needed.'},
+            {q:'Does it replace spreadsheets and scheduling apps?', a:'Yes. SprayBossPro replaces spreadsheet scheduling, route planning, customer tracking, and SMS communication tools in one platform. Most owners are fully operational the same day they sign up — no onboarding consultant, no implementation timeline.'},
+            {q:'How much does SprayBossPro cost?', a:'$129/month, all features included. No per-user fees, no add-ons for SMS or route tools, no setup fees. 14-day free trial with no credit card required.'},
+          ].map(({q, a}, i, arr) => (
+            <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
+              <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
+              <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* CTA */}
       <div className="cta-band">
         <h2>Stop Running Your Lawn Care Business<br />on Software Built for Plumbers.</h2>

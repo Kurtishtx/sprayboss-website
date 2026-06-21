@@ -447,6 +447,27 @@ export default function WeedControlSoftware() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
       </section>
 
+      {/* FAQ */}
+      <section style={{background:'#fff'}}>
+        <div style={{maxWidth:'860px', margin:'0 auto', padding:'80px 40px'}}>
+          <span className="section-label">FAQ</span>
+          <h2 className="section-title" style={{marginBottom:'48px'}}>Weed Control Software — Common Questions</h2>
+          {[
+            {q:'Does SprayBossPro work for weed control businesses?', a:'Yes. SprayBossPro manages pre-emergent and post-emergent scheduling, sq ft-based routing, chemical compliance logs, and automated SMS — including re-entry interval messages. It handles recurring weed control programs across a full season with automatic rescheduling after each treatment.'},
+            {q:'Can I schedule pre-emergent and post-emergent treatments separately?', a:'Yes. SprayBossPro manages multiple service types simultaneously. Pre-emergent and post-emergent appear as separate entries on the waiting list, with independent intervals, pricing, and chemical product assignments. You can route one without affecting the other.'},
+            {q:'Does it handle chemical compliance logs for weed control?', a:'Yes. Every weed control treatment logs the product, EPA registration number, application rate, target weed, area treated, and applicator license. The compliance report generates a formatted log for state inspection — no paper records needed.'},
+            {q:'Can SprayBossPro manage weed control alongside lawn care or fertilizer?', a:'Yes. SprayBossPro handles lawn care, fertilizer, pest control, and weed control from one account. The waiting list filters by service type, and SMS alerts are configured independently per service — so weed control customers get weed control-specific messaging.'},
+            {q:'Does it send re-entry interval messages after weed control applications?', a:'Yes. Post-service SMS alerts can include re-entry timing — "Please keep people and pets off treated areas for [X time] while the product dries." Alerts fire automatically at treatment completion, specific to the weed control service type.'},
+            {q:'How much does SprayBossPro cost for a weed control business?', a:'$129/month, flat. All features included. No per-user fees, no SMS add-ons, no extra charge for compliance logs. 14-day free trial, no credit card required.'},
+          ].map(({q, a}, i, arr) => (
+            <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
+              <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
+              <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* CTA */}
       <div className="cta-band">
         <h2>Weed Control Software That Handles Pre-Emergent Timing,<br /><span style={{color:'var(--orange)'}}>Post-Emergent Auto-Scheduling, and Re-Entry SMS.</span></h2>

@@ -483,6 +483,27 @@ export default function PestControlSoftware() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>
       </section>
 
+      {/* FAQ */}
+      <section style={{background:'#fff'}}>
+        <div style={{maxWidth:'860px', margin:'0 auto', padding:'80px 40px'}}>
+          <span className="section-label">FAQ</span>
+          <h2 className="section-title" style={{marginBottom:'48px'}}>Pest Control Software — Common Questions</h2>
+          {[
+            {q:'Does SprayBossPro work for pest control businesses?', a:'Yes. SprayBossPro is built for recurring pest control programs — quarterly, bi-monthly, monthly, and custom intervals. It handles route scheduling, chemical compliance logs, automated SMS alerts, estimate-to-program conversion, and card-on-file payments for recurring treatments.'},
+            {q:'Can I manage quarterly, bi-monthly, and monthly programs at the same time?', a:'Yes. SprayBossPro supports multiple program intervals simultaneously. Each customer can be on a different schedule, and the waiting list tracks every account across all program types. When a treatment is completed, the next one is automatically placed back at the correct interval — no manual rebooking.'},
+            {q:'Does it handle chemical compliance logs for pest control?', a:'Yes. Every pest control treatment logs the product, EPA registration number, application rate, target pest, treatment areas (interior/exterior), and applicator license. The compliance report generates a formatted log suitable for state inspection — no paper records needed.'},
+            {q:'Does SprayBossPro send automated SMS for pest control visits?', a:'Yes. Pre-built SMS alerts include appointment reminders, on-the-way notifications, service completion messages, and re-entry interval instructions. Alerts fire automatically from dispatch and completion events — configured once, sent on every job.'},
+            {q:'Can I manage multiple pest control technicians?', a:'Yes. SprayBossPro supports unlimited technicians. The dispatch board assigns routes to specific technicians, and each uses the mobile app to see their stops, property notes, and chemical log form. No per-user fees regardless of crew size.'},
+            {q:'How much does SprayBossPro cost for pest control?', a:'$129/month, flat. Every feature — route scheduling, compliance logs, SMS alerts, card payments — is included at one price. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+          ].map(({q, a}, i, arr) => (
+            <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
+              <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
+              <p style={{color:'var(--muted)', lineHeight:1.7, margin:0, fontSize:'15px'}}>{a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* CTA */}
       <div className="cta-band">
         <h2>Stop Running Your Pest Control Business<br />on Software Built for Someone Else.</h2>
