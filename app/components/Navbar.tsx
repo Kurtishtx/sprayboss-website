@@ -1,4 +1,5 @@
 'use client';
+import { useState } from 'react';
 
 const solutions = [
   { label: 'Lawn Care Software',           href: '/lawn-care-software' },
@@ -27,48 +28,91 @@ const comparisons = [
 ];
 
 export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElement) => void }) {
+  const [open, setOpen] = useState(false);
+  const [solutionsOpen, setSolutionsOpen] = useState(false);
+  const [compareOpen, setCompareOpen] = useState(false);
+
   return (
-    <nav className="navbar">
-      <div className="navbar-inner">
-        <div className="navbar-brand">
-          <a href="/" style={{textDecoration:'none', display:'flex', alignItems:'center', gap:'8px'}}>
-            <span className="navbar-icon">🌿</span>
-            <span className="navbar-name">SprayBossPro</span>
-          </a>
-        </div>
-        <div className="navbar-links">
-          <div className="nav-dropdown">
-            <span className="nav-dropdown-trigger">Solutions ▾</span>
-            <div className="nav-dropdown-menu">
-              <div className="nav-dropdown-inner">
-                {solutions.map(s => (
-                  <a key={s.href} href={s.href} className="nav-dropdown-item">{s.label}</a>
-                ))}
+    <>
+      <nav className="navbar">
+        <div className="navbar-inner">
+          <div className="navbar-brand">
+            <a href="/" style={{textDecoration:'none', display:'flex', alignItems:'center', gap:'8px'}}>
+              <span className="navbar-icon">🌿</span>
+              <span className="navbar-name">SprayBossPro</span>
+            </a>
+          </div>
+          <div className="navbar-links">
+            <div className="nav-dropdown">
+              <span className="nav-dropdown-trigger">Solutions ▾</span>
+              <div className="nav-dropdown-menu">
+                <div className="nav-dropdown-inner">
+                  {solutions.map(s => (
+                    <a key={s.href} href={s.href} className="nav-dropdown-item">{s.label}</a>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
-          <div className="nav-dropdown">
-            <span className="nav-dropdown-trigger">Compare ▾</span>
-            <div className="nav-dropdown-menu">
-              <div className="nav-dropdown-inner">
-                {comparisons.map(c => (
-                  <a key={c.href} href={c.href} className="nav-dropdown-item">{c.label}</a>
-                ))}
+            <div className="nav-dropdown">
+              <span className="nav-dropdown-trigger">Compare ▾</span>
+              <div className="nav-dropdown-menu">
+                <div className="nav-dropdown-inner">
+                  {comparisons.map(c => (
+                    <a key={c.href} href={c.href} className="nav-dropdown-item">{c.label}</a>
+                  ))}
+                </div>
               </div>
             </div>
+            <a href="/features">Features</a>
+            <a href="/pricing">Pricing</a>
+            <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
+            <button
+              className="navbar-cta"
+              onClick={(e) => onTrialClick(e.currentTarget as HTMLElement)}
+              style={{background:'var(--orange)', color:'#fff', border:'none', borderRadius:'6px', padding:'10px 20px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}
+            >
+              Start Free Trial
+            </button>
           </div>
-          <a href="/features">Features</a>
-          <a href="/pricing">Pricing</a>
-          <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
-          <button
-            className="navbar-cta"
-            onClick={(e) => onTrialClick(e.currentTarget as HTMLElement)}
-            style={{background:'var(--orange)', color:'#fff', border:'none', borderRadius:'6px', padding:'10px 20px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}
-          >
-            Start Free Trial
+          {/* Hamburger — mobile only */}
+          <button className="nav-hamburger" onClick={() => setOpen(!open)} aria-label="Menu">
+            <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'transform .2s', transform: open ? 'rotate(45deg) translate(5px,5px)' : 'none'}}></span>
+            <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'opacity .2s', opacity: open ? 0 : 1}}></span>
+            <span style={{display:'block', width:'22px', height:'2px', background:'#fff', transition:'transform .2s', transform: open ? 'rotate(-45deg) translate(5px,-5px)' : 'none'}}></span>
           </button>
         </div>
-      </div>
-    </nav>
+
+        {/* Mobile menu */}
+        {open && (
+          <div className="nav-mobile-menu">
+            <div className="nav-mobile-section">
+              <div className="nav-mobile-group-trigger" onClick={() => setSolutionsOpen(!solutionsOpen)}>
+                Solutions {solutionsOpen ? '▴' : '▾'}
+              </div>
+              {solutionsOpen && solutions.map(s => (
+                <a key={s.href} href={s.href} className="nav-mobile-item" onClick={() => setOpen(false)}>{s.label}</a>
+              ))}
+            </div>
+            <div className="nav-mobile-section">
+              <div className="nav-mobile-group-trigger" onClick={() => setCompareOpen(!compareOpen)}>
+                Compare {compareOpen ? '▴' : '▾'}
+              </div>
+              {compareOpen && comparisons.map(c => (
+                <a key={c.href} href={c.href} className="nav-mobile-item" onClick={() => setOpen(false)}>{c.label}</a>
+              ))}
+            </div>
+            <a href="/features" className="nav-mobile-link" onClick={() => setOpen(false)}>Features</a>
+            <a href="/pricing" className="nav-mobile-link" onClick={() => setOpen(false)}>Pricing</a>
+            <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer" className="nav-mobile-link" onClick={() => setOpen(false)}>Log In</a>
+            <button
+              className="nav-mobile-cta"
+              onClick={(e) => { setOpen(false); onTrialClick(e.currentTarget as HTMLElement); }}
+            >
+              Start Free Trial
+            </button>
+          </div>
+        )}
+      </nav>
+    </>
   );
 }
