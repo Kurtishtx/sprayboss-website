@@ -68,7 +68,7 @@ html { scroll-behavior: smooth; }
   transition: background .2s !important;
 }
 .navbar-cta:hover { background: var(--orange-dark) !important; }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .navbar-links a:not(.navbar-cta) { display: none; }
   .nav-dropdown { display: none; }
   .navbar-inner { padding: 0 20px; }
