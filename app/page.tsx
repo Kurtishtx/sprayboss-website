@@ -227,6 +227,9 @@ export default function Home() {
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Apps to Install</div></div>
           <div><div className="hero-stat-val">24/7</div><div className="hero-stat-lbl">Access Anywhere</div></div>
         </div>
+        <div style={{marginTop:'64px', maxWidth:'1000px', marginLeft:'auto', marginRight:'auto'}}>
+          <img src="/dashboard-mockup.png" alt="SprayBossPro dashboard on laptop and mobile" style={{width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)'}} />
+        </div>
       </div>
 
       {/* ═══ PREMIUM BAND ═══ */}
