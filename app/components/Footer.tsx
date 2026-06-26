@@ -44,6 +44,10 @@ export default function Footer() {
               <h4>Resources</h4>
               <a href="/blogs">Blog</a>
             </div>
+            <div className="site-footer-col">
+              <h4>BossPro Family</h4>
+              <a href="https://industrybosspro.com">IndustryBossPro</a>
+            </div>
           </div>
         </div>
         <div className="site-footer-bottom">
