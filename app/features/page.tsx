@@ -142,7 +142,6 @@ export default function Features() {
 
   return (
     <>
-      <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" async />
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
       {/* HERO */}

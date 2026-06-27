@@ -54,10 +54,13 @@ function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.sty
 
 export default function Home() {
   useEffect(() => {
-    const s = document.createElement('script');
-    s.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
-    s.async = true;
-    document.head.appendChild(s);
+    // Load Supabase once — guard against a duplicate <script> (StrictMode re-mounts / re-renders)
+    if (!document.querySelector('script[src*="@supabase/supabase-js"]')) {
+      const s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
+      s.async = true;
+      document.head.appendChild(s);
+    }
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== 'Enter' || !sbpOpenForm) return;
       const n = sbpOpenForm;
@@ -216,7 +219,7 @@ export default function Home() {
       {/* ═══ MOCKUP IMAGE ═══ */}
       <div style={{background:'linear-gradient(135deg,#080010 0%,#130520 60%,#1e0a35 100%)', padding:'80px 40px 0', textAlign:'center'}}>
         <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.png" alt="SprayBossPro spray business software showing the circle-map route builder, waiting list, and mobile app for lawn care and pest control technicians" style={{width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
+          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="SprayBossPro spray business software showing the circle-map route builder, waiting list, and mobile app for lawn care and pest control technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
         </div>
       </div>
 

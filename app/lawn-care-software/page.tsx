@@ -237,7 +237,11 @@ export default function LawnCareSoftware() {
       {/* HERO IMAGE */}
       <div style={{background:'var(--purple-dark)', padding:'0 40px 60px', textAlign:'center'}}>
         <img
-          src="/dashboard-mockup.png"
+          src="/dashboard-mockup.webp"
+          width={1200}
+          height={800}
+          fetchPriority="high"
+          decoding="async"
           alt="SprayBossPro lawn care software dashboard on laptop showing circle-map route builder and waiting list, with mobile app on phone"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
