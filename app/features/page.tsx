@@ -123,10 +123,6 @@ function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.sty
 
 export default function Features() {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
-    script.async = true;
-    document.head.appendChild(script);
     const handler = (e: KeyboardEvent) => {
       if (e.key !== 'Enter' || !sbpOpenForm) return;
       const n = sbpOpenForm;

@@ -54,13 +54,7 @@ function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.sty
 
 export default function Home() {
   useEffect(() => {
-    // Load Supabase once — guard against a duplicate <script> (StrictMode re-mounts / re-renders)
-    if (!document.querySelector('script[src*="@supabase/supabase-js"]')) {
-      const s = document.createElement('script');
-      s.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
-      s.async = true;
-      document.head.appendChild(s);
-    }
+    // Supabase is loaded once globally via <Script> in app/layout.tsx — no per-page load needed.
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== 'Enter' || !sbpOpenForm) return;
       const n = sbpOpenForm;

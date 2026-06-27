@@ -18,10 +18,6 @@ function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.sty
 
 export default function VsServiceTitan() {
   useEffect(() => {
-    const s = document.createElement('script');
-    s.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
-    s.async = true;
-    document.head.appendChild(s);
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== 'Enter' || !sbpOpenForm) return;
       const n = sbpOpenForm;

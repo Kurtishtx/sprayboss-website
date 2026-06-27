@@ -161,10 +161,6 @@ const faqs = [
 
 export default function Pricing() {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
-    script.async = true;
-    document.head.appendChild(script);
     const handler = (e: KeyboardEvent) => {
       if (e.key !== 'Enter' || !sbpOpenForm) return;
       const n = sbpOpenForm;
