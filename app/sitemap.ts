@@ -3,6 +3,7 @@ import { MetadataRoute } from 'next';
 const BASE = 'https://spraybosspro.com';
 
 const hubPages = [
+  '/tree-and-shrub-care-software',
   '/lawn-care-scheduling-software',
   '/fertilizer-software',
   '/weed-control-software',
@@ -29,6 +30,37 @@ const vsPages = [
 ];
 
 const blogSlugs = [
+  // Tree & Shrub Care (Wave 1 — 2026-07-18)
+  'tree-and-shrub-care-scheduling-software',
+  'tree-and-shrub-treatment-routing-software',
+  'tree-and-shrub-spray-compliance-software',
+  'tree-and-shrub-program-billing-software',
+  'tree-and-shrub-care-crm-software',
+  'tree-and-shrub-care-invoicing-software',
+  'tree-and-shrub-care-estimating-software',
+  'tree-and-shrub-care-mobile-app',
+  'tree-and-shrub-care-route-density-software',
+  'tree-and-shrub-care-recurring-program-software',
+  'dormant-oil-application-scheduling-software',
+  'deep-root-fertilization-tracking-software',
+  'tree-injection-record-keeping-software',
+  'tree-and-shrub-care-photo-documentation-software',
+  'tree-and-shrub-care-text-alert-software',
+  'tree-and-shrub-care-review-automation-software',
+  'tree-and-shrub-care-online-booking-software',
+  'tree-and-shrub-care-payment-collection-software',
+  'tree-and-shrub-care-lead-management-software',
+  'tree-and-shrub-care-dispatch-software',
+  'tree-and-shrub-care-gps-tracking-software',
+  'tree-and-shrub-care-reporting-software',
+  'tree-and-shrub-care-program-renewal-software',
+  'tree-and-shrub-care-commercial-account-software',
+  'add-tree-and-shrub-care-to-lawn-care-business',
+  'tree-and-shrub-care-seasonal-scheduling-software',
+  'tree-and-shrub-pest-and-disease-tracking-software',
+  'tree-and-shrub-care-multi-crew-software',
+  'tree-and-shrub-care-software-vs-spreadsheets',
+  'tree-and-shrub-care-route-optimization-software',
   // Lawn Care Scheduling
   'how-to-build-lawn-care-routes-fast',
   'lawn-care-scheduling-mistakes',
