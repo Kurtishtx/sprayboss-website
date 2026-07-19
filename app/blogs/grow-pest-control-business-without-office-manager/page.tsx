@@ -38,6 +38,7 @@ export default function Page() {
           <h3>200 accounts. One person running the office. Software doing the scheduling, dispatch, SMS, and billing.</h3>
           <p>SprayBossPro automates the scheduling, communication, and billing functions that would otherwise require a dedicated office manager — so pest control companies can grow their account base without growing their office payroll in parallel.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

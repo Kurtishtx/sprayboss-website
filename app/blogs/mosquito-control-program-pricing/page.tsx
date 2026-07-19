@@ -34,6 +34,7 @@ export default function Page() {
           <h3>Seasonal packages. Per-visit billing. Prepay discounts. Tiered by property size. All tracked in the same system.</h3>
           <p>SprayBossPro tracks mosquito program pricing and customer payment structure by account — with per-sq-ft revenue calculation in the waiting list so route revenue reflects actual program pricing before you build the route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>38 accounts. $4,200. Full crew day or half day? You know before 7:30 AM.</h3>
           <p>SprayBossPro&apos;s waiting list shows a live revenue total for all due accounts — filterable by service type, selectable by geographic cluster, updated in real time as the dispatcher builds the route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

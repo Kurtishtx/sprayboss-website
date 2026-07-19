@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Prove every treatment without lifting a finger at the office.</h3>
           <p>SprayBossPro captures before-and-after termite photos in the field and files them on the property forever. Start your free trial and build a record that protects your warranty and your reputation.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

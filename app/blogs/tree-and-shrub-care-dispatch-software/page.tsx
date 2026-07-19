@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put the Right Crew at the Right Property</h3>
           <p>See how SprayBossPro combines map routing, the crew app, and GPS to dispatch tree and shrub rounds efficiently and feed billing and reviews automatically.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

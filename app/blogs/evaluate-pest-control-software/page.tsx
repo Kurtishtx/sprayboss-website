@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Auto-scheduling. Product library EPA pre-fill. Automatic REI SMS. Package tracking. Flat pricing. Inspector-ready in 60 seconds. SprayBossPro says yes to all six.</h3>
           <p>SprayBossPro is built specifically for recurring pest control operations — try it free for 14 days with every feature unlocked, no credit card required.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

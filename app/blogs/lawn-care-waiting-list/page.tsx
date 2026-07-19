@@ -51,6 +51,7 @@ export default function Page() {
           <h3>Know exactly what&apos;s on deck before you build a single route.</h3>
           <p>SprayBossPro&apos;s waiting list shows every pending customer organized by service type with square footage totals — so your mornings start with clarity, not guesswork.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

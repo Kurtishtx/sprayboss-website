@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Fertilizer, weed control, pest control, mosquito — one waiting list, one map, one dispatch workflow.</h3>
           <p>SprayBossPro manages every spray service type with independent scheduling intervals, service-specific compliance logs, and per-type SMS templates — all from the same platform your dispatcher uses every morning.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

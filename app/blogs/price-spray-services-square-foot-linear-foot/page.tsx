@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Per-sq-ft and per-linear-ft pricing. Route revenue calculated before dispatch. Total sq ft visible in the waiting list.</h3>
           <p>SprayBossPro stores property sq ft and linear footage on every account and calculates route revenue automatically in the waiting list — so dispatchers see expected revenue before building a single route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

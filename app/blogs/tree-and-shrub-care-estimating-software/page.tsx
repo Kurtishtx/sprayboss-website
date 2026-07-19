@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Quote the whole season in minutes</h3>
           <p>See how SprayBossPro builds fast, consistent tree and shrub program quotes and turns an approved estimate into a scheduled, billable round automatically. Stop losing deals to a slow proposal.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

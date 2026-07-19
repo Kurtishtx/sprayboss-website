@@ -32,6 +32,7 @@ export default function Page() {
           <h3>1 remaining treatment = call today. 2 remaining = next week. The list is always current and always prioritized.</h3>
           <p>SprayBossPro&apos;s package tracking surfaces renewal-ready accounts automatically — so every pest control customer gets renewal outreach at exactly the right time, and none of them lapse from an oversight.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

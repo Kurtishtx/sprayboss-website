@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Get paid for every round you run.</h3>
           <p>SprayBossPro auto-bills completed grub rounds, charges the card on file through Stripe, and chases the rest, so revenue stops leaking during your busiest window. Start a free trial and tighten up your cash flow.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

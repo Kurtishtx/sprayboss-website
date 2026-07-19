@@ -51,6 +51,7 @@ export default function Page() {
           <h3>Every required compliance field captured at the property — state-ready on demand.</h3>
           <p>SprayBossPro&apos;s field logging form captures all required EPA compliance fields via the product library — EPA reg numbers, rates, re-entry intervals, treatment areas, and weather conditions — submitted at the property and available for inspection in seconds.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

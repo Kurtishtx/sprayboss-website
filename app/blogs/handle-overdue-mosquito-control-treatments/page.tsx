@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Overdue accounts flagged by days past due. Routed first. Recovered before customers notice the protection gap.</h3>
           <p>SprayBossPro surfaces mosquito overdue accounts with days-past-due indicators in both the waiting list and map view — so dispatchers route the most behind customers first and recover from weather delays before protection gaps become customer complaints.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

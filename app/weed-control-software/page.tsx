@@ -488,6 +488,7 @@ export default function WeedControlSoftware() {
         <p>$129/month gets you pre-emergent seasonal scheduling, post-emergent auto-rescheduling, compliance logs, re-entry interval SMS, and Lasso routing — all built for lawn care companies running recurring weed control programs. No add-ons. No contracts.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

@@ -52,6 +52,7 @@ export default function Page() {
           <h3>Give your technicians a logging workflow that takes 60 seconds and produces complete records.</h3>
           <p>SprayBossPro&apos;s mobile compliance log pre-fills property data, EPA reg numbers, and application rates so your techs spend less than a minute on compliance logging at every stop.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

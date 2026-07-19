@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Spring startup. 200 returning customer programs activated. First treatments in the waiting list. All in one batch action.</h3>
           <p>SprayBossPro handles mosquito spray seasonal startup and shutdown through the package plan structure — activating and deactivating programs systematically with automated communication at every seasonal touchpoint.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

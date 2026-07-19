@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Add mosquito spray as a new service type on existing properties — same platform, same waiting list, no separate system.</h3>
           <p>SprayBossPro supports mosquito control sq ft, mosquito control linear ft, lawn care, pest control, and more on the same property — so adding mosquito spray to an existing book is a service type addition, not a software overhaul.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

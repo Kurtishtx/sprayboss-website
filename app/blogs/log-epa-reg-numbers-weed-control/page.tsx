@@ -47,6 +47,7 @@ export default function Page() {
           <h3>EPA reg numbers in every compliance record — without technicians memorizing or typing them.</h3>
           <p>SprayBossPro&apos;s product library pre-fills EPA reg numbers, application rates, and re-entry intervals when a technician selects a product in the field — eliminating manual entry and the errors that come with it.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

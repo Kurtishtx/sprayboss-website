@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Interior and exterior applications logged as separate records — correct product, correct zones, correct re-entry for each.</h3>
           <p>SprayBossPro supports multi-product visit logging with separate compliance entries per application zone, each with its own EPA reg number, treatment area checklist, and re-entry interval from the product library.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

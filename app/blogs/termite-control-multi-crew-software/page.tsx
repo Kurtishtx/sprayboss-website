@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Scale past one truck without losing control of quality.</h3>
           <p>SprayBossPro assigns crews, tracks hours, and keeps every technician working to the same standard. Start your free trial and grow your termite company with confidence.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

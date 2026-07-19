@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Run every crew off one shared schedule</h3>
           <p>SprayBossPro assigns routes across trucks, keeps every crew on the same property records, and rolls completions into billing. See how it turns a second truck into real capacity.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

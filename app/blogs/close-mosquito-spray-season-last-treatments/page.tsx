@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Season-close message automated from the final treatment. Renewal confirmations before the off-season starts. Full-season compliance report in one export.</h3>
           <p>SprayBossPro ties season close to treatment completion events — so the last-treatment message, renewal prompt, and annual compliance report all flow from the same operational workflow.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

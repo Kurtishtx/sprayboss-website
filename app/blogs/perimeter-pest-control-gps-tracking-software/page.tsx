@@ -32,6 +32,7 @@ export default function Page() {
           <h3>See every truck, every route, in real time.</h3>
           <p>SprayBossPro puts live GPS truck tracking alongside the routes and stops your crews run, so dispatch, disputes, and payroll all get easier. Start a trial and take the guesswork out of your fleet.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put the whole day on one phone</h3>
           <p>See how the SprayBossPro mobile app runs routes, logs treatments, captures before-and-after photos, and builds compliance records in the field. Give your tree and shrub crews one tool for the whole day.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

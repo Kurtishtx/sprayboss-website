@@ -62,6 +62,7 @@ export default function Page() {
           <h3>Catch overdue accounts before your customers do.</h3>
           <p>SprayBossPro flags overdue treatments in your waiting list automatically so you can prioritize and route them before anyone notices they were missed.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

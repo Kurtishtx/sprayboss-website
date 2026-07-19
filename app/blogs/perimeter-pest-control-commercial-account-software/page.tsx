@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Run your biggest commercial accounts without drowning the office.</h3>
           <p>SprayBossPro holds HOAs and property managers as one account with many properties, consolidated billing, and audit-ready records. Start managing commercial perimeter programs the easy way.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Fertilizer. Mosquito control. Pest control. Flower beds. One customer. Four programs. Zero manual cross-tracking.</h3>
           <p>SprayBossPro handles multiple simultaneous service programs per property under a single account — each with separate sq ft areas, separate waiting list entries, separate product mixes, and separate auto-scheduling intervals.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

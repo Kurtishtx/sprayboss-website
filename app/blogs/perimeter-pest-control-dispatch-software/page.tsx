@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put the right truck on every stop, all day long.</h3>
           <p>SprayBossPro pairs GPS tracking, Lasso routing, and a live crew app so dispatch runs on real locations, not guesswork. Start a free trial and tighten every route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

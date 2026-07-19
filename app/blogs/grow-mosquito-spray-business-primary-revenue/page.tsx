@@ -32,6 +32,7 @@ export default function Page() {
           <h3>20 accounts to 250. Add-on to primary revenue. The software scales the same way — waiting list, circle routing, automated SMS, compliance logs, no extra systems needed.</h3>
           <p>SprayBossPro is built for the full arc of a mosquito spray business — from 20 accounts as an add-on to 300 accounts as the primary revenue driver. Same platform. Same workflow. Scales with you.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

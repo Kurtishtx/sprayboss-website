@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Cut windshield time and fit in more stops</h3>
           <p>SprayBossPro groups nearby properties into tight, crew-assigned routes so trucks drive less and treat more. See how better routing turns saved miles into real capacity.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

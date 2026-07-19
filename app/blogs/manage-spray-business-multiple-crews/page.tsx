@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Multiple circles. Multiple crews. Both routes dispatched in under 30 minutes from one map view.</h3>
           <p>SprayBossPro handles multi-crew spray dispatch, real-time progress tracking for all trucks, and compliance log visibility across all field technicians — from the same platform the dispatcher uses for single-crew routes.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

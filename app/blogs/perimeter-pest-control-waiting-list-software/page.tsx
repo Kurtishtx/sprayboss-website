@@ -32,6 +32,7 @@ export default function Page() {
           <h3>See exactly what&apos;s due before you build a single route.</h3>
           <p>SprayBossPro&apos;s square-foot waiting list turns your recurring perimeter program into a prioritized, plannable queue. Start a free trial and stop guessing at your schedule.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Quarterly and bi-monthly programs tracked independently — each account surfaces exactly when it&apos;s due.</h3>
           <p>SprayBossPro auto-schedules quarterly accounts at 90 days and bi-monthly accounts at 60 days from each completion date, with separate SMS templates and waiting list filters for each program type.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

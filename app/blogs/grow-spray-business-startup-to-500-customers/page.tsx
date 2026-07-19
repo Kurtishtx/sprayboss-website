@@ -35,6 +35,7 @@ export default function Page() {
           <h3>The systems that take a spray business from startup to 500 customers — built in from day one.</h3>
           <p>SprayBossPro gives spray businesses the waiting list, circle routing, compliance logging, and automated SMS that scale smoothly from 50 customers to 500 without adding administrative staff proportionally.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

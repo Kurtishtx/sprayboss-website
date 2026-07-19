@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Stop rebuilding your book every spring</h3>
           <p>SprayBossPro keeps tree and shrub programs renewing season after season with recurring rounds, round-by-round invoicing, and card on file. Lock in retention and start each year ahead.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Product library fills the hard fields. Required fields enforce completeness. Training closes the gaps.</h3>
           <p>SprayBossPro&apos;s compliance log pre-fills EPA reg numbers, rates, and re-entry intervals from the product library — so mosquito technicians submit complete, accurate logs in under 90 seconds per stop, every stop.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

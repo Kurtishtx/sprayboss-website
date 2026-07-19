@@ -42,6 +42,7 @@ export default function Page() {
           <h3>Product-specific re-entry interval. Sent automatically. To the right customer. Within seconds of service completion.</h3>
           <p>SprayBossPro fires post-service SMS with the REI pulled directly from the applied product in the compliance log — correct interval, specific to what was actually sprayed, delivered before the technician leaves the driveway.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

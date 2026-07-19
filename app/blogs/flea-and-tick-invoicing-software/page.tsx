@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Get paid the day your flea and tick route runs.</h3>
           <p>SprayBossPro builds the invoice from the completed job and charges card-on-file automatically. Start your flea and tick program on SprayBossPro and close the gap between service and cash.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

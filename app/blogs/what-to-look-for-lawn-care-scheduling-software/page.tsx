@@ -52,6 +52,7 @@ export default function Page() {
           <h3>Built for every must-have on this list.</h3>
           <p>SprayBossPro has a waiting list with sq ft totals, auto-rescheduling, map-based routing, mobile dispatch, automated SMS alerts, and chemical compliance logging — all at $129/month, everything included.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

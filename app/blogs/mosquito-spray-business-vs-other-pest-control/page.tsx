@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Exterior service. 21-day intervals. Sq ft and linear ft pricing. 6-month season. Compliance communication. Software built for exactly this model.</h3>
           <p>SprayBossPro is purpose-built for mosquito spray businesses — with the interval scheduling, measurement fields, seasonal structure, and compliance communication that distinguish barrier spray from general pest control.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

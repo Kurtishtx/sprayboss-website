@@ -35,6 +35,7 @@ export default function Page() {
           <h3>2 to 4 weeks. Complete setup before import. One parallel week. Full cutover with confidence.</h3>
           <p>SprayBossPro is designed for fast transitions — with package plan templates, CSV import support, and a setup process that can be completed in one active season without disrupting a single service route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

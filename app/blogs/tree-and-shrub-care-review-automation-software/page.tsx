@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Turn Every Round Into a Review</h3>
           <p>See how SprayBossPro connects your crew app, two-way SMS, and before/after photos to automate reviews the moment each shrub-care visit is complete. Start building the reputation that wins new tree and shrub contracts.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

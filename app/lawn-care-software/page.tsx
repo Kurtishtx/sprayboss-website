@@ -225,6 +225,7 @@ export default function LawnCareSoftware() {
         <p>Most field service software is built for plumbers and HVAC techs. SprayBossPro is built from the ground up for lawn care businesses — the way you schedule, route, track, and bill is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Sq Ft</div><div className="hero-stat-lbl">Waiting List Totals Per Service</div></div>
@@ -556,6 +557,7 @@ export default function LawnCareSoftware() {
         <p>SprayBossPro is the only lawn care management software built by someone who has actually run a spray route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

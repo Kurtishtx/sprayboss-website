@@ -34,6 +34,7 @@ export default function Page() {
           <h3>See every weed control treatment due today — without reviewing a single individual account.</h3>
           <p>SprayBossPro auto-populates your waiting list when each account becomes due, organized by service type with sq ft totals — so your morning routing starts with complete visibility, not manual account review.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

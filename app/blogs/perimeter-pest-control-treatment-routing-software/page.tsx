@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Fit more barrier sprays into every route day.</h3>
           <p>SprayBossPro&apos;s map-based Lasso routing clusters your due stops and cuts drive time. Start a free trial and get more out of every truck.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

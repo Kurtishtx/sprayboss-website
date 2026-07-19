@@ -43,6 +43,7 @@ export default function Page() {
           <h3>Fertilizer programs need fertilizer software. Not a general scheduling tool with a notes field.</h3>
           <p>SprayBossPro tracks rounds, logs EPA reg numbers, sends re-entry interval SMS, and organizes your waiting list by round — built specifically for companies running multi-round fertilizer programs.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

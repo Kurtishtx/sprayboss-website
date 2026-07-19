@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put every customer in one record you can trust.</h3>
           <p>SprayBossPro ties every property, program, application, photo, and payment into one profile, so your whole team can serve customers without digging. Start a free trial and build your single source of truth.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

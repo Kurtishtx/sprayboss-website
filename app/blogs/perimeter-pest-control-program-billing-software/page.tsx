@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Bill every round automatically and get paid on time.</h3>
           <p>SprayBossPro auto-bills completed rounds with card-on-file and chases the stragglers for you. Start a free trial and stop leaving revenue on the table.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Every completion triggers the next visit. Every program type. Every customer. Zero manual rebooking.</h3>
           <p>SprayBossPro auto-schedules the next spray visit from every completion across all service types and program intervals — so your waiting list is always current without your office touching anything between visits.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

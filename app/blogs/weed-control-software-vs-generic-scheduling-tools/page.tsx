@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Built for weed control programs — not adapted from a generic scheduling template.</h3>
           <p>SprayBossPro handles seasonal timing windows, multi-program accounts, field-submitted compliance logs with product libraries, and product-specific re-entry SMS — features that don&apos;t exist in generic field service tools.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

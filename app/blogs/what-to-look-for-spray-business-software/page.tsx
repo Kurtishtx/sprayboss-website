@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Five questions that separate purpose-built spray software from generic tools that technically work.</h3>
           <p>SprayBossPro answers all five correctly — auto-scheduling from completion dates, product library compliance logs, automatic service-specific SMS alerts, and a waiting list map built for spray business dispatching.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

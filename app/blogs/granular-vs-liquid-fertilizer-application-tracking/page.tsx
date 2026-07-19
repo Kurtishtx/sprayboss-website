@@ -56,6 +56,7 @@ export default function Page() {
           <h3>Log granular and liquid applications correctly — from the field.</h3>
           <p>SprayBossPro&apos;s mobile compliance log adapts to granular or liquid application types and pre-fills calculations from stored sq ft data so every record is complete before the tech leaves the property.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

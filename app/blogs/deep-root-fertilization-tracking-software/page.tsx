@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Track Every Feeding by Property</h3>
           <p>See how SprayBossPro logs deep root injections at the property, schedules recurring feeding programs, and keeps a clean compliance record. Book a walkthrough today.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

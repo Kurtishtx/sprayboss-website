@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Keep every pest and disease note with the property</h3>
           <p>SprayBossPro attaches service notes and history to each property so any crew sees what was found and treated before they start. See how tracking makes every diagnosis sharper.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

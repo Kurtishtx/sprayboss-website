@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Know your grub numbers by crew and route, while the season is still running.</h3>
           <p>SprayBossPro turns every completed application, invoice, and payment into clear reports, so you can fix slow routes and thin margins before the window closes. See your real numbers.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

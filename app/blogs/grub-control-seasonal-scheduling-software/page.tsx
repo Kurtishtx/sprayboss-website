@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Never miss the preventive grub window again.</h3>
           <p>SprayBossPro&apos;s recurring programs and square-footage waiting list put every due lawn in front of you at the right time. Start free and treat on schedule.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

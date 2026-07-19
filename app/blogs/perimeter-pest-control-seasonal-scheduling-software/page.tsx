@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put every barrier treatment in the window that actually protects the customer.</h3>
           <p>SprayBossPro anchors each property to its recurring cadence and surfaces due work automatically, so perimeter programs stay on schedule through the whole season. See seasonal scheduling in action.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

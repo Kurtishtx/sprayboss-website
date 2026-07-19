@@ -44,6 +44,7 @@ export default function Page() {
           <h3>Required fields enforce complete logs. Product library eliminates memory errors. Mobile forms eliminate friction.</h3>
           <p>SprayBossPro&apos;s compliance log form can&apos;t be submitted with missing required fields, pre-fills hard data from the product library, and uses mobile-native checklists that submit in under 90 seconds per stop.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Know your revenue per weed control round before a single stop is dispatched.</h3>
           <p>SprayBossPro calculates expected revenue per stop from stored sq ft and assigned rates — visible on every route summary, waiting list view, and customer account history.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

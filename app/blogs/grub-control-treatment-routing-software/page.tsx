@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Fit more grub applications into every route day.</h3>
           <p>SprayBossPro&apos;s circle-map Lasso routing clusters nearby lawns and cuts windshield time so crews cover more square footage without rushing. Try it free and tighten up your preventive window.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

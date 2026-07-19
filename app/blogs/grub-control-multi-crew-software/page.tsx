@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Add trucks without adding chaos.</h3>
           <p>SprayBossPro runs multiple grub crews from one system with a mobile app, role-based access, and per-crew reporting. Start free and scale past one truck.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

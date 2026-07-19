@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Nutsedge programs on their own 4-week cycle — tracked separately from your main weed control program.</h3>
           <p>SprayBossPro lets you configure nutsedge control as a separate service type with its own interval, products, compliance log template, and SMS — so specialty programs don&apos;t disrupt your standard program scheduling.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

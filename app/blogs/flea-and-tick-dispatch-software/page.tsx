@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put the right crew at every flea and tick property, every day.</h3>
           <p>SprayBossPro gives you live routes, real-time job status, and GPS truck tracking in one system. Run dispatch with control instead of guesswork.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

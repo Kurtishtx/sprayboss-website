@@ -46,6 +46,7 @@ export default function Page() {
           <h3>Build your whole week&apos;s schedule in under an hour Monday morning.</h3>
           <p>SprayBossPro gives you a live waiting list, map-based route building, and automatic drive order optimization to turn weekly scheduling into a 45-minute process instead of an all-day headache.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

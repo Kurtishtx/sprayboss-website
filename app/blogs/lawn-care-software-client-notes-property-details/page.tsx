@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Gate code. Dog in yard. Knock before entry. The technician sees it all before they pull in.</h3>
           <p>SprayBossPro property notes, custom fields, and tags give every technician complete property context on every dispatched stop — no phone calls to the office required.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

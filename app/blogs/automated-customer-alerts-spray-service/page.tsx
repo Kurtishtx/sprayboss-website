@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Day-before, on-the-way, post-service. Three automated alerts per stop. Zero manual sends.</h3>
           <p>SprayBossPro fires all three customer alerts automatically — triggered by dispatch, by technician transit, and by compliance log submission — with service-type-specific language and product-accurate re-entry intervals.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

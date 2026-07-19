@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Turn every quiet grub round into a public 5-star review.</h3>
           <p>SprayBossPro sends automated review requests the moment a grub application is marked complete, so your best invisible work finally shows up online. Start building your review stream today.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

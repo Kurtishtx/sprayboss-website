@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Quote grub programs in minutes and close before the window closes.</h3>
           <p>SprayBossPro builds consistent, square-foot-based estimates you can send and convert in a couple of taps. Start your free trial and win the fast-quote race.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

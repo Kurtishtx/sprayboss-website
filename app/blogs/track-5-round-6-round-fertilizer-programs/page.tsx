@@ -44,6 +44,7 @@ export default function Page() {
           <h3>Never lose count of where a customer is in their program.</h3>
           <p>SprayBossPro tracks every round per property automatically — advancing the count after each completed visit so your waiting list always shows exactly who&apos;s due for what round and when.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

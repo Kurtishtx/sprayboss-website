@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Quarterly. Bi-monthly. Monthly. Each interval configured once — auto-scheduling handles every visit forever.</h3>
           <p>SprayBossPro configures each pest control program interval at the service level so quarterly, bi-monthly, and monthly accounts all auto-schedule from their actual completion dates without any manual calculation between visits.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Interval scheduling. Sq ft routing. Chemical compliance. Automated SMS. Built for mosquito spray — not adapted from something else.</h3>
           <p>SprayBossPro is purpose-built for barrier spray operations — with the measurement fields, interval scheduling, circle routing, compliance logging, and SMS automation that generic scheduling tools can&apos;t replicate.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

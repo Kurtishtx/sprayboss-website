@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Grow into full-property care the easy way</h3>
           <p>SprayBossPro lets you run tree and shrub programs beside your lawn work in one system, cross-sell your existing customers, and route both services together. Add the service without the chaos.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

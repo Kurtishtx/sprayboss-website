@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Add a recurring revenue stream you already drive past.</h3>
           <p>SprayBossPro gives you the programs, routing, and automated billing to launch perimeter pest control profitably. Start a free trial and grow your route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

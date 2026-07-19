@@ -53,6 +53,7 @@ export default function Page() {
           <h3>Know your revenue per stop before the crew leaves the shop.</h3>
           <p>SprayBossPro stores sq ft on every property and calculates expected revenue per stop and per route so you can see the profitability of your schedule before it runs.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

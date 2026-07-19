@@ -59,6 +59,7 @@ export default function Page() {
           <h3>Your spreadsheet got you here. Software will get you further.</h3>
           <p>SprayBossPro replaces the manual work behind your spreadsheet with automated scheduling, dispatch, alerts, and billing — built specifically for lawn care programs.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

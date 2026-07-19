@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Always know which lawns are due before you build the route.</h3>
           <p>SprayBossPro&apos;s square-foot waiting list keeps every due grub application in front of you and turns it into a tight route. Try it free.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

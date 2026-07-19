@@ -32,6 +32,7 @@ export default function Page() {
           <h3>See every grub truck on one live map.</h3>
           <p>SprayBossPro gives you real-time GPS visibility across your fleet, so you can answer customer calls with facts and keep tight grub routes on schedule. Get eyes on your whole operation.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Run your termite company on real numbers, not gut feel.</h3>
           <p>SprayBossPro&apos;s dashboard and reports pull straight from the field, so you see revenue, productivity, and program health by crew and route. See your numbers clearly today.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

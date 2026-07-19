@@ -32,6 +32,7 @@ export default function Page() {
           <h3>$129/month. All features. Unlimited users. No per-account tiers. No add-on modules.</h3>
           <p>SprayBossPro&apos;s flat pricing means every feature is available from day one — and the cost stays constant as you add technicians, add accounts, and grow the business. No pricing traps that penalize success.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -48,6 +48,7 @@ export default function Page() {
           <h3>Every chemical application logged correctly at the property — state-ready on demand, across every service type.</h3>
           <p>SprayBossPro captures all required compliance fields via required form fields and product library pre-fill — submitted in the field, immediately searchable in the office, exportable for any inspection request.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

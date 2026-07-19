@@ -47,6 +47,7 @@ export default function Page() {
           <h3>Know the full scope of your fertilizer day before you build a single route.</h3>
           <p>SprayBossPro&apos;s round-organized waiting list shows pending customers by round number, service type, and total sq ft — so every morning starts with complete visibility, not a guessing game.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

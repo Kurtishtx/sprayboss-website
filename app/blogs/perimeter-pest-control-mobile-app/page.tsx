@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put your crew&apos;s whole perimeter pest day on one phone.</h3>
           <p>SprayBossPro gives technicians the route, logging, photos, and payment collection in the field. Start a trial and get the office and the crew on the same system.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

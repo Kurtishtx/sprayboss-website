@@ -225,6 +225,7 @@ export default function PerimeterPestControlSoftware() {
         <p>Most field service software is built for plumbers and HVAC techs. SprayBossPro is built from the ground up for perimeter pest control companies — the way you run recurring quarterly and bi-monthly barrier routes, track what&apos;s due, and bill a subscription program is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Due</div><div className="hero-stat-lbl">Waiting List of What&apos;s Due Per Service</div></div>
@@ -556,6 +557,7 @@ export default function PerimeterPestControlSoftware() {
         <p>SprayBossPro is the only perimeter pest control management software built by someone who has actually run a recurring spray route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

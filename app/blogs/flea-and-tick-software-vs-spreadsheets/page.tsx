@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Trade the spreadsheet busywork for a system that runs the season.</h3>
           <p>SprayBossPro handles the scheduling, routing, compliance, and billing that spreadsheets hand back to you. Make the switch in the offseason and open spring on real software.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

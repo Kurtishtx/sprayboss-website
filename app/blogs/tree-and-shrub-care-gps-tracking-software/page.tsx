@@ -32,6 +32,7 @@ export default function Page() {
           <h3>See your whole fleet on one map</h3>
           <p>SprayBossPro gives tree and shrub care companies live GPS tracking, tidy route maps, and mobile completion in one system. Start organizing your crews around the map instead of the phone.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

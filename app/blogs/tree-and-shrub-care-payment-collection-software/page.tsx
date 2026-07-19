@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Get Paid for Every Round You Complete</h3>
           <p>See how SprayBossPro uses card-on-file billing through Stripe to auto-charge recurring shrub-care programs as visits complete, speeding cash flow and cutting past-due balances.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

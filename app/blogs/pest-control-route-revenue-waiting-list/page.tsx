@@ -40,6 +40,7 @@ export default function Page() {
           <h3>See route revenue before you build the route — not after the trucks are back.</h3>
           <p>SprayBossPro shows expected revenue, total sq ft, program type breakdown, and overdue count for any area you circle on the waiting list map before a single stop is added to a route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

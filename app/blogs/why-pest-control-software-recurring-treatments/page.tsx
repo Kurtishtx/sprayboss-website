@@ -29,6 +29,7 @@ export default function Page() {
           <h3>Recurring auto-scheduling. Package treatment tracking. EPA pre-fill compliance logs. Built for pest control, not adapted for it.</h3>
           <p>SprayBossPro is purpose-built for pest control companies running recurring programs — with every feature the industry requires at $129/month flat, no add-ons.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

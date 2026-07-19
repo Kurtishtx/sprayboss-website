@@ -33,6 +33,7 @@ export default function Page() {
           <h3>Mosquito add-on on the same account as lawn care or pest control — scheduled independently, tracked separately.</h3>
           <p>SprayBossPro supports multiple simultaneous programs per customer account so mosquito service schedules on its own 21-day cycle without interfering with base lawn care or pest control programs.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

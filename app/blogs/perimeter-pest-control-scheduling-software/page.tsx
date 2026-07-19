@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Run every perimeter pest program without missing a round.</h3>
           <p>SprayBossPro keeps your recurring barrier programs on schedule and builds each day for you. Start a free trial and see how predictable your routes can be.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

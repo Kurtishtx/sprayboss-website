@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Run HOAs and management portfolios without running two systems.</h3>
           <p>SprayBossPro links every property to its parent account with consolidated billing and per-address history. Start free and manage your commercial grub accounts the easy way.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

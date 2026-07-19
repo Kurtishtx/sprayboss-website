@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Day-before, post-service, next-visit estimate. Three messages that keep mosquito customers from canceling.</h3>
           <p>SprayBossPro fires pre-service reminders, post-service confirmations with REI, and next-visit estimates automatically on every mosquito visit — reducing no-access stops and mid-season cancellations without your team sending a single message.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

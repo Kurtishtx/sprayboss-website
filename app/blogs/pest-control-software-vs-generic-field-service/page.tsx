@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Auto-scheduling. Product library compliance. Completion-triggered REI SMS. Package tracking. None of these exist in generic tools.</h3>
           <p>SprayBossPro is built around the program model that pest control actually runs on — not adapted from a job-board tool with workarounds for recurring treatments.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

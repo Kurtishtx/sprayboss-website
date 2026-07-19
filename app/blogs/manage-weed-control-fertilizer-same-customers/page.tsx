@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Weed control and fertilizer tracked separately — displayed together at the account level.</h3>
           <p>SprayBossPro shows all active service programs under each customer account so the dispatcher always knows what&apos;s due for each customer, whether it&apos;s one service or two, without cross-referencing separate lists.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

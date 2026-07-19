@@ -510,6 +510,7 @@ export default function SprayBusinessSoftware() {
         <p>$129/month gets you Lasso routing, sq ft or linear ft waiting lists, chemical compliance logs, recurring program management, and automated SMS alerts. No add-ons. No per-user fees.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Stop letting paid-for leads go cold.</h3>
           <p>SprayBossPro captures every inquiry and automates estimate follow-up so more quotes turn into enrolled programs. Start a free trial and stop losing sign-ups to the gaps.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

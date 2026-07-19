@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put every termite treatment in its right seasonal window, automatically.</h3>
           <p>SprayBossPro schedules renewals, monitoring, and swarm-season inspections on time so no warranty slips. Start your free trial and let the termite calendar run itself.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

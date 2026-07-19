@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Schedule from what&apos;s actually due, not from a guess.</h3>
           <p>SprayBossPro&apos;s waiting list surfaces every termite property due for service so you build tight routes with confidence. Start a free trial today.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

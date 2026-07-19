@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Re-service scheduled. Dispatched. Logged. Compliance captured. Regular program untouched.</h3>
           <p>SprayBossPro handles re-service calls as a distinct one-time service — tracked, logged, and dispatched without affecting the recurring package plan interval or treatment count.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

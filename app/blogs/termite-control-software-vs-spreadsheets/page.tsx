@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Trade the spreadsheet for software built for termite work.</h3>
           <p>SprayBossPro handles renewals, routing, compliance, and billing that a spreadsheet never could. Start your free trial and stop letting a flat grid cost you renewals and revenue.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

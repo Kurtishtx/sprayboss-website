@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Treatment completed. Card charged. Receipt sent. All three before the truck is out of the driveway.</h3>
           <p>SprayBossPro&apos;s card-on-file billing charges customers automatically when each pest control treatment is logged — with automated declined payment alerts and invoice-based billing for customers who prefer it.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

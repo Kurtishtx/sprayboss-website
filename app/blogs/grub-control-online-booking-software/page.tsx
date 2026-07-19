@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Capture grub enrollments 24/7, even when your office is closed.</h3>
           <p>SprayBossPro turns after-hours website interest into scheduled grub programs, dropping every booking straight into your lead pipeline. Open your front door around the clock.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

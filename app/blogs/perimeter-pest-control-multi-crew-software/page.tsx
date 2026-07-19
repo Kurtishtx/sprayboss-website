@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Grow past one truck without growing the chaos.</h3>
           <p>SprayBossPro assigns routes across crews, keeps quality and compliance consistent, and shows you which trucks pull their weight. Scale your perimeter pest business the organized way.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

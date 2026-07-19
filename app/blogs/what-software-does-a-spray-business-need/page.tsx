@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Waiting list. Circle routing. Compliance logs. Automated SMS. That&apos;s what a spray business actually needs.</h3>
           <p>SprayBossPro is built specifically for spray companies applying chemical treatments on recurring programs — the five features above, done exceptionally well, at $129/month flat.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

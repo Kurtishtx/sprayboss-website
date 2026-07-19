@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Treatment complete. Next due date calculated. Account back in the waiting list 21 days later. No rebooking. No calendar entry. Zero action required.</h3>
           <p>SprayBossPro auto-advances the next treatment date from each completion — so the 21-day cycle runs itself across your entire customer base without manual rebooking.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Prove every grub application with before-and-after photos.</h3>
           <p>SprayBossPro attaches timestamped photos to every property so you can defend results and win renewals. Start your free trial and put the camera to work on your routes.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

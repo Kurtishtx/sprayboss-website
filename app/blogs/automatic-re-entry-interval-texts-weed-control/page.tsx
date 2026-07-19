@@ -36,6 +36,7 @@ export default function Page() {
           <h3>The right re-entry interval text, fired the moment your technician submits the compliance log.</h3>
           <p>SprayBossPro pulls the REI from the completed field log and sends the post-service SMS automatically — correct interval, correct product, correct customer, zero office action required.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

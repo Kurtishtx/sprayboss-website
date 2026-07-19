@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Turn more of the calls you already pay for into booked jobs.</h3>
           <p>SprayBossPro captures every termite lead, sends estimates fast, and follows up automatically until they close. Start your free trial and stop losing quotes.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

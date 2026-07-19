@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put the right crew at every grub property, every day.</h3>
           <p>SprayBossPro combines map-based routing, GPS tracking, and live job status so your dispatch stays tight all season. Start your free trial and run denser routes.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

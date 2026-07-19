@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Time savings in week 1. Missed-service recovery in month 1. Route efficiency all season. Cash flow from day one.</h3>
           <p>SprayBossPro generates positive ROI in the first month through time savings, service recovery, route efficiency, and faster billing — at $129/month flat with every feature included.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

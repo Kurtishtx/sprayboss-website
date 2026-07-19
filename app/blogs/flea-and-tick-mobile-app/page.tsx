@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Give your flea and tick crew the whole day on one phone.</h3>
           <p>SprayBossPro puts the route, application logging, and photos in the crew&apos;s hand and updates the office live. Run your flea and tick crews on SprayBossPro and keep every stop moving.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

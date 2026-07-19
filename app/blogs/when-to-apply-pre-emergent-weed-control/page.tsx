@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Know your pre-emergent scope before the window opens, not after.</h3>
           <p>SprayBossPro shows your full pre-emergent account list with total sq ft so you can capacity-plan the season and route every account before the soil temp window closes.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

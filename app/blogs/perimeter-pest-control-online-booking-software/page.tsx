@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Let homeowners join your barrier program while you sleep.</h3>
           <p>SprayBossPro captures online enrollments, cards on file, and consent 24/7, then routes new subscribers straight to your crews. Start a trial and stop losing after-hours leads.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

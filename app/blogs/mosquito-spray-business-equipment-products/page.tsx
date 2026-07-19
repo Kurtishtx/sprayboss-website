@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Log every product, rate, and application in the field. Pull the chemical tracking report for state inspection. No paper logs needed.</h3>
           <p>SprayBossPro&apos;s chemical tracking report records every product application with the product mix, rate, and EPA registration number — giving you a compliant application log from each technician&apos;s mobile field entries.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>200 accounts. 45 treatments due every 21 days. One waiting list. Two crews. No dropped stops.</h3>
           <p>SprayBossPro&apos;s waiting list surfaces overdue accounts automatically and lets you build concurrent routes for multiple crews from the same pool — so peak season runs from the software, not from memory.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

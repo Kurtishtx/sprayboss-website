@@ -35,6 +35,7 @@ export default function Page() {
           <h3>Dispatch savings. Route efficiency. Auto-scheduling. Churn reduction. Faster payments. Five ROI sources for $129/month.</h3>
           <p>SprayBossPro pays for itself from the first month for any spray business with more than 75 recurring accounts — and ROI compounds as the account base grows.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

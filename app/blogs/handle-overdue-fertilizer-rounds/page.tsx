@@ -46,6 +46,7 @@ export default function Page() {
           <h3>Catch overdue fertilizer rounds before your customers do.</h3>
           <p>SprayBossPro flags overdue accounts in your waiting list the day after they become past due — so you can route them immediately and contact customers proactively before the relationship is at risk.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

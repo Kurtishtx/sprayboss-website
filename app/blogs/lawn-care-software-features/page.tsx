@@ -46,6 +46,7 @@ export default function Page() {
           <h3>Waiting list. Sq ft by type. Circle routing. EPA pre-fill. Auto SMS. Card-on-file. Package plans. All present and purpose-built.</h3>
           <p>SprayBossPro has every feature on this list — built for lawn care from the ground up, not adapted from a generic field service tool, at $129/month with no per-feature add-ons.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

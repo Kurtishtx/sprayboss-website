@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Put your flea and tick rounds on autopilot.</h3>
           <p>SprayBossPro generates every recurring re-treat on its interval and bills each round automatically. Run your flea and tick programs on SprayBossPro and let the season schedule itself.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

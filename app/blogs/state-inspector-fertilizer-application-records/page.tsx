@@ -60,6 +60,7 @@ export default function Page() {
           <h3>Pass your next state inspection in the first 30 seconds.</h3>
           <p>SprayBossPro&apos;s compliance records are searchable by property, product, applicator, or date — and exportable as a complete compliance report in seconds. Never scramble through binders again.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Re-entry message fires within seconds of field completion. Right message. Right time. Every treatment, every customer.</h3>
           <p>SprayBossPro sends the re-entry interval message automatically when the technician logs each completion in the field — so your customers are informed before they&apos;ve even had a chance to wonder whether it&apos;s safe to go back outside.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

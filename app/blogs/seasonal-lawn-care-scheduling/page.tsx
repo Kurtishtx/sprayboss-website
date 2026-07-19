@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run the full season without manually rebooking a single customer.</h3>
           <p>SprayBossPro auto-reschedules every customer after each completed round so your waiting list builds itself all season and nothing falls through the cracks.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

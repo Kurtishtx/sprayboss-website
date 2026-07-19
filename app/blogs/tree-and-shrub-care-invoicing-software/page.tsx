@@ -32,6 +32,7 @@ export default function Page() {
           <h3>Bill the same day you spray</h3>
           <p>See how SprayBossPro turns every completed tree and shrub visit into a same-day invoice with card-on-file billing and two-way SMS. Start closing the gap between finishing the round and getting paid.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

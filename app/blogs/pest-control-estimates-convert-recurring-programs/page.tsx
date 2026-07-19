@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Estimate accepted. Package assigned. First treatment in the waiting list. Customer confirmation sent. All in one action.</h3>
           <p>SprayBossPro converts accepted pest control estimates directly to active recurring programs — no re-entry, no setup delay, no gap between &quot;yes&quot; and first service scheduling.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,6 +32,7 @@ export default function Page() {
           <h3>See per-treatment revenue per stop. See route revenue before dispatch. Know your margin before you load the truck.</h3>
           <p>SprayBossPro stores sq ft and linear ft per property, calculates per-treatment revenue, and shows route revenue totals before dispatch — so you know what every route day generates before the technician leaves.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

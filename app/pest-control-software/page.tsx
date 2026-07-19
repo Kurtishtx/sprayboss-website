@@ -225,6 +225,7 @@ export default function PestControlSoftware() {
         <p>Generic field service software wasn&apos;t built for pest control. SprayBossPro is — recurring treatment plans, chemical application logs, compliance reports, automated customer alerts, and route scheduling built around the way spray businesses actually operate.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat Monthly — Everything Included</div></div>
@@ -524,6 +525,7 @@ export default function PestControlSoftware() {
         <p>SprayBossPro is built by people who&apos;ve run real spray routes. Try it free for 14 days — no credit card required.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 
