@@ -333,6 +333,7 @@ export default function Home() {
           <div className="feature-card"><span className="feature-icon">👥</span><h3>Client &amp; Lead Management</h3><p>Manage existing clients and active leads side by side. Track estimates, service history, properties, and notes all tied to each contact.</p></div>
           <div className="feature-card"><span className="feature-icon">🏠</span><h3>Property Profiles</h3><p>Every service address gets its own profile with coordinates, notes, service history, and the ability to map it instantly.</p></div>
           <div className="feature-card"><span className="feature-icon">🧪</span><h3>Chemical Tracking</h3><p>Log every chemical application with mix used, area treated, gallons applied, weather, and technician. Generate compliance reports in one click.</p></div>
+          <div className="feature-card"><span className="feature-icon">⚗️</span><h3>Daily Mix Calculator</h3><p>Know exactly how much to mix every morning. Totals every mix for the day&apos;s route, breaks out ounces per product, and recalculates what you still need after you enter what&apos;s already in the tank.</p></div>
           <div className="feature-card"><span className="feature-icon">📦</span><h3>Package Plans</h3><p>Create recurring service packages, assign clients, and manage renewals. SprayBossPro reminds you when package renewals are due.</p></div>
           <div className="feature-card"><span className="feature-icon">🚛</span><h3>Team &amp; Truck Management</h3><p>Manage employees, assign trucks, track hours, and control who sees what with role-based access for office staff, technicians, and drivers.</p></div>
           <div className="feature-card"><span className="feature-icon">📊</span><h3>Dashboard &amp; Reports</h3><p>Custom stat cards show today&apos;s revenue, services completed, properties served, money owed, and more — all at a glance the moment you log in.</p></div>
@@ -567,6 +568,7 @@ export default function Home() {
             <h2>Chemical Tracking Built Right In</h2>
             <p>Every application logged. Every mix recorded. Every technician tracked. SprayBossPro gives you a complete chemical application history you can filter, print, and take to any inspection.</p>
             <ul className="check-list">
+              <li><strong>Daily Mix Calculator</strong> — every morning, see exactly how much of each mix your trucks need, per product, with tank math done for you</li>
               <li>Log product mixes, area treated, and gallons applied per job</li>
               <li>Track weather conditions at time of application</li>
               <li>Filter reports by client, mix, technician, or date range</li>
