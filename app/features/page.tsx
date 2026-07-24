@@ -239,10 +239,13 @@ export default function Features() {
         <div className="cat-block" style={{maxWidth:'1200px',margin:'0 auto'}}>
           <div className="cat-header">
             <span className="cat-icon">🧪</span>
-            <div><div className="cat-title">Chemical Tracking &amp; Compliance</div><div className="cat-desc">Every application logged automatically — print a compliance report in under 30 seconds</div></div>
+            <div><div className="cat-title">Chemical Tracking &amp; Compliance</div><div className="cat-desc">Know exactly what to mix every morning — and every application logged automatically for compliance</div></div>
           </div>
           <div className="feat-grid">
             {[
+              {t:'Daily Mix Calculator',d:'Open the app each morning and see exactly how much of every mix your day needs — total gallons per mix, computed from each job’s square footage and your application rates.'},
+              {t:'Tank Math Done For You',d:'Tell it what’s already in the tank and it instantly recalculates how much MORE to mix — with the exact ounces of every product for the remainder. No more napkin math at 6am.'},
+              {t:'Every Truck’s Mix Sheet',d:'Owners see every truck’s daily mix needs from one phone. Each tech sees their own truck — nothing they don’t need.'},
               {t:'Application Log per Stop',d:'Product, mix rate, gallons, area treated, and weather logged on every completed job — automatically.'},
               {t:'Technician & License Tracking',d:'Record which tech made the application and their license number — required for most state compliance records.'},
               {t:'Product Catalog with Mix Recipes',d:'Build your product library once. Techs select from your catalog in the field — no free-typing product names.'},
@@ -401,6 +404,7 @@ export default function Features() {
               {t:'Daily Stop List',d:'Techs see only their assigned stops for the day — optimized for mobile with clear status and large tap targets.'},
               {t:'Mark Complete from the Field',d:'Tap to mark complete, skip, or reschedule — all without calling the office. Syncs in real time.'},
               {t:'Chemical Log Entry',d:'Techs log the product, rate, gallons, and weather at each stop from their phone. Records are automatic.'},
+              {t:'Daily Mix Calculator',d:'Techs open Mixes and see exactly what to load: total per mix for their route, ounces per product, and how much more to mix after entering what’s left in the tank.'},
               {t:'Property Notes & Photos',d:'Techs can add field notes and photos to any property from their device. Office sees them instantly.'},
               {t:'No App Download Required',d:"SprayBossPro's mobile experience runs in any browser. No app store, no install, no update prompts."},
             ].map((f,i) => (
