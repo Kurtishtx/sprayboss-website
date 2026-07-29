@@ -22,6 +22,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
           strategy="afterInteractive"
         />
+        {/* Google tag (gtag.js) — Ads conversion tracking base */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-97QJVSZQ1M"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-97QJVSZQ1M');
+            gtag('config', 'AW-994175437');`}
+        </Script>
       </body>
     </html>
   );
