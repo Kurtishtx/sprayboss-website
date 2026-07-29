@@ -48,7 +48,7 @@ async function sbpCreateAccount(n: number) {
     fetch(SBP_URL + '/functions/v1/notify-signup', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON }, body: JSON.stringify({ user_id: uid, event: 'signup' }) }).catch(() => {});
     const reasons = ['Cancel Maintaining Self','Cancel Sold House','Cancel Too Expensive','Cancel Unknown','Dropping Customer','Sold House'].map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
-    document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block';
+    document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 129.0, currency: 'USD' }); } catch {}
     let secs = 4; const cd = document.getElementById('sbp' + n + '-countdown')!; cd.textContent = 'Redirecting in ' + secs + ' seconds…';
     const _ho = signInData.session ? ('#access_token=' + encodeURIComponent(signInData.session.access_token) + '&refresh_token=' + encodeURIComponent(signInData.session.refresh_token)) : '';
     const iv = setInterval(() => { secs--; if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html' + _ho; } else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…'; }, 1000);

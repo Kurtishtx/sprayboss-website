@@ -104,7 +104,7 @@ async function sbpCreateAccount(n: number) {
     const reasons = ['Cancel Maintaining Self','Cancel Sold House','Cancel Too Expensive','Cancel Unknown','Dropping Customer','Sold House'].map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById(`sbp${n}-step2`)!.style.display = 'none';
-    document.getElementById(`sbp${n}-success`)!.style.display = 'block';
+    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 129.0, currency: 'USD' }); } catch {}
     let secs = 4;
     const cd = document.getElementById(`sbp${n}-countdown`)!;
     cd.textContent = `Redirecting in ${secs} seconds…`;
