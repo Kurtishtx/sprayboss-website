@@ -32,7 +32,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-97QJVSZQ1M');
-            gtag('config', 'AW-994175437');`}
+            gtag('config', 'AW-994175437');
+            /* Google Ads conversion: SprayBossPro - Live Demo — fires on any link to the demo */
+            document.addEventListener('click', function(e){
+              var a = e.target && e.target.closest ? e.target.closest('a') : null;
+              if (a && a.href && a.href.indexOf('my.spraybosspro.com/demo.html') !== -1) {
+                gtag('event', 'conversion', { send_to: 'AW-994175437/E5tNCJiRwNgcEM3Th9oD', transport_type: 'beacon' });
+              }
+            });`}
         </Script>
       </body>
     </html>
