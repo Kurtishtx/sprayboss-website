@@ -144,7 +144,7 @@ export default function Features() {
       <div className="hero">
         <div className="hero-badge">Full Feature List</div>
         <h1>Everything You Need to Run<br /><span>Your Spray Business</span></h1>
-        <p>SprayBossPro is built specifically for lawn care and pest control. Every feature listed here is included in your $129/month — nothing locked, nothing extra.</p>
+        <p>SprayBossPro is built specifically for lawn care, pest control, and spray. Every feature listed here is included in your $129/month — nothing locked, nothing extra.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
         </div>
@@ -334,7 +334,7 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">🏠</span>
-            <div><div className="cat-title">Clients, Leads &amp; Properties</div><div className="cat-desc">Full CRM built for spray businesses — everything tied to the address, not just the name</div></div>
+            <div><div className="cat-title">Clients, Leads &amp; Properties</div><div className="cat-desc">Full CRM built for lawn care, pest control &amp; spray — everything tied to the address, not just the name</div></div>
           </div>
           <div className="feat-grid">
             {[
