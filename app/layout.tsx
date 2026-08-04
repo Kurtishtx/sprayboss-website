@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import Footer from "./components/Footer";
 import DemoPopup from "./components/DemoPopup";
 import "./globals.css";
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-97QJVSZQ1M');
             gtag('config', 'AW-994175437');`}
         </Script>
+        <Analytics />
       </body>
     </html>
   );
