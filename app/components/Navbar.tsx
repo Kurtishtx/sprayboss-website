@@ -70,6 +70,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
             </div>
             <a href="/features">Features</a>
             <a href="/pricing">Pricing</a>
+            <a href="tel:+16827273802" style={{display:'inline-flex', alignItems:'center', gap:'6px', color:'#fff', textDecoration:'none', fontWeight:800, fontSize:'14px', whiteSpace:'nowrap'}} title="Call or text us — real people">📞 (682) 727-3802</a>
             <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
             <a
               href="https://my.spraybosspro.com/demo.html"
@@ -108,6 +109,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
       {/* Mobile menu — outside <nav> so navbar's backdrop-filter doesn't trap fixed positioning */}
       {open && (
         <div className="nav-mobile-menu">
+          <a href="tel:+16827273802" className="nav-mobile-link" style={{fontWeight:800}} onClick={() => toggleMenu(false)}>📞 Call or text: (682) 727-3802</a>
           <div className="nav-mobile-section">
             <div className="nav-mobile-group-trigger" onClick={() => setSolutionsOpen(!solutionsOpen)}>
               Solutions {solutionsOpen ? '▴' : '▾'}
