@@ -282,6 +282,14 @@ export default function Home() {
 
       {/* ═══ MOCKUP IMAGE ═══ */}
       <div style={{background:'linear-gradient(135deg,#080010 0%,#130520 60%,#1e0a35 100%)', padding:'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign:'center'}}>
+        {/* Price, up top above the mockup */}
+        <div style={{textAlign:'center', marginBottom:'clamp(22px,3vw,32px)'}}>
+          <div style={{display:'inline-flex', alignItems:'baseline', gap:'12px', flexWrap:'wrap', justifyContent:'center', color:'#fff'}}>
+            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$129<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
+            <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'#e07820'}}>&middot; 14-Day Free Trial</span>
+          </div>
+          <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
+        </div>
         <div style={{maxWidth:'1000px', margin:'0 auto'}}>
           <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="SprayBossPro spray business software showing the circle-map route builder, waiting list, and mobile app for lawn care and pest control technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
         </div>
