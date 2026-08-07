@@ -61,16 +61,13 @@ function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.sty
 // so a $1 click becomes a real conversation instead of a bounce.
 const SBP_LEAD_ACCOUNT = '951ab5cd-c78a-4d90-9015-30f7c2197ac5';
 function openTextMe() {
-  closeAllModals();
-  const f = document.getElementById('sbp-textme'); const b = document.getElementById('sbp-textme-backdrop');
-  if (f) f.style.display = 'block'; if (b) b.style.display = 'block';
-  document.body.style.overflow = 'hidden';
+  const f = document.getElementById('sbp-textme'); const fab = document.getElementById('tm-fab');
+  if (f) f.style.display = 'block'; if (fab) fab.style.display = 'none';
   const el = document.getElementById('tm-name') as HTMLInputElement | null; if (el) setTimeout(() => el.focus(), 30);
 }
 function closeTextMe() {
-  const f = document.getElementById('sbp-textme'); const b = document.getElementById('sbp-textme-backdrop');
-  if (f) f.style.display = 'none'; if (b) b.style.display = 'none';
-  document.body.style.overflow = '';
+  const f = document.getElementById('sbp-textme'); const fab = document.getElementById('tm-fab');
+  if (f) f.style.display = 'none'; if (fab) fab.style.display = 'flex';
 }
 async function sbpTextMe() {
   const err = document.getElementById('tm-err')!; err.style.display = 'none';
@@ -256,24 +253,31 @@ export default function Home() {
 
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
-      {/* ── "Have the owner text you" lead capture ── */}
-      <div id="sbp-textme-backdrop" onClick={closeTextMe} style={{display:'none', position:'fixed', inset:0, background:'rgba(0,0,0,.6)', zIndex:1998}} />
-      <div id="sbp-textme" style={{display:'none', position:'fixed', top:'50%', left:'50%', transform:'translate(-50%,-50%)', zIndex:1999, width:'min(430px, calc(100vw - 24px))', maxHeight:'calc(100vh - 32px)', overflowY:'auto', background:'#fff', borderRadius:16, padding:'30px 26px', boxShadow:'0 24px 70px rgba(0,0,0,.45)'}}>
-        <button onClick={closeTextMe} aria-label="Close" style={{position:'absolute', top:12, right:16, background:'none', border:'none', fontSize:24, color:'#999', cursor:'pointer', lineHeight:1}}>&times;</button>
-        <div id="tm-form">
-          <div style={{fontSize:22, fontWeight:800, color:'#130520', marginBottom:6}}>Let the owner get you set up 👋</div>
-          <div style={{fontSize:'14.5px', color:'#555', marginBottom:20, lineHeight:1.5}}>Drop your number and the owner will text you personally &mdash; answer any questions and get your account all set up for you. No pressure, no sales pitch.</div>
-          <input id="tm-name" type="text" placeholder="Your name" style={{width:'100%', padding:'13px 15px', border:'2px solid #e4e0f0', borderRadius:10, fontSize:15, marginBottom:12, boxSizing:'border-box', fontFamily:'inherit', color:'#1a1a2e'}} />
-          <input id="tm-phone" type="tel" placeholder="Cell phone (so he can text you)" style={{width:'100%', padding:'13px 15px', border:'2px solid #e4e0f0', borderRadius:10, fontSize:15, marginBottom:6, boxSizing:'border-box', fontFamily:'inherit', color:'#1a1a2e'}} />
-          <div id="tm-err" style={{display:'none', color:'#c0392b', fontSize:13, fontWeight:600, margin:'4px 0 8px'}} />
-          <button id="tm-btn" onClick={sbpTextMe} style={{width:'100%', marginTop:12, background:'#e07820', color:'#fff', border:'none', borderRadius:10, padding:'14px', fontSize:16, fontWeight:800, cursor:'pointer'}}>Have the owner text me</button>
-          <div style={{textAlign:'center', fontSize:'12.5px', color:'#999', marginTop:12}}>🔒 We&rsquo;ll only use your number to help get you set up.</div>
+      {/* ── Floating "have the owner text you" widget (bottom-right, always on) ── */}
+      <div style={{position:'fixed', right:'18px', bottom:'18px', zIndex:2000, display:'flex', flexDirection:'column', alignItems:'flex-end', fontFamily:"'Segoe UI', Arial, sans-serif"}}>
+        <div id="sbp-textme" style={{display:'none', width:'min(330px, calc(100vw - 28px))', background:'#fff', borderRadius:16, boxShadow:'0 16px 50px rgba(0,0,0,.35)', overflow:'hidden', marginBottom:'12px'}}>
+          <div style={{background:'linear-gradient(135deg,#130520,#1e0a35)', padding:'16px 18px', position:'relative'}}>
+            <button onClick={closeTextMe} aria-label="Close" style={{position:'absolute', top:10, right:12, background:'none', border:'none', fontSize:22, color:'rgba(255,255,255,.7)', cursor:'pointer', lineHeight:1}}>&times;</button>
+            <div style={{color:'#fff', fontSize:'16.5px', fontWeight:800, paddingRight:24}}>👋 Get set up by the owner</div>
+            <div style={{color:'rgba(255,255,255,.78)', fontSize:'12.5px', marginTop:4, lineHeight:1.45}}>Drop your number &mdash; the owner texts you personally, answers your questions, and gets you set up. No pressure. Just <b style={{color:'#e07820'}}>$129/mo flat</b>, no card to start.</div>
+          </div>
+          <div style={{padding:'16px 18px'}}>
+            <div id="tm-form">
+              <input id="tm-name" type="text" placeholder="Your name" style={{width:'100%', padding:'12px 14px', border:'2px solid #e4e0f0', borderRadius:9, fontSize:'14.5px', marginBottom:10, boxSizing:'border-box', fontFamily:'inherit', color:'#1a1a2e'}} />
+              <input id="tm-phone" type="tel" placeholder="Cell phone" style={{width:'100%', padding:'12px 14px', border:'2px solid #e4e0f0', borderRadius:9, fontSize:'14.5px', marginBottom:6, boxSizing:'border-box', fontFamily:'inherit', color:'#1a1a2e'}} />
+              <div id="tm-err" style={{display:'none', color:'#c0392b', fontSize:'12.5px', fontWeight:600, margin:'2px 0 6px'}} />
+              <button id="tm-btn" onClick={sbpTextMe} style={{width:'100%', marginTop:8, background:'#e07820', color:'#fff', border:'none', borderRadius:9, padding:'13px', fontSize:'15px', fontWeight:800, cursor:'pointer'}}>Have the owner text me</button>
+            </div>
+            <div id="tm-success" style={{display:'none', textAlign:'center', padding:'12px 0'}}>
+              <div style={{fontSize:40}}>✅</div>
+              <div style={{fontSize:'17px', fontWeight:800, color:'#130520', margin:'6px 0 4px'}}>You&rsquo;re all set!</div>
+              <div style={{fontSize:'13.5px', color:'#555'}}>The owner will text you shortly to get you rolling.</div>
+            </div>
+          </div>
         </div>
-        <div id="tm-success" style={{display:'none', textAlign:'center', padding:'20px 0'}}>
-          <div style={{fontSize:48}}>✅</div>
-          <div style={{fontSize:20, fontWeight:800, color:'#130520', margin:'8px 0 6px'}}>You&rsquo;re all set!</div>
-          <div style={{fontSize:15, color:'#555'}}>The owner will text you shortly to get you rolling. Talk soon!</div>
-        </div>
+        <button id="tm-fab" onClick={openTextMe} style={{display:'flex', alignItems:'center', gap:'9px', background:'#e07820', color:'#fff', border:'none', borderRadius:'30px', padding:'14px 22px', fontSize:'15px', fontWeight:800, cursor:'pointer', boxShadow:'0 8px 24px rgba(224,120,32,.5)'}}>
+          💬 Have the owner text you
+        </button>
       </div>
 
       {/* ═══ MOCKUP IMAGE ═══ */}
@@ -292,9 +296,6 @@ export default function Home() {
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
           <a href="https://my.spraybosspro.com/demo.html" className="btn-demo"><span className="btn-demo-dot" />Try the Live Demo</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo flat</b> after &nbsp;&middot;&nbsp; <b>demo needs no signup</b></div>
-          <div style={{flexBasis:'100%', textAlign:'center', marginTop:'8px'}}>
-            <a href="#" onClick={(e) => { e.preventDefault(); openTextMe(); }} style={{color:'rgba(255,255,255,.92)', fontSize:'15px', fontWeight:700, textDecoration:'underline', textUnderlineOffset:'3px', cursor:'pointer'}}>Not ready to dive in? Have the owner text you &amp; get you set up &rarr;</a>
-          </div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">100+</div><div className="hero-stat-lbl">Features Built In</div></div>
