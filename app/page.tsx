@@ -56,6 +56,43 @@ async function sbpCreateAccount(n: number) {
 }
 function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.style.display = 'block'; }
 
+// "Have the owner text you" — soft lead capture for visitors not ready to start a trial.
+// Drops a lead into the owner's BossPro account (submit-web-lead also emails the owner),
+// so a $1 click becomes a real conversation instead of a bounce.
+const SBP_LEAD_ACCOUNT = '951ab5cd-c78a-4d90-9015-30f7c2197ac5';
+function openTextMe() {
+  closeAllModals();
+  const f = document.getElementById('sbp-textme'); const b = document.getElementById('sbp-textme-backdrop');
+  if (f) f.style.display = 'block'; if (b) b.style.display = 'block';
+  document.body.style.overflow = 'hidden';
+  const el = document.getElementById('tm-name') as HTMLInputElement | null; if (el) setTimeout(() => el.focus(), 30);
+}
+function closeTextMe() {
+  const f = document.getElementById('sbp-textme'); const b = document.getElementById('sbp-textme-backdrop');
+  if (f) f.style.display = 'none'; if (b) b.style.display = 'none';
+  document.body.style.overflow = '';
+}
+async function sbpTextMe() {
+  const err = document.getElementById('tm-err')!; err.style.display = 'none';
+  const name = (document.getElementById('tm-name') as HTMLInputElement).value.trim();
+  const phone = (document.getElementById('tm-phone') as HTMLInputElement).value.trim();
+  if (!name) return sbpShowErr(err as HTMLElement, 'Please enter your name.');
+  if (phone.replace(/\D/g, '').length < 10) return sbpShowErr(err as HTMLElement, 'Please enter a valid cell number.');
+  const btn = document.getElementById('tm-btn') as HTMLButtonElement; btn.disabled = true; btn.textContent = 'Sending…';
+  try {
+    const res = await fetch(SBP_URL + '/functions/v1/submit-web-lead', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ account: SBP_LEAD_ACCOUNT, source: 'website', name, phone, message: 'SprayBossPro website — wants the owner to text them and help get set up.' }),
+    });
+    const j = await res.json();
+    if (j && j.ok) {
+      document.getElementById('tm-form')!.style.display = 'none';
+      document.getElementById('tm-success')!.style.display = 'block';
+      try { (window as any).gtag?.('event', 'generate_lead'); } catch {}
+    } else { sbpShowErr(err as HTMLElement, (j && j.error) || 'Something went wrong. Please try again.'); btn.disabled = false; btn.textContent = 'Have the owner text me'; }
+  } catch { sbpShowErr(err as HTMLElement, 'Network error. Please try again.'); btn.disabled = false; btn.textContent = 'Have the owner text me'; }
+}
+
 export default function Home() {
   useEffect(() => {
     // Supabase is loaded once globally via <Script> in app/layout.tsx — no per-page load needed.
@@ -219,6 +256,26 @@ export default function Home() {
 
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
+      {/* ── "Have the owner text you" lead capture ── */}
+      <div id="sbp-textme-backdrop" onClick={closeTextMe} style={{display:'none', position:'fixed', inset:0, background:'rgba(0,0,0,.6)', zIndex:1998}} />
+      <div id="sbp-textme" style={{display:'none', position:'fixed', top:'50%', left:'50%', transform:'translate(-50%,-50%)', zIndex:1999, width:'min(430px, calc(100vw - 24px))', maxHeight:'calc(100vh - 32px)', overflowY:'auto', background:'#fff', borderRadius:16, padding:'30px 26px', boxShadow:'0 24px 70px rgba(0,0,0,.45)'}}>
+        <button onClick={closeTextMe} aria-label="Close" style={{position:'absolute', top:12, right:16, background:'none', border:'none', fontSize:24, color:'#999', cursor:'pointer', lineHeight:1}}>&times;</button>
+        <div id="tm-form">
+          <div style={{fontSize:22, fontWeight:800, color:'#130520', marginBottom:6}}>Let the owner get you set up 👋</div>
+          <div style={{fontSize:'14.5px', color:'#555', marginBottom:20, lineHeight:1.5}}>Drop your number and the owner will text you personally &mdash; answer any questions and get your account all set up for you. No pressure, no sales pitch.</div>
+          <input id="tm-name" type="text" placeholder="Your name" style={{width:'100%', padding:'13px 15px', border:'2px solid #e4e0f0', borderRadius:10, fontSize:15, marginBottom:12, boxSizing:'border-box', fontFamily:'inherit', color:'#1a1a2e'}} />
+          <input id="tm-phone" type="tel" placeholder="Cell phone (so he can text you)" style={{width:'100%', padding:'13px 15px', border:'2px solid #e4e0f0', borderRadius:10, fontSize:15, marginBottom:6, boxSizing:'border-box', fontFamily:'inherit', color:'#1a1a2e'}} />
+          <div id="tm-err" style={{display:'none', color:'#c0392b', fontSize:13, fontWeight:600, margin:'4px 0 8px'}} />
+          <button id="tm-btn" onClick={sbpTextMe} style={{width:'100%', marginTop:12, background:'#e07820', color:'#fff', border:'none', borderRadius:10, padding:'14px', fontSize:16, fontWeight:800, cursor:'pointer'}}>Have the owner text me</button>
+          <div style={{textAlign:'center', fontSize:'12.5px', color:'#999', marginTop:12}}>🔒 We&rsquo;ll only use your number to help get you set up.</div>
+        </div>
+        <div id="tm-success" style={{display:'none', textAlign:'center', padding:'20px 0'}}>
+          <div style={{fontSize:48}}>✅</div>
+          <div style={{fontSize:20, fontWeight:800, color:'#130520', margin:'8px 0 6px'}}>You&rsquo;re all set!</div>
+          <div style={{fontSize:15, color:'#555'}}>The owner will text you shortly to get you rolling. Talk soon!</div>
+        </div>
+      </div>
+
       {/* ═══ MOCKUP IMAGE ═══ */}
       <div style={{background:'linear-gradient(135deg,#080010 0%,#130520 60%,#1e0a35 100%)', padding:'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign:'center'}}>
         <div style={{maxWidth:'1000px', margin:'0 auto'}}>
@@ -234,7 +291,10 @@ export default function Home() {
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
           <a href="https://my.spraybosspro.com/demo.html" className="btn-demo"><span className="btn-demo-dot" />Try the Live Demo</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after &nbsp;&middot;&nbsp; <b>demo needs no signup</b></div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo flat</b> after &nbsp;&middot;&nbsp; <b>demo needs no signup</b></div>
+          <div style={{flexBasis:'100%', textAlign:'center', marginTop:'8px'}}>
+            <a href="#" onClick={(e) => { e.preventDefault(); openTextMe(); }} style={{color:'rgba(255,255,255,.92)', fontSize:'15px', fontWeight:700, textDecoration:'underline', textUnderlineOffset:'3px', cursor:'pointer'}}>Not ready to dive in? Have the owner text you &amp; get you set up &rarr;</a>
+          </div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">100+</div><div className="hero-stat-lbl">Features Built In</div></div>
