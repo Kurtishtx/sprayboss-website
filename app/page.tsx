@@ -275,7 +275,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <button id="tm-fab" onClick={openTextMe} style={{display:'flex', alignItems:'center', gap:'9px', background:'#e07820', color:'#fff', border:'none', borderRadius:'30px', padding:'14px 22px', fontSize:'15px', fontWeight:800, cursor:'pointer', boxShadow:'0 8px 24px rgba(224,120,32,.5)'}}>
+        <button id="tm-fab" onClick={openTextMe} style={{display:'flex', alignItems:'center', gap:'9px', background:'#e07820', color:'#fff', border:'3px solid #000', borderRadius:'30px', padding:'14px 22px', fontSize:'15px', fontWeight:800, cursor:'pointer', boxShadow:'0 8px 24px rgba(224,120,32,.5)'}}>
           💬 Have the owner text you
         </button>
       </div>
