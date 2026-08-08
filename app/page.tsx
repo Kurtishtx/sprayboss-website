@@ -291,7 +291,7 @@ export default function Home() {
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
         </div>
         <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="SprayBossPro spray business software showing the circle-map route builder, waiting list, and mobile app for lawn care and pest control technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
+          <img src="/client-app-labels.png" width={1856} height={1024} fetchPriority="high" decoding="async" alt="SprayBossPro spray business software — the circle-map route builder on desktop, plus the Client App and Employee App on phones for lawn care and pest control" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
         </div>
       </div>
 
