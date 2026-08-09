@@ -1,6 +1,7 @@
 'use client';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
+import PhoneDemo from './components/PhoneDemo';
 
 const SBP_URL  = 'https://knjdbgroiyhvqwrpqzcx.supabase.co';
 const SBP_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g';
@@ -394,6 +395,9 @@ export default function Home() {
         </div>
         <p style={{maxWidth:'900px', margin:'34px auto 0', textAlign:'center', color:'#fff', fontSize:'19px', fontWeight:700, lineHeight:1.5}}>You choose exactly what each customer can see — flip any feature on or off with a single switch.</p>
       </section>
+
+      {/* ═══ LIVE APP DEMO (phone bezel) ═══ */}
+      <PhoneDemo />
 
       {/* ═══ EASIER TO USE ═══ */}
       <section style={{background:'var(--light-bg)'}}>
