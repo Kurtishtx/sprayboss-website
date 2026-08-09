@@ -72,14 +72,6 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
             <a href="/pricing">Pricing</a>
             <a href="tel:+16827273802" style={{display:'inline-flex', alignItems:'center', gap:'6px', color:'#fff', textDecoration:'none', fontWeight:800, fontSize:'14px', whiteSpace:'nowrap'}} title="Call or text us — real people">📞 (682) 727-3802</a>
             <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
-            <a
-              href="https://my.spraybosspro.com/demo.html"
-              className="navbar-demo"
-              style={{display:'inline-flex', alignItems:'center', gap:'7px', border:'1.5px solid rgba(255,255,255,.35)', borderRadius:'6px', padding:'9px 16px', fontSize:'14px', fontWeight:700, color:'#fff', textDecoration:'none', whiteSpace:'nowrap'}}
-            >
-              <span style={{width:'7px', height:'7px', borderRadius:'50%', background:'#4ade80', boxShadow:'0 0 0 3px rgba(74,222,128,.22)'}} />
-              Live Demo
-            </a>
             <button
               className="navbar-cta"
               onClick={(e) => onTrialClick(e.currentTarget as HTMLElement)}
@@ -88,15 +80,6 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
               Start Free Trial
             </button>
           </div>
-          {/* Live Demo — mobile only, sits in the bar next to the hamburger */}
-          <a
-            href="https://my.spraybosspro.com/demo.html"
-            className="nav-demo-mobile"
-          >
-            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#4ade80', boxShadow: '0 0 0 3px rgba(74,222,128,.22)', flexShrink: 0 }} />
-            Live Demo
-          </a>
-
           {/* Hamburger — mobile only */}
           <button className="nav-hamburger" onClick={() => toggleMenu(!open)} aria-label="Menu">
             <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'transform .2s', transform: open ? 'rotate(45deg) translate(5px,5px)' : 'none'}}></span>
@@ -129,7 +112,6 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
           <a href="/features" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Features</a>
           <a href="/pricing" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Pricing</a>
           <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Log In</a>
-          <a href="https://my.spraybosspro.com/demo.html" className="nav-mobile-link" onClick={() => toggleMenu(false)}>▶ Try the Live Demo — no signup</a>
           <button
             className="nav-mobile-cta"
             onClick={(e) => { toggleMenu(false); onTrialClick(e.currentTarget as HTMLElement); }}
