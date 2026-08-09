@@ -26,10 +26,10 @@ const PHONE_LOGICAL = 400;
 const DESK_LOGICAL = 1300;
 
 export default function HeroDemo() {
-  const [active, setActive] = useState<Key>('client');
+  const [active, setActive] = useState<Key>('business');
   // Keep a demo mounted once it's been opened, so switching back is instant (and the dashboard
-  // session isn't re-spun every click). Only the active one is visible.
-  const [opened, setOpened] = useState<Record<Key, boolean>>({ client: true, crew: false, business: false });
+  // session isn't re-spun every click). Only the active one is visible. Business loads first.
+  const [opened, setOpened] = useState<Record<Key, boolean>>({ client: false, crew: false, business: true });
   const [ready, setReady] = useState<Record<Key, boolean>>({ client: false, crew: false, business: false });
   const deskRef = useRef<HTMLDivElement>(null);
   const [deskFit, setDeskFit] = useState({ scale: 1, w: DESK_LOGICAL, h: 700 });
