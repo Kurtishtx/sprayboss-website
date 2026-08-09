@@ -2,6 +2,7 @@
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import PhoneDemo from './components/PhoneDemo';
+import HeroDemo from './components/HeroDemo';
 
 const SBP_URL  = 'https://knjdbgroiyhvqwrpqzcx.supabase.co';
 const SBP_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g';
@@ -291,9 +292,7 @@ export default function Home() {
           </div>
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
         </div>
-        <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/client-app-labels.webp" width={1856} height={1024} fetchPriority="high" decoding="async" alt="SprayBossPro spray business software — the circle-map route builder on desktop, plus the Client App and Employee App on phones for lawn care and pest control" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
-        </div>
+        <HeroDemo />
       </div>
 
       {/* ═══ HERO ═══ */}
