@@ -1,7 +1,6 @@
 'use client';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
-import PhoneDemo from './components/PhoneDemo';
 import HeroDemo from './components/HeroDemo';
 
 const SBP_URL  = 'https://knjdbgroiyhvqwrpqzcx.supabase.co';
@@ -302,7 +301,7 @@ export default function Home() {
         <p>SprayBossPro is the all-in-one field management platform built specifically for lawn care, pest control, and spray businesses. Schedule jobs, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <a href="https://my.spraybosspro.com/demo.html" className="btn-demo"><span className="btn-demo-dot" />Try the Live Demo</a>
+          <a href="https://my.spraybosspro.com/demo.html" className="btn-demo"><span className="btn-demo-dot" />Open the full-screen demo</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo flat</b> after &nbsp;&middot;&nbsp; <b>demo needs no signup</b></div>
         </div>
         <div className="hero-stats">
@@ -395,9 +394,6 @@ export default function Home() {
         </div>
         <p style={{maxWidth:'900px', margin:'34px auto 0', textAlign:'center', color:'#fff', fontSize:'19px', fontWeight:700, lineHeight:1.5}}>It’s fully customizable from the business side — you decide exactly what every customer can see <em>and</em> do, flipping any feature on or off with a single switch.</p>
       </section>
-
-      {/* ═══ LIVE APP DEMO (phone bezel) ═══ */}
-      <PhoneDemo />
 
       {/* ═══ EASIER TO USE ═══ */}
       <section style={{background:'var(--light-bg)'}}>
