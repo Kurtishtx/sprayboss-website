@@ -1,10 +1,15 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 
-type Key = 'client' | 'crew' | 'business';
+type Key = 'business' | 'client' | 'crew';
 type Demo = { url: string; label: string; kind: 'phone' | 'desktop'; cap: string };
 
 const DEMOS: Record<Key, Demo> = {
+  business: {
+    url: 'https://my.spraybosspro.com/demo.html',
+    label: '🖥️ Desktop version', kind: 'desktop',
+    cap: 'The full software you run everything from — scheduling, the circle-map route builder, billing, and more.',
+  },
   client: {
     url: 'https://boss-pro-client-mobile.vercel.app/customer-home.html?demo=1',
     label: '👤 Client app', kind: 'phone',
@@ -15,34 +20,30 @@ const DEMOS: Record<Key, Demo> = {
     label: '🚚 Crew app', kind: 'phone',
     cap: 'Your crew’s day — stop list, route map, gate codes, notes, and one-tap arrival alerts.',
   },
-  business: {
-    url: 'https://my.spraybosspro.com/demo.html',
-    label: '🖥️ Business dashboard', kind: 'desktop',
-    cap: 'The full software you run everything from — scheduling, the circle-map route builder, billing, and more.',
-  },
 };
-const ORDER: Key[] = ['client', 'crew', 'business'];
+const ORDER: Key[] = ['business', 'client', 'crew'];
 const PHONE_LOGICAL = 400;
 const DESK_LOGICAL = 1300;
 
 export default function HeroDemo() {
   const [active, setActive] = useState<Key>('business');
-  // Keep a demo mounted once it's been opened, so switching back is instant (and the dashboard
-  // session isn't re-spun every click). Only the active one is visible. Business loads first.
-  const [opened, setOpened] = useState<Record<Key, boolean>>({ client: false, crew: false, business: true });
-  const [ready, setReady] = useState<Record<Key, boolean>>({ client: false, crew: false, business: false });
+  const [bizReady, setBizReady] = useState(false);
+  const [phoneReady, setPhoneReady] = useState(false);
   const deskRef = useRef<HTMLDivElement>(null);
   const [deskFit, setDeskFit] = useState({ scale: 1, w: DESK_LOGICAL, h: 700 });
 
-  function choose(k: Key) { setActive(k); setOpened((o) => (o[k] ? o : { ...o, [k]: true })); }
+  const phoneScale = 278 / PHONE_LOGICAL;
+  const isPhone = active !== 'business';
 
-  // Scale the desktop dashboard (rendered at a real 1300px width) down to fit the frame.
+  function choose(k: Key) { if (k !== active) { setActive(k); if (k !== 'business') setPhoneReady(false); } }
+
+  // Scale the desktop dashboard (rendered at a real 1300px width) down to fit its frame.
   useEffect(() => {
     function measure() {
       const el = deskRef.current;
       if (!el) return;
       const w = el.clientWidth, h = el.clientHeight;
-      if (!w || !h) return;
+      if (!w || !h) return; // hidden (phone active) → keep last scale
       const scale = w / DESK_LOGICAL;
       setDeskFit({ scale, w: DESK_LOGICAL, h: Math.ceil(h / scale) });
     }
@@ -50,8 +51,6 @@ export default function HeroDemo() {
     window.addEventListener('resize', measure);
     return () => window.removeEventListener('resize', measure);
   }, [active]);
-
-  const phoneScale = 278 / PHONE_LOGICAL; // bezel inner width / logical
 
   return (
     <div style={{ maxWidth: '1040px', margin: '0 auto' }}>
@@ -79,24 +78,21 @@ export default function HeroDemo() {
         Live demo — go ahead, scroll &amp; tap it
       </div>
 
-      {/* Stage — phones are centered bezels; the dashboard is a browser window */}
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        {/* PHONE STAGE */}
-        <div style={{ display: active === 'business' ? 'none' : 'block', position: 'relative', width: '300px', maxWidth: '86vw', height: '620px', background: '#0a0a0a', borderRadius: '46px', padding: '11px', boxShadow: '0 34px 70px rgba(0,0,0,.55), inset 0 0 0 2px #2c2c30' }}>
+        {/* PHONE STAGE — single iframe, remounts on switch (reliable load) */}
+        <div style={{ display: isPhone ? 'block' : 'none', position: 'relative', width: '300px', maxWidth: '86vw', height: '620px', background: '#0a0a0a', borderRadius: '46px', padding: '11px', boxShadow: '0 34px 70px rgba(0,0,0,.55), inset 0 0 0 2px #2c2c30' }}>
           <div style={{ position: 'relative', width: '100%', height: '100%', background: '#fff', borderRadius: '36px', overflow: 'hidden' }}>
-            {(['client', 'crew'] as Key[]).map((k) => (
-              opened[k] ? (
-                <div key={k} style={{ position: 'absolute', inset: 0, visibility: active === k ? 'visible' : 'hidden' }}>
-                  {!ready[k] && <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#999', fontSize: '13px', background: '#fff', zIndex: 2 }}>Loading the live app…</div>}
-                  <iframe src={DEMOS[k].url} title={DEMOS[k].label} onLoad={() => setReady((r) => ({ ...r, [k]: true }))}
-                    style={{ width: PHONE_LOGICAL + 'px', height: Math.ceil(598 / phoneScale) + 'px', border: 0, display: 'block', background: '#fff', transform: `scale(${phoneScale})`, transformOrigin: 'top left' }} />
-                </div>
-              ) : null
-            ))}
+            {isPhone && (
+              <>
+                {!phoneReady && <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#999', fontSize: '13px', background: '#fff', zIndex: 2 }}>Loading the live app…</div>}
+                <iframe key={active} src={DEMOS[active].url} title={DEMOS[active].label} onLoad={() => setPhoneReady(true)}
+                  style={{ width: PHONE_LOGICAL + 'px', height: Math.ceil(598 / phoneScale) + 'px', border: 0, display: 'block', background: '#fff', transform: `scale(${phoneScale})`, transformOrigin: 'top left' }} />
+              </>
+            )}
           </div>
         </div>
 
-        {/* DESKTOP STAGE (browser window) */}
+        {/* DESKTOP STAGE — mounted once (loads first), hidden when a phone is active so the session persists */}
         <div style={{ display: active === 'business' ? 'block' : 'none', width: '100%', maxWidth: '1000px', borderRadius: '12px', overflow: 'hidden', background: '#1b1b22', boxShadow: '0 34px 80px rgba(0,0,0,.55), inset 0 0 0 1px rgba(255,255,255,.08)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '7px', padding: '10px 14px', background: '#25252e' }}>
             <span style={{ width: '11px', height: '11px', borderRadius: '50%', background: '#ff5f57' }} />
@@ -105,13 +101,9 @@ export default function HeroDemo() {
             <span style={{ marginLeft: '10px', flex: 1, background: '#15151b', color: 'rgba(255,255,255,.55)', fontSize: '12.5px', borderRadius: '7px', padding: '5px 12px', textAlign: 'center', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>my.spraybosspro.com</span>
           </div>
           <div ref={deskRef} style={{ position: 'relative', width: '100%', height: '600px', background: '#fff', overflow: 'hidden' }}>
-            {opened.business ? (
-              <>
-                {!ready.business && <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888', fontSize: '14px', background: '#fff', zIndex: 2 }}>Spinning up your live demo…</div>}
-                <iframe src={DEMOS.business.url} title="Business dashboard demo" onLoad={() => setReady((r) => ({ ...r, business: true }))}
-                  style={{ width: deskFit.w + 'px', height: deskFit.h + 'px', border: 0, display: 'block', background: '#fff', transform: `scale(${deskFit.scale})`, transformOrigin: 'top left' }} />
-              </>
-            ) : null}
+            {!bizReady && <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888', fontSize: '14px', background: '#fff', zIndex: 2 }}>Spinning up your live demo…</div>}
+            <iframe src={DEMOS.business.url} title="Desktop version demo" onLoad={() => setBizReady(true)}
+              style={{ width: deskFit.w + 'px', height: deskFit.h + 'px', border: 0, display: 'block', background: '#fff', transform: `scale(${deskFit.scale})`, transformOrigin: 'top left' }} />
           </div>
         </div>
       </div>
