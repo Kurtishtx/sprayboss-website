@@ -78,11 +78,13 @@ export default function HeroDemo() {
         Live demo — go ahead, scroll &amp; tap it
       </div>
 
-      {/* "Lit stage" backdrop — the same #c050f0 magenta glow used behind the login screen. Kept tight
-          to the toggle above so both stay in view while you use it. */}
-      <div style={{ display: 'flex', justifyContent: 'center', padding: '16px 12px 34px', borderRadius: '32px', background: 'radial-gradient(ellipse 96% 90% at 50% 46%, rgba(192,80,240,.42) 0%, rgba(192,80,240,.18) 34%, transparent 72%)' }}>
+      {/* "Lit stage" backdrop — the same #c050f0 magenta glow used behind the login screen. The glow
+          hugs a narrow area for the phones and a wide one for the desktop, so it's always proportional. */}
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '16px 12px 34px', borderRadius: '32px', background: isPhone
+        ? 'radial-gradient(ellipse 40% 80% at 50% 47%, rgba(192,80,240,.5) 0%, rgba(192,80,240,.2) 42%, transparent 68%)'
+        : 'radial-gradient(ellipse 92% 88% at 50% 46%, rgba(192,80,240,.42) 0%, rgba(192,80,240,.18) 34%, transparent 72%)' }}>
         {/* PHONE STAGE — single iframe, remounts on switch (reliable load) */}
-        <div style={{ display: isPhone ? 'block' : 'none', position: 'relative', width: '300px', maxWidth: '86vw', height: '620px', background: '#0a0a0a', borderRadius: '46px', padding: '11px', boxShadow: '0 0 0 1px #c050f0, 0 0 30px 8px rgba(192,80,240,.85), 0 0 90px 24px rgba(192,80,240,.5), 0 0 150px 44px rgba(192,80,240,.25), inset 0 0 0 2px #2c2c30' }}>
+        <div style={{ display: isPhone ? 'block' : 'none', position: 'relative', width: '300px', maxWidth: '86vw', height: '620px', background: '#0a0a0a', borderRadius: '46px', padding: '11px', boxShadow: '0 0 0 1px #c050f0, 0 0 22px 6px rgba(192,80,240,.85), 0 0 48px 13px rgba(192,80,240,.45), 0 0 82px 20px rgba(192,80,240,.2), inset 0 0 0 2px #2c2c30' }}>
           <div style={{ position: 'relative', width: '100%', height: '100%', background: '#fff', borderRadius: '36px', overflow: 'hidden' }}>
             {isPhone && (
               <>
