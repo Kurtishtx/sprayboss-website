@@ -78,11 +78,11 @@ export default function HeroDemo() {
         Live demo — go ahead, scroll &amp; tap it
       </div>
 
-      {/* "Lit stage" backdrop — a big purple glow (like the login screen) so the demo pops; kept tight
+      {/* "Lit stage" backdrop — the same #c050f0 magenta glow used behind the login screen. Kept tight
           to the toggle above so both stay in view while you use it. */}
-      <div style={{ display: 'flex', justifyContent: 'center', padding: '16px 12px 30px', borderRadius: '32px', background: 'radial-gradient(ellipse 98% 92% at 50% 46%, rgba(150,68,240,.64) 0%, rgba(120,45,215,.42) 24%, rgba(165,95,255,.16) 48%, transparent 76%)' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '16px 12px 34px', borderRadius: '32px', background: 'radial-gradient(ellipse 96% 90% at 50% 46%, rgba(192,80,240,.42) 0%, rgba(192,80,240,.18) 34%, transparent 72%)' }}>
         {/* PHONE STAGE — single iframe, remounts on switch (reliable load) */}
-        <div style={{ display: isPhone ? 'block' : 'none', position: 'relative', width: '300px', maxWidth: '86vw', height: '620px', background: '#0a0a0a', borderRadius: '46px', padding: '11px', boxShadow: '0 0 0 1px rgba(255,255,255,.2), 0 24px 60px rgba(0,0,0,.45), 0 0 160px 24px rgba(140,60,245,.68), 0 0 64px 6px rgba(185,120,255,.6), inset 0 0 0 2px #2c2c30' }}>
+        <div style={{ display: isPhone ? 'block' : 'none', position: 'relative', width: '300px', maxWidth: '86vw', height: '620px', background: '#0a0a0a', borderRadius: '46px', padding: '11px', boxShadow: '0 0 0 1px #c050f0, 0 0 30px 8px rgba(192,80,240,.85), 0 0 90px 24px rgba(192,80,240,.5), 0 0 150px 44px rgba(192,80,240,.25), inset 0 0 0 2px #2c2c30' }}>
           <div style={{ position: 'relative', width: '100%', height: '100%', background: '#fff', borderRadius: '36px', overflow: 'hidden' }}>
             {isPhone && (
               <>
@@ -95,7 +95,7 @@ export default function HeroDemo() {
         </div>
 
         {/* DESKTOP STAGE — mounted once (loads first), hidden when a phone is active so the session persists */}
-        <div style={{ display: active === 'business' ? 'block' : 'none', width: '100%', maxWidth: '1000px', borderRadius: '12px', overflow: 'hidden', background: '#1b1b22', boxShadow: '0 0 0 1px rgba(255,255,255,.22), 0 24px 70px rgba(0,0,0,.45), 0 0 170px 26px rgba(140,60,245,.62), 0 0 66px 6px rgba(185,120,255,.55), inset 0 0 0 1px rgba(255,255,255,.08)' }}>
+        <div style={{ display: active === 'business' ? 'block' : 'none', width: '100%', maxWidth: '1000px', borderRadius: '12px', overflow: 'hidden', background: '#1b1b22', boxShadow: '0 0 0 1px #c050f0, 0 0 30px 8px rgba(192,80,240,.85), 0 0 90px 24px rgba(192,80,240,.5), 0 0 170px 48px rgba(192,80,240,.25), inset 0 0 0 1px rgba(255,255,255,.08)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '7px', padding: '10px 14px', background: '#25252e' }}>
             <span style={{ width: '11px', height: '11px', borderRadius: '50%', background: '#ff5f57' }} />
             <span style={{ width: '11px', height: '11px', borderRadius: '50%', background: '#febc2e' }} />
