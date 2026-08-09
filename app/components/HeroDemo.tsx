@@ -7,17 +7,17 @@ type Demo = { url: string; label: string; kind: 'phone' | 'desktop'; cap: string
 const DEMOS: Record<Key, Demo> = {
   business: {
     // Bump ?v= whenever the demos change, so the iframe reloads fresh instead of from browser cache.
-    url: 'https://my.spraybosspro.com/demo.html?v=3',
+    url: 'https://my.spraybosspro.com/demo.html?v=4',
     label: '🖥️ Desktop version', kind: 'desktop',
     cap: 'The full software you run everything from — scheduling, the circle-map route builder, billing, and more.',
   },
   client: {
-    url: 'https://boss-pro-client-mobile.vercel.app/customer-home.html?demo=1&v=3',
+    url: 'https://boss-pro-client-mobile.vercel.app/customer-home.html?demo=1&v=4',
     label: '👤 Client app', kind: 'phone',
     cap: 'What your customers see — visits, invoices, pay a bill, live tracking, and alerts their way.',
   },
   crew: {
-    url: 'https://boss-pro-mobile.vercel.app/?demo=1&v=3',
+    url: 'https://boss-pro-mobile.vercel.app/?demo=1&v=4',
     label: '🚚 Crew app', kind: 'phone',
     cap: 'Your crew’s day — stop list, route map, gate codes, notes, and one-tap arrival alerts.',
   },
