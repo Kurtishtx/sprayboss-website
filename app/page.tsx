@@ -386,6 +386,7 @@ export default function Home() {
             'Sign up for new services with live pricing figured from their own property — and see what they already have',
             'Update their card, reschedule or skip a visit, contact you, or refer a friend',
             'Get alerts their way — text, email, or app pop-up — and pick which ones they receive',
+            'Live tracking on service day — customers see exactly how many stops away the crew is, in real time',
             'Leave a review — or a private “Rate Us” that sends only your happy customers to Google & Facebook',
           ].map((t, i) => (
             <div key={i} style={{display:'flex', gap:'10px', alignItems:'flex-start', color:'rgba(255,255,255,.82)', fontSize:'15px', lineHeight:1.6}}>
@@ -393,7 +394,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <p style={{maxWidth:'900px', margin:'34px auto 0', textAlign:'center', color:'#fff', fontSize:'19px', fontWeight:700, lineHeight:1.5}}>You choose exactly what each customer can see — flip any feature on or off with a single switch.</p>
+        <p style={{maxWidth:'900px', margin:'34px auto 0', textAlign:'center', color:'#fff', fontSize:'19px', fontWeight:700, lineHeight:1.5}}>It’s fully customizable from the business side — you decide exactly what every customer can see <em>and</em> do, flipping any feature on or off with a single switch.</p>
       </section>
 
       {/* ═══ LIVE APP DEMO (phone bezel) ═══ */}
