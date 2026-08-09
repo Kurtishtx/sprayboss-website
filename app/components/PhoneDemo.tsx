@@ -18,6 +18,11 @@ export default function PhoneDemo() {
   const [loaded, setLoaded] = useState(false);       // defer the iframe until scrolled near
   const [frameLoading, setFrameLoading] = useState(true);
   const hostRef = useRef<HTMLDivElement>(null);
+  const screenRef = useRef<HTMLDivElement>(null);
+  // Render the app at a real-phone logical width and scale it down to the bezel, so fonts/buttons
+  // look phone-sized instead of oversized in the narrow frame.
+  const LOGICAL = 400;
+  const [fit, setFit] = useState({ scale: 1, w: LOGICAL, h: 800 });
 
   useEffect(() => {
     const host = hostRef.current;
@@ -28,6 +33,20 @@ export default function PhoneDemo() {
     }, { rootMargin: '250px' });
     io.observe(host);
     return () => io.disconnect();
+  }, []);
+
+  useEffect(() => {
+    function measure() {
+      const el = screenRef.current;
+      if (!el) return;
+      const w = el.clientWidth, h = el.clientHeight;
+      if (!w || !h) return;
+      const scale = w / LOGICAL;
+      setFit({ scale, w: LOGICAL, h: Math.ceil(h / scale) });
+    }
+    measure();
+    window.addEventListener('resize', measure);
+    return () => window.removeEventListener('resize', measure);
   }, []);
 
   function choose(a: AppKey) { if (a !== app) { setApp(a); setFrameLoading(true); } }
@@ -79,7 +98,7 @@ export default function PhoneDemo() {
       </div>
 
       <div style={{ position: 'relative', width: '300px', maxWidth: '86vw', height: '620px', margin: '0 auto', background: '#0a0a0a', borderRadius: '46px', padding: '11px', boxShadow: '0 34px 70px rgba(0,0,0,.55), inset 0 0 0 2px #2c2c30' }}>
-        <div style={{ position: 'relative', width: '100%', height: '100%', background: '#fff', borderRadius: '36px', overflow: 'hidden' }}>
+        <div ref={screenRef} style={{ position: 'relative', width: '100%', height: '100%', background: '#fff', borderRadius: '36px', overflow: 'hidden' }}>
           {(!loaded || frameLoading) && (
             <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#999', fontSize: '13px', background: '#fff', zIndex: 2 }}>
               Loading the live app…
@@ -91,7 +110,7 @@ export default function PhoneDemo() {
               src={URLS[app]}
               title="Live app demo"
               onLoad={() => setFrameLoading(false)}
-              style={{ width: '100%', height: '100%', border: 0, display: 'block', background: '#fff' }}
+              style={{ width: fit.w + 'px', height: fit.h + 'px', border: 0, display: 'block', background: '#fff', transform: `scale(${fit.scale})`, transformOrigin: 'top left' }}
             />
           )}
         </div>
