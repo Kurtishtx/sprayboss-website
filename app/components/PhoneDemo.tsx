@@ -69,7 +69,7 @@ export default function PhoneDemo() {
       </p>
 
       <div style={{ display: 'inline-flex', background: '#000', border: '1px solid #2a2a2f', borderRadius: '999px', padding: '5px', marginBottom: '8px', gap: '4px' }}>
-        {segBtn('customer', '👤 Customer app')}
+        {segBtn('customer', '👤 Client app')}
         {segBtn('crew', '🚚 Crew app')}
       </div>
 
