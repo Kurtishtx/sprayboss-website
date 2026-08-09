@@ -73,15 +73,16 @@ export default function HeroDemo() {
         </div>
       </div>
 
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '7px', color: '#8fd6a0', fontSize: '12.5px', fontWeight: 700, marginBottom: '20px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '7px', color: '#8fd6a0', fontSize: '12.5px', fontWeight: 700, marginBottom: '8px' }}>
         <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#2ec96b', animation: 'hdpulse 2s infinite' }} />
         Live demo — go ahead, scroll &amp; tap it
       </div>
 
-      {/* "Lit stage" backdrop — a strong warm glow so the demo really pops off the dark-purple hero */}
-      <div style={{ display: 'flex', justifyContent: 'center', padding: '54px 12px 42px', borderRadius: '32px', background: 'radial-gradient(ellipse 92% 84% at 50% 45%, rgba(255,138,40,.52) 0%, rgba(255,106,0,.30) 26%, rgba(255,150,80,.12) 50%, transparent 74%)' }}>
+      {/* "Lit stage" backdrop — a big purple glow (like the login screen) so the demo pops; kept tight
+          to the toggle above so both stay in view while you use it. */}
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '16px 12px 30px', borderRadius: '32px', background: 'radial-gradient(ellipse 98% 92% at 50% 46%, rgba(150,68,240,.64) 0%, rgba(120,45,215,.42) 24%, rgba(165,95,255,.16) 48%, transparent 76%)' }}>
         {/* PHONE STAGE — single iframe, remounts on switch (reliable load) */}
-        <div style={{ display: isPhone ? 'block' : 'none', position: 'relative', width: '300px', maxWidth: '86vw', height: '620px', background: '#0a0a0a', borderRadius: '46px', padding: '11px', boxShadow: '0 0 0 1px rgba(255,255,255,.2), 0 24px 60px rgba(0,0,0,.5), 0 0 120px 14px rgba(255,120,25,.55), 0 0 46px 4px rgba(255,150,60,.5), inset 0 0 0 2px #2c2c30' }}>
+        <div style={{ display: isPhone ? 'block' : 'none', position: 'relative', width: '300px', maxWidth: '86vw', height: '620px', background: '#0a0a0a', borderRadius: '46px', padding: '11px', boxShadow: '0 0 0 1px rgba(255,255,255,.2), 0 24px 60px rgba(0,0,0,.45), 0 0 160px 24px rgba(140,60,245,.68), 0 0 64px 6px rgba(185,120,255,.6), inset 0 0 0 2px #2c2c30' }}>
           <div style={{ position: 'relative', width: '100%', height: '100%', background: '#fff', borderRadius: '36px', overflow: 'hidden' }}>
             {isPhone && (
               <>
@@ -94,7 +95,7 @@ export default function HeroDemo() {
         </div>
 
         {/* DESKTOP STAGE — mounted once (loads first), hidden when a phone is active so the session persists */}
-        <div style={{ display: active === 'business' ? 'block' : 'none', width: '100%', maxWidth: '1000px', borderRadius: '12px', overflow: 'hidden', background: '#1b1b22', boxShadow: '0 0 0 1px rgba(255,255,255,.22), 0 24px 70px rgba(0,0,0,.5), 0 0 130px 16px rgba(255,120,25,.5), 0 0 50px 4px rgba(255,150,60,.45), inset 0 0 0 1px rgba(255,255,255,.08)' }}>
+        <div style={{ display: active === 'business' ? 'block' : 'none', width: '100%', maxWidth: '1000px', borderRadius: '12px', overflow: 'hidden', background: '#1b1b22', boxShadow: '0 0 0 1px rgba(255,255,255,.22), 0 24px 70px rgba(0,0,0,.45), 0 0 170px 26px rgba(140,60,245,.62), 0 0 66px 6px rgba(185,120,255,.55), inset 0 0 0 1px rgba(255,255,255,.08)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '7px', padding: '10px 14px', background: '#25252e' }}>
             <span style={{ width: '11px', height: '11px', borderRadius: '50%', background: '#ff5f57' }} />
             <span style={{ width: '11px', height: '11px', borderRadius: '50%', background: '#febc2e' }} />
