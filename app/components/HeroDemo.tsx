@@ -38,6 +38,25 @@ export default function HeroDemo() {
 
   function choose(k: Key) { if (k !== active) { setActive(k); if (k !== 'business') setPhoneReady(false); } }
 
+  // One-time pageview beacon carrying the REAL source. The demo iframe below only ever sees our own
+  // domain, so without this every visitor to this site is logged with no source at all — which is
+  // why source was known for barely a third of them. landing_url carries ?fbclid= / ?utm_*, the only
+  // way to attribute clicks from the Facebook and Instagram apps (those send no referrer).
+  useEffect(() => {
+    try {
+      fetch('https://knjdbgroiyhvqwrpqzcx.supabase.co/functions/v1/demo-session', {
+        method: 'POST', keepalive: true,
+        headers: { 'Content-Type': 'application/json', apikey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g' },
+        body: JSON.stringify({
+          product: 'spraybosspro',
+          event: 'pageview',
+          referrer: (typeof document !== 'undefined' ? document.referrer : '') || 'direct',
+          landing_url: (typeof window !== 'undefined' ? window.location.href : ''),
+        }),
+      });
+    } catch (e) { /* analytics only — never block the page */ }
+  }, []);
+
   // Scale the desktop dashboard (rendered at a real 1300px width) down to fit its frame.
   useEffect(() => {
     function measure() {
