@@ -26,8 +26,29 @@ const ORDER: Key[] = ['business', 'client', 'crew'];
 const PHONE_LOGICAL = 400;
 const DESK_LOGICAL = 1300;
 
+// Owner/internal traffic exclusion. Visiting any page once with ?notrack=1 stores a flag in this
+// browser; every beacon after that carries notrack, and the demo-session edge function skips the
+// log row. Excluding by IP does not work — the owner moves between home wifi, a phone hotspot and
+// job sites — so the flag rides with the browser instead. The demo iframe is a DIFFERENT origin
+// with its own localStorage, so the flag is forwarded to it as ?notrack=1 on the URL.
+const NOTRACK_KEY = 'bp_notrack';
+function readNoTrack(): boolean {
+  if (typeof window === 'undefined') return false;
+  try {
+    if (new URLSearchParams(window.location.search).get('notrack') === '1') {
+      localStorage.setItem(NOTRACK_KEY, '1');
+    }
+    return localStorage.getItem(NOTRACK_KEY) === '1';
+  } catch (e) { return false; }
+}
+function withNoTrack(url: string, on: boolean): string {
+  return on ? url + (url.includes('?') ? '&' : '?') + 'notrack=1' : url;
+}
+
 export default function HeroDemo() {
   const [active, setActive] = useState<Key>('business');
+  // Starts false so server and first client render match; the real value lands in the mount effect.
+  const [noTrk, setNoTrk] = useState(false);
   const [bizReady, setBizReady] = useState(false);
   const [phoneReady, setPhoneReady] = useState(false);
   const deskRef = useRef<HTMLDivElement>(null);
@@ -43,6 +64,8 @@ export default function HeroDemo() {
   // why source was known for barely a third of them. landing_url carries ?fbclid= / ?utm_*, the only
   // way to attribute clicks from the Facebook and Instagram apps (those send no referrer).
   useEffect(() => {
+    const nt = readNoTrack();
+    setNoTrk(nt);
     try {
       fetch('https://knjdbgroiyhvqwrpqzcx.supabase.co/functions/v1/demo-session', {
         method: 'POST', keepalive: true,
@@ -52,6 +75,7 @@ export default function HeroDemo() {
           event: 'pageview',
           referrer: (typeof document !== 'undefined' ? document.referrer : '') || 'direct',
           landing_url: (typeof window !== 'undefined' ? window.location.href : ''),
+          notrack: nt,
         }),
       });
     } catch (e) { /* analytics only — never block the page */ }
@@ -109,7 +133,7 @@ export default function HeroDemo() {
             {isPhone && (
               <>
                 {!phoneReady && <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#999', fontSize: '13px', background: '#fff', zIndex: 2 }}>Loading the live app…</div>}
-                <iframe key={active} src={DEMOS[active].url} title={DEMOS[active].label} onLoad={() => setPhoneReady(true)}
+                <iframe key={active} src={withNoTrack(DEMOS[active].url, noTrk)} title={DEMOS[active].label} onLoad={() => setPhoneReady(true)}
                   style={{ width: PHONE_LOGICAL + 'px', height: Math.ceil(598 / phoneScale) + 'px', border: 0, display: 'block', background: '#fff', transform: `scale(${phoneScale})`, transformOrigin: 'top left' }} />
               </>
             )}
@@ -126,7 +150,7 @@ export default function HeroDemo() {
           </div>
           <div ref={deskRef} style={{ position: 'relative', width: '100%', height: '600px', background: '#fff', overflow: 'hidden' }}>
             {!bizReady && <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888', fontSize: '14px', background: '#fff', zIndex: 2 }}>Spinning up your live demo…</div>}
-            <iframe src={DEMOS.business.url} title="Desktop version demo" onLoad={() => setBizReady(true)}
+            <iframe src={withNoTrack(DEMOS.business.url, noTrk)} title="Desktop version demo" onLoad={() => setBizReady(true)}
               style={{ width: deskFit.w + 'px', height: deskFit.h + 'px', border: 0, display: 'block', background: '#fff', transform: `scale(${deskFit.scale})`, transformOrigin: 'top left' }} />
           </div>
         </div>
