@@ -19,6 +19,13 @@ const hubPages = [
   '/mosquito-spray-software',
 ];
 
+/* Demo-intent pages. Higher priority than the hub pages: these target searchers who want to
+   look at the product right now, which is the closest thing to buying intent on the site. */
+const demoPages = [
+  '/lawn-care-software-demo',
+  '/pest-control-software-demo',
+];
+
 const vsPages = [
   '/vs-aspire',
   '/vs-clip',
@@ -414,6 +421,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date('2026-06-21'),
       changeFrequency: 'monthly',
       priority: 0.9,
+    });
+  }
+
+  for (const path of demoPages) {
+    entries.push({
+      url: `${BASE}${path}`,
+      lastModified: new Date('2026-08-20'),
+      changeFrequency: 'monthly',
+      priority: 0.95,
     });
   }
 
