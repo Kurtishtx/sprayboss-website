@@ -43,7 +43,8 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
         <div className="navbar-inner">
           <div className="navbar-brand">
             <a href="/" style={{textDecoration:'none', display:'flex', alignItems:'center', gap:'8px'}}>
-              <span className="navbar-icon">🌿</span>
+              {/* The BossPro crown in SprayBossPro's own colours, rather than a stock emoji. */}
+              <img src="/crown.svg" alt="" className="navbar-icon" width={30} height={30} />
               <span className="navbar-name">SprayBossPro</span>
             </a>
           </div>
