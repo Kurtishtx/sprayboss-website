@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import Footer from "./components/Footer";
 import "./globals.css";
+import MetaPixel from './components/MetaPixel';
 
 export const metadata: Metadata = {
   title: "SprayBossPro | Lawn Care, Pest Control & Spray Software",
@@ -33,6 +34,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         {children}
+        {/* Meta Pixel — builds the retargeting audience. Inert until
+            NEXT_PUBLIC_META_PIXEL_ID is set on the Vercel project. */}
+        <MetaPixel />
         <Footer />
         <Script
           src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
