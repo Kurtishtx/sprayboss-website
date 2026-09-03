@@ -137,7 +137,7 @@ export default function VsLawnPro() {
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">7</div><div className="hero-stat-lbl">LawnPro Grow Employee Cap</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">SprayBossPro Users — Always</div></div>
+          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">SprayBossPro Clients — Always</div></div>
           <div><div className="hero-stat-val">$249</div><div className="hero-stat-lbl">LawnPro Plus for SMS &amp; Payments</div></div>
           <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">SprayBossPro — Everything Included</div></div>
         </div>

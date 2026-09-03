@@ -157,7 +157,7 @@ export default function VsServiceAutopilot() {
         <div className="hero-stats">
           <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">SprayBossPro — Everything Included</div></div>
           <div><div className="hero-stat-val">$0</div><div className="hero-stat-lbl">Sign-Up Fee for SprayBossPro</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users — No Per-Seat Fees</div></div>
+          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Clients — No Per-Client Fees</div></div>
           <div><div className="hero-stat-val">Accurate</div><div className="hero-stat-lbl">Lasso Sq Ft — SA Overstates It</div></div>
         </div>
       </div>

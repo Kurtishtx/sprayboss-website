@@ -228,7 +228,7 @@ export default function MosquitoSpraySoftware() {
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Technicians and users</div></div>
+          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Clients and properties</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">Today</div><div className="hero-stat-lbl">Start scheduling mosquito routes</div></div>
         </div>

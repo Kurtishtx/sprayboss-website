@@ -1,6 +1,7 @@
 'use client';
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
+import HeroDemo from '../components/HeroDemo';
 
 const SBP_URL  = 'https://knjdbgroiyhvqwrpqzcx.supabase.co';
 const SBP_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g';
@@ -228,7 +229,7 @@ export default function SprayBusinessSoftware() {
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Technicians and users</div></div>
+          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Clients and properties</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons required</div></div>
         </div>
@@ -245,6 +246,21 @@ export default function SprayBusinessSoftware() {
           alt="SprayBossPro spray business software dashboard showing circle-map routing, waiting list, and mobile dispatch on laptop and phone"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
+      </div>
+
+      {/* LIVE DEMO — this page is the one Google lands people on for "spray software", so the
+          software itself has to be reachable without another click. Sits BELOW the mockup rather
+          than replacing it: that image is what shows in the search result and is worth keeping. */}
+      <div style={{background:'var(--purple-dark)', padding:'0 clamp(14px,4vw,40px) 60px', textAlign:'center'}}>
+        <div style={{maxWidth:'1100px', margin:'0 auto'}}>
+          <h2 style={{color:'#fff', fontSize:'clamp(24px,3.4vw,34px)', margin:'0 0 8px', fontWeight:900}}>
+            Try it right here
+          </h2>
+          <p style={{color:'rgba(255,255,255,.6)', fontSize:'15px', margin:'0 0 26px'}}>
+            The real software, with sample data. Nothing to install and no sign-up.
+          </p>
+          <HeroDemo />
+        </div>
       </div>
 
       {/* WHO IT'S FOR */}

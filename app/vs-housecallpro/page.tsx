@@ -138,7 +138,7 @@ export default function VsHousecallPro() {
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">1</div><div className="hero-stat-lbl">User on HCP Basic ($59/mo)</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users on SprayBossPro (from $59/mo)</div></div>
+          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Clients on SprayBossPro (from $59/mo)</div></div>
           <div><div className="hero-stat-val">$149</div><div className="hero-stat-lbl">HCP Essentials — 5-User Cap</div></div>
           <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">SprayBossPro — Unlimited Clients</div></div>
         </div>

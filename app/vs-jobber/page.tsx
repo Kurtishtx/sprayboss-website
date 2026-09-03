@@ -148,7 +148,7 @@ export default function VsJobber() {
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly vs Jobber&apos;s Per-Tier Pricing</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users — No Per-Seat Fees</div></div>
+          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Clients — No Per-Client Fees</div></div>
           <div><div className="hero-stat-val">Sq Ft</div><div className="hero-stat-lbl">Waiting List — Jobber Doesn&apos;t Have This</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
