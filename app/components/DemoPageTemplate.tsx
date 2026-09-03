@@ -50,8 +50,26 @@ export default function DemoPageTemplate({ copy }: { copy: DemoPageCopy }) {
     <>
       <Navbar onTrialClick={openTrial} />
 
-      {/* ═══ HERO — copy is deliberately short so the live demo sits as high as possible ═══ */}
-      <div className="hero" style={{ paddingTop: '72px', paddingBottom: '0' }}>
+      {/* ═══ PRICE + THE DEMO ITSELF ═══
+          Same order as the home page, and for the same reason: on a phone the first screen is the
+          whole decision, and paid traffic arrives from the Facebook in-app browser and leaves in
+          seconds. A three-line headline about not being a sales call filled that screen and pushed
+          the running product below the fold, with the price nowhere on the page at all. Price,
+          trial terms and the live demo now take the fold; the argument for it reads underneath,
+          where it convinces the people who stayed instead of costing the ones who didn't. */}
+      <div style={{ background: 'linear-gradient(135deg,#080010 0%,#130520 60%,#1e0a35 100%)', padding: 'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign: 'center' }}>
+        <div style={{ textAlign: 'center', marginBottom: 'clamp(22px,3vw,32px)' }}>
+          <div style={{ display: 'inline-flex', alignItems: 'baseline', gap: '12px', flexWrap: 'wrap', justifyContent: 'center', color: '#fff' }}>
+            <span style={{ fontSize: 'clamp(30px,4.6vw,46px)', fontWeight: 800, lineHeight: 1 }}>$59<span style={{ fontSize: '.46em', fontWeight: 700, color: 'rgba(255,255,255,.6)' }}>/month</span></span>
+            <span style={{ fontSize: 'clamp(16px,2.2vw,22px)', fontWeight: 800, color: '#e07820' }}>&middot; 14-Day Free Trial</span>
+          </div>
+          <div style={{ color: 'rgba(255,255,255,.6)', fontSize: '13px', fontWeight: 600, marginTop: '7px', letterSpacing: '.3px' }}>No credit card required &middot; Cancel anytime</div>
+        </div>
+        <HeroDemo />
+      </div>
+
+      {/* ═══ HERO — now sits under the demo the visitor has already started poking at ═══ */}
+      <div className="hero" style={{ paddingTop: 'clamp(44px,5vw,60px)', paddingBottom: '0' }}>
         <div className="hero-badge">{copy.badge}</div>
         <h1>{copy.h1a}<br /><span>{copy.h1b}</span></h1>
         <p className="hero-sub" style={{ marginBottom: '30px' }}>{copy.sub}</p>
@@ -61,11 +79,6 @@ export default function DemoPageTemplate({ copy }: { copy: DemoPageCopy }) {
           <span>✓ No credit card</span>
           <span>✓ Already loaded with a real company</span>
         </div>
-      </div>
-
-      {/* ═══ THE DEMO ITSELF ═══ */}
-      <div style={{ background: 'linear-gradient(135deg,#080010 0%,#130520 60%,#1e0a35 100%)', padding: '0 clamp(14px,4vw,40px) clamp(60px,6vw,80px)', textAlign: 'center' }}>
-        <HeroDemo />
       </div>
 
       {/* ═══ WHAT "DEMO" MEANS EVERYWHERE ELSE ═══ */}
