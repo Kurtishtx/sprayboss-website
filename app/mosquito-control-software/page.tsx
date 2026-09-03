@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -222,12 +222,12 @@ export default function MosquitoControlSoftware() {
       <div className="hero">
         <div className="hero-badge">Mosquito Control Software</div>
         <h1>Software Built for<br /><span>Mosquito Control Companies.</span></h1>
-        <p>Manage seasonal mosquito programs, build circle routes with Lasso, track sq ft or linear ft waiting lists by program type, send automated customer alerts before and after every treatment, and log every chemical application for compliance — $129/month, everything included.</p>
+        <p>Manage seasonal mosquito programs, build circle routes with Lasso, track sq ft or linear ft waiting lists by program type, send automated customer alerts before and after every treatment, and log every chemical application for compliance — from $59/month, everything included.</p>
         <div className="hero-btns">
-          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — $129/Month</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — from $59/Month</a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Technicians and users</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons or per-user fees</div></div>
@@ -382,7 +382,7 @@ export default function MosquitoControlSoftware() {
 
       {/* PREMIUM BAND */}
       <div className="premium-band">
-        <h2>Everything a Mosquito Control Company Needs.<br /><span>$129/Month. All In.</span></h2>
+        <h2>Everything a Mosquito Control Company Needs.<br /><span>from $59/Month. All In.</span></h2>
         <p>SprayBossPro isn&apos;t generic field service software patched to work for mosquito control. It&apos;s built for recurring treatment programs, zone-based routing, compliance logging, and the customer communication that mosquito control companies deal with every single season.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Circle Map Route Builder</h4><p>Draw a circle on any neighborhood and instantly see every mosquito control stop due inside. Build a full day of optimized routes in minutes — not an hour.</p></div>
@@ -392,8 +392,8 @@ export default function MosquitoControlSoftware() {
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Application Logs</h4><p>Log product, EPA reg number, rate, gallons, sq ft or linear ft treated, weather, and applicator license on every job. Print compliance reports on demand.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Seasonal Package Plans</h4><p>Sell seasonal mosquito control packages with treatment count tracking. SprayBossPro alerts you before programs expire so you can renew before the season ends.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Mobile App for Technicians</h4><p>Techs see their optimized route, customer notes, gate codes, pet warnings, and the application log form on their phone. No paper, no calls back to the office.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically after each mosquito control treatment. No invoice chasing, no payment add-on fee — included in the $129/month flat rate.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Technicians</h4><p>Run one mosquito control truck or a full fleet. SprayBossPro doesn&apos;t charge per user — add every tech in your company, the price stays $129/month.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically after each mosquito control treatment. No invoice chasing, no payment add-on fee — included in the from $59/month rate.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>your whole crew</h4><p>Run one mosquito control truck or a full fleet. SprayBossPro doesn&apos;t charge per user — add every tech in your company, the price stays from $59/month.</p></div>
         </div>
       </div>
 
@@ -401,7 +401,7 @@ export default function MosquitoControlSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$129/Month. Every Feature. One Flat Price.</h2>
+          <h2 className="section-title">from $59/Month. Every Feature. Simple pricing.</h2>
           <p className="section-sub">No per-technician fees. No add-ons for SMS alerts or compliance logs. No contracts. One price — every feature a mosquito control company needs.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
@@ -421,7 +421,7 @@ export default function MosquitoControlSoftware() {
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Mobile App for Technicians</li>
-              <li>Unlimited Technicians — no per-user fees</li>
+              <li>your whole crew — no hidden fees</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>
@@ -442,7 +442,7 @@ export default function MosquitoControlSoftware() {
             {q:'Can I add mosquito control to an existing lawn care or pest control business?', a:'Yes. SprayBossPro manages multiple service types from one account. You can run lawn care, pest control, and mosquito control routes simultaneously, with separate waiting lists by service type and service-specific SMS alert templates.'},
             {q:'Does it handle chemical compliance logs for mosquito control?', a:'Yes. Every mosquito treatment logs the product, EPA registration number, application rate, target pest, and applicator license. The chemical tracking report exports a formatted compliance log for state inspector requirements — no paper records needed.'},
             {q:'Can I track treatments remaining on a seasonal mosquito package?', a:'Yes. SprayBossPro tracks treatments remaining per customer on package programs. When a package is nearing completion, you\'re notified so you can initiate the renewal conversation before the season ends.'},
-            {q:'How much does SprayBossPro cost?', a:'$129/month, flat. Every feature — routes, compliance logs, SMS alerts, card-on-file payments — is included at one price. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+            {q:'How much does SprayBossPro cost?', a:'from $59/month, flat. Every feature — routes, compliance logs, SMS alerts, card-on-file payments — is included at one price. No hidden fees, no add-ons. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -456,10 +456,10 @@ export default function MosquitoControlSoftware() {
       {/* CTA */}
       <div className="cta-band">
         <h2>The Mosquito Control Software<br /><span style={{color:'var(--orange)'}}>Built for Recurring Programs and Real Routes.</span></h2>
-        <p>$129/month gets you Lasso routing, program auto-scheduling, compliance logs, automated SMS alerts, and card-on-file payments. No add-ons. No contracts. No per-user fees.</p>
+        <p>from $59/month gets you Lasso routing, program auto-scheduling, compliance logs, automated SMS alerts, and card-on-file payments. No add-ons. No contracts. No hidden fees.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

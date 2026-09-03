@@ -39,7 +39,7 @@ export default function Page() {
           <h3>Every completion triggers the next visit — automatically, for every customer, every program type.</h3>
           <p>SprayBossPro auto-schedules the next pest control visit the moment a tech submits the completion log, so your waiting list is always current without anyone in the office doing anything between visits.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -33,9 +33,9 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list replaces the spreadsheet. Circle routing replaces the paper route. Digital dispatch replaces the morning phone calls.</h3>
-          <p>SprayBossPro replaces every manual process in a lawn care operation with purpose-built automation — for one flat monthly price with no per-feature add-ons.</p>
+          <p>SprayBossPro replaces every manual process in a lawn care operation with purpose-built automation — for one monthly price with no per-feature add-ons.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

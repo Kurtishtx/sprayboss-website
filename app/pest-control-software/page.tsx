@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -225,10 +225,10 @@ export default function PestControlSoftware() {
         <p>Generic field service software wasn&apos;t built for pest control. SprayBossPro is — recurring treatment plans, chemical application logs, compliance reports, automated customer alerts, and route scheduling built around the way spray businesses actually operate.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat Monthly — Everything Included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly — Everything Included</div></div>
           <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">SMS Alerts Included Monthly</div></div>
           <div><div className="hero-stat-val">30 sec</div><div className="hero-stat-lbl">Pull a Compliance Report</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
@@ -251,7 +251,7 @@ export default function PestControlSoftware() {
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Pest Control Software.</span></h2>
-        <p>$129/month sounds like a bargain. It is — but not because we cut corners. SprayBossPro is built to the same standard as software that costs 10 times more. The difference is we built it ourselves, for ourselves, with no sales team overhead, no investor timeline, and no $200/month module you have to buy just to print a compliance report.</p>
+        <p>from $59/month sounds like a bargain. It is — but not because we cut corners. SprayBossPro is built to the same standard as software that costs 10 times more. The difference is we built it ourselves, for ourselves, with no sales team overhead, no investor timeline, and no $200/month module you have to buy just to print a compliance report.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance Built In</h4><p>Every application auto-logged with product name, EPA reg number, mix rate, gallons used, target pest, area treated, weather, and tech license. Print a state-ready compliance report in under 30 seconds — no spreadsheet, no extra module.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Treatment Engine</h4><p>Quarterly, bi-monthly, annual, or custom — every property&apos;s treatment schedule is tracked automatically. A waiting list shows you exactly what&apos;s due by service type before you schedule a single stop. No other pest control software has this.</p></div>
@@ -368,8 +368,8 @@ export default function PestControlSoftware() {
             {icon:'⏱️', title:'Employee Hour Tracking', body:'Track hours per job and generate payroll-ready reports. Know what you owe before payday without a separate system.'},
             {icon:'📊', title:'Dashboard & Reports', body:'See today\'s revenue, completed stops, outstanding invoices, and more the moment you log in. Custom stat cards show what matters most to your business.'},
             {icon:'🔔', title:'10+ Alert Types', body:'Service scheduled, completed, skipped, rescheduled — plus estimate sent, estimate accepted, payment reminder, review request, and more. All automated and fully customizable.'},
-            {icon:'👥', title:'Unlimited Users', body:'Add every tech, office staff member, and manager at no extra cost. No per-seat pricing. Unlimited users included in the flat monthly rate.'},
-            {icon:'🏢', title:'Unlimited Clients & Properties', body:'50 accounts or 5,000 — no caps, no upgrade tiers. One flat price covers everything no matter how big you grow.'},
+            {icon:'👥', title:'Unlimited Clients', body:'Add every tech, office staff member, and manager at no extra cost. No per-seat pricing. Unlimited clients included in the flat monthly rate.'},
+            {icon:'🏢', title:'Unlimited Clients & Properties', body:'50 accounts or 5,000 — no per-client charges. Simple pricing covers everything no matter how big you grow.'},
             {icon:'🏷️', title:'Discounts & Sales Tax', body:'Apply percentage or flat discounts to any estimate. Set tax rates and SprayBossPro calculates and tracks tax on every invoice automatically.'},
           ].map(({icon, title, body}) => (
             <div key={title} className="feature-card">
@@ -469,8 +469,8 @@ export default function PestControlSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">One Flat Price. Everything Included.</h2>
-          <p className="section-sub">No per-seat fees. No add-ons. No contracts. Just $129/month for your entire operation.</p>
+          <h2 className="section-title">Simple pricing. Everything Included.</h2>
+          <p className="section-sub">No per-seat fees. No add-ons. No contracts. Just from $59/month for your entire operation.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="lc-price-card featured">
@@ -478,7 +478,7 @@ export default function PestControlSoftware() {
             <div className="price-tier">One Plan. No Surprises.</div>
             <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
             <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
-            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, employees, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, employees, and users. No surprises, no locked features, no per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
@@ -507,8 +507,8 @@ export default function PestControlSoftware() {
             {q:'Can I manage quarterly, bi-monthly, and monthly programs at the same time?', a:'Yes. SprayBossPro supports multiple program intervals simultaneously. Each customer can be on a different schedule, and the waiting list tracks every account across all program types. When a treatment is completed, the next one is automatically placed back at the correct interval — no manual rebooking.'},
             {q:'Does it handle chemical compliance logs for pest control?', a:'Yes. Every pest control treatment logs the product, EPA registration number, application rate, target pest, treatment areas (interior/exterior), and applicator license. The compliance report generates a formatted log suitable for state inspection — no paper records needed.'},
             {q:'Does SprayBossPro send automated SMS for pest control visits?', a:'Yes. Pre-built SMS alerts include appointment reminders, on-the-way notifications, service completion messages, and re-entry interval instructions. Alerts fire automatically from dispatch and completion events — configured once, sent on every job.'},
-            {q:'Can I manage multiple pest control technicians?', a:'Yes. SprayBossPro supports unlimited technicians. The dispatch board assigns routes to specific technicians, and each uses the mobile app to see their stops, property notes, and chemical log form. No per-user fees regardless of crew size.'},
-            {q:'How much does SprayBossPro cost for pest control?', a:'$129/month, flat. Every feature — route scheduling, compliance logs, SMS alerts, card payments — is included at one price. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+            {q:'Can I manage multiple pest control technicians?', a:'Yes. SprayBossPro supports your whole crew. The dispatch board assigns routes to specific technicians, and each uses the mobile app to see their stops, property notes, and chemical log form. No hidden fees regardless of crew size.'},
+            {q:'How much does SprayBossPro cost for pest control?', a:'from $59/month, flat. Every feature — route scheduling, compliance logs, SMS alerts, card payments — is included at one price. No hidden fees, no add-ons. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -525,7 +525,7 @@ export default function PestControlSoftware() {
         <p>SprayBossPro is built by people who&apos;ve run real spray routes. Try it free for 14 days — no credit card required.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Sq ft pricing. Linear ft pricing. Both stored per property. Both totaled on the waiting list. Software built for the way mosquito spray actually works.</h3>
           <p>SprayBossPro tracks mosquito control sq ft and linear ft separately per property, totals both on the waiting list, and supports per-unit pricing for each — so your pricing model fits your service model exactly.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Keep gates open and customers answered on every route.</h3>
           <p>SprayBossPro automates SMS reminders and runs a two-way texting inbox so your perimeter programs stay on schedule. Start a free trial and stop playing phone tag.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

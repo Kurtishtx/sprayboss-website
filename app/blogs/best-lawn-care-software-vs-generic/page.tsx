@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Waiting list. Completion-date auto-scheduling. Product library compliance logs. Automatic REI SMS. The difference is by design.</h3>
           <p>SprayBossPro is built for lawn care companies running chemical programs — not adapted from a field service tool designed for plumbers. Every feature works the way lawn care actually works.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

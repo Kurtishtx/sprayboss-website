@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Erase the unpaid miles between every stop.</h3>
           <p>SprayBossPro&apos;s circle-map Lasso routing groups nearby properties into tight days so each truck cuts windshield time and completes more exterior services. See how much capacity your fleet is hiding.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

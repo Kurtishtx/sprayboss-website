@@ -35,7 +35,7 @@ export default function Page() {
           <h3>21-day intervals tracked automatically. Every customer surfaces when they&apos;re due. No manual date calculation.</h3>
           <p>SprayBossPro auto-schedules mosquito treatments at configured intervals from every completion date — so your waiting list is always accurate through peak season without anyone tracking individual due dates.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

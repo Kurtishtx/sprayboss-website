@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Put your grub program rounds on autopilot.</h3>
           <p>SprayBossPro schedules the preventive round, routes it, and bills the card on file automatically. Start your free trial and turn grub into recurring revenue.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

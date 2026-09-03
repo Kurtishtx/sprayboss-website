@@ -131,13 +131,13 @@ export default function VsSpraye() {
 
       <div className="hero">
         <div className="hero-badge">Spraye Alternative</div>
-        <h1>Spraye Caps Your Properties and Charges Per User.<br /><span>SprayBossPro Is $129 Flat. No Limits.</span></h1>
-        <p>Spraye caps your property count and charges per user on top of their base subscription. SprayBossPro is $129/month — unlimited properties, unlimited users, no setup fee, no demo required. Start today.</p>
+        <h1>Spraye Caps Your Properties and Charges Per User.<br /><span>SprayBossPro Is $59 Flat. No Limits.</span></h1>
+        <p>Spraye caps your property count and charges per user on top of their base subscription. SprayBossPro is from $59/month — unlimited properties, unlimited clients, no setup fee, no demo required. Start today.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">SprayBossPro — Flat Monthly</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">SprayBossPro — Flat Monthly</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Properties — No Caps</div></div>
           <div><div className="hero-stat-val">$0</div><div className="hero-stat-lbl">Setup Fee — Spraye Charges One</div></div>
           <div><div className="hero-stat-val">No Demo</div><div className="hero-stat-lbl">Required — Start Right Now</div></div>
@@ -160,7 +160,7 @@ export default function VsSpraye() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Flat Monthly Price — No Per-User Fees</td><td className="sbp-col"><span className="chk">✓ $129/mo</span></td><td><span className="crs">✗ Per-user charges apply</span></td></tr>
+              <tr><td className="feature-name">monthly price — no hidden fees</td><td className="sbp-col"><span className="chk">✓ from $59/mo</span></td><td><span className="crs">✗ Per-user charges apply</span></td></tr>
               <tr><td className="feature-name">Unlimited Properties</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Capped by tier</span></td></tr>
               <tr><td className="feature-name">No Setup Fee</td><td className="sbp-col"><span className="chk">✓ $0</span></td><td><span className="crs">✗ Setup fee required</span></td></tr>
               <tr><td className="feature-name">Start Without a Demo</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Demo required</span></td></tr>
@@ -175,8 +175,8 @@ export default function VsSpraye() {
               <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated SMS Alerts</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">No Annual Contract</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Varies</span></td></tr>
-              <tr><td className="feature-name">Essentials Price (1 user)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/mo — unlimited</td><td style={{color:'var(--muted)'}}>$229.97/mo + per-user</td></tr>
-              <tr><td className="feature-name">Premium Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>Still $129</td><td style={{color:'var(--muted)'}}>$299.99+/mo + per-user</td></tr>
+              <tr><td className="feature-name">Essentials Price (1 user)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/mo — unlimited</td><td style={{color:'var(--muted)'}}>$229.97/mo + per-user</td></tr>
+              <tr><td className="feature-name">Premium Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>Still $59</td><td style={{color:'var(--muted)'}}>$299.99+/mo + per-user</td></tr>
             </tbody>
           </table>
         </div>
@@ -185,14 +185,14 @@ export default function VsSpraye() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">The Real Cost</span>
-          <h2 className="section-title">Spraye Is $229.97–$299.99+/Month Before Per-User Fees. SprayBossPro Is $129. Flat.</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Spraye&apos;s pricing isn&apos;t just higher than SBP — it grows as you add users. SprayBossPro is $129/month for your entire team, every feature, no property caps, no setup fee, forever.</p>
+          <h2 className="section-title">Spraye Is $229.97–$299.99+/Month Before Per-User Fees. SprayBossPro Is $59. Flat.</h2>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Spraye&apos;s pricing isn&apos;t just higher than SBP — it grows as you add users. SprayBossPro is from $59/month for your entire team, every feature, no property caps, no setup fee, forever.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
             <div className="highlight-visual-dark" style={{flex:1.5, minWidth:'280px'}}>
               <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Monthly Subscription Cost</div>
-              <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">SprayBossPro</div><div className="mock-sub">Unlimited users, unlimited properties, every feature</div></div><div className="mock-badge">$129/mo</div></div>
+              <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">SprayBossPro</div><div className="mock-sub">Unlimited clients, unlimited properties, every feature</div></div><div className="mock-badge">from $59/mo</div></div>
               <div className="mock-item"><div className="mock-dot teal"></div><div><div className="mock-label">Spraye Essentials</div><div className="mock-sub">Property cap + per-user fees on top</div></div><div className="mock-badge teal-badge">$229.97/mo</div></div>
               <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Spraye Premium</div><div className="mock-sub">More properties, still per-user fees, SMS unlocked</div></div><div className="mock-badge red-badge">$299.99+/mo</div></div>
               <div className="mock-also">
@@ -205,15 +205,15 @@ export default function VsSpraye() {
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">No Hidden Fees</span>
-              <h2>SprayBossPro Is $129. That&apos;s Everything. No Add-Ons. No Caps. No Setup Fee.</h2>
+              <h2>SprayBossPro Is $59. That&apos;s Everything. No Add-Ons. No Caps. No Setup Fee.</h2>
               <p>Spraye&apos;s base subscription doesn&apos;t include everything — you add users on top of it, pay a setup fee to get started, and need to book a demo before you can even begin. SprayBossPro starts with a free trial and one price that covers your entire operation.</p>
               <ul className="check-list">
-                <li>No per-user fees — your whole team is $129</li>
+                <li>No hidden fees — your whole team is $59</li>
                 <li>No property caps at any stage of growth</li>
                 <li>No setup fee — start for free</li>
                 <li>No demo required — sign up and go</li>
                 <li>Sq ft waiting list + lasso — not in Spraye at any price</li>
-                <li>Chemical compliance logs included at $129</li>
+                <li>Chemical compliance logs included at $59</li>
               </ul>
             </div>
           </div>
@@ -264,8 +264,8 @@ export default function VsSpraye() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Start Without a Demo</h3><p>SprayBossPro is self-serve from day one. No demo required, no sales call, no waiting for a rep to call you back. Sign up, start your free trial, and be scheduling routes the same afternoon.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>No Setup Fee. Ever.</h3><p>$0 to get started. SprayBossPro charges no setup fee, no onboarding fee, no implementation cost. Spraye charges a setup fee before you can use the software. SprayBossPro just charges $129/month.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>One Price — No Per-User Math</h3><p>$129/month for your entire team. Add your 5th employee, your 10th — price doesn&apos;t change. Spraye charges per user on top of their base subscription, which means every hire increases your bill. SprayBossPro doesn&apos;t.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>No Setup Fee. Ever.</h3><p>$0 to get started. SprayBossPro charges no setup fee, no onboarding fee, no implementation cost. Spraye charges a setup fee before you can use the software. SprayBossPro just charges from $59/month.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>One Price — No Per-User Math</h3><p>from $59/month for your entire team. Add your 5th employee, your 10th — price doesn&apos;t change. Spraye charges per user on top of their base subscription, which means every hire increases your bill. SprayBossPro doesn&apos;t.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Spray-Specific Features Included</h3><p>Sq ft waiting list, lasso route selector, chemical compliance logs, recurring treatment tracking — features built specifically for lawn care and pest control businesses. Not available in Spraye at any tier or any price.</p></div>
         </div>
       </section>
@@ -273,8 +273,8 @@ export default function VsSpraye() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$129/Month. No Surprises. No Demo. Start Today.</h2>
-          <p className="section-sub">Unlimited properties. Unlimited users. Every feature. No setup fee. No per-user charges.</p>
+          <h2 className="section-title">from $59/Month. No Surprises. No Demo. Start Today.</h2>
+          <p className="section-sub">Unlimited properties. Unlimited clients. Every feature. No setup fee. No per-user charges.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -315,7 +315,7 @@ export default function VsSpraye() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #e07820', boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -332,7 +332,7 @@ export default function VsSpraye() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

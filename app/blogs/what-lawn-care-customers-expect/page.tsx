@@ -44,7 +44,7 @@ export default function Page() {
           <h3>Give every customer a professional communication experience at every visit.</h3>
           <p>SprayBossPro fires before, during, and after alerts automatically for every stop — so your customers always know what&apos;s happening without your office sending a single text.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

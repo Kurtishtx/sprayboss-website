@@ -37,7 +37,7 @@ export default function Page() {
           <h3>Scale on retention and recurring revenue — not on burning through new leads to replace churn.</h3>
           <p>SprayBossPro gives pest control companies the scheduling automation, service consistency, and customer communication tools that reduce churn and enable upsell — so growth comes from customers you already have.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

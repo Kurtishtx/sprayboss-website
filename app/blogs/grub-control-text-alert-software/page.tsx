@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Keep every grub stop informed and on schedule with SMS.</h3>
           <p>SprayBossPro sends automated arrival texts and runs a two-way inbox so you cut no-access stops and phone tag. Start your free trial and text your whole route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

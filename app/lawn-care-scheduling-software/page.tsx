@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -224,14 +224,14 @@ export default function LawnCareSchedulingSoftware() {
       <div className="hero">
         <div className="hero-badge">Lawn Care Scheduling Software</div>
         <h1>Lawn Care Scheduling Software<br /><span>Built Around How You Actually Schedule.</span></h1>
-        <p>Start every morning with a waiting list of every lawn care treatment due — organized by service type with total sq ft or linear ft. Draw a circle on the map with Lasso, pull every stop due inside into a route, and dispatch to your technicians in minutes. Recurring treatments auto-reschedule when complete. $129/month, everything included.</p>
+        <p>Start every morning with a waiting list of every lawn care treatment due — organized by service type with total sq ft or linear ft. Draw a circle on the map with Lasso, pull every stop due inside into a route, and dispatch to your technicians in minutes. Recurring treatments auto-reschedule when complete. from $59/month, everything included.</p>
         <div className="hero-btns" style={{marginBottom:0}}>
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">
-            Start Your 14-Day Free Trial — $129/Month
+            Start Your 14-Day Free Trial — from $59/Month
           </a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Technicians and routes</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons or per-user fees</div></div>
@@ -255,7 +255,7 @@ export default function LawnCareSchedulingSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Built for Lawn Care Companies That Spray</span>
-          <h2 className="section-title">Every Lawn Care Program Type. One Platform. $129/Month.</h2>
+          <h2 className="section-title">Every Lawn Care Program Type. One Platform. from $59/Month.</h2>
           <p className="section-sub">SprayBossPro handles the scheduling, routing, compliance logging, and customer SMS alerts for every type of lawn care program your company runs — all in one place, all in one price.</p>
         </div>
         <div className="audience-grid">
@@ -426,7 +426,7 @@ export default function LawnCareSchedulingSoftware() {
               <li>Service complete with re-entry interval fires after the compliance log is saved</li>
               <li>10+ pre-built lawn care SMS templates — customizable, ready out of the box</li>
               <li>Two-way inbox — all customer replies organized in one place for your team</li>
-              <li>500 outbound SMS/month included in $129/month flat</li>
+              <li>500 outbound SMS/month included in from $59/month</li>
             </ul>
           </div>
           <div className="highlight-visual">
@@ -460,7 +460,7 @@ export default function LawnCareSchedulingSoftware() {
 
       {/* ════ PREMIUM BAND ════ */}
       <div className="premium-band">
-        <h2>Lawn Care Scheduling Built for Companies That Spray.<br /><span>$129/Month. Everything Included.</span></h2>
+        <h2>Lawn Care Scheduling Built for Companies That Spray.<br /><span>from $59/Month. Everything Included.</span></h2>
         <p>SprayBossPro isn&#39;t a generic scheduling app adapted for lawn care. The waiting list, Lasso route builder, compliance logging, auto-rescheduling, and automated SMS alerts are all built specifically for companies that apply chemical treatments on recurring lawn care programs.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Circle Map Route Builder</h4><p>Draw a circle on any neighborhood and see every lawn care stop due inside. Build and dispatch a full day of routes in minutes.</p></div>
@@ -471,7 +471,7 @@ export default function LawnCareSchedulingSoftware() {
           <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Lawn Care Package Plans</h4><p>Sell 5-round, 6-round, and custom seasonal lawn care packages. Track treatments remaining per customer.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Mobile App for Technicians</h4><p>Techs see their optimized route, property notes, gate codes, service history, and the compliance log form on their phone.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically after each treatment is completed — no separate payment add-on, no extra percentage per transaction.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Technicians</h4><p>Run 1 truck or 10. SprayBossPro never charges per user — every tech in your company is included at $129/month.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>your whole crew</h4><p>Run 1 truck or 10. SprayBossPro never charges per user — every tech in your company is included at from $59/month.</p></div>
         </div>
       </div>
 
@@ -479,8 +479,8 @@ export default function LawnCareSchedulingSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$129/Month. Every Feature. No Add-Ons.</h2>
-          <p className="section-sub">One flat price covers scheduling, routing, compliance logs, SMS alerts, card-on-file payments, and unlimited technicians.</p>
+          <h2 className="section-title">from $59/Month. Every Feature. No Add-Ons.</h2>
+          <p className="section-sub">Simple pricing covers scheduling, routing, compliance logs, SMS alerts, card-on-file payments, and your whole crew.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="lc-price-card featured">
@@ -501,7 +501,7 @@ export default function LawnCareSchedulingSoftware() {
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Mobile App for Technicians</li>
-              <li>Unlimited Technicians — no per-user fees ever</li>
+              <li>your whole crew — no hidden fees ever</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>
@@ -524,7 +524,7 @@ export default function LawnCareSchedulingSoftware() {
             {q:'Can I schedule multiple rounds of a recurring program?', a:'Yes. You can set up recurring programs with any number of rounds. SprayBossPro tracks which round each customer is on, when they\'re due, and how many treatments remain. When a round is completed, the next goes back on the waiting list automatically.'},
             {q:'Does it send automatic reminders to lawn care customers?', a:'Yes. SprayBossPro sends automated SMS alerts for every visit: day-before reminders, on-the-way notifications, and completion messages. Alerts are configured once and fire automatically for every service. 500 outbound SMS/month are included at no extra charge.'},
             {q:'Can I price lawn care services by square footage?', a:'Yes. SprayBossPro stores sq ft per property and calculates service pricing based on per-sq-ft rates you set. Pricing appears automatically on the waiting list and in estimates — no manual calculation per stop.'},
-            {q:'How much does SprayBossPro cost for a lawn care business?', a:'$129/month, flat. No per-user fees, no SMS add-ons, no extra charge for chemical logs or route building. Every feature is included. 14-day free trial, no credit card required.'},
+            {q:'How much does SprayBossPro cost for a lawn care business?', a:'from $59/month, flat. No hidden fees, no SMS add-ons, no extra charge for chemical logs or route building. Every feature is included. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -538,7 +538,7 @@ export default function LawnCareSchedulingSoftware() {
       {/* ════ CTA ════ */}
       <div className="cta-band">
         <h2>Lawn Care Scheduling Software<br /><span style={{color:'var(--orange)'}}>That Actually Saves You Time Every Morning.</span></h2>
-        <p>$129/month gets you Lasso routing, sq ft or linear ft waiting lists, auto-rescheduling, compliance logs, and automated SMS alerts. Everything built for lawn care companies that spray on recurring programs. No add-ons. No contracts.</p>
+        <p>from $59/month gets you Lasso routing, sq ft or linear ft waiting lists, auto-rescheduling, compliance logs, and automated SMS alerts. Everything built for lawn care companies that spray on recurring programs. No add-ons. No contracts.</p>
         <div className="hero-btns" style={{justifyContent:'center'}}>
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>
             Start Your 14-Day Free Trial

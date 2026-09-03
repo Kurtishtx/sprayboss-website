@@ -48,7 +48,7 @@ export default function Page() {
           <h3>Run two crews as easily as you run one.</h3>
           <p>SprayBossPro lets you split waiting lists by territory, dispatch multiple crews from one screen, and track every stop across all routes in real time.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

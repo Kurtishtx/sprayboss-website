@@ -27,7 +27,7 @@ export default function Page() {
         <p>If the vendor doesn&apos;t immediately know what you&apos;re asking about, the platform doesn&apos;t have package plan tracking. Purpose-built <a href="/pest-control-software">pest control software</a> tracks treatments remaining against the annual contract and surfaces accounts for renewal at the appropriate time. This is a fundamental feature of recurring program management. Its absence means manual renewal tracking in a spreadsheet alongside whatever the software does for scheduling.</p>
 
         <h2>Question 5: What Does the Pricing Look Like When I Add Technicians?</h2>
-        <p>Per-user pricing that adds $30 to $50 per technician scales poorly. A company with 4 field technicians and 2 office users on a $45/user model is paying $270/month in user fees before any features are counted. Flat monthly pricing — all users, all features included — is the model that doesn&apos;t penalize hiring. Flat pricing at $129/month for all users and all features means the software cost stays constant as the business grows from 1 technician to 5.</p>
+        <p>hidden add-on pricing that adds $30 to $50 per technician scales poorly. A company with 4 field technicians and 2 office users on a $45/user model is paying $270/month in user fees before any features are counted. Flat monthly pricing — all users, all features included — is the model that doesn&apos;t penalize hiring. Simple pricing at from $59/month for all users and all features means the software cost stays constant as the business grows from 1 technician to 5.</p>
 
         <h2>Question 6: Can I Generate a Compliance Report for a State Inspection in Under a Minute?</h2>
         <p>The answer you want: &quot;Yes — open the chemical tracking report, enter the date range, click generate, print.&quot; The answer that reveals a limitation: &quot;You can export all records as a CSV and filter in Excel.&quot; Inspector-ready in under 60 seconds is the standard. A CSV export is a half-solution.</p>
@@ -35,10 +35,10 @@ export default function Page() {
         <p>For why these questions reveal the fundamental difference between purpose-built and generic tools, see <a href="/blogs/pest-control-business-200-to-500-accounts-software">What a Pest Control Business Looks Like at 200 Accounts vs. 500 — and the Software That Bridges the Gap</a>.</p>
 
         <div className="blog-cta-box">
-          <h3>Auto-scheduling. Product library EPA pre-fill. Automatic REI SMS. Package tracking. Flat pricing. Inspector-ready in 60 seconds. SprayBossPro says yes to all six.</h3>
+          <h3>Auto-scheduling. Product library EPA pre-fill. Automatic REI SMS. Package tracking. Simple pricing. Inspector-ready in 60 seconds. SprayBossPro says yes to all six.</h3>
           <p>SprayBossPro is built specifically for recurring pest control operations — try it free for 14 days with every feature unlocked, no credit card required.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

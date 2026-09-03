@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Turn wasted drive time into more treatments per day.</h3>
           <p>SprayBossPro&apos;s Lasso routing and crew mobile app tighten every flea and tick route and keep the plan intact in the field. Build denser routes and grow without adding trucks.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

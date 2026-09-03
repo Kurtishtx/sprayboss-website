@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -222,12 +222,12 @@ export default function WeedControlSoftware() {
       <div className="hero">
         <div className="hero-badge">Weed Control Software for Lawn Care Companies</div>
         <h1>Weed Control Software with Pre-Emergent Programs,<br /><span>Compliance Logs, and Auto Re-Entry SMS.</span></h1>
-        <p>SprayBossPro manages pre-emergent and post-emergent weed control programs for lawn care companies. Set up your timing windows once — pre-emergent rounds schedule at the right seasonal dates, post-emergent rounds reschedule at your interval after completion. Log EPA reg numbers and re-entry intervals on every application. Re-entry SMS fires automatically to every customer. $129/month, everything included.</p>
+        <p>SprayBossPro manages pre-emergent and post-emergent weed control programs for lawn care companies. Set up your timing windows once — pre-emergent rounds schedule at the right seasonal dates, post-emergent rounds reschedule at your interval after completion. Log EPA reg numbers and re-entry intervals on every application. Re-entry SMS fires automatically to every customer. from $59/month, everything included.</p>
         <div className="hero-btns">
-          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — $129/Month</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — from $59/Month</a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
           <div><div className="hero-stat-val">Pre &amp; Post</div><div className="hero-stat-lbl">Emergent programs — both handled</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">Auto</div><div className="hero-stat-lbl">Re-entry SMS on every application</div></div>
@@ -409,7 +409,7 @@ export default function WeedControlSoftware() {
 
       {/* PREMIUM BAND */}
       <div className="premium-band">
-        <h2>Weed Control Software Built for Lawn Care Companies.<br /><span>$129/Month. Everything Included.</span></h2>
+        <h2>Weed Control Software Built for Lawn Care Companies.<br /><span>from $59/Month. Everything Included.</span></h2>
         <p>SprayBossPro isn&apos;t a generic scheduling app with a weed control tag. Pre-emergent timing windows, post-emergent auto-rescheduling, EPA compliance logs, re-entry interval SMS, and Lasso routing are built specifically for companies running recurring weed control programs on residential and commercial lawns.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🌱</div><h4>Pre-Emergent Timing Windows</h4><p>Pre-emergent rounds schedule at your seasonal target date and appear on the waiting list when due. Spring and fall rounds tracked separately per property, each with its own compliance log.</p></div>
@@ -419,8 +419,8 @@ export default function WeedControlSoftware() {
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Circle Map Routing</h4><p>Draw a circle on any neighborhood and see every weed control stop due inside. Filter by program type. Pull all stops into a route and dispatch to your tech in minutes from one map view.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📊</div><h4>Sq Ft Waiting List by Program</h4><p>Every weed control program due today in one list — pre-emergent, post-emergent, broadleaf all separated with sq ft totals. Know your full scope before you build the first route.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Mobile App for Technicians</h4><p>Techs see their route in order, property notes, gate codes, service history, and compliance log form on their phone. No paper. No calls to the office asking what product to use.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically when each weed control round is completed. Included in $129/month flat — no separate billing module and no extra transaction percentage.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Technicians</h4><p>Run one weed control truck or multiple crews. Every tech is included in the $129/month price. No per-user fee ever — the price stays flat no matter how many people use it.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically when each weed control round is completed. Included in from $59/month — no separate billing module and no extra transaction percentage.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>your whole crew</h4><p>Run one weed control truck or multiple crews. Every tech is included in the from $59/month price. No per-user fee ever — the price stays flat no matter how many people use it.</p></div>
         </div>
       </div>
 
@@ -428,8 +428,8 @@ export default function WeedControlSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$129/Month. Every Feature. No Add-Ons.</h2>
-          <p className="section-sub">One flat price covers pre-emergent and post-emergent scheduling, compliance logs, re-entry interval SMS, Lasso routing, and unlimited technicians. No per-user fees. No contracts. No surprises.</p>
+          <h2 className="section-title">from $59/Month. Every Feature. No Add-Ons.</h2>
+          <p className="section-sub">Simple pricing covers pre-emergent and post-emergent scheduling, compliance logs, re-entry interval SMS, Lasso routing, and your whole crew. No hidden fees. No contracts. No surprises.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="lc-price-card featured">
@@ -451,7 +451,7 @@ export default function WeedControlSoftware() {
               <li>Two-Way SMS Customer Inbox</li>
               <li>Mobile App for Technicians — Route, Log &amp; Complete</li>
               <li>Card-on-File Payments — Charge on Completion</li>
-              <li>Unlimited Technicians — No Per-User Fees Ever</li>
+              <li>your whole crew — no hidden fees Ever</li>
               <li>14-Day Free Trial — No Credit Card Required</li>
             </ul>
             <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</button>
@@ -471,7 +471,7 @@ export default function WeedControlSoftware() {
             {q:'Does it handle chemical compliance logs for weed control?', a:'Yes. Every weed control treatment logs the product, EPA registration number, application rate, target weed, area treated, and applicator license. The compliance report generates a formatted log for state inspection — no paper records needed.'},
             {q:'Can SprayBossPro manage weed control alongside lawn care or fertilizer?', a:'Yes. SprayBossPro handles lawn care, fertilizer, pest control, and weed control from one account. The waiting list filters by service type, and SMS alerts are configured independently per service — so weed control customers get weed control-specific messaging.'},
             {q:'Does it send re-entry interval messages after weed control applications?', a:'Yes. Post-service SMS alerts can include re-entry timing — "Please keep people and pets off treated areas for [X time] while the product dries." Alerts fire automatically at treatment completion, specific to the weed control service type.'},
-            {q:'How much does SprayBossPro cost for a weed control business?', a:'$129/month, flat. All features included. No per-user fees, no SMS add-ons, no extra charge for compliance logs. 14-day free trial, no credit card required.'},
+            {q:'How much does SprayBossPro cost for a weed control business?', a:'from $59/month, flat. All features included. No hidden fees, no SMS add-ons, no extra charge for compliance logs. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -485,10 +485,10 @@ export default function WeedControlSoftware() {
       {/* CTA */}
       <div className="cta-band">
         <h2>Weed Control Software That Handles Pre-Emergent Timing,<br /><span style={{color:'var(--orange)'}}>Post-Emergent Auto-Scheduling, and Re-Entry SMS.</span></h2>
-        <p>$129/month gets you pre-emergent seasonal scheduling, post-emergent auto-rescheduling, compliance logs, re-entry interval SMS, and Lasso routing — all built for lawn care companies running recurring weed control programs. No add-ons. No contracts.</p>
+        <p>from $59/month gets you pre-emergent seasonal scheduling, post-emergent auto-rescheduling, compliance logs, re-entry interval SMS, and Lasso routing — all built for lawn care companies running recurring weed control programs. No add-ons. No contracts.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

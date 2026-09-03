@@ -36,7 +36,7 @@ export default function Page() {
           <h3>Add mosquito service to existing accounts — tracked independently, scheduled automatically, billed separately.</h3>
           <p>SprayBossPro supports multiple simultaneous programs per customer account, so mosquito add-ons schedule independently from quarterly or bi-monthly base programs without any scheduling interference.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

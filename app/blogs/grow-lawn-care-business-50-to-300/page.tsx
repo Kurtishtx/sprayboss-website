@@ -30,9 +30,9 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>50 accounts runs on spreadsheets. 300 accounts runs on software. The time to install it is before you need it.</h3>
-          <p>SprayBossPro supports lawn care businesses from their first 50 accounts through 300 and beyond — with a flat $129/month price that doesn&apos;t scale with account count, so growth is always profitable.</p>
+          <p>SprayBossPro supports lawn care businesses from their first 50 accounts through 300 and beyond — with a flat from $59/month price that doesn&apos;t scale with account count, so growth is always profitable.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

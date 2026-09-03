@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -222,12 +222,12 @@ export default function FertilizerSoftware() {
       <div className="hero">
         <div className="hero-badge">Fertilizer Software for Lawn Care Companies</div>
         <h1>Fertilizer Software That Tracks Every Round,<br /><span>Logs Every Application, and Schedules the Next.</span></h1>
-        <p>SprayBossPro tracks 5-round and 6-round fertilizer programs from start to finish. Log product name, EPA reg number, application rate per 1,000 sq ft, and applicator license on every visit. When a round is completed, the next round reschedules itself on the waiting list automatically. $129/month, everything included.</p>
+        <p>SprayBossPro tracks 5-round and 6-round fertilizer programs from start to finish. Log product name, EPA reg number, application rate per 1,000 sq ft, and applicator license on every visit. When a round is completed, the next round reschedules itself on the waiting list automatically. from $59/month, everything included.</p>
         <div className="hero-btns">
-          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — $129/Month</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — from $59/Month</a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
           <div><div className="hero-stat-val">5 &amp; 6</div><div className="hero-stat-lbl">Round program tracking built-in</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons or per-user fees</div></div>
@@ -252,7 +252,7 @@ export default function FertilizerSoftware() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Built for Every Type of Fertilizer Program</span>
           <h2 className="section-title">Whether You Run 5 Rounds or 6, Granular or Liquid — SprayBossPro Has You Covered.</h2>
-          <p className="section-sub">SprayBossPro tracks every fertilizer program type your lawn care company runs — round-by-round scheduling, compliance logging, auto-rescheduling, and automated re-entry SMS — all in one platform at one flat price.</p>
+          <p className="section-sub">SprayBossPro tracks every fertilizer program type your lawn care company runs — round-by-round scheduling, compliance logging, auto-rescheduling, and automated re-entry SMS — all in one platform at simple pricing.</p>
         </div>
         <div className="audience-grid">
           <div className="audience-card">
@@ -420,7 +420,7 @@ export default function FertilizerSoftware() {
               <li>Service complete with re-entry interval fires after the compliance log is saved</li>
               <li>10+ pre-built fertilizer SMS templates — ready to use on day one</li>
               <li>Two-way inbox — all customer replies organized for your team to see</li>
-              <li>500 outbound SMS/month included in $129/month flat</li>
+              <li>500 outbound SMS/month included in from $59/month</li>
             </ul>
           </div>
           <div className="highlight-visual">
@@ -454,7 +454,7 @@ export default function FertilizerSoftware() {
 
       {/* PREMIUM BAND */}
       <div className="premium-band">
-        <h2>Fertilizer Software Built for Lawn Care Companies That Apply Chemicals.<br /><span>$129/Month. Everything Included.</span></h2>
+        <h2>Fertilizer Software Built for Lawn Care Companies That Apply Chemicals.<br /><span>from $59/Month. Everything Included.</span></h2>
         <p>SprayBossPro isn&apos;t a generic scheduling tool with fertilizer tags added on. Round tracking, EPA compliance logs, auto-rescheduling, Lasso routing, and re-entry SMS are all built specifically for companies running recurring fertilizer programs.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>EPA Compliance Logs</h4><p>Product name, EPA reg number, rate per 1,000 sq ft, applicator license — logged in-field on every application. Print compliance reports by date, product, or applicator on demand.</p></div>
@@ -464,8 +464,8 @@ export default function FertilizerSoftware() {
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated SMS Alerts</h4><p>Day-before, on-the-way, and re-entry interval complete texts fire automatically on every fertilizer visit. 10+ pre-built templates. Your team sends zero manually.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Fertilizer Package Plans</h4><p>Sell 5-round, 6-round, and custom seasonal programs as packages. Track rounds remaining per customer and alert when the final round of the season is approaching.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Mobile App for Technicians</h4><p>Techs see their route in order, property notes, gate codes, past service history, and the compliance log form on their phone. No paper tickets. No calls back to the office.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically when each fertilizer round is completed. No separate billing step — included in $129/month flat, no extra percentage per transaction.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Technicians</h4><p>Run 1 fertilizer truck or 10. Every tech is included in the flat $129/month. The price never changes based on how many people use the software.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically when each fertilizer round is completed. No separate billing step — included in from $59/month, no extra percentage per transaction.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>your whole crew</h4><p>Run 1 fertilizer truck or 10. Every tech is included in the flat from $59/month. The price never changes based on how many people use the software.</p></div>
         </div>
       </div>
 
@@ -473,8 +473,8 @@ export default function FertilizerSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$129/Month. Every Feature. No Add-Ons.</h2>
-          <p className="section-sub">One flat price covers round tracking, EPA compliance logs, Lasso routing, automated SMS alerts, card-on-file payments, and unlimited technicians. No per-user fees. No contracts.</p>
+          <h2 className="section-title">from $59/Month. Every Feature. No Add-Ons.</h2>
+          <p className="section-sub">Simple pricing covers round tracking, EPA compliance logs, Lasso routing, automated SMS alerts, card-on-file payments, and your whole crew. No hidden fees. No contracts.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="lc-price-card featured">
@@ -496,7 +496,7 @@ export default function FertilizerSoftware() {
               <li>Fertilizer Package Plans &amp; Round Tracking per Customer</li>
               <li>Mobile App for Technicians — Route, Log &amp; Complete in Field</li>
               <li>Card-on-File Payments — Charge on Completion Automatically</li>
-              <li>Unlimited Technicians — No Per-User Fees</li>
+              <li>your whole crew — no hidden fees</li>
               <li>14-Day Free Trial — No Credit Card Required</li>
             </ul>
             <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</button>
@@ -516,7 +516,7 @@ export default function FertilizerSoftware() {
             {q:'Does it log EPA registration numbers and application rates for fertilizer compliance?', a:'Yes. SprayBossPro stores EPA registration numbers at the product level and captures them on every treatment log. Application rates, product, area treated, and applicator license are recorded per treatment and accessible in a print-ready compliance report.'},
             {q:'Can I build fertilizer routes by square footage?', a:'Yes. The circle-map lasso tool shows sq ft totals in real time as you select accounts for a route. You can filter by service type to show only the round you\'re scheduling and see total sq ft and revenue for the route before dispatching.'},
             {q:'Does SprayBossPro send re-entry interval notifications after fertilizer applications?', a:'Yes. Post-service SMS alerts can include re-entry timing — "Please keep pets off treated areas for 2 hours." Alerts fire automatically when the technician logs completion — before the customer has a chance to wonder whether it\'s safe to go outside.'},
-            {q:'What does SprayBossPro cost for a fertilizer business?', a:'$129/month, flat. All features included — compliance logs, route tools, SMS alerts, card payments. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+            {q:'What does SprayBossPro cost for a fertilizer business?', a:'from $59/month, flat. All features included — compliance logs, route tools, SMS alerts, card payments. No hidden fees, no add-ons. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -530,10 +530,10 @@ export default function FertilizerSoftware() {
       {/* CTA */}
       <div className="cta-band">
         <h2>Fertilizer Software That Runs Your Rounds<br /><span style={{color:'var(--orange)'}}>From First App to Winterizer. Every Season.</span></h2>
-        <p>$129/month covers round tracking, compliance logs, Lasso routing, and automated re-entry SMS — everything built for lawn care companies running recurring fertilizer programs. No add-ons. No contracts.</p>
+        <p>from $59/month covers round tracking, compliance logs, Lasso routing, and automated re-entry SMS — everything built for lawn care companies running recurring fertilizer programs. No add-ons. No contracts.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

@@ -7,7 +7,7 @@ import MetaPixel from './components/MetaPixel';
 
 export const metadata: Metadata = {
   title: "SprayBossPro | Lawn Care, Pest Control & Spray Software",
-  description: "SprayBossPro is premium lawn care, pest control, and spray software built by people who've run real routes. Circle a map area and instantly know sq ft, stops, and chemical needs. $129/month, everything included.",
+  description: "SprayBossPro is premium lawn care, pest control, and spray software built by people who've run real routes. Circle a map area and instantly know sq ft, stops, and chemical needs. from $59/month, everything included.",
   /* Google's search results still show Vercel's default triangle for this domain, cached from
      before the crown existed. The files themselves have been correct for a month — /favicon.ico
      contains the crown at 16, 32 and 48px — but Google has no reason to refetch a URL it already
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 };
 
 
-const structuredData = {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://spraybosspro.com/#organization","name":"SprayBossPro","url":"https://spraybosspro.com","logo":"https://spraybosspro.com/icon.png","description":"Lawn care, pest control, and spray software with recurring scheduling, map-based routing, chemical and compliance logging, automated SMS, and Stripe billing."},{"@type":"WebSite","@id":"https://spraybosspro.com/#website","url":"https://spraybosspro.com","name":"SprayBossPro","publisher":{"@id":"https://spraybosspro.com/#organization"}},{"@type":"SoftwareApplication","name":"SprayBossPro","applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android","description":"Lawn care, pest control, and spray software with recurring scheduling, map-based routing, chemical and compliance logging, automated SMS, and Stripe billing.","offers":{"@type":"Offer","price":"129","priceCurrency":"USD","description":"$129/month flat — everything included, 14-day free trial."},"publisher":{"@id":"https://spraybosspro.com/#organization"}}]};
+const structuredData = {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://spraybosspro.com/#organization","name":"SprayBossPro","url":"https://spraybosspro.com","logo":"https://spraybosspro.com/icon.png","description":"Lawn care, pest control, and spray software with recurring scheduling, map-based routing, chemical and compliance logging, automated SMS, and Stripe billing."},{"@type":"WebSite","@id":"https://spraybosspro.com/#website","url":"https://spraybosspro.com","name":"SprayBossPro","publisher":{"@id":"https://spraybosspro.com/#organization"}},{"@type":"SoftwareApplication","name":"SprayBossPro","applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android","description":"Lawn care, pest control, and spray software with recurring scheduling, map-based routing, chemical and compliance logging, automated SMS, and Stripe billing.","offers":{"@type":"Offer","price":"129","priceCurrency":"USD","description":"from $59/month — everything included, 14-day free trial."},"publisher":{"@id":"https://spraybosspro.com/#organization"}}]};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

@@ -32,7 +32,7 @@ export default function Page() {
           <h3>45 minutes of morning review. 35 minutes of route building. 90 minutes of post-completion updates. All eliminated.</h3>
           <p>SprayBossPro replaces the scheduling overhead of a manual lawn care operation with automated waiting list, circle map routing, completion-date auto-scheduling, and automated SMS — saving 3+ hours of scheduling work per day.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

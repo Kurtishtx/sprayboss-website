@@ -43,7 +43,7 @@ export default function Page() {
           <h3>Every mosquito treatment due today — with stop count, revenue, and overdue priority — before you open the map.</h3>
           <p>SprayBossPro&apos;s mosquito waiting list calculates due dates from every completion automatically, surfaces overdue accounts first, and shows expected route revenue for any date range or geographic filter.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

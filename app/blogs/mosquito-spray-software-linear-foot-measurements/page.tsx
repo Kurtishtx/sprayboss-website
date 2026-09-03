@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Linear ft stored per property. Shown on the waiting list. Calculated in pricing. Captured in the compliance record. First-class measurement — not a notes field workaround.</h3>
           <p>SprayBossPro treats mosquito spray linear ft as a native measurement field — stored per property, totaled on the waiting list, used in per-treatment pricing calculations, and recorded in the chemical compliance log.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

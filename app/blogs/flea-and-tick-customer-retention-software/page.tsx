@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Keep every barrier program enrolled season after season.</h3>
           <p>SprayBossPro automates rounds, billing, and renewals so your flea and tick customers stay on program. Start a free trial and stop churning the accounts you already earned.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

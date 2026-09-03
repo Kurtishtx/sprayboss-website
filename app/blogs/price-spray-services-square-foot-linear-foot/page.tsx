@@ -12,7 +12,7 @@ export default function Page() {
         <p className="blog-meta">SprayBossPro Blog &mdash; Pricing</p>
         <h1>How to Price Spray Services by Square Foot or Linear Foot</h1>
 
-        <p>Flat-rate pricing for spray services — a fixed price per property regardless of size — is the fastest way to underprice large properties and overprice small ones. A 4,500-sq-ft turf area and a 12,000-sq-ft turf area both take the same pricing structure but require very different amounts of product and time. Per-sq-ft pricing corrects this by tying the service price to the area being treated. It also makes the pricing model transparent to customers (&quot;we charge $X per 1,000 sq ft&quot;) and makes route revenue calculation straightforward — total sq ft on a route multiplied by the per-sq-ft rate gives the expected revenue before you build the route.</p>
+        <p>Simple pricing for spray services — a fixed price per property regardless of size — is the fastest way to underprice large properties and overprice small ones. A 4,500-sq-ft turf area and a 12,000-sq-ft turf area both take the same pricing structure but require very different amounts of product and time. Per-sq-ft pricing corrects this by tying the service price to the area being treated. It also makes the pricing model transparent to customers (&quot;we charge $X per 1,000 sq ft&quot;) and makes route revenue calculation straightforward — total sq ft on a route multiplied by the per-sq-ft rate gives the expected revenue before you build the route.</p>
 
         <h2>Per-Sq-Ft Pricing by Service Type</h2>
         <p>Different spray service types carry different per-sq-ft rates based on product cost, application time, and market pricing in your area. Common frameworks:</p>
@@ -40,7 +40,7 @@ export default function Page() {
           <h3>Per-sq-ft and per-linear-ft pricing. Route revenue calculated before dispatch. Total sq ft visible in the waiting list.</h3>
           <p>SprayBossPro stores property sq ft and linear footage on every account and calculates route revenue automatically in the waiting list — so dispatchers see expected revenue before building a single route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

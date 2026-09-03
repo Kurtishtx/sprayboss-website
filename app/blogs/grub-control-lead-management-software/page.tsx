@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Stop losing grub jobs to slow follow-up.</h3>
           <p>SprayBossPro captures every lead, sends fast estimates, and automates follow-up so no quote goes cold. Start your free trial and tighten your pipeline.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

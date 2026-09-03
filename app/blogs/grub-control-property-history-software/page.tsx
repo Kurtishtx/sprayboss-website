@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Give every crew the full story on every lawn.</h3>
           <p>SprayBossPro keeps notes, photos, and application history tied to each address so any technician shows up prepared. Start your free trial today.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

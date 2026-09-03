@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Pre-service alert on dispatch. Re-entry interval on completion. End-of-season message on final treatment. Retention-focused communication — automated.</h3>
           <p>SprayBossPro fires pre-service and post-service SMS from dispatch and completion events automatically — so professional customer communication happens on every route day without any manual effort from the office.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

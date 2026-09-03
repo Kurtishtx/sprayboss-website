@@ -38,7 +38,7 @@ export default function Page() {
           <h3>Every chemical application. Every property. Every product. Searchable by date range in under 60 seconds.</h3>
           <p>SprayBossPro&apos;s chemical tracking captures every application through the field log completion workflow and makes all records available in a date-range report — printable for inspections in under 3 minutes.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

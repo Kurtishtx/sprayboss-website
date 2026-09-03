@@ -40,7 +40,7 @@ export default function Page() {
           <h3>Every due account. Every program type. Every day. Waiting list surfaces them automatically.</h3>
           <p>SprayBossPro calculates next due dates from every completion and surfaces all due pest control accounts in a filterable, map-view waiting list — so dispatchers build routes from geography, not from account-by-account manual review.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -35,7 +35,7 @@ export default function Page() {
           <h3>Waiting list runs itself. Routes dispatch themselves. Compliance logs submit themselves. SMS fires itself.</h3>
           <p>SprayBossPro gives spray business owners the operational infrastructure to step back from day-to-day field management while maintaining complete visibility over scheduling, compliance, and revenue from anywhere.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

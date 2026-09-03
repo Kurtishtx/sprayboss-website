@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Add grub control as a real program, not a side job.</h3>
           <p>SprayBossPro handles the pricing, scheduling, logging, and billing so you can launch grub control this season. Start your free trial today.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

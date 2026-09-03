@@ -12,7 +12,7 @@ export default function Page() {
         <p className="blog-meta">SprayBossPro Blog &mdash; Pricing</p>
         <h1>How to Price Mosquito Control Services by Linear Foot or Square Foot</h1>
 
-        <p>Mosquito barrier spray pricing varies by company and market but almost always reflects the size of the property being treated — because the amount of product and the time required to treat scale directly with property size. A flat-rate pricing model ($99 per treatment regardless of property size) underprices large properties and overprices small ones, creating margin problems at both ends. Per-sq-ft or per-linear-ft pricing ties the service cost to the actual service volume and produces consistent margins across different property sizes in your customer base.</p>
+        <p>Mosquito barrier spray pricing varies by company and market but almost always reflects the size of the property being treated — because the amount of product and the time required to treat scale directly with property size. A simple pricing model ($99 per treatment regardless of property size) underprices large properties and overprices small ones, creating margin problems at both ends. Per-sq-ft or per-linear-ft pricing ties the service cost to the actual service volume and produces consistent margins across different property sizes in your customer base.</p>
 
         <h2>Per-Linear-Foot Pricing for Perimeter Barrier Spray</h2>
         <p>When mosquito barrier spray is applied primarily to the vegetation along a property&apos;s perimeter — trees, shrubs, fence lines, and garden beds — the most accurate pricing unit is linear footage of treatable perimeter. A property with 200 linear feet of vegetation perimeter requires roughly twice the product and time as a property with 100 linear feet, regardless of what the total lot square footage might be. Per-linear-ft pricing for perimeter-focused barrier spray typically runs $0.10 to $0.25 per linear foot per treatment in most markets — a 150-linear-foot property prices at $15 to $37.50 per treatment, consistent with typical mosquito program per-visit pricing when multiplied to seasonal totals.</p>
@@ -33,7 +33,7 @@ export default function Page() {
           <h3>Per-sq-ft, per-linear-ft, or seasonal package — stored on the account, calculated in the waiting list.</h3>
           <p>SprayBossPro stores property measurements on every mosquito account and calculates expected route revenue automatically — so dispatchers see the day&apos;s revenue before building the first route.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

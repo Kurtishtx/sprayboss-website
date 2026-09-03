@@ -35,7 +35,7 @@ export default function Page() {
           <h3>Completion logged. Next treatment auto-scheduled 21 days out. Waiting list updated. No office action required.</h3>
           <p>SprayBossPro auto-schedules the next mosquito treatment from every completion date at your configured interval — keeping every customer&apos;s program running all season without manual rebooking between visits.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

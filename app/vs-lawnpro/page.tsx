@@ -130,8 +130,8 @@ export default function VsLawnPro() {
 
       <div className="hero">
         <div className="hero-badge">LawnPro Alternative</div>
-        <h1>LawnPro Grow Is $129/Month — With a 7-Employee Cap, No SMS, and No Card-on-File Payments.<br /><span>SprayBossPro Is $129 With Unlimited Users, SMS, and Payments Included.</span></h1>
-        <p>LawnPro Grow matches SprayBossPro&apos;s price but caps you at 7 employees, locks two-way SMS behind the $249 Plus plan, and doesn&apos;t include card-on-file auto-charge. SprayBossPro is the same $129 — with no caps, no locked features, and everything spray businesses actually need included.</p>
+        <h1>LawnPro Grow Is from $59/Month — With a 7-Employee Cap, No SMS, and No Card-on-File Payments.<br /><span>SprayBossPro Is $59 With Unlimited Clients, SMS, and Payments Included.</span></h1>
+        <p>LawnPro Grow matches SprayBossPro&apos;s price but caps you at 7 employees, locks two-way SMS behind the $249 Plus plan, and doesn&apos;t include card-on-file auto-charge. SprayBossPro is the same $59 — with no caps, no locked features, and everything spray businesses actually need included.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -139,15 +139,15 @@ export default function VsLawnPro() {
           <div><div className="hero-stat-val">7</div><div className="hero-stat-lbl">LawnPro Grow Employee Cap</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">SprayBossPro Users — Always</div></div>
           <div><div className="hero-stat-val">$249</div><div className="hero-stat-lbl">LawnPro Plus for SMS &amp; Payments</div></div>
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">SprayBossPro — Everything Included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">SprayBossPro — Everything Included</div></div>
         </div>
       </div>
 
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto 48px'}}>
           <span className="section-label">Same Price — Very Different Plans</span>
-          <h2 className="section-title">LawnPro Grow and SprayBossPro Are Both $129/Month. Here&apos;s What You Actually Get.</h2>
-          <p className="section-sub" style={{maxWidth:'760px', marginLeft:'auto', marginRight:'auto'}}>LawnPro has four plan tiers starting at $0. The $129 Grow plan sounds like a deal — until you see the 7-employee cap, no SMS, and no card-on-file payments. Moving to Plus costs $249/month. SprayBossPro is $129 with no caps and no upgrade walls.</p>
+          <h2 className="section-title">LawnPro Grow and SprayBossPro Are Both from $59/Month. Here&apos;s What You Actually Get.</h2>
+          <p className="section-sub" style={{maxWidth:'760px', marginLeft:'auto', marginRight:'auto'}}>LawnPro has four plan tiers starting at $0. The $59 Grow plan sounds like a deal — until you see the 7-employee cap, no SMS, and no card-on-file payments. Moving to Plus costs $249/month. SprayBossPro is $59 with no caps and no upgrade walls.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -155,24 +155,24 @@ export default function VsLawnPro() {
               <div className="lp-tiers">
                 <div className="lp-tier"><div className="lp-tier-header"><div className="lp-tier-name">LawnPro Solo</div><div className="lp-tier-cap">1 user · 25 customers max</div></div><div className="lp-tier-price">Free</div></div>
                 <div className="lp-tier"><div className="lp-tier-header"><div className="lp-tier-name">LawnPro Startup</div><div className="lp-tier-cap">3 employees cap</div></div><div className="lp-tier-price">$39/mo</div></div>
-                <div className="lp-tier same-price"><div className="lp-tier-header"><div className="lp-tier-name">LawnPro Grow <span className="same-price-badge">Same Price</span></div><div className="lp-tier-cap">7 employees cap · No SMS · No auto-charge</div></div><div className="lp-tier-price">$129/mo</div></div>
+                <div className="lp-tier same-price"><div className="lp-tier-header"><div className="lp-tier-name">LawnPro Grow <span className="same-price-badge">Same Price</span></div><div className="lp-tier-cap">7 employees cap · No SMS · No auto-charge</div></div><div className="lp-tier-price">from $59/mo</div></div>
                 <div className="lp-tier"><div className="lp-tier-header"><div className="lp-tier-name">LawnPro Plus</div><div className="lp-tier-cap">15 employees cap · SMS + payments unlocked</div></div><div className="lp-tier-price">$249/mo</div></div>
               </div>
               <div className="sbp-contrast">
-                <div className="sbp-contrast-label">SprayBossPro at $129 — What You Actually Get</div>
+                <div className="sbp-contrast-label">SprayBossPro at $59 — What You Actually Get</div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Users &amp; Employees</span><span className="sbp-contrast-row-val">Unlimited — no cap</span></div>
-                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">2-Way SMS &amp; Card-on-File</span><span className="sbp-contrast-row-val">Included at $129</span></div>
+                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">2-Way SMS &amp; Card-on-File</span><span className="sbp-contrast-row-val">Included at $59</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Lasso, Sq Ft List, Chemical Logs</span><span className="sbp-contrast-row-val">Included — LawnPro doesn&apos;t have these</span></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">No Upgrade Walls</span>
-              <h2>The Same $129 Should Get You Everything. At LawnPro, It Doesn&apos;t.</h2>
-              <p>LawnPro Grow costs $129/month — the same as SprayBossPro. But it caps your team at 7 employees, locks two-way text messaging behind the $249 Plus plan, and doesn&apos;t include card-on-file auto-charge at any price below Plus.</p>
-              <p>SprayBossPro is $129/month with unlimited users, SMS, card-on-file payments, lasso routing, sq ft waiting list, and chemical compliance logs — all included. No tier upgrades required.</p>
+              <h2>The Same $59 Should Get You Everything. At LawnPro, It Doesn&apos;t.</h2>
+              <p>LawnPro Grow costs from $59/month — the same as SprayBossPro. But it caps your team at 7 employees, locks two-way text messaging behind the $249 Plus plan, and doesn&apos;t include card-on-file auto-charge at any price below Plus.</p>
+              <p>SprayBossPro is from $59/month with unlimited clients, SMS, card-on-file payments, lasso routing, sq ft waiting list, and chemical compliance logs — all included. No tier upgrades required.</p>
               <ul className="check-list">
                 <li>Unlimited employees — not 7, not 15, unlimited</li>
-                <li>2-Way SMS included at $129 — not locked behind $249</li>
+                <li>2-Way SMS included at $59 — not locked behind $249</li>
                 <li>Card-on-file auto-charge included — not a Plus-only feature</li>
                 <li>Lasso circle routing — LawnPro doesn&apos;t have this at any price</li>
                 <li>Sq ft waiting list by service type — not in LawnPro</li>
@@ -185,18 +185,18 @@ export default function VsLawnPro() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Features Locked Behind $249</span>
-          <h2 className="section-title">To Get SMS and Card-on-File at LawnPro, You Pay $249/Month. SprayBossPro Includes Both at $129.</h2>
-          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>LawnPro locks several critical features behind the $249 Plus plan. On top of that, you&apos;re still capped at 15 employees. SprayBossPro includes all of these at $129 with no caps.</p>
+          <h2 className="section-title">To Get SMS and Card-on-File at LawnPro, You Pay $249/Month. SprayBossPro Includes Both at $59.</h2>
+          <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>LawnPro locks several critical features behind the $249 Plus plan. On top of that, you&apos;re still capped at 15 employees. SprayBossPro includes all of these at $59 with no caps.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row reverse">
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
-              <span className="section-label">Always Included at $129</span>
+              <span className="section-label">Always Included at $59</span>
               <h2>SprayBossPro Doesn&apos;t Have Plus Plans. One Price Gets You Everything.</h2>
-              <p>At LawnPro, you start at $129/month and realize the features your spray business needs are Plus-only. You&apos;re pushed to $249/month — nearly double. At SprayBossPro, $129 is the only plan because one plan is all you need.</p>
+              <p>At LawnPro, you start at from $59/month and realize the features your spray business needs are Plus-only. You&apos;re pushed to $249/month — nearly double. At SprayBossPro, $59 is the only plan because a plan that fits is all you need.</p>
               <ul className="check-list">
-                <li>Two-way SMS: included at $129 — not a Plus upgrade</li>
-                <li>Auto-charge cards on file: included at $129</li>
+                <li>Two-way SMS: included at $59 — not a Plus upgrade</li>
+                <li>Auto-charge cards on file: included at $59</li>
                 <li>Text invoices and estimates to clients: included</li>
                 <li>Unlimited employee logins: no cap, no upgrade</li>
                 <li>Lasso, sq ft list, chemical logs: included — LawnPro has none of these</li>
@@ -210,12 +210,12 @@ export default function VsLawnPro() {
                 <div className="locked-item"><span className="locked-item-name">15 Employee Logins (Still Capped)</span><span className="locked-item-tag">Plus Only — $249/mo</span></div>
               </div>
               <div className="sbp-always">
-                <div className="sbp-always-label">SprayBossPro at $129 — Always Included</div>
+                <div className="sbp-always-label">SprayBossPro at $59 — Always Included</div>
                 <div className="sbp-always-tags">
                   <span className="sbp-always-tag">2-Way SMS</span>
                   <span className="sbp-always-tag">Card-on-File</span>
                   <span className="sbp-always-tag">Text Invoices</span>
-                  <span className="sbp-always-tag">Unlimited Users</span>
+                  <span className="sbp-always-tag">Unlimited Clients</span>
                 </div>
               </div>
             </div>
@@ -234,13 +234,13 @@ export default function VsLawnPro() {
             <thead>
               <tr>
                 <th style={{width:'34%'}}>Feature</th>
-                <th className="sbp-col" style={{width:'22%'}}>SprayBossPro $129</th>
-                <th style={{width:'22%'}}>LawnPro Grow $129</th>
+                <th className="sbp-col" style={{width:'22%'}}>SprayBossPro $59</th>
+                <th style={{width:'22%'}}>LawnPro Grow $59</th>
                 <th style={{width:'22%'}}>LawnPro Plus $249</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Monthly Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129</td><td>$129</td><td>$249</td></tr>
+              <tr><td className="feature-name">Monthly Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$59</td><td>$59</td><td>$249</td></tr>
               <tr><td className="feature-name">Users / Employees</td><td className="sbp-col"><span className="chk">Unlimited</span></td><td><span className="prt">7 cap</span></td><td><span className="prt">15 cap</span></td></tr>
               <tr><td className="feature-name">2-Way SMS Inbox</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="crs">✗ Not included</span></td><td><span className="chk">✓ Included</span></td></tr>
               <tr><td className="feature-name">Card-on-File Auto-Charge</td><td className="sbp-col"><span className="chk">✓ Included</span></td><td><span className="crs">✗ Not included</span></td><td><span className="chk">✓ Included</span></td></tr>
@@ -265,8 +265,8 @@ export default function VsLawnPro() {
           <p className="section-sub" style={{maxWidth:'720px'}}>LawnPro is a solid choice for lawn mowing businesses. But spray businesses have specific requirements — sq ft tracking, chemical compliance, waiting list management by service type — that LawnPro doesn&apos;t address at any tier. SprayBossPro was built for exactly those needs.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Same Price — More Included</h3><p>LawnPro Grow is $129/month with a 7-employee cap, no SMS, and no card-on-file payments. SprayBossPro is $129/month with unlimited users, full SMS, card-on-file auto-charge, lasso routing, sq ft waiting list, and chemical logs — all included from day one.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>No Employee Caps — Ever</h3><p>As your spray business grows, you add trucks and technicians. LawnPro charges $249/month to get to 15 employees, and you&apos;re still capped. SprayBossPro never limits your team size — unlimited employees are included in the base $129 price, no upgrade required.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Same Price — More Included</h3><p>LawnPro Grow is from $59/month with a 7-employee cap, no SMS, and no card-on-file payments. SprayBossPro is from $59/month with unlimited clients, full SMS, card-on-file auto-charge, lasso routing, sq ft waiting list, and chemical logs — all included from day one.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>No Employee Caps — Ever</h3><p>As your spray business grows, you add trucks and technicians. LawnPro charges $249/month to get to 15 employees, and you&apos;re still capped. SprayBossPro never limits your team size — unlimited employees are included in the base $59 price, no upgrade required.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Spray-Specific Features at Every Tier</h3><p>Sq ft waiting list by service type, lasso circle route selector, chemical compliance logs — LawnPro doesn&apos;t have these at any price tier. They&apos;re core features in SprayBossPro because they were built for how spray businesses actually manage recurring treatment schedules.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>14-Day Free Trial — No Card Required</h3><p>SprayBossPro has a 14-day free trial with full access. No credit card required. You can see every feature, set up your routes, add your clients, and confirm it&apos;s the right fit before paying anything. LawnPro offers a perpetual free plan with limits but no full-feature trial.</p></div>
         </div>
@@ -276,12 +276,12 @@ export default function VsLawnPro() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">Same Price as LawnPro Grow — More for Spray Businesses</h2>
-          <p className="section-sub">$129/month. Unlimited users. Everything included. No Plus plan required.</p>
+          <p className="section-sub">from $59/month. Unlimited clients. Everything included. No Plus plan required.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Same Price as LawnPro Grow — More Included</div>
-            <div className="price-tier">One Plan. Unlimited Users. Everything Included.</div>
+            <div className="price-tier">One Plan. Unlimited Clients. Everything Included.</div>
             <div className="price-amount"><sup>$</sup>129</div>
             <div className="price-period">per month — cancel anytime</div>
             <ul className="price-features">
@@ -307,7 +307,7 @@ export default function VsLawnPro() {
 
       <div className="cta-band">
         <h2>Done Hitting Employee Caps and Upgrade Walls<span>on Software That Was Built for Mowing Businesses?</span></h2>
-        <p>SprayBossPro is $129/month — the same as LawnPro Grow with unlimited users, SMS, and payments included. Start your free trial today.</p>
+        <p>SprayBossPro is from $59/month — the same as LawnPro Grow with unlimited clients, SMS, and payments included. Start your free trial today.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -318,7 +318,7 @@ export default function VsLawnPro() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #e07820', boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -335,7 +335,7 @@ export default function VsLawnPro() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

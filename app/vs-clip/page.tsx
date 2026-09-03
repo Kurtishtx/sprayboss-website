@@ -129,7 +129,7 @@ export default function VsClip() {
       <div className="hero">
         <div className="hero-badge">CLIP Lawn Software Alternative</div>
         <h1>CLIP Caps You at 40 Properties, Charges Extra Per User, and Still Doesn&apos;t Have Lasso, Chemical Logs, or a Sq Ft Waiting List.</h1>
-        <p>CLIP Basic limits you to 40 properties and 1 user. Add users at $20/month each. Add payment processing separately. SprayBossPro is $129/month flat — unlimited properties, unlimited users, everything included.</p>
+        <p>CLIP Basic limits you to 40 properties and 1 user. Add users at $20/month each. Add payment processing separately. SprayBossPro is from $59/month — unlimited properties, unlimited clients, everything included.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -145,7 +145,7 @@ export default function VsClip() {
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto 48px'}}>
           <span className="section-label">CLIP Pricing Reality</span>
           <h2 className="section-title">CLIP Has Three Tiers — All With Property Caps, Per-User Fees, and Add-On Charges.</h2>
-          <p className="section-sub" style={{maxWidth:'760px', marginLeft:'auto', marginRight:'auto'}}>CLIP&apos;s pricing starts at $64.99/month but includes strict property and user limits. Add more users at $20/month each, add payment processing, and by the time you remove all the caps you&apos;re spending more than SprayBossPro&apos;s flat $129 — without the spray-specific features.</p>
+          <p className="section-sub" style={{maxWidth:'760px', marginLeft:'auto', marginRight:'auto'}}>CLIP&apos;s pricing starts at $64.99/month but includes strict property and user limits. Add more users at $20/month each, add payment processing, and by the time you remove all the caps you&apos;re spending more than SprayBossPro&apos;s flat $59 — without the spray-specific features.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -158,7 +158,7 @@ export default function VsClip() {
                 </div>
                 <div className="clip-tier">
                   <div className="clip-tier-name">CLIP Plus</div>
-                  <div className="clip-tier-price">$129.99/mo</div>
+                  <div className="clip-tier-price">$59.99/mo</div>
                   <div className="clip-tier-limits"><span className="clip-limit-tag">Max 400 properties</span><span className="clip-limit-tag">2 users included</span></div>
                 </div>
                 <div className="clip-tier">
@@ -174,20 +174,20 @@ export default function VsClip() {
                 <div className="clip-add-fee-row"><span style={{color:'var(--text)'}}>Card Swipe Fee</span><span style={{color:'#dc2626', fontWeight:700}}>+2.85% per transaction</span></div>
               </div>
               <div className="sbp-contrast">
-                <div className="sbp-contrast-label">SprayBossPro — $129/month, No Add-Ons</div>
+                <div className="sbp-contrast-label">SprayBossPro — from $59/month, No Add-Ons</div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Properties</span><span className="sbp-contrast-row-val">Unlimited</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Users / Employees</span><span className="sbp-contrast-row-val">Unlimited, $0 each</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">All Add-Ons</span><span className="sbp-contrast-row-val">Included</span></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
-              <span className="section-label">No Caps. No Per-User Fees.</span>
+              <span className="section-label">No Caps. No hidden fees.</span>
               <h2>At the Same Price as CLIP Plus, SprayBossPro Has No Caps and 5 Features CLIP Doesn&apos;t Have at Any Price.</h2>
-              <p>CLIP Plus is $129.99/month — a penny more than SprayBossPro — and it caps you at 400 properties and 2 users. Additional users are $20/month each. Payment processing is a separate add-on.</p>
-              <p>SprayBossPro is $129/month with unlimited properties, unlimited users, payments included, lasso routing, sq ft waiting list, and chemical compliance logs. CLIP doesn&apos;t have any of those spray-specific features at any price tier.</p>
+              <p>CLIP Plus is $59.99/month — a penny more than SprayBossPro — and it caps you at 400 properties and 2 users. Additional users are $20/month each. Payment processing is a separate add-on.</p>
+              <p>SprayBossPro is from $59/month with unlimited properties, unlimited clients, payments included, lasso routing, sq ft waiting list, and chemical compliance logs. CLIP doesn&apos;t have any of those spray-specific features at any price tier.</p>
               <ul className="check-list">
-                <li>No property caps — unlimited at $129</li>
-                <li>No per-user fees — unlimited employees included</li>
+                <li>No property caps — unlimited at $59</li>
+                <li>No hidden fees — unlimited employees included</li>
                 <li>Lasso circle route selector — CLIP doesn&apos;t have this</li>
                 <li>Sq ft waiting list by service type — not in CLIP</li>
                 <li>Chemical compliance logs — not in CLIP at any tier</li>
@@ -209,7 +209,7 @@ export default function VsClip() {
             <thead>
               <tr>
                 <th style={{width:'50%'}}>Feature</th>
-                <th className="sbp-col" style={{width:'25%'}}>SprayBossPro $129</th>
+                <th className="sbp-col" style={{width:'25%'}}>SprayBossPro $59</th>
                 <th style={{width:'25%'}}>CLIP (Any Tier)</th>
               </tr>
             </thead>
@@ -226,7 +226,7 @@ export default function VsClip() {
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Scheduling &amp; Dispatch</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Package Plans &amp; Renewals</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
-              <tr><td className="feature-name">All-In Monthly Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/mo flat</td><td style={{color:'var(--muted)'}}>$65–$197 + add-ons</td></tr>
+              <tr><td className="feature-name">All-In Monthly Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/mo</td><td style={{color:'var(--muted)'}}>$65–$197 + add-ons</td></tr>
             </tbody>
           </table>
         </div>
@@ -234,7 +234,7 @@ export default function VsClip() {
 
       <div className="premium-band">
         <h2>At the Same Price as CLIP Plus, SprayBossPro Has No Caps and<span>5 Features CLIP Doesn&apos;t Have at Any Price.</span></h2>
-        <p>CLIP Plus is $129.99/month. SprayBossPro is $129/month with unlimited properties, unlimited users, lasso routing, sq ft waiting list, chemical logs, and two-way SMS — none of which exist in CLIP. You pay less and get more, built specifically for spray businesses.</p>
+        <p>CLIP Plus is $59.99/month. SprayBossPro is from $59/month with unlimited properties, unlimited clients, lasso routing, sq ft waiting list, chemical logs, and two-way SMS — none of which exist in CLIP. You pay less and get more, built specifically for spray businesses.</p>
       </div>
 
       <section>
@@ -245,7 +245,7 @@ export default function VsClip() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>No Property Caps — Ever</h3><p>CLIP Basic caps you at 40 properties. CLIP Plus goes to 400. SprayBossPro has no property caps at any price — unlimited from day one. As your spray routes grow, your software grows with you. No upgrade required to add more clients.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Unlimited Users at $129</h3><p>CLIP charges $20/month for each additional user beyond what&apos;s included in your tier. If you have 3 trucks and 3 technicians, that&apos;s $40–$60/month in extra user fees on top of your plan price. SprayBossPro includes unlimited users — zero per-user fees, no matter how many technicians you add.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Unlimited Clients from $59</h3><p>CLIP charges $20/month for each additional user beyond what&apos;s included in your tier. If you have 3 trucks and 3 technicians, that&apos;s $40–$60/month in extra user fees on top of your plan price. SprayBossPro includes unlimited clients — zero per-user fees, no matter how many technicians you add.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>5 Features CLIP Doesn&apos;t Have</h3><p>Lasso circle route selector, sq ft waiting list by service type, chemical compliance logs, two-way SMS inbox, automated SMS alerts — none of these exist in CLIP at any price. They&apos;re built into SprayBossPro because they&apos;re how spray businesses actually operate.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>14-Day Free Trial — No Card Required</h3><p>SprayBossPro has a 14-day free trial with full access to every feature. No credit card required. Explore the lasso routing, set up your waiting list, try the chemical logs — and decide if it&apos;s the right fit before paying anything. CLIP offers a demo but no self-serve free trial.</p></div>
         </div>
@@ -255,7 +255,7 @@ export default function VsClip() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">Everything Included — No Caps</h2>
-          <p className="section-sub">$129/month flat. Unlimited properties, unlimited users, no add-on fees, 5 features CLIP doesn&apos;t have.</p>
+          <p className="section-sub">from $59/month. Unlimited properties, unlimited clients, no add-on fees, 5 features CLIP doesn&apos;t have.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -284,8 +284,8 @@ export default function VsClip() {
       </section>
 
       <div className="cta-band">
-        <h2>Done Hitting Property Caps and Paying Per User?<span>SprayBossPro Is $129. Unlimited. Start Today.</span></h2>
-        <p>No property caps. No per-user fees. 5 spray-specific features CLIP doesn&apos;t have at any price. Start your free trial now.</p>
+        <h2>Done Hitting Property Caps and Paying Per User?<span>SprayBossPro Is $59. Unlimited. Start Today.</span></h2>
+        <p>No property caps. No hidden fees. 5 spray-specific features CLIP doesn&apos;t have at any price. Start your free trial now.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -296,7 +296,7 @@ export default function VsClip() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #e07820', boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -313,7 +313,7 @@ export default function VsClip() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

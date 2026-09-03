@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Put the right crew at the right property, every single day.</h3>
           <p>SprayBossPro assigns jobs, routes with Lasso, and tracks trucks live while the crew app keeps the field in sync. Start your free trial and run dispatch without the daily scramble.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

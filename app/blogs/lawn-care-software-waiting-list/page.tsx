@@ -43,7 +43,7 @@ export default function Page() {
           <h3>Every due account. Total sq ft. Expected revenue. Overdue flags. All before you draw the first circle.</h3>
           <p>SprayBossPro&apos;s waiting list surfaces every due lawn care account automatically — with sq ft by service type, expected revenue, and a map view for circle routing — so every morning starts from a complete picture of the day&apos;s work.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

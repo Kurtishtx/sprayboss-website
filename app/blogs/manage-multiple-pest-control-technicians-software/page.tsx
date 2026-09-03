@@ -35,7 +35,7 @@ export default function Page() {
           <h3>Three trucks. Three routes. Three dispatches. One action. No phone calls required.</h3>
           <p>SprayBossPro dispatches multiple pest control crews simultaneously, tracks completions in real time, and generates per-technician compliance records — from a single office interface with no coordination overhead.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

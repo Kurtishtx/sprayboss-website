@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -224,14 +224,14 @@ export default function PestControlSchedulingSoftware() {
       <div className="hero">
         <div className="hero-badge">Pest Control Scheduling Software</div>
         <h1>Pest Control Scheduling Software for<br /><span>Quarterly, Bi-Monthly, and Monthly Programs.</span></h1>
-        <p>SprayBossPro is scheduling software for pest control companies running recurring programs. Every customer&#39;s next treatment auto-schedules when the previous one is completed. Build Lasso circle routes, log EPA reg numbers and application rates on every job, and send automated SMS alerts without your team ever touching a text message. $129/month, everything included.</p>
+        <p>SprayBossPro is scheduling software for pest control companies running recurring programs. Every customer&#39;s next treatment auto-schedules when the previous one is completed. Build Lasso circle routes, log EPA reg numbers and application rates on every job, and send automated SMS alerts without your team ever touching a text message. from $59/month, everything included.</p>
         <div className="hero-btns" style={{marginBottom:0}}>
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">
-            Start Your 14-Day Free Trial — $129/Month
+            Start Your 14-Day Free Trial — from $59/Month
           </a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
           <div><div className="hero-stat-val">Auto</div><div className="hero-stat-lbl">Reschedule on every completed job</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons or per-technician fees</div></div>
@@ -255,7 +255,7 @@ export default function PestControlSchedulingSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Built for Every Recurring Pest Control Program</span>
-          <h2 className="section-title">Quarterly, Bi-Monthly, Monthly, and Mosquito Add-On — All in One Platform. $129/Month.</h2>
+          <h2 className="section-title">Quarterly, Bi-Monthly, Monthly, and Mosquito Add-On — All in One Platform. from $59/Month.</h2>
           <p className="section-sub">SprayBossPro handles the scheduling, routing, compliance logging, and automated SMS alerts for every recurring pest control program your company runs — with auto-rescheduling after every treatment so your waiting list stays accurate all year without anyone managing it manually.</p>
         </div>
         <div className="audience-grid">
@@ -422,7 +422,7 @@ export default function PestControlSchedulingSoftware() {
               <li>Service complete with re-entry interval fires automatically when the log is saved</li>
               <li>10+ pre-built pest control SMS templates — ready out of the box on day one</li>
               <li>Two-way SMS inbox — customer replies go into one organized inbox for your team</li>
-              <li>500 outbound SMS/month included in $129/month flat</li>
+              <li>500 outbound SMS/month included in from $59/month</li>
             </ul>
           </div>
           <div className="highlight-visual">
@@ -456,7 +456,7 @@ export default function PestControlSchedulingSoftware() {
 
       {/* ════ PREMIUM BAND ════ */}
       <div className="premium-band">
-        <h2>Pest Control Scheduling Software Built for Recurring Programs.<br /><span>$129/Month. Everything Included.</span></h2>
+        <h2>Pest Control Scheduling Software Built for Recurring Programs.<br /><span>from $59/Month. Everything Included.</span></h2>
         <p>SprayBossPro isn&#39;t a generic job board adapted for pest control. Recurring program auto-rescheduling, compliance logs, Lasso circle route building, and automated SMS alerts are built specifically for pest control companies running quarterly, bi-monthly, and monthly programs at scale.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🔄</div><h4>Recurring Program Auto-Scheduling</h4><p>Quarterly, bi-monthly, and monthly programs auto-reschedule when treatments complete. Every customer&#39;s next visit schedules itself — your waiting list stays accurate all year automatically.</p></div>
@@ -466,8 +466,8 @@ export default function PestControlSchedulingSoftware() {
           <div className="premium-card"><div className="premium-card-icon">📊</div><h4>Revenue-Visible Waiting List</h4><p>Waiting list shows route revenue per program — know the dollar value of every day&#39;s pest control work before you build the first route or assign the first truck.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Pest Control Package Plans</h4><p>Sell quarterly, bi-monthly, and monthly programs as packages. Track visits remaining per customer, alert when a program is nearing its end, and renew with one click.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Mobile App for Technicians</h4><p>Techs see their optimized route, customer property notes, access codes, service history, and the compliance log form on their phone. No paper. No calls back to the office.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge customer cards automatically when each pest control visit is completed. Included in $129/month flat — no separate billing module, no extra percentage per transaction ever.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Technicians</h4><p>Run 1 pest control truck or 10. Every technician is included in the flat $129/month. The price never changes no matter how many people use the software.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge customer cards automatically when each pest control visit is completed. Included in from $59/month — no separate billing module, no extra percentage per transaction ever.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>your whole crew</h4><p>Run 1 pest control truck or 10. Every technician is included in the flat from $59/month. The price never changes no matter how many people use the software.</p></div>
         </div>
       </div>
 
@@ -475,8 +475,8 @@ export default function PestControlSchedulingSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$129/Month. Every Feature. No Add-Ons.</h2>
-          <p className="section-sub">One flat price covers recurring program scheduling, compliance logs, Lasso routing, automated SMS alerts, card-on-file payments, and unlimited technicians. No per-user fees. No contracts. No surprises.</p>
+          <h2 className="section-title">from $59/Month. Every Feature. No Add-Ons.</h2>
+          <p className="section-sub">Simple pricing covers recurring program scheduling, compliance logs, Lasso routing, automated SMS alerts, card-on-file payments, and your whole crew. No hidden fees. No contracts. No surprises.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="lc-price-card featured">
@@ -498,7 +498,7 @@ export default function PestControlSchedulingSoftware() {
               <li>Mosquito Add-On Program Support Under Same Customer Account</li>
               <li>Mobile App for Technicians — Route, Log &amp; Complete</li>
               <li>Card-on-File Payments — Charge Automatically on Completion</li>
-              <li>Unlimited Technicians — No Per-User Fees Ever</li>
+              <li>your whole crew — no hidden fees Ever</li>
               <li>14-Day Free Trial — No Credit Card Required</li>
             </ul>
             <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">
@@ -520,7 +520,7 @@ export default function PestControlSchedulingSoftware() {
             {q:'Can I manage both residential and commercial pest control accounts?', a:'Yes. SprayBossPro stores property details, service notes, and treatment history for any account type. Commercial accounts can have separate service areas with independent treatment logs, and their program intervals can differ from residential customers.'},
             {q:'Does it send automated service notifications?', a:'Yes. SprayBossPro sends automated SMS alerts at each step: appointment reminders, on-the-way notifications, and completion messages including re-entry interval if needed. Alerts are configured once per service type and fire automatically on every job.'},
             {q:'Can I track renewals and know which customers are coming up for renewal?', a:'Yes. SprayBossPro shows treatments remaining on each customer\'s program. You can run a report to identify renewal candidates approaching the end of their contract — so you can initiate renewal conversations before the program lapses.'},
-            {q:'What does SprayBossPro cost?', a:'$129/month for everything. No per-user fees, no SMS add-ons, no extra charge for compliance logs or route tools. 14-day free trial, no credit card required.'},
+            {q:'What does SprayBossPro cost?', a:'from $59/month for everything. No hidden fees, no SMS add-ons, no extra charge for compliance logs or route tools. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -534,7 +534,7 @@ export default function PestControlSchedulingSoftware() {
       {/* ════ CTA ════ */}
       <div className="cta-band">
         <h2>Pest Control Scheduling Software That Runs<br /><span style={{color:'var(--orange)'}}>Your Recurring Programs Without the Manual Work.</span></h2>
-        <p>$129/month covers quarterly, bi-monthly, and monthly program auto-scheduling, compliance logs, Lasso circle route building, and automated SMS alerts — everything built for pest control companies running recurring programs. No add-ons. No contracts.</p>
+        <p>from $59/month covers quarterly, bi-monthly, and monthly program auto-scheduling, compliance logs, Lasso circle route building, and automated SMS alerts — everything built for pest control companies running recurring programs. No add-ons. No contracts.</p>
         <div className="hero-btns" style={{justifyContent:'center'}}>
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>
             Start Your 14-Day Free Trial

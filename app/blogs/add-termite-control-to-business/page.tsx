@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Add termite control as a clean, profitable new line.</h3>
           <p>SprayBossPro runs your termite inspections, warranties, and billing on the systems you already use. Start a free trial and expand without the chaos.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

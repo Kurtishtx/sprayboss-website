@@ -32,7 +32,7 @@ export default function Page() {
           <h3>See the revenue total for a set of selected stops before you dispatch. Know your route day before the truck leaves.</h3>
           <p>SprayBossPro shows revenue totals for selected stops in the circle map tool before the route is built — so every dispatch decision is informed by what the route day will actually generate.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

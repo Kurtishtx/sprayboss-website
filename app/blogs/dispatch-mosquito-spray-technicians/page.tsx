@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Routes, addresses, product notes, compliance forms — delivered to mobile. No morning call. No printout. No briefing.</h3>
           <p>SprayBossPro dispatches complete mosquito spray routes to technician mobile devices — with addresses, property notes, product info, and compliance log forms — so the morning briefing call is replaced by a route notification the night before.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

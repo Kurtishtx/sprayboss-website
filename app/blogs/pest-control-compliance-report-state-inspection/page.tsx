@@ -45,7 +45,7 @@ export default function Page() {
           <h3>Inspector at the door. Date range entered. Report generated. Printed. Under 30 seconds.</h3>
           <p>SprayBossPro&apos;s chemical compliance report filters by date, product, property, or technician — and produces a print-ready structured report in seconds for any state inspection request.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

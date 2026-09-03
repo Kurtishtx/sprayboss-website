@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -224,10 +224,10 @@ export default function SprayBusinessSoftware() {
         <h1>Software Built for<br /><span>Spray Businesses. Not Everyone Else.</span></h1>
         <p>Schedule spray routes, manage recurring treatment programs, track sq ft or linear ft waiting lists by service type, log every chemical application, and send automated customer alerts — all in one platform designed specifically for lawn care and pest control companies that spray.</p>
         <div className="hero-btns">
-          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — $129/Month</a>
+          <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — from $59/Month</a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Technicians and users</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons required</div></div>
@@ -433,7 +433,7 @@ export default function SprayBusinessSoftware() {
 
       {/* PREMIUM BAND */}
       <div className="premium-band">
-        <h2>Every Feature a Spray Business Needs.<br /><span>$129/Month. No Add-Ons. No Per-User Fees.</span></h2>
+        <h2>Every Feature a Spray Business Needs.<br /><span>from $59/Month. No Add-Ons. No hidden fees.</span></h2>
         <p>SprayBossPro isn&apos;t a generic field service app with a spray-business skin. It&apos;s built from the ground up for businesses that apply chemical treatments — with the routing, compliance logging, and program management that spray companies actually use every day.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Circle Map Route Builder</h4><p>Draw a circle on any area and see every spray stop due inside. Build a full day of routes in minutes. Filter by service type — lawn, mosquito, pest, or any mix.</p></div>
@@ -443,8 +443,8 @@ export default function SprayBusinessSoftware() {
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated SMS Alerts</h4><p>Day-before reminders, on-the-way alerts, and service complete notifications sent automatically on every spray job. 10+ pre-built alert types included.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Package Plans &amp; Programs</h4><p>Sell seasonal spray packages and multi-treatment programs. SprayBossPro tracks treatments remaining and notifies you before programs expire.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Mobile App for Technicians</h4><p>Your techs see their route, property notes, access info, and the application log form on their phone. No paper, no clipboard, no back-and-forth.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically after each spray treatment. Card-on-file payments are included at $129/month — no payment add-on needed.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Technicians</h4><p>Run 1 spray truck or 10. SprayBossPro doesn&apos;t charge per user. Add every technician in your company — the price stays $129/month.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Card-on-File Payments</h4><p>Charge cards automatically after each spray treatment. Card-on-file payments are included at from $59/month — no payment add-on needed.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>your whole crew</h4><p>Run 1 spray truck or 10. SprayBossPro doesn&apos;t charge per user. Add every technician in your company — the price stays from $59/month.</p></div>
         </div>
       </div>
 
@@ -452,8 +452,8 @@ export default function SprayBusinessSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$129/Month. Every Feature. No Add-Ons.</h2>
-          <p className="section-sub">One flat price. No add-ons for SMS, compliance logs, or route building. No user caps. No per-technician fees. Cancel anytime.</p>
+          <h2 className="section-title">from $59/Month. Every Feature. No Add-Ons.</h2>
+          <p className="section-sub">Simple pricing. No add-ons for SMS, compliance logs, or route building. No user caps. No per-technician fees. Cancel anytime.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="lc-price-card featured">
@@ -472,7 +472,7 @@ export default function SprayBusinessSoftware() {
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Mobile App for Technicians</li>
-              <li>Unlimited Technicians — no per-user fees</li>
+              <li>your whole crew — no hidden fees</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>
@@ -492,8 +492,8 @@ export default function SprayBusinessSoftware() {
             {q:'Does SprayBossPro handle chemical compliance for spray businesses?', a:'Yes. Every treatment logs the product, EPA registration number, application rate, target pest or weed, treatment area, weather, and applicator license. The chemical tracking report generates a print-ready compliance log for state inspection — no paper records needed.'},
             {q:'Can I manage multiple service types in one account?', a:'Yes. SprayBossPro manages mosquito spray, lawn care, weed control, fertilizer, and pest control from one account. The waiting list filters by service type, each service has its own SMS alert configuration, and circle-map routing shows only the service type you\'re scheduling.'},
             {q:'Does SprayBossPro send automated customer communication?', a:'Yes. Pre-built SMS alert templates cover every touchpoint: day-before appointment reminders, on-the-way notifications, completion messages, and re-entry interval notices. Alerts fire automatically from dispatch and completion events — configured once, sent on every job.'},
-            {q:'Can I run multiple technicians and trucks?', a:'Yes. SprayBossPro supports unlimited technicians at $129/month — no per-user fees regardless of crew size. The dispatch board assigns routes to specific technicians, and each uses the mobile app for their stops, property details, and chemical log.'},
-            {q:'How much does SprayBossPro cost?', a:'$129/month, flat. Every feature — route scheduling, chemical compliance logs, SMS alerts, card-on-file payments, estimates — is included. No per-user fees, no add-ons. 14-day free trial, no credit card required.'},
+            {q:'Can I run multiple technicians and trucks?', a:'Yes. SprayBossPro supports your whole crew at from $59/month — no hidden fees regardless of crew size. The dispatch board assigns routes to specific technicians, and each uses the mobile app for their stops, property details, and chemical log.'},
+            {q:'How much does SprayBossPro cost?', a:'from $59/month, flat. Every feature — route scheduling, chemical compliance logs, SMS alerts, card-on-file payments, estimates — is included. No hidden fees, no add-ons. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -507,10 +507,10 @@ export default function SprayBusinessSoftware() {
       {/* CTA */}
       <div className="cta-band">
         <h2>The Only Spray Business Software<br /><span style={{color:'var(--orange)'}}>Built for Companies That Spray.</span></h2>
-        <p>$129/month gets you Lasso routing, sq ft or linear ft waiting lists, chemical compliance logs, recurring program management, and automated SMS alerts. No add-ons. No per-user fees.</p>
+        <p>from $59/month gets you Lasso routing, sq ft or linear ft waiting lists, chemical compliance logs, recurring program management, and automated SMS alerts. No add-ons. No hidden fees.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

@@ -172,7 +172,7 @@ export default function DemoPageTemplate({ copy }: { copy: DemoPageCopy }) {
       <div className="cta-band">
         <h2>Seen enough?</h2>
         <p>
-          The demo is the same software you get. $129/month flat, every feature included, and a
+          The demo is the same software you get. from $59/month, every feature included, and a
           14-day free trial with no card up front.
         </p>
         <button className="btn-primary" onClick={(e) => openTrial(e.currentTarget)}>

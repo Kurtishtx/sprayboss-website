@@ -61,7 +61,7 @@ export default function Page() {
           <h3>Log application rates correctly at every property. Every time.</h3>
           <p>SprayBossPro pre-fills application rate calculations from stored sq ft data and standard rates so your technicians submit accurate, complete compliance logs from the field in under 60 seconds.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

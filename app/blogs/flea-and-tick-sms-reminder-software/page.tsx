@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Stop paying for trips to locked gates.</h3>
           <p>SprayBossPro&apos;s automated SMS reminders and two-way inbox keep gates open and rounds on schedule. Start a free trial and cut no-access callbacks out of your week.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -35,7 +35,7 @@ export default function Page() {
           <h3>Auto-scheduling. Digital dispatch. Automated SMS. The office manager tasks that software handles.</h3>
           <p>SprayBossPro automates the daily scheduling, dispatch, and customer communication that office managers spend most of their time on — so a spray business with 300 to 500 customers can run without a dedicated coordinator.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

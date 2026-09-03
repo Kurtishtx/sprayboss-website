@@ -32,7 +32,7 @@ export default function Page() {
           <h3>$4,200 in due accounts. Single crew or two? You decide before 7:30 AM with actual numbers.</h3>
           <p>SprayBossPro shows total waiting list revenue, selected-route revenue, and per-service-type breakdowns before dispatch — so every daily production decision is made from data, not from a headcount of stops.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

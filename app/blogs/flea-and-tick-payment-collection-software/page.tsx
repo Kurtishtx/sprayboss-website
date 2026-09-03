@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Get paid the day every flea and tick treatment runs.</h3>
           <p>SprayBossPro stores cards securely with Stripe and charges each completed round automatically. Stop chasing checks and keep cash flow on schedule.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

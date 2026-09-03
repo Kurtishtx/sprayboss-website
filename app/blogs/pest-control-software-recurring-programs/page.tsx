@@ -34,7 +34,7 @@ export default function Page() {
           <h3>Built from the ground up for recurring programs — not adapted from generic job dispatch.</h3>
           <p>SprayBossPro is purpose-built for pest control companies running quarterly, bi-monthly, and monthly recurring programs — with interval-based auto-scheduling, compliance log integration, and a waiting list that surfaces every due account automatically.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

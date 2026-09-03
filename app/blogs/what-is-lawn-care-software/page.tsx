@@ -31,9 +31,9 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list. Circle routing. Compliance logs. Automated SMS. That&apos;s what lawn care software actually does.</h3>
-          <p>SprayBossPro is purpose-built for lawn care companies running recurring chemical programs — with every core feature included at $129/month flat, no add-ons required.</p>
+          <p>SprayBossPro is purpose-built for lawn care companies running recurring chemical programs — with every core feature included at from $59/month, no add-ons required.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

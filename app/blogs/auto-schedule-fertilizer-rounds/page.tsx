@@ -45,7 +45,7 @@ export default function Page() {
           <h3>Stop manually rebooking every round for every customer.</h3>
           <p>SprayBossPro auto-schedules the next fertilizer round the moment a technician marks the current one complete — no office action required, all season long.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -32,7 +32,7 @@ export default function Page() {
           <h3>See exactly what&apos;s due before you build a single route.</h3>
           <p>SprayBossPro&apos;s square-footage waiting list turns your recurring barrier programs into a clear, plannable queue. Start a free trial and stop scheduling flea and tick rounds blind.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

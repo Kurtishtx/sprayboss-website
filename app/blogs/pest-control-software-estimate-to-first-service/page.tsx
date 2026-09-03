@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Estimate accepted at 2 PM. Account created. First service in the waiting list. Confirmation sent. All before 2:01 PM.</h3>
           <p>SprayBossPro converts pest control estimate acceptances to active customer accounts instantly — with automatic setup, waiting list entry, and customer confirmation in a single system action.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

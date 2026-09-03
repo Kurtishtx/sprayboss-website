@@ -41,7 +41,7 @@ export default function Page() {
           <h3>Every customer gets the right re-entry interval for what was actually applied at their property.</h3>
           <p>SprayBossPro pulls the REI from the completed compliance log and fires the post-service SMS with the correct interval — no static templates, no manually entered times, no liability exposure from wrong information.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

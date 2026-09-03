@@ -41,7 +41,7 @@ export default function Page() {
           <h3>Route. Property notes. Field log. All sent from one dispatch action — no phone calls, no group texts, no missed gate codes.</h3>
           <p>SprayBossPro sends complete routes to field technicians with all property details, product information, and field log forms dispatched from a single office action — so three crews can leave the parking lot without a single coordination call.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

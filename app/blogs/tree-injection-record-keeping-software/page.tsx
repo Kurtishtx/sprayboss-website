@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Document Every Trunk Injection</h3>
           <p>See how SprayBossPro captures each injection at the tree, builds a searchable compliance history, and turns records into invoices. Book a walkthrough today.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

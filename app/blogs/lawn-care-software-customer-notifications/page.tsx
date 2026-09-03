@@ -42,7 +42,7 @@ export default function Page() {
           <h3>Pre-service. Post-service with REI. Payment issues. Estimate accepted. All sent automatically — zero manual effort.</h3>
           <p>SprayBossPro&apos;s automated SMS alert system fires at every customer touchpoint in the service lifecycle — customizable templates, accurate REI from the product record, and two-way texting for customer responses.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

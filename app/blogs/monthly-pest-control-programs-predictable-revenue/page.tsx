@@ -33,7 +33,7 @@ export default function Page() {
           <h3>Monthly programs, 12x the visits, 3x the annual revenue — auto-scheduled after every single completion.</h3>
           <p>SprayBossPro auto-schedules monthly accounts 30 days from every completion, so 200 monthly accounts generate 2,400 scheduling events per year with zero manual rebooking.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

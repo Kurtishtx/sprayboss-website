@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Q1: 1/4. Q2: 2/4. Q3: 3/4. Q4 coming — time to renew. Software that counts so you don&apos;t have to.</h3>
           <p>SprayBossPro&apos;s package plan tracking shows remaining treatments per account across every active program — so renewal timing is a system output, not a manual follow-up task.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

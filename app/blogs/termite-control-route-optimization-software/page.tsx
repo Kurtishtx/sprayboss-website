@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Turn scattered termite stops into tight, profitable routes.</h3>
           <p>SprayBossPro&apos;s circle-map Lasso routing and map-based scheduling cut windshield time so every truck covers more properties. Start your free trial and reclaim the hours your crews lose on the road.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

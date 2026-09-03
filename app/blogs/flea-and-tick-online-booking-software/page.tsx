@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Stop losing after-hours pet owners to voicemail.</h3>
           <p>SprayBossPro puts a branded booking form on your site that captures flea and tick enrollments 24/7 as ready-to-work leads. Turn late-night interest into scheduled programs.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

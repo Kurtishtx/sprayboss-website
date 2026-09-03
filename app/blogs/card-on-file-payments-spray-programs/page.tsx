@@ -35,7 +35,7 @@ export default function Page() {
           <h3>Card charged on service completion. Receipt sent automatically. No invoicing cycle. No accounts receivable.</h3>
           <p>SprayBossPro integrates card-on-file payment processing so spray businesses collect payment the day of each service — automatically, after every completed compliance log submission.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

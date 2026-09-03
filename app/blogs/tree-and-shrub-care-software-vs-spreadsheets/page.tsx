@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Trade fragile spreadsheets for a connected system</h3>
           <p>SprayBossPro schedules programs, carries property history, and bills from completed visits in one place. See why tree and shrub operators leave spreadsheets behind.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

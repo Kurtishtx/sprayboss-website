@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Open the map. Draw the circle. See the sq ft and revenue. Build the route. Dispatch. Under 10 minutes.</h3>
           <p>SprayBossPro&apos;s Lasso circle routing builds mosquito spray routes geographically in under 10 minutes — with real-time sq ft and revenue totals for the selected set before you commit to a single stop.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

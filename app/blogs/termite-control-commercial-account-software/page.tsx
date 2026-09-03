@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Run every HOA and property-management account from one clean system.</h3>
           <p>SprayBossPro keeps multi-property termite accounts organized with recurring renewals, consolidated billing, and shared communication. Start your free trial and win bigger contracts without adding office staff.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

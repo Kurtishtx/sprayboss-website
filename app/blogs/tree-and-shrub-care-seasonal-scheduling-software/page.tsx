@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Put every tree and shrub treatment in its right window</h3>
           <p>SprayBossPro builds your seasonal program once and keeps every dormant spray, feeding, and disease round on schedule across all your properties. See how it keeps your service windows from slipping.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

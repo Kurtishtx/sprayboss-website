@@ -35,7 +35,7 @@ export default function Page() {
           <h3>Estimate built from sq ft. Sent instantly. Approved in one click. Converted to a recurring program automatically.</h3>
           <p>SprayBossPro streamlines the spray service estimate workflow from sq ft measurement to program enrollment — with per-sq-ft pricing, instant delivery, and one-click conversion to scheduled recurring service.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -131,24 +131,24 @@ export default function VsHousecallPro() {
 
       <div className="hero">
         <div className="hero-badge">Housecall Pro Alternative</div>
-        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>SprayBossPro Is Built for Spray.</span><br />$129 vs $149 — and No Comparison on Features.</h1>
+        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>SprayBossPro Is Built for Spray.</span><br />$59 vs $149 — and No Comparison on Features.</h1>
         <p>Housecall Pro serves cleaning companies, plumbers, HVAC techs, and dozens of other trades. SprayBossPro is built specifically for lawn care and pest control — with the sq ft waiting list, chemical compliance logs, lasso route selector, and recurring treatment tracking that HCP doesn&apos;t have at any price.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">1</div><div className="hero-stat-lbl">User on HCP Basic ($59/mo)</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users on SprayBossPro ($129/mo)</div></div>
+          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users on SprayBossPro (from $59/mo)</div></div>
           <div><div className="hero-stat-val">$149</div><div className="hero-stat-lbl">HCP Essentials — 5-User Cap</div></div>
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">SprayBossPro — Unlimited Users</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">SprayBossPro — Unlimited Clients</div></div>
         </div>
       </div>
 
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Housecall Pro Pricing Reality</span>
-          <h2 className="section-title">HCP Charges More Per Tier. SprayBossPro Is $129 — Unlimited.</h2>
-          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. SprayBossPro doesn&apos;t have user tiers — your whole team is included at $129/month.</p>
+          <h2 className="section-title">HCP Charges More Per Tier. SprayBossPro Is $59 — Unlimited.</h2>
+          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. SprayBossPro doesn&apos;t have user tiers — your whole team is included at from $59/month.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -180,7 +180,7 @@ export default function VsHousecallPro() {
                 </div>
               </div>
               <div className="sbp-contrast">
-                <div className="sbp-contrast-label">SprayBossPro — $129/month</div>
+                <div className="sbp-contrast-label">SprayBossPro — from $59/month</div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Users</span><span className="sbp-contrast-row-val">Unlimited — no caps</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Sq Ft Waiting List</span><span className="sbp-contrast-row-val">✓ Included</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Chemical Compliance Logs</span><span className="sbp-contrast-row-val">✓ Included</span></div>
@@ -189,13 +189,13 @@ export default function VsHousecallPro() {
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Math</span>
               <h2>At the Same Price as HCP Essentials, SprayBossPro Has Features HCP Doesn&apos;t Have at Any Price.</h2>
-              <p>HCP Essentials is $149/month and covers up to 5 users. SprayBossPro is $129/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have a sq ft waiting list, a lasso circle route selector, or dedicated chemical compliance logs. These aren&apos;t premium add-ons in SprayBossPro — they&apos;re in the base price.</p>
+              <p>HCP Essentials is $149/month and covers up to 5 users. SprayBossPro is from $59/month with unlimited clients. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have a sq ft waiting list, a lasso circle route selector, or dedicated chemical compliance logs. These aren&apos;t premium add-ons in SprayBossPro — they&apos;re in the base price.</p>
               <ul className="check-list">
                 <li>Sq ft waiting list by service type — doesn&apos;t exist in HCP</li>
                 <li>Lasso circle map selector — doesn&apos;t exist in HCP</li>
                 <li>Chemical compliance logs — doesn&apos;t exist in HCP</li>
                 <li>Recurring treatment waiting list — doesn&apos;t exist in HCP</li>
-                <li>Unlimited users at $129 — HCP needs MAX ($299) for 8 users</li>
+                <li>Unlimited clients at $59 — HCP needs MAX ($299) for 8 users</li>
               </ul>
             </div>
           </div>
@@ -209,9 +209,9 @@ export default function VsHousecallPro() {
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft Waiting List</h4><p>Before scheduling, SprayBossPro shows you exactly how much sq ft is waiting per service type. Know your Lawn Care 4, Mosquito, and Insect Control backlog. Build routes around what&apos;s due. HCP doesn&apos;t have this model at any tier.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Route Selector</h4><p>Draw a circle on your map, instantly see every property inside with a service due. Stops, sq ft, service type — all shown before you schedule. HCP has basic job scheduling. Not the same as a geographic lasso built for spray route density.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance Logs</h4><p>Log product, mix rate, area, weather, and tech license automatically on every application. Pull compliance reports on demand. HCP has job notes — not a dedicated pesticide compliance system built for applicator licensing requirements.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $129</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. SprayBossPro covers your entire team at $129 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th employee at no extra cost.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Clients from $59</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. SprayBossPro covers your entire team at $59 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th employee at no extra cost.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Treatment Model</h4><p>SprayBossPro is built around recurring service programs — waiting lists, treatment cycles, package renewals, due-date flags. HCP handles recurring jobs for general trades. The spray-specific workflow is different, and HCP wasn&apos;t built for it.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $129, not locked behind a premium tier.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $59, not locked behind a premium tier.</p></div>
         </div>
       </div>
 
@@ -243,8 +243,8 @@ export default function VsHousecallPro() {
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Review Requests</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Capped by tier</span></td></tr>
-              <tr><td className="feature-name">Price for a 5-Person Team</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$149/month (Essentials)</td></tr>
+              <tr><td className="feature-name">Unlimited Clients, Every Plan</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Capped by tier</span></td></tr>
+              <tr><td className="feature-name">Price for a 5-Person Team</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$149/month (Essentials)</td></tr>
             </tbody>
           </table>
         </div>
@@ -260,7 +260,7 @@ export default function VsHousecallPro() {
           <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft Is the Unit That Matters</h3><p>SprayBossPro tracks everything in square feet — waiting lists, route totals, property breakdowns, billing. Lawn care and pest control pricing is sq ft based. Your software should be too. HCP tracks job duration and billing, not sq ft.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>The Spray Route Model Is Different</h3><p>Spray businesses run recurring treatment schedules across hundreds of properties. That&apos;s a different operating model than one-off plumbing calls or cleaning visits. SprayBossPro was built around the spray model from day one.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Chemical Compliance Isn&apos;t Optional</h3><p>Pesticide applicators are subject to state compliance requirements. Chemical application logs, product records, license tracking — these need to be built into the software. HCP has job notes. SprayBossPro has compliance logs.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>SprayBossPro is $129/month with unlimited users, unlimited routes, chemical logs, lasso, sq ft waiting list, and SMS. HCP Essentials is $149 with a 5-user cap and none of those spray-specific features. Less money. More spray.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>SprayBossPro is from $59/month with unlimited clients, unlimited routes, chemical logs, lasso, sq ft waiting list, and SMS. HCP Essentials is $149 with a 5-user cap and none of those spray-specific features. Less money. More spray.</p></div>
         </div>
       </section>
 
@@ -268,7 +268,7 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">Less Than HCP Essentials — More Spray Features</h2>
-          <p className="section-sub">$129/month. Unlimited users. Every spray-specific feature included.</p>
+          <p className="section-sub">from $59/month. Unlimited clients. Every spray-specific feature included.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -309,7 +309,7 @@ export default function VsHousecallPro() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #e07820', boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -326,7 +326,7 @@ export default function VsHousecallPro() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

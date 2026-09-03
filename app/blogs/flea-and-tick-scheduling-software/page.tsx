@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Run your flea and tick season on autopilot, not adrenaline.</h3>
           <p>SprayBossPro turns every enrolled yard into a self-refilling recurring program, so no re-treat ever slips. Start organizing your flea and tick control programs today.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

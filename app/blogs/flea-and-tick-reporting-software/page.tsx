@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Manage your season on real numbers, not gut feel.</h3>
           <p>SprayBossPro turns every logged treatment and payment into clear reports by crew and route. See exactly what drives your flea and tick business and plan from facts.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

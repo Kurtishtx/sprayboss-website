@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Run every termite obligation on autopilot instead of memory.</h3>
           <p>SprayBossPro keeps your inspections, treatments, monitoring visits, and warranty renewals on one live schedule so nothing slips. Start your free trial and see how calm a termite calendar can be.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

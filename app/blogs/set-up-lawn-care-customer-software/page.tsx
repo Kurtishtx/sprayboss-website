@@ -35,7 +35,7 @@ export default function Page() {
           <h3>Client. Property. Sq ft by service type. Package plan. First service. Five steps to a customer who never falls through the cracks.</h3>
           <p>SprayBossPro&apos;s new customer setup flow creates a complete, active account in under 10 minutes — with sq ft data, package services, and automatic waiting list placement from the first completion forward.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

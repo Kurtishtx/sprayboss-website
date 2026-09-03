@@ -48,7 +48,7 @@ export default function Page() {
           <h3>Every required compliance field captured at the property. EPA reg number pre-filled. State-ready on demand.</h3>
           <p>SprayBossPro&apos;s mobile compliance log captures all required mosquito application fields — with product library pre-fill for EPA reg numbers, rates, and re-entry intervals — submitted in the field and searchable in the office immediately.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

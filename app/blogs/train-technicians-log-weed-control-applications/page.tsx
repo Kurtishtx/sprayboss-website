@@ -41,7 +41,7 @@ export default function Page() {
           <h3>A field logging workflow technicians complete in 90 seconds before leaving the property.</h3>
           <p>SprayBossPro&apos;s mobile logging form pre-fills product data, EPA reg numbers, and re-entry intervals from the product library so technicians confirm rather than enter — making at-property compliance logging fast enough to be a habit on every stop.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

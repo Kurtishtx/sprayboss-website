@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Reach flea and tick customers where they actually respond.</h3>
           <p>SprayBossPro automates arrival and reminder texts and routes every reply into a shared two-way inbox. Cut no-access visits and keep programs running.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

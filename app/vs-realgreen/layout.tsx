@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'SprayBossPro vs RealGreen | SprayBossPro',
-  description: 'SprayBossPro vs RealGreen: modern routing, circle-map dispatch, and chemical compliance logs — without the legacy software learning curve. $129/month flat.',
+  description: 'SprayBossPro vs RealGreen: modern routing, circle-map dispatch, and chemical compliance logs — without the legacy software learning curve. from $59/month.',
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

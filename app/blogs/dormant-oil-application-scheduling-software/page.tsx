@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Run a Tighter Dormant Oil Season</h3>
           <p>See how SprayBossPro schedules recurring dormant oil programs, routes the crew during your narrow winter window, and logs every spray for compliance. Book a walkthrough and start the season organized.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -16,7 +16,7 @@ export default function Page() {
 
         <h2>Why Per-Square-Foot Pricing Works for Chemical Programs</h2>
         <p>Chemical treatment programs have a cost structure that naturally aligns with square footage: product cost per 1,000 sq ft, application time per 1,000 sq ft, and equipment wear per 1,000 sq ft. When you know your cost per 1,000 sq ft, setting a price per 1,000 sq ft that covers costs and generates the margin you need is straightforward math.</p>
-        <p>Flat-rate pricing — charging every customer the same amount regardless of property size — creates consistent margin problems. You lose money on large properties and overcharge small ones, which creates churn at the low-cost end when customers realize they&apos;re paying above market rate.</p>
+        <p>Simple pricing — charging every customer the same amount regardless of property size — creates consistent margin problems. You lose money on large properties and overcharge small ones, which creates churn at the low-cost end when customers realize they&apos;re paying above market rate.</p>
 
         <h2>Setting Your Base Price Per 1,000 Sq Ft</h2>
         <p>Start with your cost structure:</p>
@@ -53,7 +53,7 @@ export default function Page() {
           <h3>Know your revenue per stop before the crew leaves the shop.</h3>
           <p>SprayBossPro stores sq ft on every property and calculates expected revenue per stop and per route so you can see the profitability of your schedule before it runs.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

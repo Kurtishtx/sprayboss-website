@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Let Customers Enroll While You Sleep</h3>
           <p>See how SprayBossPro turns after-hours interest into routed, card-on-file program enrollments with online booking connected to your estimates, scheduling, and crews.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

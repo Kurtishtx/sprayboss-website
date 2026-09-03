@@ -35,7 +35,7 @@ export default function Page() {
           <h3>Test the waiting list. Try the compliance log on a phone. Build a route on the map. Price all the features you actually need.</h3>
           <p>SprayBossPro offers a full free trial with every feature unlocked — no demo-only access, no limits on accounts or routes while evaluating. Try the waiting list, the circle map, the compliance log, and the SMS all on real data.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

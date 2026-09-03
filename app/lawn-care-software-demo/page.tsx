@@ -39,7 +39,7 @@ const copy: DemoPageCopy = {
     },
     {
       q: 'What does it cost after the demo?',
-      a: '$129 a month, flat, with every feature included — office software, crew app, customer app, texting, and billing. No per-user pricing and no feature tiers.',
+      a: '$59 a month, flat, with every feature included — office software, crew app, customer app, texting, and billing. No hidden add-on pricing and no feature tiers.',
     },
   ],
 };

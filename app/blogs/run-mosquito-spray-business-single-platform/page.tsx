@@ -30,9 +30,9 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Waiting list. Circle routing. Mobile dispatch. Compliance logs. Automated SMS. Card billing. One platform — no stitching.</h3>
-          <p>SprayBossPro runs a complete mosquito spray operation from one platform — scheduling, routing, compliance, customer communication, and billing all connected at $129/month flat.</p>
+          <p>SprayBossPro runs a complete mosquito spray operation from one platform — scheduling, routing, compliance, customer communication, and billing all connected at from $59/month.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

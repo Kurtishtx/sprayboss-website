@@ -138,14 +138,14 @@ export default function VsAspire() {
 
       <div className="hero">
         <div className="hero-badge">Aspire Software Alternative</div>
-        <h1>Aspire Costs $1,299/Month on Average.<br /><span>SprayBossPro Is $129. That&apos;s 10x Less — With Features Aspire Doesn&apos;t Have.</span></h1>
-        <p>Aspire is an enterprise ERP built for $5M+ landscaping companies with 100+ employees. If you&apos;re a spray business, you&apos;d pay 10x more for complexity you&apos;ll never use — and still miss the spray-specific features SprayBossPro has at $129.</p>
+        <h1>Aspire Costs $1,299/Month on Average.<br /><span>SprayBossPro Is $59. That&apos;s 10x Less — With Features Aspire Doesn&apos;t Have.</span></h1>
+        <p>Aspire is an enterprise ERP built for $5M+ landscaping companies with 100+ employees. If you&apos;re a spray business, you&apos;d pay 10x more for complexity you&apos;ll never use — and still miss the spray-specific features SprayBossPro has at $59.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">$1,299</div><div className="hero-stat-lbl">Aspire Monthly Average</div></div>
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">SprayBossPro — Everything Included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">SprayBossPro — Everything Included</div></div>
           <div><div className="hero-stat-val">10x</div><div className="hero-stat-lbl">Less Than Aspire</div></div>
           <div><div className="hero-stat-val">Grows</div><div className="hero-stat-lbl">With Your Spray Business</div></div>
         </div>
@@ -154,7 +154,7 @@ export default function VsAspire() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">What Aspire Actually Costs</span>
-          <h2 className="section-title">Aspire at $1,299/Month vs SprayBossPro at $129/Month — The 10x Difference</h2>
+          <h2 className="section-title">Aspire at $1,299/Month vs SprayBossPro at from $59/Month — The 10x Difference</h2>
           <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Aspire is a full enterprise ERP — job costing, crew management, equipment tracking, multi-branch operations, CRM, and more. It&apos;s built for large landscaping companies with complex operational needs. For a spray business, you&apos;d pay $1,299/month on average for tools you&apos;ll never use, without the spray-specific features SprayBossPro has.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
@@ -171,7 +171,7 @@ export default function VsAspire() {
                   <div className="cost-box-label">SprayBossPro</div>
                   <div className="cost-box-price">$1,548</div>
                   <div className="cost-box-period">per year</div>
-                  <div className="cost-box-note">$129/month flat — everything included</div>
+                  <div className="cost-box-note">from $59/month — everything included</div>
                 </div>
               </div>
               <div className="cost-rows">
@@ -179,7 +179,7 @@ export default function VsAspire() {
                 <div className="cost-row"><span className="cost-row-label">3-Year Savings</span><span className="cost-row-val green">$42,120</span></div>
                 <div className="cost-divider"></div>
                 <div className="cost-row"><span className="cost-row-label">Aspire Pricing Model</span><span className="cost-row-val red">Custom quote, per-user</span></div>
-                <div className="cost-row"><span className="cost-row-label">SprayBossPro Pricing</span><span className="cost-row-val orange">$129/mo flat — published</span></div>
+                <div className="cost-row"><span className="cost-row-label">SprayBossPro Pricing</span><span className="cost-row-val orange">from $59/mo — published</span></div>
                 <div className="cost-row"><span className="cost-row-label">Aspire Public Pricing</span><span className="cost-row-val red">Not published</span></div>
                 <div className="cost-row"><span className="cost-row-label">SprayBossPro Trial</span><span className="cost-row-val green">14 days free — no card</span></div>
               </div>
@@ -188,9 +188,9 @@ export default function VsAspire() {
               <span className="section-label">10x Less</span>
               <h2>Aspire Is an Enterprise ERP. SprayBossPro Is Built for Spray Routes. Those Aren&apos;t the Same Thing.</h2>
               <p>Aspire software is a full business management platform built for large landscaping operations with multi-million dollar revenue, dozens of crews, and complex job costing requirements. The average operator pays ~$1,299/month or more once licensing and implementation are factored in.</p>
-              <p>SprayBossPro is $129/month — designed for spray businesses running recurring treatment schedules. Lasso routing, sq ft waiting lists by service type, chemical compliance logs — these are built into SprayBossPro. They don&apos;t exist in Aspire.</p>
+              <p>SprayBossPro is from $59/month — designed for spray businesses running recurring treatment schedules. Lasso routing, sq ft waiting lists by service type, chemical compliance logs — these are built into SprayBossPro. They don&apos;t exist in Aspire.</p>
               <ul className="check-list">
-                <li>$129/month — 10x less than Aspire&apos;s average</li>
+                <li>from $59/month — 10x less than Aspire&apos;s average</li>
                 <li>Sq ft waiting list by service type — not in Aspire</li>
                 <li>Lasso circle route selector — not in Aspire</li>
                 <li>Chemical compliance logs — not a core Aspire feature</li>
@@ -204,7 +204,7 @@ export default function VsAspire() {
 
       <div className="premium-band">
         <h2>Aspire Is an ERP for $5M Landscaping Companies.<span>You&apos;re a Spray Business. That&apos;s Not the Same Thing.</span></h2>
-        <p>Aspire has job costing, equipment tracking, multi-branch management, proposal tools, and full crew management. It&apos;s powerful — for the right company. A spray business running recurring treatment routes doesn&apos;t need an enterprise ERP. It needs sq ft tracking, lasso routing, chemical logs, and a waiting list by service type. SprayBossPro has all of that at $129/month.</p>
+        <p>Aspire has job costing, equipment tracking, multi-branch management, proposal tools, and full crew management. It&apos;s powerful — for the right company. A spray business running recurring treatment routes doesn&apos;t need an enterprise ERP. It needs sq ft tracking, lasso routing, chemical logs, and a waiting list by service type. SprayBossPro has all of that at from $59/month.</p>
       </div>
 
       <section>
@@ -218,13 +218,13 @@ export default function VsAspire() {
             <thead>
               <tr>
                 <th style={{width:'50%'}}>Feature</th>
-                <th className="sbp-col" style={{width:'25%'}}>SprayBossPro $129</th>
+                <th className="sbp-col" style={{width:'25%'}}>SprayBossPro $59</th>
                 <th style={{width:'25%'}}>Aspire Software</th>
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Monthly Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month flat</td><td style={{color:'#dc2626', fontWeight:700}}>~$1,299/month avg</td></tr>
-              <tr><td className="feature-name">Published Pricing</td><td className="sbp-col"><span className="chk">✓ $129 — right here</span></td><td><span className="crs">✗ Custom quote only</span></td></tr>
+              <tr><td className="feature-name">Monthly Price</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'#dc2626', fontWeight:700}}>~$1,299/month avg</td></tr>
+              <tr><td className="feature-name">Published Pricing</td><td className="sbp-col"><span className="chk">✓ $59 — right here</span></td><td><span className="crs">✗ Custom quote only</span></td></tr>
               <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Not a core feature</span></td></tr>
@@ -249,7 +249,7 @@ export default function VsAspire() {
           <p className="section-sub" style={{maxWidth:'720px'}}>Aspire is a genuinely powerful platform — for the right company. It&apos;s overkill for a spray business and still misses the spray-specific features you need. SprayBossPro is purpose-built for how spray businesses actually work.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>10x Less — $1,170 Saved Every Month</h3><p>Aspire averages ~$1,299/month. SprayBossPro is $129/month. That&apos;s $1,170 saved every single month — $14,040 per year — on software that was actually built for how spray businesses operate. The savings alone pay for significant business growth.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>10x Less — $1,170 Saved Every Month</h3><p>Aspire averages ~$1,299/month. SprayBossPro is from $59/month. That&apos;s $1,170 saved every single month — $14,040 per year — on software that was actually built for how spray businesses operate. The savings alone pay for significant business growth.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>Built for Spray — Not Landscaping ERPs</h3><p>Aspire was designed for multi-million dollar landscaping companies with complex crew management, equipment tracking, and multi-branch operations. Spray businesses need sq ft waiting lists, lasso routing, chemical compliance logs, and recurring treatment tracking. Those features don&apos;t exist in Aspire. They&apos;re built into SprayBossPro.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Hours to Set Up — Not Months</h3><p>Aspire requires a significant implementation and onboarding process — weeks of setup, training, and configuration before you&apos;re operational. SprayBossPro is self-serve. Start your free trial, add your clients, build your routes, and send your first estimate in a single afternoon.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Month-to-Month — No Lock-In</h3><p>SprayBossPro is month-to-month from day one with a 14-day free trial. No annual contract required. No implementation fees. No credit card to start your trial. Aspire requires an annual contract and a significant upfront commitment. SprayBossPro has to earn your business every month.</p></div>
@@ -260,7 +260,7 @@ export default function VsAspire() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">10x Less Than Aspire&apos;s Average</h2>
-          <p className="section-sub">$129/month flat. Everything included. No enterprise pricing, no annual contract, no hidden fees.</p>
+          <p className="section-sub">from $59/month. Everything included. No enterprise pricing, no annual contract, no hidden fees.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -290,8 +290,8 @@ export default function VsAspire() {
       </section>
 
       <div className="cta-band">
-        <h2>Why Pay $1,299/Month for Software<span>Built for a Different Industry? SprayBossPro Is $129.</span></h2>
-        <p>Spray-specific features, $129/month flat, 14-day free trial. Start today — no demo required, no card needed.</p>
+        <h2>Why Pay $1,299/Month for Software<span>Built for a Different Industry? SprayBossPro Is $59.</span></h2>
+        <p>Spray-specific features, from $59/month, 14-day free trial. Start today — no demo required, no card needed.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -302,7 +302,7 @@ export default function VsAspire() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #e07820', boxShadow:'0 0 0 4px rgba(224,120,32,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#080010,#1e0a35)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -319,7 +319,7 @@ export default function VsAspire() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Make next season&apos;s revenue the default.</h3>
           <p>SprayBossPro keeps perimeter subscribers on continuous recurring programs with card-on-file billing, so renewals happen automatically and your base grows every year. Start a trial and stop losing customers to the renewal gap.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

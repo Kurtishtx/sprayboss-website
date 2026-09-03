@@ -32,7 +32,7 @@ export default function Page() {
           <h3>Longest overdue at the top of the waiting list. No filter needed. No cross-referencing. The list is the alert system.</h3>
           <p>SprayBossPro&apos;s waiting list sorts by due date automatically — so overdue mosquito spray accounts surface at the top of the dispatcher&apos;s list every morning without any manual tracking or reporting.</p>
           <a href="https://my.spraybosspro.com">Start Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">
