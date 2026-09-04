@@ -373,7 +373,7 @@ export default function Home() {
           {/* The client app and the crew app, side by side - the two screens this section is about. */}
           <div style={{display:'flex', gap:'26px', justifyContent:'center', flexWrap:'wrap', margin:'34px 0 8px'}}>
             <img src="/shot-clientapp.webp" alt="The customer's own app showing today's route and how many stops away the crew is" style={{width:'270px', maxWidth:'42vw', display:'block', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
-            <img src="/shot-crewapp.webp" alt="The crew app showing the route map and the day's stops in order" style={{width:'270px', maxWidth:'42vw', display:'block', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
+            <img src="/shot-crewapp.webp" alt="The crew app: the day's route on the map, then the first stop with its gate code, notes and Start button" style={{width:'270px', maxWidth:'42vw', display:'block', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
           </div>
           <p className="section-sub">Most software this powerful stops at you and your crew. SprayBossPro gives your customers their own branded app they install right on their phone — no app store, no password, just a secure text-link login. It&apos;s the kind of thing platforms charging 5× more don&apos;t even offer.</p>
         </div>
