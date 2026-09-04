@@ -44,7 +44,7 @@ async function sbpCreateAccount(n: number) {
     const trialEnd = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString();
     await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd, product: 'spraybosspro' }, { onConflict: 'id' });
     await sb.from('company_info').insert({ user_id: uid, company_name: comp, display_name: comp });
-    await sb.from('platform_accounts').insert({ user_id: uid, email, plan: 'Monthly Subscription', monthly_amount: 59, trial_ends_at: trialEnd, active: false });
+    await sb.from('platform_accounts').insert({ user_id: uid, email, plan: 'Monthly Subscription', plan_key: 'start', monthly_amount: 59, trial_ends_at: trialEnd, active: false });
     // Notify Mail@BossProHQ.com of the new trial signup. Fire-and-forget so a
     // notification hiccup can never block or break the signup itself.
     fetch(SBP_URL + '/functions/v1/notify-signup', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON }, body: JSON.stringify({ user_id: uid, event: 'signup' }) }).catch(() => {});
