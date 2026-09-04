@@ -225,14 +225,14 @@ export default function LawnCareSchedulingSoftware() {
       <div className="hero">
         <div className="hero-badge">Lawn Care Scheduling Software</div>
         <h1>Lawn Care Scheduling Software<br /><span>Built Around How You Actually Schedule.</span></h1>
-        <p>Start every morning with a waiting list of every lawn care treatment due — organized by service type with total sq ft or linear ft. Draw a circle on the map with Lasso, pull every stop due inside into a route, and dispatch to your technicians in minutes. Recurring treatments auto-reschedule when complete. from $59/month, everything included.</p>
+        <p>Start every morning with a waiting list of every lawn care treatment due — organized by service type with total sq ft or linear ft. Draw a circle on the map with Lasso, pull every stop due inside into a route, and dispatch to your technicians in minutes. Recurring treatments auto-reschedule when complete. from $59/month, and every plan runs the same software.</p>
         <div className="hero-btns" style={{marginBottom:0}}>
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">
             Start Your 14-Day Free Trial — from $59/Month
           </a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month to start — Pro $89, Crew $199</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Clients and routes</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons or per-user fees</div></div>
@@ -461,7 +461,7 @@ export default function LawnCareSchedulingSoftware() {
 
       {/* ════ PREMIUM BAND ════ */}
       <div className="premium-band">
-        <h2>Lawn Care Scheduling Built for Companies That Spray.<br /><span>from $59/Month. Everything Included.</span></h2>
+        <h2>Lawn Care Scheduling Built for Companies That Spray.<br /><span>From $59/Month. Three Plans, One Product.</span></h2>
         <p>SprayBossPro isn&#39;t a generic scheduling app adapted for lawn care. The waiting list, Lasso route builder, compliance logging, auto-rescheduling, and automated SMS alerts are all built specifically for companies that apply chemical treatments on recurring lawn care programs.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Circle Map Route Builder</h4><p>Draw a circle on any neighborhood and see every lawn care stop due inside. Build and dispatch a full day of routes in minutes.</p></div>

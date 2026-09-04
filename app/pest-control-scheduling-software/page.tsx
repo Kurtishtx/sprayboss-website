@@ -225,14 +225,14 @@ export default function PestControlSchedulingSoftware() {
       <div className="hero">
         <div className="hero-badge">Pest Control Scheduling Software</div>
         <h1>Pest Control Scheduling Software for<br /><span>Quarterly, Bi-Monthly, and Monthly Programs.</span></h1>
-        <p>SprayBossPro is scheduling software for pest control companies running recurring programs. Every customer&#39;s next treatment auto-schedules when the previous one is completed. Build Lasso circle routes, log EPA reg numbers and application rates on every job, and send automated SMS alerts without your team ever touching a text message. from $59/month, everything included.</p>
+        <p>SprayBossPro is scheduling software for pest control companies running recurring programs. Every customer&#39;s next treatment auto-schedules when the previous one is completed. Build Lasso circle routes, log EPA reg numbers and application rates on every job, and send automated SMS alerts without your team ever touching a text message. from $59/month, and every plan runs the same software.</p>
         <div className="hero-btns" style={{marginBottom:0}}>
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">
             Start Your 14-Day Free Trial — from $59/Month
           </a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month to start — Pro $89, Crew $199</div></div>
           <div><div className="hero-stat-val">Auto</div><div className="hero-stat-lbl">Reschedule on every completed job</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons or per-technician fees</div></div>
@@ -457,7 +457,7 @@ export default function PestControlSchedulingSoftware() {
 
       {/* ════ PREMIUM BAND ════ */}
       <div className="premium-band">
-        <h2>Pest Control Scheduling Software Built for Recurring Programs.<br /><span>from $59/Month. Everything Included.</span></h2>
+        <h2>Pest Control Scheduling Software Built for Recurring Programs.<br /><span>From $59/Month. Three Plans, One Product.</span></h2>
         <p>SprayBossPro isn&#39;t a generic job board adapted for pest control. Recurring program auto-rescheduling, compliance logs, Lasso circle route building, and automated SMS alerts are built specifically for pest control companies running quarterly, bi-monthly, and monthly programs at scale.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🔄</div><h4>Recurring Program Auto-Scheduling</h4><p>Quarterly, bi-monthly, and monthly programs auto-reschedule when treatments complete. Every customer&#39;s next visit schedules itself — your waiting list stays accurate all year automatically.</p></div>

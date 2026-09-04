@@ -223,12 +223,12 @@ export default function WeedControlSoftware() {
       <div className="hero">
         <div className="hero-badge">Weed Control Software for Lawn Care Companies</div>
         <h1>Weed Control Software with Pre-Emergent Programs,<br /><span>Compliance Logs, and Auto Re-Entry SMS.</span></h1>
-        <p>SprayBossPro manages pre-emergent and post-emergent weed control programs for lawn care companies. Set up your timing windows once — pre-emergent rounds schedule at the right seasonal dates, post-emergent rounds reschedule at your interval after completion. Log EPA reg numbers and re-entry intervals on every application. Re-entry SMS fires automatically to every customer. from $59/month, everything included.</p>
+        <p>SprayBossPro manages pre-emergent and post-emergent weed control programs for lawn care companies. Set up your timing windows once — pre-emergent rounds schedule at the right seasonal dates, post-emergent rounds reschedule at your interval after completion. Log EPA reg numbers and re-entry intervals on every application. Re-entry SMS fires automatically to every customer. from $59/month, and every plan runs the same software.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — from $59/Month</a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month to start — Pro $89, Crew $199</div></div>
           <div><div className="hero-stat-val">Pre &amp; Post</div><div className="hero-stat-lbl">Emergent programs — both handled</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">Auto</div><div className="hero-stat-lbl">Re-entry SMS on every application</div></div>
@@ -410,7 +410,7 @@ export default function WeedControlSoftware() {
 
       {/* PREMIUM BAND */}
       <div className="premium-band">
-        <h2>Weed Control Software Built for Lawn Care Companies.<br /><span>from $59/Month. Everything Included.</span></h2>
+        <h2>Weed Control Software Built for Lawn Care Companies.<br /><span>From $59/Month. Three Plans, One Product.</span></h2>
         <p>SprayBossPro isn&apos;t a generic scheduling app with a weed control tag. Pre-emergent timing windows, post-emergent auto-rescheduling, EPA compliance logs, re-entry interval SMS, and Lasso routing are built specifically for companies running recurring weed control programs on residential and commercial lawns.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🌱</div><h4>Pre-Emergent Timing Windows</h4><p>Pre-emergent rounds schedule at your seasonal target date and appear on the waiting list when due. Spring and fall rounds tracked separately per property, each with its own compliance log.</p></div>

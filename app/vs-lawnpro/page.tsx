@@ -131,8 +131,8 @@ export default function VsLawnPro() {
 
       <div className="hero">
         <div className="hero-badge">LawnPro Alternative</div>
-        <h1>LawnPro Grow Is from $59/Month — With a 7-Employee Cap, No SMS, and No Card-on-File Payments.<br /><span>SprayBossPro Is $59 With Unlimited Clients, SMS, and Payments Included.</span></h1>
-        <p>LawnPro Grow matches SprayBossPro&apos;s price but caps you at 7 employees, locks two-way SMS behind the $249 Plus plan, and doesn&apos;t include card-on-file auto-charge. SprayBossPro is the same $59 — with no caps, no locked features, and everything spray businesses actually need included.</p>
+        <h1>LawnPro Grow Is from $59/Month — With a 7-Employee Cap, No SMS, and No Card-on-File Payments.<br /><span>SprayBossPro Starts at $59, and Unlimited Is $199 — Not Unavailable.</span></h1>
+        <p>LawnPro Grow matches SprayBossPro&apos;s starting price, but 7 employees is its ceiling at every plan, two-way SMS costs $249, and card-on-file auto-charge is not offered at all. SprayBossPro reaches unlimited employees at $199, turns on two-way SMS at $89, and includes card-on-file on every plan. SprayBossPro is the same $59 — with no caps, no locked features, and everything spray businesses actually need included.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -168,12 +168,12 @@ export default function VsLawnPro() {
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">No Upgrade Walls</span>
-              <h2>The Same $59 Should Get You Everything. At LawnPro, It Doesn&apos;t.</h2>
+              <h2>Both Start at $59. The Difference Is What You Can Grow Into.</h2>
               <p>LawnPro Grow costs from $59/month — the same as SprayBossPro. But it caps your team at 7 employees, locks two-way text messaging behind the $249 Plus plan, and doesn&apos;t include card-on-file auto-charge at any price below Plus.</p>
               <p>SprayBossPro is from $59/month with unlimited clients, SMS, card-on-file payments, lasso routing, sq ft waiting list, and chemical compliance logs — all included. No tier upgrades required.</p>
               <ul className="check-list">
-                <li>Unlimited employees — not 7, not 15, unlimited</li>
-                <li>2-Way SMS included at $59 — not locked behind $249</li>
+                <li>Unlimited employees on Crew — LawnPro caps every plan at 7</li>
+                <li>Two-way SMS from $89 — LawnPro locks it behind $249</li>
                 <li>Card-on-file auto-charge included — not a Plus-only feature</li>
                 <li>Lasso circle routing — LawnPro doesn&apos;t have this at any price</li>
                 <li>Sq ft waiting list by service type — not in LawnPro</li>
@@ -267,7 +267,7 @@ export default function VsLawnPro() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Same Price — More Included</h3><p>LawnPro Grow is from $59/month with a 7-employee cap, no SMS, and no card-on-file payments. SprayBossPro is from $59/month with unlimited clients, full SMS, card-on-file auto-charge, lasso routing, sq ft waiting list, and chemical logs — all included from day one.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>No Employee Caps — Ever</h3><p>As your spray business grows, you add trucks and technicians. LawnPro charges $249/month to get to 15 employees, and you&apos;re still capped. SprayBossPro never limits your team size — unlimited employees are included in the base $59 price, no upgrade required.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Caps You Can Actually Clear</h3><p>As your spray business grows, you add trucks and technicians. LawnPro charges $249/month to get to 15 employees, and you&apos;re still capped. SprayBossPro never limits your team size — unlimited employees are included in the base $59 price, no upgrade required.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Spray-Specific Features at Every Tier</h3><p>Sq ft waiting list by service type, lasso circle route selector, chemical compliance logs — LawnPro doesn&apos;t have these at any price tier. They&apos;re core features in SprayBossPro because they were built for how spray businesses actually manage recurring treatment schedules.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>14-Day Free Trial — No Card Required</h3><p>SprayBossPro has a 14-day free trial with full access. No credit card required. You can see every feature, set up your routes, add your clients, and confirm it&apos;s the right fit before paying anything. LawnPro offers a perpetual free plan with limits but no full-feature trial.</p></div>
         </div>

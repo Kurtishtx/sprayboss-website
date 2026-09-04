@@ -294,7 +294,7 @@ export default function VsRealGreen() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">Less Than RealGreen Basic — More Included</h2>
-          <p className="section-sub">from $59/month. Everything included. No add-ons, no per-device fees, no custom quote required.</p>
+          <p className="section-sub">From $59/Month. Three Plans, One Product. No add-ons, no per-device fees, no custom quote required.</p>
         </div>
         <PlanCompare onTrial={(el) => openSignupModal(2, el)} />
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>

@@ -229,7 +229,7 @@ export default function PestControlSoftware() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly — Everything Included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">To Start — Pro $89 · Crew $199</div></div>
           <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">SMS Alerts Included Monthly</div></div>
           <div><div className="hero-stat-val">30 sec</div><div className="hero-stat-lbl">Pull a Compliance Report</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
@@ -470,7 +470,7 @@ export default function PestControlSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">Simple pricing. Everything Included.</h2>
+          <h2 className="section-title">Simple pricing. Pick the size you are.</h2>
           <p className="section-sub">No per-seat fees. No add-ons. No contracts. Just from $59/month for your entire operation.</p>
         </div>
         <PlanCompare onTrial={(el) => openSignupModal(2, el)} />

@@ -501,7 +501,7 @@ export default function GrubControlSoftware() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">Simple pricing. Everything Included.</h2>
+          <h2 className="section-title">Simple pricing. Pick the size you are.</h2>
           <p className="section-sub">We were paying $500–$700 a month for software that nickel-and-dimed us. We built SprayBossPro to be the pricing we always wished existed.</p>
         </div>
         <PlanCompare onTrial={(el) => openSignupModal(2, el)} />

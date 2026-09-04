@@ -324,7 +324,7 @@ export default function VsServiceAutopilot() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">from $59/Month. Everything Included. No Surprises.</h2>
+          <h2 className="section-title">From $59/Month. Three Plans, One Product. No Surprises.</h2>
           <p className="section-sub">No sign-up fee. No tier-climbing. No add-ons. Just from $59/month for your entire operation.</p>
         </div>
         <PlanCompare onTrial={(el) => openSignupModal(2, el)} />

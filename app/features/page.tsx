@@ -438,7 +438,7 @@ export default function Features() {
       {/* CTA */}
       <div className="cta-band">
         <h2>Every Feature. One Price.<br />from $59/Month.</h2>
-        <p>No surprises, no locked features, no hidden fees. Start free for 14 days — no credit card required.</p>
+        <p>No hidden fees and no add-on modules — the plans differ by size, not by feature list. Start free for 14 days — no credit card required.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px',padding:'18px 44px'}} onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
         </div>

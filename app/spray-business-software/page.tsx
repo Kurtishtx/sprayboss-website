@@ -229,7 +229,7 @@ export default function SprayBusinessSoftware() {
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — from $59/Month</a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month to start — Pro $89, Crew $199</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Clients and properties</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons required</div></div>

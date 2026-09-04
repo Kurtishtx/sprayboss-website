@@ -261,7 +261,7 @@ export default function VsAspire() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">10x Less Than Aspire&apos;s Average</h2>
-          <p className="section-sub">from $59/month. Everything included. No enterprise pricing, no annual contract, no hidden fees.</p>
+          <p className="section-sub">From $59/Month. Three Plans, One Product. No enterprise pricing, no annual contract, no hidden fees.</p>
         </div>
         <PlanCompare onTrial={(el) => openSignupModal(2, el)} />
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>

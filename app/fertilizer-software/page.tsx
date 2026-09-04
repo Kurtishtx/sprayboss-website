@@ -223,12 +223,12 @@ export default function FertilizerSoftware() {
       <div className="hero">
         <div className="hero-badge">Fertilizer Software for Lawn Care Companies</div>
         <h1>Fertilizer Software That Tracks Every Round,<br /><span>Logs Every Application, and Schedules the Next.</span></h1>
-        <p>SprayBossPro tracks 5-round and 6-round fertilizer programs from start to finish. Log product name, EPA reg number, application rate per 1,000 sq ft, and applicator license on every visit. When a round is completed, the next round reschedules itself on the waiting list automatically. from $59/month, everything included.</p>
+        <p>SprayBossPro tracks 5-round and 6-round fertilizer programs from start to finish. Log product name, EPA reg number, application rate per 1,000 sq ft, and applicator license on every visit. When a round is completed, the next round reschedules itself on the waiting list automatically. from $59/month, and every plan runs the same software.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — from $59/Month</a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month to start — Pro $89, Crew $199</div></div>
           <div><div className="hero-stat-val">5 &amp; 6</div><div className="hero-stat-lbl">Round program tracking built-in</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons or per-user fees</div></div>
@@ -455,7 +455,7 @@ export default function FertilizerSoftware() {
 
       {/* PREMIUM BAND */}
       <div className="premium-band">
-        <h2>Fertilizer Software Built for Lawn Care Companies That Apply Chemicals.<br /><span>from $59/Month. Everything Included.</span></h2>
+        <h2>Fertilizer Software Built for Lawn Care Companies That Apply Chemicals.<br /><span>From $59/Month. Three Plans, One Product.</span></h2>
         <p>SprayBossPro isn&apos;t a generic scheduling tool with fertilizer tags added on. Round tracking, EPA compliance logs, auto-rescheduling, Lasso routing, and re-entry SMS are all built specifically for companies running recurring fertilizer programs.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>EPA Compliance Logs</h4><p>Product name, EPA reg number, rate per 1,000 sq ft, applicator license — logged in-field on every application. Print compliance reports by date, product, or applicator on demand.</p></div>

@@ -188,7 +188,7 @@ export default function VsClip() {
               <p>SprayBossPro is from $59/month with unlimited properties, unlimited clients, payments included, lasso routing, sq ft waiting list, and chemical compliance logs. CLIP doesn&apos;t have any of those spray-specific features at any price tier.</p>
               <ul className="check-list">
                 <li>No property caps — unlimited at $59</li>
-                <li>No hidden fees — unlimited employees included</li>
+                <li>No hidden fees — unlimited employees on Crew</li>
                 <li>Lasso circle route selector — CLIP doesn&apos;t have this</li>
                 <li>Sq ft waiting list by service type — not in CLIP</li>
                 <li>Chemical compliance logs — not in CLIP at any tier</li>

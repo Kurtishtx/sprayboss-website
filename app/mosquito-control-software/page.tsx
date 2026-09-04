@@ -223,12 +223,12 @@ export default function MosquitoControlSoftware() {
       <div className="hero">
         <div className="hero-badge">Mosquito Control Software</div>
         <h1>Software Built for<br /><span>Mosquito Control Companies.</span></h1>
-        <p>Manage seasonal mosquito programs, build circle routes with Lasso, track sq ft or linear ft waiting lists by program type, send automated customer alerts before and after every treatment, and log every chemical application for compliance — from $59/month, everything included.</p>
+        <p>Manage seasonal mosquito programs, build circle routes with Lasso, track sq ft or linear ft waiting lists by program type, send automated customer alerts before and after every treatment, and log every chemical application for compliance — from $59/month, and every plan runs the same software.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial — from $59/Month</a>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month — everything included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Per month to start — Pro $89, Crew $199</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Clients and properties</div></div>
           <div><div className="hero-stat-val">14-Day</div><div className="hero-stat-lbl">Free trial — no credit card</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Add-ons or per-user fees</div></div>
