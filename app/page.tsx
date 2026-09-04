@@ -372,8 +372,8 @@ export default function Home() {
           <h2 className="section-title">Your customers get their own app, and you choose what it shows them</h2>
           {/* The client app and the crew app, side by side - the two screens this section is about. */}
           <div style={{display:'flex', gap:'26px', justifyContent:'center', flexWrap:'wrap', margin:'34px 0 8px'}}>
-            <img src="/shot-clientapp.webp" alt="The customer's own app showing today's route and how many stops away the crew is" style={{width:'250px', maxWidth:'44vw', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
-            <img src="/shot-crewapp.webp" alt="The crew app showing the route map and the day's stops in order" style={{width:'250px', maxWidth:'44vw', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
+            <img src="/shot-clientapp.webp" alt="The customer's own app showing today's route and how many stops away the crew is" style={{width:'270px', maxWidth:'42vw', display:'block', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
+            <img src="/shot-crewapp.webp" alt="The crew app showing the route map and the day's stops in order" style={{width:'270px', maxWidth:'42vw', display:'block', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
           </div>
           <p className="section-sub">Most software this powerful stops at you and your crew. SprayBossPro gives your customers their own branded app they install right on their phone — no app store, no password, just a secure text-link login. It&apos;s the kind of thing platforms charging 5× more don&apos;t even offer.</p>
         </div>
@@ -503,8 +503,8 @@ export default function Home() {
           {/* Every alert, with its own text / email / in-app switches. The section spent five
               bullet points describing this table; showing it is shorter and more convincing. */}
           <img src="/shot-alerts.webp" alt="The alert list with independent text, email and in-app switches on every alert"
-               style={{width:'100%', maxWidth:'1000px', display:'block', margin:'30px auto 6px', borderRadius:'10px', border:'1px solid rgba(255,255,255,.12)'}} />
-          <p className="section-sub">Set up automated SMS and email alerts once. SprayBossPro sends them automatically — keeping your customers informed without any extra work from you.</p>
+               style={{width:'100%', maxWidth:'620px', display:'block', margin:'30px auto 6px', borderRadius:'10px', border:'1px solid rgba(255,255,255,.12)'}} />
+          <p className="section-sub">That is the whole list, not a sample. Nineteen alerts, each with its own text, email and in-app switch. Turn one on and it sends itself from then on. Turn a channel off and your customers never see it as an option.</p>
         </div>
         <div className="alert-grid">
           <div className="alert-pill"><span className="ap-icon">📅</span><div><div className="ap-label">Service Scheduled</div><div className="ap-sub">Auto-text when a job is booked</div></div></div>
