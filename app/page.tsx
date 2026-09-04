@@ -333,10 +333,9 @@ export default function Home() {
       <section id="lasso">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Only in SprayBossPro</span>
-            <h2>Circle Any Area on the Map.<br />Instantly Know Everything Inside It.</h2>
-            <p>No other lawn care or pest control software has this. On the waiting list map, draw a circle around any geographic area — a neighborhood, a ZIP code, a corridor — and SprayBossPro instantly calculates every detail of what&apos;s inside before you schedule a single stop or mix a single gallon.</p>
-            <p style={{marginTop:'12px'}}>This isn&apos;t just a map feature. It&apos;s a business intelligence tool. You can look at a section of your service area and know in seconds whether it&apos;s worth building a route around, how many trucks to send, what to load, and how much chemical to mix. No calls. No guesses. No wasted time.</p>
+            <h2>Draw a circle. Know what is inside it before you load the truck.</h2>
+            <p>No other lawn care or pest control software has this. On the waiting list map, draw a circle around any geographic area — a neighborhood, a ZIP code, a corridor. SprayBossPro works out every detail of what&apos;s inside before you schedule a single stop or mix a single gallon.</p>
+            <p style={{marginTop:'12px'}}>This isn&apos;t just a map feature. It&apos;s a business intelligence tool. You can look at a section of your service area and know in seconds whether it&apos;s worth building a route around, how many trucks to send, what to load, and how much chemical to mix. You know before you drive out there.</p>
             <ul className="check-list">
               <li>Total sq ft and linear ft for all properties inside the circle</li>
               <li>Total stop count and total number of services across all types</li>
@@ -345,20 +344,15 @@ export default function Home() {
               <li>Schedule all circled stops at once — they drop straight to the dispatch board with a full route map</li>
               <li>All service types are fully customizable to match exactly how your operation runs</li>
               <li>The system calculates how much to do per day and how many gallons to mix per service</li>
-              <li>Know before you load the truck. Know before you mix a gallon. Stop wasting both.</li>
+              <li>You know what to load and how much to mix before the truck leaves the shop.</li>
             </ul>
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Waiting List Map — Circle Selection</div>
-            <div className="lasso-map">
-              <div className="lasso-ring"></div>
-              <div className="lasso-pins">
-                <div className="lpin s"></div><div className="lpin s"></div><div className="lpin u"></div>
-                <div className="lpin s"></div><div className="lpin s"></div><div className="lpin u"></div>
-                <div className="lpin s"></div><div className="lpin s"></div><div className="lpin s"></div>
-                <div className="lpin u"></div><div className="lpin s"></div><div className="lpin s"></div>
-              </div>
-            </div>
+            {/* The actual waiting list, lasso closed, Selection Summary open. A drawing of this
+                was never going to be more convincing than the thing itself. */}
+            <img src="/shot-lasso.webp" alt="SprayBossPro waiting list with a lasso drawn around a neighbourhood and the Selection Summary open"
+                 style={{width:'100%', display:'block', borderRadius:'10px', border:'1px solid rgba(255,255,255,.12)'}} />
             <div className="stat-grid">
               <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
               <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
@@ -375,8 +369,7 @@ export default function Home() {
       {/* ═══ CUSTOMER APP ═══ */}
       <section className="dark-section">
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
-          <span className="section-label">Your Customers Get an App, Too</span>
-          <h2 className="section-title">Give Every Customer Their Own App —<br />And You Decide What They See.</h2>
+          <h2 className="section-title">Your customers get their own app, and you choose what it shows them</h2>
           <p className="section-sub">Most software this powerful stops at you and your crew. SprayBossPro gives your customers their own branded app they install right on their phone — no app store, no password, just a secure text-link login. It&apos;s the kind of thing platforms charging 5× more don&apos;t even offer.</p>
         </div>
         <div style={{maxWidth:'1000px', margin:'0 auto', display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(300px, 1fr))', gap:'14px 40px'}}>
@@ -400,8 +393,7 @@ export default function Home() {
       {/* ═══ EASIER TO USE ═══ */}
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
-          <span className="section-label">Built Different</span>
-          <h2 className="section-title">Powerful Doesn&apos;t Have to Mean Complicated.</h2>
+          <h2 className="section-title">Powerful without being a project to set up</h2>
           <p className="section-sub">The big enterprise platforms take weeks to learn, months to set up, and require a dedicated person just to manage them. SprayBossPro is designed so any owner or office manager can be running real routes on day one — without training, without a consultant, without an IT department.</p>
         </div>
         <div className="simple-grid">
@@ -415,7 +407,6 @@ export default function Home() {
       {/* ═══ FEATURES OVERVIEW ═══ */}
       <section id="features" style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1200px', margin:'0 auto'}}>
-          <span className="section-label">Everything You Need</span>
           <h2 className="section-title">Stop Juggling 5 Different Apps</h2>
           <p className="section-sub">SprayBossPro replaces your scheduling app, your billing software, your texting tool, and your route planner — all under one roof.</p>
         </div>
@@ -440,7 +431,7 @@ export default function Home() {
       <section id="pricing" style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Simple Pricing</span>
-          <h2 className="section-title">We Got Tired of Getting Ripped Off.<br />So We Fixed It.</h2>
+          <h2 className="section-title">We got tired of getting ripped off, so we fixed it</h2>
           <p className="section-sub">Over the past 20 years we have tried just about every field service software out there — and for 10+ years we were paying $500–$700 a month. Every feature was an add-on. Every user cost more. Every upgrade was another invoice.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended — and none of those people had ever run a spray route in their life.</p>
@@ -455,7 +446,6 @@ export default function Home() {
       <section id="scheduling">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Scheduling</span>
             <h2>From Waiting List to Dispatched in Seconds</h2>
             <p>SprayBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled jobs, and a live map so you can build tight, efficient routes every morning.</p>
             <ul className="check-list">
@@ -535,8 +525,7 @@ export default function Home() {
       <section id="billing" style={{background:'var(--light-bg)'}}>
         <div className="highlight-row reverse">
           <div className="highlight-text">
-            <span className="section-label">Billing</span>
-            <h2>Get Paid Faster. Chase Less.</h2>
+            <h2>Getting paid without chasing anyone</h2>
             <p>Build an estimate in minutes, email it directly from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice and collect payment — all without leaving SprayBossPro.</p>
             <ul className="check-list">
               <li>Estimate builder with your service catalog and line items</li>
@@ -578,8 +567,7 @@ export default function Home() {
       {/* ═══ ALERTS ═══ */}
       <section id="alerts" className="dark-section">
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
-          <span className="section-label">Automated Alerts</span>
-          <h2 className="section-title">Communicate Like a Big Company.<br />Run Like a Small One.</h2>
+          <h2 className="section-title">Sound like a big company without hiring one</h2>
           <p className="section-sub">Set up automated SMS and email alerts once. SprayBossPro sends them automatically — keeping your customers informed without any extra work from you.</p>
         </div>
         <div className="alert-grid">
@@ -611,7 +599,6 @@ export default function Home() {
       <section>
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Your Team</span>
             <h2>Office, Field, and Mobile — All Connected</h2>
             <p>SprayBossPro isn&apos;t just for the office. Your technicians get a mobile-optimized version built for the truck. Roles control exactly what each person can see and do.</p>
             <ul className="check-list">
@@ -637,7 +624,6 @@ export default function Home() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="highlight-row reverse">
           <div className="highlight-text">
-            <span className="section-label">Compliance</span>
             <h2>Chemical Tracking Built Right In</h2>
             <p>Every application logged. Every mix recorded. Every technician tracked. SprayBossPro gives you a complete chemical application history you can filter, print, and take to any inspection.</p>
             <ul className="check-list">
@@ -703,8 +689,7 @@ export default function Home() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Built on Modern Technology</span>
-            <h2>Fast. Reliable. No Delays.</h2>
+            <h2>Built to stay quick when the day gets busy</h2>
             <p>SprayBossPro runs on the latest and greatest infrastructure available today. That means your texts and emails go out in seconds — not hours. No queues backing up, no alerts firing late, no wondering if your customer got the message. Everything happens in real time, the way it&apos;s supposed to.</p>
             <p style={{marginTop:'12px'}}>We built on a modern stack specifically to eliminate the performance issues and outages that plague older field service platforms. Less downtime. Fewer bugs. A faster experience every time you log in.</p>
           </div>
