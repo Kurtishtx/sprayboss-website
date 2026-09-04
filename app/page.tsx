@@ -500,6 +500,10 @@ export default function Home() {
       <section id="alerts" className="dark-section">
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <h2 className="section-title">Sound like a big company without hiring one</h2>
+          {/* Every alert, with its own text / email / in-app switches. The section spent five
+              bullet points describing this table; showing it is shorter and more convincing. */}
+          <img src="/shot-alerts.webp" alt="The alert list with independent text, email and in-app switches on every alert"
+               style={{width:'100%', maxWidth:'1000px', display:'block', margin:'30px auto 6px', borderRadius:'10px', border:'1px solid rgba(255,255,255,.12)'}} />
           <p className="section-sub">Set up automated SMS and email alerts once. SprayBossPro sends them automatically — keeping your customers informed without any extra work from you.</p>
         </div>
         <div className="alert-grid">
