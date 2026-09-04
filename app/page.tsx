@@ -370,6 +370,11 @@ export default function Home() {
       <section className="dark-section">
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <h2 className="section-title">Your customers get their own app, and you choose what it shows them</h2>
+          {/* The client app and the crew app, side by side - the two screens this section is about. */}
+          <div style={{display:'flex', gap:'26px', justifyContent:'center', flexWrap:'wrap', margin:'34px 0 8px'}}>
+            <img src="/shot-clientapp.webp" alt="The customer's own app showing today's route and how many stops away the crew is" style={{width:'230px', maxWidth:'42vw', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
+            <img src="/shot-crewapp.webp" alt="The crew app showing the route map and the day's stops in order" style={{width:'230px', maxWidth:'42vw', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
+          </div>
           <p className="section-sub">Most software this powerful stops at you and your crew. SprayBossPro gives your customers their own branded app they install right on their phone — no app store, no password, just a secure text-link login. It&apos;s the kind of thing platforms charging 5× more don&apos;t even offer.</p>
         </div>
         <div style={{maxWidth:'1000px', margin:'0 auto', display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(300px, 1fr))', gap:'14px 40px'}}>
@@ -460,63 +465,8 @@ export default function Home() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Today&apos;s Route — 12 Stops</div>
-            <div className="mock-item">
-              <div className="mock-dot green"></div>
-              <div><div className="mock-label">123 Oak St — Smith, J.</div><div className="mock-sub">Lawn Care 4 · 8,200 ft²</div></div>
-              <div className="mock-badge green-badge">Done</div>
-            </div>
-            <div className="mock-item">
-              <div className="mock-dot green"></div>
-              <div><div className="mock-label">456 Elm Ave — Torres, M.</div><div className="mock-sub">Lawn Insect 3 · 12,000 ft²</div></div>
-              <div className="mock-badge green-badge">Done</div>
-            </div>
-            <div className="mock-item" style={{borderColor:'rgba(224,120,32,.5)'}}>
-              <div className="mock-dot orange"></div>
-              <div><div className="mock-label">789 Pine Rd — Johnson, K.</div><div className="mock-sub">Mosquito 3 · 5,000 ft²</div></div>
-              <div className="mock-badge">In Progress</div>
-            </div>
-            <div className="mock-item">
-              <div className="mock-dot blue"></div>
-              <div><div className="mock-label">321 Maple Dr — Garcia, L.</div><div className="mock-sub">Flower Beds 4 · 3,400 ft²</div></div>
-              <div className="mock-badge blue-badge">Up Next</div>
-            </div>
-            <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'6px', padding:'12px 14px'}}>
-              <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'10px', paddingBottom:'8px', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px'}}>4 Properties · 8 Services</span>
-                <span style={{color:'#fff', fontSize:'14px', fontWeight:700}}>$427.00</span>
-              </div>
-              <div style={{display:'flex', flexDirection:'column', gap:'7px'}}>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-                  <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>4</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Lawn Care 4</span>
-                  </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>23,168 ft²</span>
-                </div>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-                  <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>2</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Lawn Insect 3</span>
-                  </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>13,289 ft²</span>
-                </div>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-                  <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Flower Beds 4</span>
-                  </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>5,043 ft²</span>
-                </div>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-                  <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Mosquito 3</span>
-                  </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>3,200 ft²</span>
-                </div>
-              </div>
-            </div>
+            <img src="/shot-route.webp" alt="The Scheduled page with the day auto-routed, stops numbered closest-first on the map"
+                 style={{width:'100%', display:'block', borderRadius:'10px', border:'1px solid rgba(255,255,255,.12)'}} />
           </div>
         </div>
       </section>
@@ -540,26 +490,8 @@ export default function Home() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Estimate #0042 — Pending Acceptance</div>
-            <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', marginBottom:'10px'}}>
-              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', marginBottom:'6px'}}>Line Items</div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Lawn Care 4 (8,200 sq ft)</span><span>$95.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Lawn Insect 3 (8,200 sq ft)</span><span>$75.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Mosquito Treatment</span><span>$55.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'#fff', fontSize:'14px', fontWeight:700, paddingTop:'8px', marginTop:'4px'}}>
-                <span>Total</span><span style={{color:'var(--orange)'}}>$225.00</span>
-              </div>
-            </div>
-            <div style={{display:'flex', gap:'8px', marginTop:'4px'}}>
-              <div style={{flex:1, background:'#16a34a', borderRadius:'6px', padding:'10px', textAlign:'center', color:'#fff', fontSize:'13px', fontWeight:700}}>✓ Accept</div>
-              <div style={{flex:1, background:'rgba(255,255,255,.08)', borderRadius:'6px', padding:'10px', textAlign:'center', color:'rgba(255,255,255,.5)', fontSize:'13px'}}>✕ Decline</div>
-            </div>
+            <img src="/shot-invoices.webp" alt="The invoice list with charge status on every row"
+                 style={{width:'100%', display:'block', borderRadius:'10px', border:'1px solid rgba(255,255,255,.12)'}} />
           </div>
         </div>
       </section>
@@ -611,11 +543,8 @@ export default function Home() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Team Access Levels</div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>👑</span><div><div className="mock-label">Owner</div><div className="mock-sub">Full access — all features, billing, users</div></div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>🏢</span><div><div className="mock-label">Manager</div><div className="mock-sub">Scheduling, clients, estimates, reports</div></div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>📋</span><div><div className="mock-label">Office Staff</div><div className="mock-sub">Billing, messaging, client management</div></div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>📱</span><div><div className="mock-label">Technician (Mobile)</div><div className="mock-sub">Today&apos;s jobs only — mark complete or skip</div></div></div>
+            <img src="/shot-devices.webp" alt="SprayBossPro on a laptop with the client app and the crew app on two phones"
+                 style={{width:'100%', display:'block', borderRadius:'10px', border:'1px solid rgba(255,255,255,.12)'}} />
           </div>
         </div>
       </section>
@@ -638,15 +567,8 @@ export default function Home() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Chemical Report — This Month</div>
-            <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px', marginBottom:'12px'}}>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>142</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Applications</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>87</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Properties</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>751K</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Sq Ft Treated</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>284</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Gallons Applied</div></div>
-            </div>
-            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Lawn Care Mix A</div><div className="mock-sub">Applied by J. Smith · 6/14/2026</div></div><div className="mock-badge green-badge">12 gal</div></div>
-            <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">Insect Control Mix</div><div className="mock-sub">Applied by M. Torres · 6/14/2026</div></div><div className="mock-badge">8.5 gal</div></div>
+            <img src="/shot-chem.webp" alt="The chemical report: product, EPA registration number, rate applied and area treated per stop"
+                 style={{width:'100%', display:'block', borderRadius:'10px', border:'1px solid rgba(255,255,255,.12)'}} />
           </div>
         </div>
       </section>
