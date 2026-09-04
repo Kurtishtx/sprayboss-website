@@ -287,13 +287,15 @@ export default function Home() {
         {/* Price, up top above the mockup */}
         <div style={{textAlign:'center', marginBottom:'clamp(22px,3vw,32px)'}}>
           <div style={{display:'inline-flex', alignItems:'baseline', gap:'12px', flexWrap:'wrap', justifyContent:'center', color:'#fff'}}>
-            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
+            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}><span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>from </span>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
             <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'#e07820'}}>&middot; 14-Day Free Trial</span>
           </div>
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
         </div>
         <HeroDemo />
       </div>
+
+      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
 
       {/* ═══ HERO ═══ */}
       <div className="hero" style={{paddingTop:'60px'}}>
@@ -442,11 +444,10 @@ export default function Home() {
           <p className="section-sub">Over the past 20 years we have tried just about every field service software out there — and for 10+ years we were paying $500–$700 a month. Every feature was an add-on. Every user cost more. Every upgrade was another invoice.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended — and none of those people had ever run a spray route in their life.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built SprayBossPro with simple pricing that includes everything. <strong>$59 a month.</strong> No add-ons. No user fees. No locked features. We include it all because that&apos;s how it should have been from day one.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built SprayBossPro with pricing you can read in one screen. <strong>Three plans &mdash; $59, $89 and $199</strong> &mdash; and the only thing that changes is size: how many users, trucks and texts you get, and whether the automation is switched on. Every plan runs the same software, and clients and properties are unlimited on all three. No per-seat fees, no add-on modules, no surprise invoice.</p>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>The only reason we charge a small fee for outbound text messages is simple — they cost us money to send. We&apos;re not marking them up to make a profit off you. 500 outbound messages are included every month, and if you go over, it&apos;s just $15 per additional 500. That&apos;s it. No gotchas. No surprises. We&apos;re operators just like you, and we built the pricing we always wished existed.</p>
           </div>
         </div>
-        <PlanCompare onTrial={(el) => openSignupModal(2, el)} />
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>
       </section>
 
