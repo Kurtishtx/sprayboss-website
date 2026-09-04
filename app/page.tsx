@@ -372,8 +372,8 @@ export default function Home() {
           <h2 className="section-title">Your customers get their own app, and you choose what it shows them</h2>
           {/* The client app and the crew app, side by side - the two screens this section is about. */}
           <div style={{display:'flex', gap:'26px', justifyContent:'center', flexWrap:'wrap', margin:'34px 0 8px'}}>
-            <img src="/shot-clientapp.webp" alt="The customer's own app showing today's route and how many stops away the crew is" style={{width:'230px', maxWidth:'42vw', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
-            <img src="/shot-crewapp.webp" alt="The crew app showing the route map and the day's stops in order" style={{width:'230px', maxWidth:'42vw', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
+            <img src="/shot-clientapp.webp" alt="The customer's own app showing today's route and how many stops away the crew is" style={{width:'250px', maxWidth:'44vw', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
+            <img src="/shot-crewapp.webp" alt="The crew app showing the route map and the day's stops in order" style={{width:'250px', maxWidth:'44vw', borderRadius:'14px', border:'1px solid rgba(255,255,255,.14)'}} />
           </div>
           <p className="section-sub">Most software this powerful stops at you and your crew. SprayBossPro gives your customers their own branded app they install right on their phone — no app store, no password, just a secure text-link login. It&apos;s the kind of thing platforms charging 5× more don&apos;t even offer.</p>
         </div>
@@ -476,7 +476,7 @@ export default function Home() {
         <div className="highlight-row reverse">
           <div className="highlight-text">
             <h2>Getting paid without chasing anyone</h2>
-            <p>Build an estimate in minutes, email it directly from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice and collect payment — all without leaving SprayBossPro.</p>
+            <p>Turn on automatic invoicing and SprayBossPro emails the invoice the morning after the job and charges the card on file on the schedule you set — or leave both off and send them by hand. Build an estimate in minutes, email it from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice and collect payment — all without leaving SprayBossPro.</p>
             <ul className="check-list">
               <li>Estimate builder with your service catalog and line items</li>
               <li>Email estimates via Resend with custom branded templates</li>
