@@ -449,26 +449,25 @@ export default function Home() {
 
       {/* ═══ SCHEDULING DEEP DIVE ═══ */}
       <section id="scheduling">
-        <div className="highlight-row">
-          <div className="highlight-text">
-            <h2>From Waiting List to Dispatched in Seconds</h2>
-            <p>SprayBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled jobs, and a live map so you can build tight, efficient routes every morning.</p>
-            <ul className="check-list">
-              <li>Waiting list with sq ft totals and service counts per type</li>
-              <li>One-click scheduling with date picker and tech assignment</li>
-              <li>Drag-and-drop route ordering</li>
-              <li>Interactive map showing all stops with stop detail panel</li>
-              <li>Filter by employee, date range, or service status</li>
-              <li>Summary bar: total stops, revenue, sq ft, jobs completed</li>
-              <li>Print dispatch sheets for drivers in the field</li>
-              <li>Mark jobs complete, skipped, or rescheduled with one click</li>
-            </ul>
-          </div>
-          <div className="highlight-visual">
-            <img src="/shot-route.webp" alt="The Scheduled page with the day auto-routed, stops numbered closest-first on the map"
-                 style={{width:'100%', display:'block', borderRadius:'10px', border:'1px solid rgba(255,255,255,.12)'}} />
-          </div>
+        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
+          <h2 className="section-title">From Waiting List to Dispatched in Seconds</h2>
+          <p className="section-sub" style={{marginBottom:'0'}}>SprayBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled jobs, and a live map so you can build tight, efficient routes every morning.</p>
         </div>
+        {/* Full width, because at half width the stop list underneath the map is unreadable. */}
+        <div style={{maxWidth:'1400px', margin:'36px auto 0'}}>
+          <img src="/shot-route.webp" alt="The Scheduled board: square footage and revenue by service across the top, the day auto-routed with every stop numbered on the map, and the stop list underneath"
+               style={{width:'100%', display:'block', borderRadius:'12px', border:'1px solid var(--border)', boxShadow:'0 18px 50px rgba(0,0,0,.14)'}} />
+        </div>
+        <ul className="check-list" style={{maxWidth:'1000px', margin:'38px auto 0', display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(300px, 1fr))', gap:'0 48px'}}>
+          <li>Waiting list with sq ft totals and service counts per type</li>
+          <li>One-click scheduling with date picker and tech assignment</li>
+          <li>Drag-and-drop route ordering</li>
+          <li>Interactive map showing all stops with stop detail panel</li>
+          <li>Filter by employee, date range, or service status</li>
+          <li>Summary bar: total stops, revenue, sq ft, jobs completed</li>
+          <li>Print dispatch sheets for drivers in the field</li>
+          <li>Mark jobs complete, skipped, or rescheduled with one click</li>
+        </ul>
       </section>
 
       {/* ═══ BILLING DEEP DIVE ═══ */}
