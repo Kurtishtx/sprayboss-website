@@ -1,4 +1,5 @@
 'use client';
+import PlanCompare from '../components/PlanCompare';
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 
@@ -110,7 +111,7 @@ async function sbpCreateAccount(n: number) {
       .map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById(`sbp${n}-step2`)!.style.display   = 'none';
-    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 129.0, currency: 'USD' }); } catch {}
+    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 59.0, currency: 'USD' }); } catch {}
     let secs = 4;
     const cd = document.getElementById(`sbp${n}-countdown`)!;
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
@@ -431,32 +432,7 @@ export default function WeedControlSoftware() {
           <h2 className="section-title">from $59/Month. Every Feature. No Add-Ons.</h2>
           <p className="section-sub">Simple pricing covers pre-emergent and post-emergent scheduling, compliance logs, re-entry interval SMS, Lasso routing, and your whole crew. No hidden fees. No contracts. No surprises.</p>
         </div>
-        <div style={{maxWidth:'520px', margin:'0 auto'}}>
-          <div className="lc-price-card featured">
-            <div className="featured-badge">Everything Included — One Price</div>
-            <div className="price-tier">Weed Control Software — One Plan</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
-            <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month — cancel anytime</div>
-            <ul className="price-features">
-              <li>Pre-Emergent Seasonal Timing Window Scheduling</li>
-              <li>Post-Emergent Auto-Rescheduling at Your Set Interval</li>
-              <li>EPA Reg Number &amp; Rate Logging on Every Application</li>
-              <li>Re-Entry Interval Captured &amp; Used to Trigger Auto-SMS</li>
-              <li>Applicator License &amp; Conditions Logged In-Field</li>
-              <li>Compliance Reports — Print by Date, Product, or Applicator</li>
-              <li>Sq Ft or Linear Ft Waiting List by Weed Control Program</li>
-              <li>Lasso Circle Map Route Builder</li>
-              <li>Day-Before, On-the-Way &amp; Re-Entry Interval SMS Alerts</li>
-              <li>10+ Pre-Built Weed Control SMS Templates</li>
-              <li>Two-Way SMS Customer Inbox</li>
-              <li>Mobile App for Technicians — Route, Log &amp; Complete</li>
-              <li>Card-on-File Payments — Charge on Completion</li>
-              <li>your whole crew — no hidden fees Ever</li>
-              <li>14-Day Free Trial — No Credit Card Required</li>
-            </ul>
-            <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</button>
-          </div>
-        </div>
+        <PlanCompare onTrial={(el) => openSignupModal(2, el)} />
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
       </section>
 

@@ -1,4 +1,5 @@
 'use client';
+import PlanCompare from '../components/PlanCompare';
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 
@@ -110,7 +111,7 @@ async function sbpCreateAccount(n: number) {
       .map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById(`sbp${n}-step2`)!.style.display   = 'none';
-    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 129.0, currency: 'USD' }); } catch {}
+    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 59.0, currency: 'USD' }); } catch {}
     let secs = 4;
     const cd = document.getElementById(`sbp${n}-countdown`)!;
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
@@ -478,34 +479,7 @@ export default function PestControlSchedulingSoftware() {
           <h2 className="section-title">from $59/Month. Every Feature. No Add-Ons.</h2>
           <p className="section-sub">Simple pricing covers recurring program scheduling, compliance logs, Lasso routing, automated SMS alerts, card-on-file payments, and your whole crew. No hidden fees. No contracts. No surprises.</p>
         </div>
-        <div style={{maxWidth:'520px', margin:'0 auto'}}>
-          <div className="lc-price-card featured">
-            <div className="featured-badge">Everything Included — One Price</div>
-            <div className="price-tier">Pest Control Scheduling Software — One Plan</div>
-            <div className="price-amount"><sup>$</sup>129</div>
-            <div className="price-period">per month — cancel anytime</div>
-            <ul className="price-features">
-              <li>Quarterly, Bi-Monthly &amp; Monthly Program Auto-Rescheduling</li>
-              <li>Revenue-Visible Waiting List Organized by Program Type</li>
-              <li>Lasso Circle Map Route Builder — Build Pest Routes in Minutes</li>
-              <li>EPA Reg Number &amp; Application Rate Logging on Every Job</li>
-              <li>Treatment Area, Target Pest &amp; Applicator License In-Field Logging</li>
-              <li>Re-Entry Interval Captured &amp; Used to Trigger Auto-SMS</li>
-              <li>Compliance Reports — Print by Date, Product, or Applicator</li>
-              <li>Day-Before, On-the-Way &amp; Service Complete SMS Alerts</li>
-              <li>10+ Pre-Built Pest Control SMS Templates — Ready Out of the Box</li>
-              <li>Two-Way SMS Customer Inbox</li>
-              <li>Mosquito Add-On Program Support Under Same Customer Account</li>
-              <li>Mobile App for Technicians — Route, Log &amp; Complete</li>
-              <li>Card-on-File Payments — Charge Automatically on Completion</li>
-              <li>your whole crew — no hidden fees Ever</li>
-              <li>14-Day Free Trial — No Credit Card Required</li>
-            </ul>
-            <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">
-              Start Your 14-Day Free Trial
-            </button>
-          </div>
-        </div>
+        <PlanCompare onTrial={(el) => openSignupModal(2, el)} />
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
       </section>
 

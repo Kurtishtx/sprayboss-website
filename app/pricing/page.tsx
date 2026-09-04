@@ -1,4 +1,5 @@
 'use client';
+import PlanCompare from '../components/PlanCompare';
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 
@@ -104,7 +105,7 @@ async function sbpCreateAccount(n: number) {
     const reasons = ['Cancel Maintaining Self','Cancel Sold House','Cancel Too Expensive','Cancel Unknown','Dropping Customer','Sold House'].map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById(`sbp${n}-step2`)!.style.display = 'none';
-    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 129.0, currency: 'USD' }); } catch {}
+    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 59.0, currency: 'USD' }); } catch {}
     let secs = 4;
     const cd = document.getElementById(`sbp${n}-countdown`)!;
     cd.textContent = `Redirecting in ${secs} seconds…`;
@@ -189,29 +190,7 @@ export default function Pricing() {
         </div>
       </div>
 
-      {/* PRICE CARD */}
-      <section>
-        <div style={{background:'#fff',border:'3px solid var(--orange)',borderRadius:'20px',padding:'52px 48px',maxWidth:'620px',margin:'0 auto',position:'relative',boxShadow:'0 0 0 6px rgba(224,120,32,.1), 0 24px 80px rgba(8,0,16,.12)'}}>
-          <div style={{position:'absolute',top:'-16px',left:'50%',transform:'translateX(-50%)',background:'var(--orange)',color:'#fff',fontSize:'12px',fontWeight:700,letterSpacing:'1px',textTransform:'uppercase',padding:'5px 20px',borderRadius:'20px',whiteSpace:'nowrap'}}>One Plan — No Surprises</div>
-          <div style={{fontSize:'13px',fontWeight:700,color:'var(--muted)',textTransform:'uppercase',letterSpacing:'1px',marginBottom:'10px'}}>SprayBossPro</div>
-          <div style={{fontSize:'72px',fontWeight:800,color:'var(--text)',lineHeight:1}}><sup style={{fontSize:'30px',verticalAlign:'super'}}>$</sup>129</div>
-          <div style={{color:'var(--muted)',fontSize:'15px',marginBottom:'8px',marginTop:'6px'}}>per month</div>
-          <div style={{fontSize:'16px',color:'var(--text)',fontWeight:600,marginBottom:'32px'}}>Your entire lawn care or pest control operation. One price.</div>
-          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:'10px 24px',marginBottom:'36px',textAlign:'left'}}>
-            {['Unlimited Clients','Unlimited Clients','Unlimited Properties','Unlimited Leads','Scheduling & Dispatch','Live Route Map','Sq Ft Waiting List','Chemical Tracking','Estimates & Invoices','Stripe Payments','Two-Way SMS Inbox','Automated Alerts','Package Programs','Mobile App for Techs','Chemical Compliance Reports','Role-Based Access','Truck Management','Hour Tracking','Review Requests','Dashboard & Reports'].map((item,i) => (
-              <div key={i} style={{display:'flex',alignItems:'center',gap:'8px',fontSize:'14px',color:'var(--text)'}}>
-                <span style={{color:'var(--orange)',fontWeight:700,flexShrink:0,fontSize:'15px'}}>✓</span>{item}
-              </div>
-            ))}
-          </div>
-          <hr style={{border:'none',borderTop:'1.5px solid var(--border)',margin:'28px 0'}} />
-          <div style={{background:'var(--light-bg)',border:'1.5px solid var(--border)',borderRadius:'10px',padding:'16px 20px',fontSize:'14px',color:'var(--muted)',marginBottom:'28px',lineHeight:1.6}}>
-            <strong style={{color:'var(--text)'}}>500 outbound SMS/month included.</strong> Need more? Add blocks of 500 for <strong style={{color:'var(--text)'}}>$15 each</strong>. Most businesses never exceed the included 500. The SMS credit rolls month to month — you only pay when you actually use it.
-          </div>
-          <button className="btn-primary" style={{width:'100%',fontSize:'16px',padding:'16px'}} onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
-          <p style={{textAlign:'center',color:'var(--muted)',fontSize:'13px',marginTop:'14px'}}>No credit card required. No contracts. Cancel anytime.</p>
-        </div>
-      </section>
+      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
 
       {/* PAIN BAND */}
       <div style={{background:'linear-gradient(135deg,#080010 0%,#1e0a35 100%)',padding:'80px 40px',textAlign:'center'}}>

@@ -1,4 +1,5 @@
 'use client';
+import PlanCompare from '../components/PlanCompare';
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 
@@ -110,7 +111,7 @@ async function sbpCreateAccount(n: number) {
       .map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById(`sbp${n}-step2`)!.style.display   = 'none';
-    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 129.0, currency: 'USD' }); } catch {}
+    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 59.0, currency: 'USD' }); } catch {}
     let secs = 4;
     const cd = document.getElementById(`sbp${n}-countdown`)!;
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
@@ -503,29 +504,7 @@ export default function TreeAndShrubCareSoftware() {
           <h2 className="section-title">Simple pricing. Everything Included.</h2>
           <p className="section-sub">We were paying $500–$700 a month for software that nickel-and-dimed us. We built SprayBossPro to be the pricing we always wished existed.</p>
         </div>
-        <div style={{maxWidth:'520px', margin:'0 auto'}}>
-          <div className="lc-price-card featured">
-            <div className="featured-badge">Everything Included</div>
-            <div className="price-tier">One Plan. No Surprises.</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
-            <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
-            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, employees, and users. No surprises, no locked features, no per-seat fees.</div>
-            <ul className="price-features">
-              <li>Unlimited Clients, Properties &amp; Leads</li>
-              <li>Unlimited Employees &amp; Users</li>
-              <li>Full Scheduling, Dispatch &amp; Route Map</li>
-              <li>Waiting List by Treatment Type</li>
-              <li>Estimates, Invoices &amp; Stripe Payments</li>
-              <li>Two-Way SMS &amp; Automated Alerts</li>
-              <li>Spray &amp; Injection Tracking &amp; Compliance Reports</li>
-              <li>Seasonal Program Plans &amp; Renewals</li>
-              <li>Mobile App for Technicians</li>
-              <li>500 Outbound SMS/month included</li>
-              <li>+$15 per additional 500 SMS after that</li>
-            </ul>
-            <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</button>
-          </div>
-        </div>
+        <PlanCompare onTrial={(el) => openSignupModal(2, el)} />
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>
       </section>
 

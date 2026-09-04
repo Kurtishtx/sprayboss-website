@@ -1,4 +1,5 @@
 'use client';
+import PlanCompare from '../components/PlanCompare';
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 
@@ -110,7 +111,7 @@ async function sbpCreateAccount(n: number) {
       .map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById(`sbp${n}-step2`)!.style.display   = 'none';
-    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 129.0, currency: 'USD' }); } catch {}
+    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 59.0, currency: 'USD' }); } catch {}
     let secs = 4;
     const cd = document.getElementById(`sbp${n}-countdown`)!;
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
@@ -482,34 +483,7 @@ export default function LawnCareSchedulingSoftware() {
           <h2 className="section-title">from $59/Month. Every Feature. No Add-Ons.</h2>
           <p className="section-sub">Simple pricing covers scheduling, routing, compliance logs, SMS alerts, card-on-file payments, and your whole crew.</p>
         </div>
-        <div style={{maxWidth:'520px', margin:'0 auto'}}>
-          <div className="lc-price-card featured">
-            <div className="featured-badge">Everything Included — One Price</div>
-            <div className="price-tier">Lawn Care Scheduling Software — One Plan</div>
-            <div className="price-amount"><sup>$</sup>129</div>
-            <div className="price-period">per month — cancel anytime</div>
-            <ul className="price-features">
-              <li>Lasso Circle Map Route Builder</li>
-              <li>Sq Ft or Linear Ft Waiting List by Service Type</li>
-              <li>Recurring Program Auto-Rescheduling All Season</li>
-              <li>Lawn Care Package Plans &amp; Treatment Tracking</li>
-              <li>Automated SMS Alerts — 10+ pre-built types</li>
-              <li>Re-Entry Interval SMS — Fires Automatically After Every Job</li>
-              <li>Two-Way SMS Customer Inbox</li>
-              <li>Chemical Application Compliance Logs</li>
-              <li>EPA Reg Number &amp; Rate Logging on Every Job</li>
-              <li>Full Scheduling, Dispatch &amp; Route Map</li>
-              <li>Estimates, Invoices &amp; Card-on-File Payments</li>
-              <li>Mobile App for Technicians</li>
-              <li>your whole crew — no hidden fees ever</li>
-              <li>500 Outbound SMS/month included</li>
-              <li>14-day free trial — no credit card required</li>
-            </ul>
-            <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">
-              Start Your 14-Day Free Trial
-            </button>
-          </div>
-        </div>
+        <PlanCompare onTrial={(el) => openSignupModal(2, el)} />
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. No add-ons. No per-technician fees. Cancel anytime.</p>
       </section>
 

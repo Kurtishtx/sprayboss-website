@@ -1,4 +1,5 @@
 'use client';
+import PlanCompare from './components/PlanCompare';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import HeroDemo from './components/HeroDemo';
@@ -43,13 +44,13 @@ async function sbpCreateAccount(n: number) {
     const trialEnd = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString();
     await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd, product: 'spraybosspro' }, { onConflict: 'id' });
     await sb.from('company_info').insert({ user_id: uid, company_name: comp, display_name: comp });
-    await sb.from('platform_accounts').insert({ user_id: uid, email, plan: 'Monthly Subscription', monthly_amount: 129, trial_ends_at: trialEnd, active: false });
+    await sb.from('platform_accounts').insert({ user_id: uid, email, plan: 'Monthly Subscription', monthly_amount: 59, trial_ends_at: trialEnd, active: false });
     // Notify Mail@BossProHQ.com of the new trial signup. Fire-and-forget so a
     // notification hiccup can never block or break the signup itself.
     fetch(SBP_URL + '/functions/v1/notify-signup', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON }, body: JSON.stringify({ user_id: uid, event: 'signup' }) }).catch(() => {});
     const reasons = ['Cancel Maintaining Self','Cancel Sold House','Cancel Too Expensive','Cancel Unknown','Dropping Customer','Sold House'].map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
-    document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 129.0, currency: 'USD' }); } catch {}
+    document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 59.0, currency: 'USD' }); } catch {}
     let secs = 4; const cd = document.getElementById('sbp' + n + '-countdown')!; cd.textContent = 'Redirecting in ' + secs + ' seconds…';
     const _ho = signInData.session ? ('#access_token=' + encodeURIComponent(signInData.session.access_token) + '&refresh_token=' + encodeURIComponent(signInData.session.refresh_token)) : '';
     const iv = setInterval(() => { secs--; if (secs <= 0) { clearInterval(iv); window.location.href = 'https://my.spraybosspro.com/dashboard.html' + _ho; } else cd.textContent = 'Redirecting in ' + secs + ' second' + (secs === 1 ? '' : 's') + '…'; }, 1000);
@@ -445,29 +446,7 @@ export default function Home() {
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>The only reason we charge a small fee for outbound text messages is simple — they cost us money to send. We&apos;re not marking them up to make a profit off you. 500 outbound messages are included every month, and if you go over, it&apos;s just $15 per additional 500. That&apos;s it. No gotchas. No surprises. We&apos;re operators just like you, and we built the pricing we always wished existed.</p>
           </div>
         </div>
-        <div style={{maxWidth:'520px', margin:'0 auto'}}>
-          <div className="price-card featured" style={{width:'100%'}}>
-            <div className="featured-badge">Everything Included</div>
-            <div className="price-tier">One Plan. No Surprises.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
-            <div className="price-period">per month</div>
-            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. No surprises, no locked features, no per-seat fees.</div>
-            <ul className="price-features">
-              <li>Unlimited Clients, Properties &amp; Leads</li>
-              <li>Unlimited Employees &amp; Users</li>
-              <li>Full Scheduling, Dispatch &amp; Route Map</li>
-              <li>Smart Maps &amp; Property Mapping</li>
-              <li>Estimates, Invoices &amp; Stripe Payments</li>
-              <li>Two-Way SMS &amp; Automated Alerts</li>
-              <li>Chemical Tracking &amp; Compliance Reports</li>
-              <li>Package Plans &amp; Renewals</li>
-              <li>Mobile App for Technicians</li>
-              <li>500 Outbound SMS/month included</li>
-              <li>+$15 per additional 500 SMS after that</li>
-            </ul>
-            <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</a>
-          </div>
-        </div>
+        <PlanCompare onTrial={(el) => openSignupModal(2, el)} />
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>
       </section>
 
