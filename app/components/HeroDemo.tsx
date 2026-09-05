@@ -58,7 +58,13 @@ export default function HeroDemo() {
   const phoneScale = 278 / PHONE_LOGICAL;
   const isPhone = active !== 'business';
 
-  function choose(k: Key) { if (k !== active) { setActive(k); if (k !== 'business') setPhoneReady(false); } }
+  function choose(k: Key) {
+    if (k === active) return;
+    setActive(k);
+    if (k !== 'business') setPhoneReady(false);
+    // Deliberately picking a different app is a real signal of interest, unlike arriving.
+    if (!noTrk) pixelDemoStarted();
+  }
 
   // One-time pageview beacon carrying the REAL source. The demo iframe below only ever sees our own
   // domain, so without this every visitor to this site is logged with no source at all — which is
@@ -80,10 +86,24 @@ export default function HeroDemo() {
         }),
       });
     } catch (e) { /* analytics only — never block the page */ }
-
-    /* Tell Meta this visitor opened the demo, not merely landed. */
-    if (!nt) pixelDemoStarted();
   }, []);
+
+  /* Meta's Lead event used to fire here, on mount. But the demo is an iframe that loads itself,
+     so "opened the demo" was true for everyone who landed - including the ~90% gone inside five
+     seconds. A retargeting audience built on that is no better than one built on PageView, so the
+     event now fires only on the two things a bouncer never does: switching demo tabs, or clicking
+     into the demo itself. */
+  useEffect(() => {
+    if (noTrk) return;
+    function onBlur() {
+      // A cross-origin iframe cannot tell us it was clicked. It does take focus when it is, and
+      // that we can see from out here.
+      const el = document.activeElement;
+      if (el && el.tagName === 'IFRAME') pixelDemoStarted();
+    }
+    window.addEventListener('blur', onBlur);
+    return () => window.removeEventListener('blur', onBlur);
+  }, [noTrk]);
 
   // Scale the desktop dashboard (rendered at a real 1300px width) down to fit its frame.
   useEffect(() => {

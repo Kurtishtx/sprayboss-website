@@ -26,12 +26,18 @@ declare global {
   }
 }
 
-/* Called when a visitor actually opens the demo — see HeroDemo. Meta optimises toward whatever
- * you tell it to count, so counting demo opens rather than page loads points the spend at
- * people who try the software instead of people who merely arrive. */
+/* Called when a visitor actually works the demo — switches app tabs, or clicks into the embedded
+ * software. See HeroDemo. Meta optimises toward whatever you tell it to count, and the demo iframe
+ * loads for everybody, so counting page loads would point the spend at people who bounce. Counting
+ * this instead builds a retargeting audience of people who touched the product.
+ *
+ * Once per page load: a visitor clicking through all three apps is one interested person, not three. */
+let leadSent = false;
 export function pixelDemoStarted() {
+  if (leadSent) return;
+  leadSent = true;
   try {
-    window.fbq?.('track', 'Lead', { content_category: PRODUCT, content_name: 'demo_started' });
+    window.fbq?.('track', 'Lead', { content_category: PRODUCT, content_name: 'demo_engaged' });
   } catch { /* tracking must never break the page */ }
 }
 
