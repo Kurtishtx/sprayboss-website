@@ -26,6 +26,13 @@ const demoPages = [
   '/pest-control-software-demo',
 ];
 
+/* Canada landing pages — CAD invoicing is native, so these target "lawn care software canada"
+   style searches with real substance rather than a geo word-swap. */
+const canadaPages = [
+  '/lawn-care-software-canada',
+  '/pest-control-software-canada',
+];
+
 const vsPages = [
   '/vs-aspire',
   '/vs-clip',
@@ -430,6 +437,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date('2026-08-20'),
       changeFrequency: 'monthly',
       priority: 0.95,
+    });
+  }
+
+  for (const path of canadaPages) {
+    entries.push({
+      url: `${BASE}${path}`,
+      lastModified: new Date('2026-09-06'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
     });
   }
 
