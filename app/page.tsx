@@ -295,6 +295,23 @@ export default function Home() {
         <HeroDemo />
       </div>
 
+      {/* ═══ FULL WALKTHROUGH VIDEO ═══ */}
+      <section style={{background:'var(--light-bg)'}}>
+        <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
+          <span className="section-label">See It In Action</span>
+          <h2 className="section-title">Watch the Full Walkthrough</h2>
+          <p className="section-sub">Prefer to watch before you click around? Two minutes covering the highlights &mdash; auto-routing, the dispatch board, automated texts, and getting paid. Then try everything yourself in the live demo above.</p>
+          <video
+            controls
+            preload="metadata"
+            poster="/walkthrough-poster.jpg"
+            style={{width:'100%', maxWidth:'900px', borderRadius:'14px', boxShadow:'0 18px 50px rgba(19,5,32,.25)', display:'block', margin:'0 auto', background:'#000'}}
+          >
+            <source src="/spraybosspro-walkthrough.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
       <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
 
       {/* ═══ HERO ═══ */}
