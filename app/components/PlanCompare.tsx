@@ -22,12 +22,12 @@ type Cell = string | boolean;
 const PLANS = [
   { key: 'start', name: 'Start', price: 59,  tag: 'Just getting going' },
   /* Named Pro, not Solo, for the same reason Crew is not called Unlimited: the plan carries
-     3 users, 3 employees and 3 trucks, which is not one person however you read it. A name the
+     3 users and 3 trucks, which is not one person however you read it. A name the
      table contradicts costs more trust than a plain one ever earns. */
   { key: 'solo',  name: 'Pro',   price: 89,  tag: 'Small shop, fully equipped', featured: true },
   /* Named Crew, not Unlimited. Outbound texts are capped on every plan, and a plan called
      Unlimited that stops sending in week three reads as a bait-and-switch however fair the
-     cap is. Users, employees and trucks ARE unlimited here - that belongs in the table as a
+     cap is. Users and trucks ARE unlimited here (employees are unlimited on every plan) - that belongs in the table as a
      line you can check, not in the name as a promise the texting row contradicts. */
   { key: 'unl',   name: 'Crew',  price: 199, tag: 'Crews and trucks' },
 ];
@@ -44,8 +44,8 @@ const ROWS: { label: string; note?: string; cells: [Cell, Cell, Cell] }[] = [
   /* ── What each plan lets you have ── */
   { label: 'Users', note: 'Office logins - the people who schedule, invoice and see the money',
                                                      cells: ['2', '3', 'Unlimited'] },
-  { label: 'Employees', note: 'Crew-app seats - they run the route and complete jobs, they never see the money',
-                                                     cells: ['2', '3', 'Unlimited'] },
+  { label: 'Employees', note: 'Crew-app seats - they run the route and complete jobs, they never see the money. Unlimited on every plan.',
+                                                     cells: ['Unlimited', 'Unlimited', 'Unlimited'] },
   /* Trucks move separately from users: a second user on Start is the spouse doing the books,
      not a second truck in the field. Pricing them together priced the wrong thing. */
   { label: 'Trucks',                                 cells: ['1', '2', 'Unlimited'] },
@@ -81,7 +81,7 @@ const ROWS: { label: string; note?: string; cells: [Cell, Cell, Cell] }[] = [
      applications on Start - the gate only withheld the report from the tenant's own data. */
   { label: 'Chemical tracking & compliance reports', note: 'Pesticide application records that satisfy a state request',
                                                      cells: [true, true, true] },
-  /* Start caps at 2 employees, so gating the clock never sold a Pro plan - it just left the
+  /* Employees are uncapped on every plan, so the clock is on everywhere - gating it never sold a Pro plan, it just left the
      smallest shops keeping hours on paper. */
   { label: 'Employee time clock & hours',            cells: [true, true, true] },
   /* The one alert on every plan besides scheduling: on Start the owner IS the crew, and this is
