@@ -59,8 +59,9 @@ async function sbpCreateAccount(n: number) {
 function sbpShowErr(el: HTMLElement, msg: string) { el.textContent = msg; el.style.display = 'block'; }
 
 // "Have the owner text you" — soft lead capture for visitors not ready to start a trial.
-// Drops a lead into the owner's BossPro account (submit-web-lead also emails the owner),
-// so a $1 click becomes a real conversation instead of a bounce.
+// Emails the owner a SOFTWARE enquiry. no_lead:true stops it being filed as a lawn care Lead -
+// the account id below is the owner's Hamann Lawn Care tenant, so without that flag a software
+// question landed in the customer pipeline next to people wanting their yard sprayed.
 const SBP_LEAD_ACCOUNT = '951ab5cd-c78a-4d90-9015-30f7c2197ac5';
 function openTextMe() {
   const f = document.getElementById('sbp-textme'); const fab = document.getElementById('tm-fab');
@@ -81,7 +82,7 @@ async function sbpTextMe() {
   try {
     const res = await fetch(SBP_URL + '/functions/v1/submit-web-lead', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ account: SBP_LEAD_ACCOUNT, source: 'website', name, phone, message: 'SprayBossPro website — wants the owner to text them and help get set up.' }),
+      body: JSON.stringify({ account: SBP_LEAD_ACCOUNT, source: 'website', no_lead: true, name, phone, message: 'SprayBossPro website — wants the owner to text them and help get set up.' }),
     });
     const j = await res.json();
     if (j && j.ok) {
