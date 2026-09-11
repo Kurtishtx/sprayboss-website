@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import Footer from "./components/Footer";
 import "./globals.css";
 import MetaPixel from './components/MetaPixel';
+import PageBeacon from './components/PageBeacon';
 
 export const metadata: Metadata = {
   title: "SprayBossPro | Lawn Care, Pest Control & Spray Software",
@@ -37,6 +38,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Meta Pixel — builds the retargeting audience. Inert until
             NEXT_PUBLIC_META_PIXEL_ID is set on the Vercel project. */}
         <MetaPixel />
+        {/* Pageview beacon on EVERY page, not just the ones with a demo on them. */}
+        <PageBeacon />
         <Footer />
         <Script
           src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
