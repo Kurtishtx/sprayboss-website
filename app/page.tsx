@@ -292,6 +292,7 @@ export default function Home() {
             <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'#e07820'}}>&middot; 14-Day Free Trial</span>
           </div>
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
+          <div style={{color:'rgba(255,255,255,.75)', fontSize:'13px', fontWeight:600, marginTop:'6px', letterSpacing:'.3px'}}>Works in the US, Canada, Australia, New Zealand &amp; the UK &middot; bills your customers in your own currency</div>
         </div>
         <HeroDemo />
       </div>
@@ -323,7 +324,6 @@ export default function Home() {
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after &nbsp;&middot;&nbsp; <b>demo needs no signup</b></div>
-          <div className="hero-trust" style={{marginTop:'6px'}}>Works in the US, Canada, Australia, New Zealand &amp; the UK &nbsp;&middot;&nbsp; bills your customers in your own currency</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">100+</div><div className="hero-stat-lbl">Features Built In</div></div>
