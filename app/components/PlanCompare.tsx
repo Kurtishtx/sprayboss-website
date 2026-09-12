@@ -52,8 +52,9 @@ const ROWS: { label: string; note?: string; cells: [Cell, Cell, Cell] }[] = [
   { label: 'Clients & properties',                   cells: ['Unlimited', 'Unlimited', 'Unlimited'] },
   { label: 'Texts included (sent + received)', note: '[[500 extra texts for $15]] on any plan. Sent and received both count. A text is 160 characters; a longer one counts as two.',
                                                      cells: ['500 / month', '1,000 / month', '2,000 / month'] },
-  { label: 'Smart Lasso map selections',             cells: ['10 / month', '50 / month', 'Unlimited'] },
-  { label: 'Auto-routing',                           cells: ['10 / month', '50 / month', 'Unlimited'] },
+  { label: 'Smart Lasso map selections',             cells: ['Unlimited', 'Unlimited', 'Unlimited'] },
+  { label: 'Auto-routing', note: '[[250 extra auto-routes for $5]] on any plan, added automatically when you need them.',
+                                                     cells: ['50 / month', '100 / month', '1,000 / month'] },
 
   /* ── On every plan ── */
   { label: 'Scheduling, waiting list & job board',   cells: [true, true, true] },
