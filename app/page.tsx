@@ -323,6 +323,7 @@ export default function Home() {
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after &nbsp;&middot;&nbsp; <b>demo needs no signup</b></div>
+          <div className="hero-trust" style={{marginTop:'6px'}}>Works in the US, Canada, Australia, New Zealand &amp; the UK &nbsp;&middot;&nbsp; bills your customers in your own currency</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">100+</div><div className="hero-stat-lbl">Features Built In</div></div>
