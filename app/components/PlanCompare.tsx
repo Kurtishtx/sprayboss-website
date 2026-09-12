@@ -50,8 +50,8 @@ const ROWS: { label: string; note?: string; cells: [Cell, Cell, Cell] }[] = [
      not a second truck in the field. Pricing them together priced the wrong thing. */
   { label: 'Trucks',                                 cells: ['1', '2', 'Unlimited'] },
   { label: 'Clients & properties',                   cells: ['Unlimited', 'Unlimited', 'Unlimited'] },
-  { label: 'Outbound texts included', note: '[[500 extra outbound texts for $15]] on any plan. Inbound replies are free and never counted.',
-                                                     cells: ['100 / month', '500 / month', '1,000 / month'] },
+  { label: 'Texts included (sent + received)', note: '[[500 extra texts for $15]] on any plan. Sent and received both count. A text is 160 characters; a longer one counts as two.',
+                                                     cells: ['500 / month', '1,000 / month', '2,000 / month'] },
   { label: 'Smart Lasso map selections',             cells: ['10 / month', '50 / month', 'Unlimited'] },
   { label: 'Auto-routing',                           cells: ['10 / month', '50 / month', 'Unlimited'] },
 
@@ -236,7 +236,7 @@ export default function PlanCompare({ onTrial }: { onTrial?: (el: HTMLElement) =
         <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 13, marginTop: 18, lineHeight: 1.7 }}>
           14-day free trial on every plan &middot; no card to start &middot; cancel anytime &middot; move up or down whenever you like.
           <br />
-          Need more? <b style={{ color: 'var(--orange)' }}>500 extra outbound texts for $15</b> on any plan &middot; inbound replies are always free.
+          Need more? <b style={{ color: 'var(--orange)' }}>500 extra texts for $15</b> on any plan &middot; counted sent and received, 160 characters per text.
         </p>
       </div>
     </section>
