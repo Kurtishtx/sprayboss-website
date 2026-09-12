@@ -321,6 +321,7 @@ export default function Features() {
               {t:'Google Review Request',d:'Automatically sent after every completed service. More 5-star reviews with zero extra effort.'},
               {t:'Payment & Estimate Follow-Up Sequences',d:'3-step automated sequences for both unpaid invoices and unanswered estimates — fully customizable timing and copy.'},
               {t:'500+ Texts/Month Included',d:'500 texts a month on Start, 1,000 on Pro, 2,000 on Crew — sent and received. Add more in blocks of 500 for $15 each.'},
+              {t:'Auto-Routing Included',d:'50 auto-routes a month on Start, 100 on Pro, 1,000 on Crew. Need more? 250 are added automatically for $5. Smart Lasso selections are unlimited on every plan.'},
               {t:'Customizable Alert Templates',d:'Edit the message for every alert type. Use your own voice and include details that matter to your customers.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
