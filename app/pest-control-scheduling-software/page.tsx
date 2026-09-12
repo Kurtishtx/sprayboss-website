@@ -423,7 +423,7 @@ export default function PestControlSchedulingSoftware() {
               <li>Service complete with re-entry interval fires automatically when the log is saved</li>
               <li>10+ pre-built pest control SMS templates — ready out of the box on day one</li>
               <li>Two-way SMS inbox — customer replies go into one organized inbox for your team</li>
-              <li>500 outbound SMS/month included in from $59/month</li>
+              <li>500+ texts/month included (sent + received) from $59/month</li>
             </ul>
           </div>
           <div className="highlight-visual">

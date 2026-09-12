@@ -429,7 +429,7 @@ export default function MosquitoSpraySoftware() {
               <li>Service complete notification with re-entry time if needed</li>
               <li>Renewal reminder when a mosquito program is about to expire</li>
               <li>Two-way SMS inbox — customers can reply and you see every thread</li>
-              <li>500 outbound SMS messages per month included — no add-on fee</li>
+              <li>500+ texts per month included (sent + received) — no add-on fee</li>
             </ul>
           </div>
           <div className="highlight-visual">
@@ -470,7 +470,7 @@ export default function MosquitoSpraySoftware() {
             {q:'Does SprayBossPro work specifically for mosquito spray businesses?', a:'Yes. SprayBossPro is purpose-built for spray businesses including mosquito barrier spray. It has 21-day auto-interval scheduling, sq ft and linear ft measurement fields per property, a waiting list sorted by treatment due date, circle-map route building, and chemical application logs with EPA registration numbers — built around the mosquito spray model, not adapted from a generic tool.'},
             {q:'How does SprayBossPro handle the 21-day treatment interval?', a:'When a technician logs a completion, SprayBossPro automatically calculates the next due date (21 days from completion) and places the account back on the waiting list. No manual rebooking required. The account appears ready to schedule when it\'s due, with all property details and pricing pre-populated.'},
             {q:'Can I track chemical application compliance for mosquito spray?', a:'Yes. SprayBossPro logs the product, application rate, EPA registration number, area treated, weather conditions, and applicator license for every treatment. The chemical tracking report generates a print-ready compliance document on demand — no separate paper logs needed.'},
-            {q:'Does SprayBossPro send automated SMS to mosquito spray customers?', a:'Yes. Pre-built SMS alert types include day-before appointment reminders, on-the-way notifications, and post-service completion messages with re-entry interval instructions. Alerts fire automatically when the technician dispatches or logs completion. 500 outbound SMS messages per month are included at no extra charge.'},
+            {q:'Does SprayBossPro send automated SMS to mosquito spray customers?', a:'Yes. Pre-built SMS alert types include day-before appointment reminders, on-the-way notifications, and post-service completion messages with re-entry interval instructions. Alerts fire automatically when the technician dispatches or logs completion. 500+ texts per month (sent and received) are included at no extra charge.'},
             {q:'Can I manage multiple trucks from one account?', a:'Yes. SprayBossPro supports your whole crew and multiple trucks — the price stays at from $59/month regardless of crew size. The waiting list and dispatch board show all accounts across all trucks and can be assigned to specific technicians per route day.'},
             {q:'How much does SprayBossPro cost for a mosquito spray business?', a:'from $59/month, flat. No hidden fees, no SMS add-ons, no extra charge for chemical logs or route building. Every feature is included. There\'s a 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (

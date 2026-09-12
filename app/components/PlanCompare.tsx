@@ -25,7 +25,7 @@ const PLANS = [
      3 users and 3 trucks, which is not one person however you read it. A name the
      table contradicts costs more trust than a plain one ever earns. */
   { key: 'solo',  name: 'Pro',   price: 89,  tag: 'Small shop, fully equipped', featured: true },
-  /* Named Crew, not Unlimited. Outbound texts are capped on every plan, and a plan called
+  /* Named Crew, not Unlimited. Texts are capped on every plan, and a plan called
      Unlimited that stops sending in week three reads as a bait-and-switch however fair the
      cap is. Users and trucks ARE unlimited here (employees are unlimited on every plan) - that belongs in the table as a
      line you can check, not in the name as a promise the texting row contradicts. */

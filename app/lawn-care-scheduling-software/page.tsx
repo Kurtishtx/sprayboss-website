@@ -427,7 +427,7 @@ export default function LawnCareSchedulingSoftware() {
               <li>Service complete with re-entry interval fires after the compliance log is saved</li>
               <li>10+ pre-built lawn care SMS templates — customizable, ready out of the box</li>
               <li>Two-way inbox — all customer replies organized in one place for your team</li>
-              <li>500 outbound SMS/month included in from $59/month</li>
+              <li>500+ texts/month included (sent + received) from $59/month</li>
             </ul>
           </div>
           <div className="highlight-visual">
@@ -496,7 +496,7 @@ export default function LawnCareSchedulingSoftware() {
             {q:'Does SprayBossPro work for lawn care scheduling?', a:'Yes. SprayBossPro handles recurring lawn care program scheduling — pre-emergent, fertilizer, post-emergent, weed control — with a waiting list dispatch board, circle-map route building, sq ft pricing, and automated SMS for every visit.'},
             {q:'How does the waiting list work for lawn care?', a:'The waiting list shows every customer due for service, sorted by due date. When you\'re building routes, you open the circle map, lasso a geographic area, and all the accounts inside are selected and added to your route. Sq ft and revenue totals update in real time as you select stops.'},
             {q:'Can I schedule multiple rounds of a recurring program?', a:'Yes. You can set up recurring programs with any number of rounds. SprayBossPro tracks which round each customer is on, when they\'re due, and how many treatments remain. When a round is completed, the next goes back on the waiting list automatically.'},
-            {q:'Does it send automatic reminders to lawn care customers?', a:'Yes. SprayBossPro sends automated SMS alerts for every visit: day-before reminders, on-the-way notifications, and completion messages. Alerts are configured once and fire automatically for every service. 500 outbound SMS/month are included at no extra charge.'},
+            {q:'Does it send automatic reminders to lawn care customers?', a:'Yes. SprayBossPro sends automated SMS alerts for every visit: day-before reminders, on-the-way notifications, and completion messages. Alerts are configured once and fire automatically for every service. 500+ texts/month (sent and received) are included at no extra charge.'},
             {q:'Can I price lawn care services by square footage?', a:'Yes. SprayBossPro stores sq ft per property and calculates service pricing based on per-sq-ft rates you set. Pricing appears automatically on the waiting list and in estimates — no manual calculation per stop.'},
             {q:'How much does SprayBossPro cost for a lawn care business?', a:'from $59/month, flat. No hidden fees, no SMS add-ons, no extra charge for chemical logs or route building. Every feature is included. 14-day free trial, no credit card required.'},
           ].map(({q, a}, i, arr) => (

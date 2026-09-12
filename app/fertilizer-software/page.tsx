@@ -421,7 +421,7 @@ export default function FertilizerSoftware() {
               <li>Service complete with re-entry interval fires after the compliance log is saved</li>
               <li>10+ pre-built fertilizer SMS templates — ready to use on day one</li>
               <li>Two-way inbox — all customer replies organized for your team to see</li>
-              <li>500 outbound SMS/month included in from $59/month</li>
+              <li>500+ texts/month included (sent + received) from $59/month</li>
             </ul>
           </div>
           <div className="highlight-visual">
