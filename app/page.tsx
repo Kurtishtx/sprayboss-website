@@ -333,6 +333,28 @@ export default function Home() {
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
         </div>
 <div className="top-cta"><a href="https://my.spraybosspro.com/demo.html" target="_blank" rel="noopener" className="cta-demo" onClick={(e) => { if (typeof window !== 'undefined' && screen.availWidth > 900) { e.preventDefault(); window.open((e.currentTarget as HTMLAnchorElement).href, 'bossprodemo', 'width=' + screen.availWidth + ',height=' + screen.availHeight + ',left=0,top=0,resizable=yes,scrollbars=yes'); }  try { if (localStorage.getItem('bp_notrack') !== '1') pixelDemoStarted(); } catch (e) { pixelDemoStarted(); } }}>&#9654; Try the Live Demo</a><a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="cta-trial">Start Free Trial</a></div>
+        {/* 10/31 owner: highlight offline crew app + QuickBooks auto-sync */}
+        <div className="hl-band" style={{display:'flex', flexWrap:'wrap', justifyContent:'center', gap:16, maxWidth:1000, margin:'0 auto 22px', padding:'0 16px'}}>
+          <div style={{flex:'1 1 300px', maxWidth:480, background:'rgba(255,255,255,.07)', border:'2px solid #facc15', borderRadius:14, padding:'16px 18px', boxShadow:'0 0 24px rgba(250,204,21,.18)'}}>
+            <div style={{display:'flex', alignItems:'center', gap:10, fontWeight:900, fontSize:19, color:'#fff', marginBottom:6}}><span style={{fontSize:26}}>&#128246;</span>Works even when you&apos;re offline</div>
+            <p style={{margin:0, color:'#e5e7eb', fontSize:15, lineHeight:1.55}}>No signal? No problem. The crew app keeps working: jobs, notes, photos and estimates save on the phone and sync the moment you&apos;re back online.</p>
+          </div>
+          <div style={{flex:'1 1 300px', maxWidth:480, background:'rgba(255,255,255,.07)', border:'2px solid #facc15', borderRadius:14, padding:'16px 18px', boxShadow:'0 0 24px rgba(250,204,21,.18)'}}>
+            <div style={{display:'flex', alignItems:'center', gap:10, fontWeight:900, fontSize:19, color:'#fff', marginBottom:6}}><span style={{fontSize:26}}>&#128260;</span>QuickBooks syncs automatically every 5 minutes</div>
+            <p style={{margin:0, color:'#e5e7eb', fontSize:15, lineHeight:1.55}}>Connect QuickBooks Online with one click. Your customers, invoices and payments sync to QuickBooks every 5 minutes, so there&apos;s no double entry.</p>
+          </div>
+        </div>
+        <div className="integ-strip" style={{display:'flex', flexWrap:'wrap', alignItems:'center', justifyContent:'center', gap:'10px 14px', maxWidth:1000, margin:'0 auto clamp(26px,4vw,40px)', color:'rgba(255,255,255,.82)', fontSize:'clamp(14px,1.7vw,16px)', textAlign:'center'}}>
+          <span style={{fontWeight:800, color:'#fff'}}>Integrates with</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#ff4f00'}}></span>Zapier</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#6d00cc'}}></span>Make</span>
+          <span style={{fontWeight:800, color:'#fff', marginLeft:6}}>Payroll</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#f45d48'}}></span>Gusto</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#2ca01c'}}></span>QuickBooks</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#d0271d'}}></span>ADP</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#004b8d'}}></span>Paychex</span>
+          <span>Connect to thousands of apps, and run payroll: hours, overtime, tips &amp; bonuses</span>
+        </div>
         <link rel="preload" as="image" href="/walkthrough-poster.webp" fetchPriority="high" />
         <video className="hero-video" onPlay={() => { try { if (localStorage.getItem('bp_notrack') !== '1') pixelDemoStarted(); } catch (e) { pixelDemoStarted(); } }} controls preload="none" poster="/walkthrough-poster.webp"><source src="/spraybosspro-walkthrough.mp4" type="video/mp4" /></video>
         <div className="video-cap">&#9654; Watch the full 2-minute walkthrough</div>
@@ -435,28 +457,6 @@ export default function Home() {
           <p className="ai-p" style={{margin:'14px 0 10px'}}>Compare our score to any other website you&apos;ve been quoted &mdash; or the one you have now.</p>
           <SiteScore />
         </div>
-        </div>
-        {/* 10/31 owner: highlight offline crew app + QuickBooks auto-sync */}
-        <div className="hl-band" style={{display:'flex', flexWrap:'wrap', justifyContent:'center', gap:16, maxWidth:1000, margin:'0 auto 22px', padding:'0 16px'}}>
-          <div style={{flex:'1 1 300px', maxWidth:480, background:'rgba(255,255,255,.07)', border:'2px solid #facc15', borderRadius:14, padding:'16px 18px', boxShadow:'0 0 24px rgba(250,204,21,.18)'}}>
-            <div style={{display:'flex', alignItems:'center', gap:10, fontWeight:900, fontSize:19, color:'#fff', marginBottom:6}}><span style={{fontSize:26}}>&#128246;</span>Works even when you&apos;re offline</div>
-            <p style={{margin:0, color:'#e5e7eb', fontSize:15, lineHeight:1.55}}>No signal? No problem. The crew app keeps working: jobs, notes, photos and estimates save on the phone and sync the moment you&apos;re back online.</p>
-          </div>
-          <div style={{flex:'1 1 300px', maxWidth:480, background:'rgba(255,255,255,.07)', border:'2px solid #facc15', borderRadius:14, padding:'16px 18px', boxShadow:'0 0 24px rgba(250,204,21,.18)'}}>
-            <div style={{display:'flex', alignItems:'center', gap:10, fontWeight:900, fontSize:19, color:'#fff', marginBottom:6}}><span style={{fontSize:26}}>&#128260;</span>QuickBooks syncs automatically every 5 minutes</div>
-            <p style={{margin:0, color:'#e5e7eb', fontSize:15, lineHeight:1.55}}>Connect QuickBooks Online with one click. Your customers, invoices and payments sync to QuickBooks every 5 minutes, so there&apos;s no double entry.</p>
-          </div>
-        </div>
-        <div className="integ-strip" style={{display:'flex', flexWrap:'wrap', alignItems:'center', justifyContent:'center', gap:'10px 14px', maxWidth:1000, margin:'0 auto clamp(26px,4vw,40px)', color:'rgba(255,255,255,.82)', fontSize:'clamp(14px,1.7vw,16px)', textAlign:'center'}}>
-          <span style={{fontWeight:800, color:'#fff'}}>Integrates with</span>
-          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#ff4f00'}}></span>Zapier</span>
-          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#6d00cc'}}></span>Make</span>
-          <span style={{fontWeight:800, color:'#fff', marginLeft:6}}>Payroll</span>
-          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#f45d48'}}></span>Gusto</span>
-          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#2ca01c'}}></span>QuickBooks</span>
-          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#d0271d'}}></span>ADP</span>
-          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#004b8d'}}></span>Paychex</span>
-          <span>Connect to thousands of apps, and run payroll: hours, overtime, tips &amp; bonuses</span>
         </div>
         <img src="/hero-mockup.webp" srcSet="/hero-mockup-640.webp 640w, /hero-mockup.webp 1200w" sizes="(max-width: 700px) 100vw, 1200px" loading="lazy" decoding="async" alt="SprayBossPro software on a laptop with the AI Assistant button and a hand-drawn map lasso, plus the client app and crew app on phones" className="hero-mock" width={1600} height={880} />
       </div>

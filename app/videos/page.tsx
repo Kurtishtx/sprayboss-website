@@ -21,6 +21,7 @@ const GROUPS: { name: string; videos: V[] }[] = [
   { name: 'Getting paid', videos: [
     { id: '06_invoicing', title: 'Automatic invoicing and card charging', text: 'Finished work becomes invoices, and Billing Automation sends them and charges cards on file.', secs: 71 },
     { id: '07_estimates', title: 'Estimates customers approve online', text: 'Send a branded estimate. The customer ticks the services they want and the total adds up.', secs: 70 },
+    { id: '27_costs_receipts', title: 'Track every cost, receipt by receipt', text: 'Your crew snaps a receipt, AI fills it in, and the office sees costs by type, truck, employee and job.', secs: 86 },
   ] },
   { name: 'Your customers', videos: [
     { id: '08_client_app', title: 'The client app', text: 'Customers see their visits, pay invoices, sign up for more services and watch your crew on the map.', secs: 39 },
