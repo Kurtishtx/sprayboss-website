@@ -1,4 +1,5 @@
 'use client';
+import { PromoCodeField, promoCodeFor, promoAfterSignup } from '../components/promo';
 import PlanCompare from '../components/PlanCompare';
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
@@ -89,7 +90,7 @@ async function sbpCreateAccount(n: number) {
     const res = await fetch(SBP_URL + '/functions/v1/manage-users', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON, 'apikey': SBP_ANON },
-      body: JSON.stringify({ action: 'create', email, password }),
+      body: JSON.stringify({ action: 'create', email, password, promo_code: promoCodeFor(n) }),
     });
     const result = await res.json();
     if (result.error) throw new Error(result.error);
@@ -111,7 +112,7 @@ async function sbpCreateAccount(n: number) {
       .map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById(`sbp${n}-step2`)!.style.display   = 'none';
-    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 59.0, currency: 'USD' }); } catch {}
+    document.getElementById(`sbp${n}-success`)!.style.display = 'block'; promoAfterSignup(n, result); try { (window as any).gtag?.('event', 'conversion', { send_to: 'AW-994175437/866BCK6h19gcEM3Th9oD', value: 59.0, currency: 'USD' }); } catch {}
     let secs = 4;
     const cd = document.getElementById(`sbp${n}-countdown`)!;
     cd.textContent = 'Redirecting in ' + secs + ' seconds…';
@@ -157,7 +158,8 @@ function SignupForm({ n }: { n: number }) {
           <label className="sbp-label">Email Address</label>
           <input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" className="sbp-input" />
         </div>
-        <button onClick={() => sbpStep2(n)} className="btn-primary" style={{width:'100%', fontSize:'15px', padding:'13px'}}>
+        <PromoCodeField n={n} />
+            <button onClick={() => sbpStep2(n)} className="btn-primary" style={{width:'100%', fontSize:'15px', padding:'13px'}}>
           Next: Create Password →
         </button>
       </div>
@@ -205,6 +207,7 @@ function SignupForm({ n }: { n: number }) {
 
 export default function FleaAndTickSoftware() {
   useEffect(() => {
+    (window as any).__openSignup = openSignupModal; // ?signup=1 from the 50%-off code email
     const handler = (e: KeyboardEvent) => {
       if (e.key !== 'Enter' || !sbpOpenForm) return;
       const n = sbpOpenForm;
