@@ -3,7 +3,7 @@
 :root {
   --purple-dark: #080010;
   --purple-deep: #130520;
-  --orange:      #e07820;
+  --orange:      #e07820; --orange-ink:#9d5416;
   --orange-dark: #c96a10;
   --blue:        #5bbfff;
   --text:        #1a1a2e;
@@ -30,10 +30,18 @@ img { max-width: 100%; height: auto; }
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
-  height: 64px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+}
+/* Two-row desktop bar (owner 11/14): row 1 = name + phone, row 2 = everything else */
+.navbar-top { height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.navbar-row2 { height: 46px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(255,255,255,.07); }
+.navbar-actions { gap: 18px; }
+.navbar-phone { display: inline-flex; align-items: center; gap: 7px; color: #fff; text-decoration: none; font-weight: 800; font-size: 17px; white-space: nowrap; }
+.navbar-phone:hover { color: var(--orange); }
+/* Pages were laid out for a 64px bar; the 2-row bar is 102px, so shift every page down 38px on desktop */
+@media (min-width: 1025px) {
+  body { padding-top: 38px; }
 }
 .navbar-brand {
   display: flex;
@@ -89,6 +97,8 @@ img { max-width: 100%; height: auto; }
   .nav-dropdown { display: none !important; }
   .navbar-cta { display: none !important; }
   .navbar-inner { padding: 0 20px; }
+  .navbar-top { height: 64px; }
+  .navbar-row2, .navbar-phone { display: none !important; }
   .nav-hamburger { display: block; }
   .nav-demo-mobile { display: inline-flex; }
 }
@@ -193,7 +203,7 @@ section { padding: 96px 40px; }
 .premium-card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: 12px; padding: 28px 24px; text-align: left; transition: border-color .2s; }
 .premium-card:hover { border-color: var(--orange); }
 .premium-card-icon { font-size: 28px; margin-bottom: 14px; }
-.premium-card h4 { color: #fff; font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+.premium-card h3 { color: #fff; font-size: 16px; font-weight: 700; margin-bottom: 8px; }
 .premium-card p { color: rgba(255,255,255,.52); font-size: 13px; line-height: 1.6; }
 
 /* ─── VS BAND ─── */
@@ -216,7 +226,7 @@ section { padding: 96px 40px; }
 .simple-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
 .simple-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 26px; transition: border-color .2s, box-shadow .2s, transform .15s; }
 .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(224,120,32,.1); transform: translateY(-2px); }
-.simple-num { font-size: 40px; font-weight: 800; color: var(--orange); opacity: .25; line-height: 1; margin-bottom: 12px; }
+.simple-num { font-size: 40px; font-weight: 800; color: var(--orange-ink); opacity: .71; line-height: 1; margin-bottom: 12px; }
 .simple-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
 .simple-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
 
@@ -381,10 +391,10 @@ section { padding: 96px 40px; }
 .site-footer-brand span:first-child { font-size: 1.3rem; }
 .site-footer-brand span:last-child { color: #fff; font-weight: 700; font-size: 1rem; }
 .site-footer-cols { display: flex; gap: 60px; flex-wrap: wrap; }
-.site-footer-col h4 { color: rgba(255,255,255,.45); font-size: 0.72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 14px; }
+.site-footer-col h3 { color: rgba(255,255,255,.5); font-size: 0.72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 14px; }
 .site-footer-col a { display: block; color: rgba(255,255,255,.65); font-size: 0.9rem; text-decoration: none; margin-bottom: 10px; transition: color .15s; }
 .site-footer-col a:hover { color: #fff; }
-.site-footer-bottom { border-top: 1px solid rgba(255,255,255,.06); padding-top: 24px; color: rgba(255,255,255,.35); font-size: 0.8rem; }
+.site-footer-bottom { border-top: 1px solid rgba(255,255,255,.06); padding-top: 24px; color: rgba(255,255,255,.5); font-size: 0.8rem; }
 @media (max-width: 700px) {
   .site-footer { padding: 40px 20px 28px; }
   .site-footer-top { flex-direction: column; gap: 28px; }
