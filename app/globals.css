@@ -39,6 +39,9 @@ img { max-width: 100%; height: auto; }
 .navbar-actions { gap: 18px; }
 .navbar-phone { display: inline-flex; align-items: center; gap: 7px; color: #fff; text-decoration: none; font-weight: 800; font-size: 17px; white-space: nowrap; }
 .navbar-phone:hover { color: var(--orange); }
+.navbar-util { display: flex; align-items: center; gap: 26px; }
+.navbar-login { color: rgba(255,255,255,.7); text-decoration: none; font-size: 14px; font-weight: 600; }
+.navbar-login:hover { color: #fff; }
 /* Pages were laid out for a 64px bar; the 2-row bar is 102px, so shift every page down 38px on desktop */
 @media (min-width: 1025px) {
   body { padding-top: 38px; }
@@ -98,7 +101,7 @@ img { max-width: 100%; height: auto; }
   .navbar-cta { display: none !important; }
   .navbar-inner { padding: 0 20px; }
   .navbar-top { height: 64px; }
-  .navbar-row2, .navbar-phone { display: none !important; }
+  .navbar-row2, .navbar-util { display: none !important; }
   .nav-hamburger { display: block; }
   .nav-demo-mobile { display: inline-flex; }
 }

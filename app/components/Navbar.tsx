@@ -50,7 +50,10 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
               <span className="navbar-name">SprayBossPro</span>
             </a>
           </div>
-          <a href="tel:+16827273802" className="navbar-phone" title="Call us">📞 Call (682) 727-3802</a>
+          <div className="navbar-util">
+            <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer" className="navbar-login">Log In</a>
+            <a href="tel:+16827273802" className="navbar-phone" title="Call us">📞 Call (682) 727-3802</a>
+          </div>
           {/* Live Demo, mobile only, sits in the bar next to the hamburger */}
           <a href="https://my.spraybosspro.com/demo.html" className="nav-demo-mobile">
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#4ade80', boxShadow: '0 0 0 3px rgba(74,222,128,.22)', flexShrink: 0 }} />
@@ -91,7 +94,6 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
             <a href="/videos">Videos</a>
           </div>
           <div className="navbar-links navbar-actions">
-            <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
             <a href="https://my.spraybosspro.com/demo.html" className="navbar-demo" style={{display:'inline-flex', alignItems:'center', gap:'7px', border:'1.5px solid rgba(255,255,255,.35)', borderRadius:'6px', padding:'9px 16px', fontSize:'14px', fontWeight:700, color:'#fff', textDecoration:'none', whiteSpace:'nowrap'}}>
               <span style={{width:'7px', height:'7px', borderRadius:'50%', background:'#4ade80', boxShadow:'0 0 0 3px rgba(74,222,128,.22)'}} />
               Live Demo
