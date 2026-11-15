@@ -415,6 +415,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE}/videos`,
+      lastModified: new Date('2026-11-15'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${BASE}/pricing`,
       lastModified: new Date('2026-06-21'),
       changeFrequency: 'monthly',
