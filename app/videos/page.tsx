@@ -6,6 +6,19 @@ import SignupModal from '../components/SignupModal';
 // Videos + thumbnails live on Cloudflare R2 (no bandwidth charges), not on this site.
 const BASE = 'https://videos.bossprohq.com/spraybosspro';
 
+// Play tracking (11/15): started / past halfway / finished, logged like pageviews (skipped for ?notrack=1 browsers).
+function trackVideo(event: string, id: string) {
+  try {
+    let notrack = false;
+    try { notrack = localStorage.getItem('bp_notrack') === '1'; } catch {}
+    fetch('https://knjdbgroiyhvqwrpqzcx.supabase.co/functions/v1/demo-session', {
+      method: 'POST', keepalive: true,
+      headers: { 'Content-Type': 'application/json', apikey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g' },
+      body: JSON.stringify({ product: 'spraybosspro', event, referrer: document.referrer || 'direct', landing_url: window.location.href.split('#')[0] + '#' + id, notrack }),
+    }).catch(() => {});
+  } catch { /* analytics only */ }
+}
+
 type V = { id: string; title: string; text: string; secs: number };
 const GROUPS: { name: string; videos: V[] }[] = [
   { name: 'Getting started', videos: [
@@ -53,7 +66,10 @@ function Card({ v }: { v: V }) {
     <div className="vid-card" id={v.id.replace(/^\d+_/, '')}>
       <div className="vid-frame">
         {playing ? (
-          <video src={`${BASE}/${v.id}.mp4`} poster={`${BASE}/${v.id}.jpg`} controls autoPlay playsInline preload="auto" />
+          <video src={`${BASE}/${v.id}.mp4`} poster={`${BASE}/${v.id}.jpg`} controls autoPlay playsInline preload="auto"
+            onPlay={(e) => { const el = e.currentTarget as any; if (!el.dataset.p) { el.dataset.p = '1'; trackVideo('video_play', v.id); } }}
+            onTimeUpdate={(e) => { const el = e.currentTarget as any; if (!el.dataset.h && el.duration && el.currentTime / el.duration >= 0.5) { el.dataset.h = '1'; trackVideo('video_half', v.id); } }}
+            onEnded={(e) => { const el = e.currentTarget as any; if (!el.dataset.d) { el.dataset.d = '1'; trackVideo('video_done', v.id); } }} />
         ) : (
           <button className="vid-poster" onClick={() => setPlaying(true)} aria-label={`Play: ${v.title}`}>
             <img src={`${BASE}/${v.id}.jpg`} alt={v.title} loading="lazy" width={960} height={540} />
