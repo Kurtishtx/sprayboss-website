@@ -92,8 +92,8 @@ export function PromoCodeField({ n }: { n: number }) {
 
   return (
     <div style={{ marginBottom: '18px' }}>
-      <label htmlFor={`sbp${n}-promo`} style={labelStyle}>Redemption code <span style={{ textTransform: 'none', fontWeight: 400, color: '#999' }}>(optional)</span></label>
-      <input id={`sbp${n}-promo`} data-sbp-promo="1" ref={ref} type="text" placeholder="SAVE50-XXXXXX" autoComplete="off" spellCheck={false} autoCapitalize="characters" maxLength={20} onBlur={check} style={inputStyle} />
+      <label htmlFor={`sbp${n}-promo`} style={labelStyle}>Offer code <span style={{ textTransform: 'none', fontWeight: 400, color: '#999' }}>(optional)</span></label>
+      <input id={`sbp${n}-promo`} data-sbp-promo="1" ref={ref} type="text" placeholder="Example: GROUP3" autoComplete="off" spellCheck={false} autoCapitalize="characters" maxLength={20} onBlur={check} style={inputStyle} />
       <div ref={noteRef} aria-live="polite" style={{ display: 'none', fontSize: '12px', marginTop: '5px', lineHeight: 1.4 }}></div>
     </div>
   );
