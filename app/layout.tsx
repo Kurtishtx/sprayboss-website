@@ -4,10 +4,17 @@ import { Analytics } from "@vercel/analytics/next";
 import Footer from "./components/Footer";
 import "./globals.css";
 import MetaPixel from './components/MetaPixel';
+import AfterInteraction from './components/AfterInteraction';
 import PageBeacon from './components/PageBeacon';
 import PromoExitPopup from './components/PromoExitPopup';
 
 export const metadata: Metadata = {
+  /* Every route resolves its own canonical against this base, so a page reached as www vs
+     non-www, with a trailing slash, or carrying ?fbclid=/?utm_source= all point at one URL
+     instead of competing with each other. */
+  metadataBase: new URL('https://www.spraybosspro.com'),
+  alternates: { canonical: './' },
+
   title: "SprayBossPro | Lawn Care, Pest Control & Spray Software",
   description: "SprayBossPro is premium lawn care, pest control, and spray software built by people who've run real routes. Circle a map area and instantly know sq ft, stops, and chemical needs. from $59/month, and every plan runs the same software.",
   /* Google's search results still show Vercel's default triangle for this domain, cached from
@@ -28,7 +35,7 @@ export const metadata: Metadata = {
 };
 
 
-const structuredData = {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://spraybosspro.com/#organization","name":"SprayBossPro","url":"https://spraybosspro.com","logo":"https://spraybosspro.com/icon.png","description":"Lawn care, pest control, and spray software with recurring scheduling, map-based routing, chemical and compliance logging, automated SMS, and Stripe billing."},{"@type":"WebSite","@id":"https://spraybosspro.com/#website","url":"https://spraybosspro.com","name":"SprayBossPro","publisher":{"@id":"https://spraybosspro.com/#organization"}},{"@type":"SoftwareApplication","name":"SprayBossPro","applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android","description":"Lawn care, pest control, and spray software with recurring scheduling, map-based routing, chemical and compliance logging, automated SMS, and Stripe billing.","offers":{"@type":"AggregateOffer","lowPrice":"59","highPrice":"199","offerCount":"3","priceCurrency":"USD","description":"from $59/month — three plans, 14-day free trial."},"publisher":{"@id":"https://spraybosspro.com/#organization"}}]};
+const structuredData = {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://spraybosspro.com/#organization","name":"SprayBossPro","url":"https://spraybosspro.com","logo":"https://spraybosspro.com/icon.png","description":"Lawn care, pest control, and spray software with recurring scheduling, map-based routing, chemical and compliance logging, automated SMS, and online billing."},{"@type":"WebSite","@id":"https://spraybosspro.com/#website","url":"https://spraybosspro.com","name":"SprayBossPro","publisher":{"@id":"https://spraybosspro.com/#organization"}},{"@type":"SoftwareApplication","name":"SprayBossPro","applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android","description":"Lawn care, pest control, and spray software with recurring scheduling, map-based routing, chemical and compliance logging, automated SMS, and online billing.","offers":{"@type":"AggregateOffer","lowPrice":"59","highPrice":"199","offerCount":"3","priceCurrency":"USD","description":"from $59/month — three plans, 14-day free trial."},"publisher":{"@id":"https://spraybosspro.com/#organization"}}]};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -38,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         {/* Meta Pixel — builds the retargeting audience. Inert until
             NEXT_PUBLIC_META_PIXEL_ID is set on the Vercel project. */}
-        <MetaPixel />
+        <AfterInteraction><MetaPixel /></AfterInteraction>
         {/* Pageview beacon on EVERY page, not just the ones with a demo on them. */}
         <PageBeacon />
         {/* 50%-off exit popup + ?signup=1&code= handling (redemption codes, 11/15). */}
@@ -46,20 +53,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <Script
           src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        {/* Google tag (gtag.js) — Ads conversion tracking base */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-97QJVSZQ1M"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-97QJVSZQ1M');
-            gtag('config', 'AW-994175437');`}
-        </Script>
+        {/* Google tag (gtag.js) — Ads conversion tracking base. Loads on first interaction (see AfterInteraction). */}
+        <AfterInteraction>
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-97QJVSZQ1M"
+            strategy="afterInteractive"
+          />
+          <Script id="gtag-init" strategy="afterInteractive">
+            {`window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-97QJVSZQ1M');
+              gtag('config', 'AW-994175437');`}
+          </Script>
+        </AfterInteraction>
         <Analytics />
       </body>
     </html>

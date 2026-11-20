@@ -272,6 +272,7 @@ export default function Features() {
             {[
               {t:'Service Catalog for Line Items',d:'Build your service catalog once. Add line items to any estimate by selecting from your list — no retyping prices.'},
               {t:'Email Estimate Directly',d:'Send a branded estimate to the client in one click. No downloading, no copy-paste into Gmail.'},
+              {t:'Meetings & Booking Link',d:'Customers pick a time from your booking link, or you book it for them. Reminder texts go out on their own and a YES or NO reply confirms the meeting.'},
               {t:'Online Accept Link',d:'Clients click a link to view and accept. Accepted status updates in your dashboard immediately.'},
               {t:'3-Step Automated Follow-Up',d:"3 follow-up texts go out automatically if a client doesn't respond. SprayBossPro chases the deal so you don't have to."},
               {t:'Discount Codes & Sales Tax',d:'Apply percentage or flat discounts. Set tax rates and SprayBossPro calculates tax on every estimate automatically.'},
@@ -288,12 +289,12 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">💳</span>
-            <div><div className="cat-title">Invoices &amp; Payments</div><div className="cat-desc">Get paid faster with Stripe card-on-file and automated payment reminders</div></div>
+            <div><div className="cat-title">Invoices &amp; Payments</div><div className="cat-desc">Get paid faster with card-on-file billing and automated payment reminders</div></div>
           </div>
           <div className="feat-grid">
             {[
               {t:'Convert Estimate to Invoice',d:'Turn any accepted estimate into an invoice in one click. Line items, discounts, and tax carry over automatically.'},
-              {t:'Stripe Card-on-File',d:'Store customer cards securely via Stripe. Charge after service without the customer needing to do anything.'},
+              {t:'Card-on-File Billing',d:'Store customer cards securely. Charge after service without the customer needing to do anything.'},
               {t:'Invoice Status Dashboard',d:'Filter all invoices by Unpaid, Partial, Paid, or Overdue. See your total outstanding balance at a glance.'},
               {t:'Partial Payments',d:'Log partial payments against any invoice. Track remaining balance and full payment history per account.'},
               {t:'3-Step Payment Reminder Sequence',d:'Unpaid invoices trigger 3 automated text reminders. Stop making uncomfortable collection calls.'},
@@ -322,7 +323,7 @@ export default function Features() {
               {t:'Estimate Sent & Accepted Alerts',d:'Notify clients when their estimate is on the way, and get notified yourself when they accept.'},
               {t:'Google Review Request',d:'Automatically sent after every completed service. More 5-star reviews with zero extra effort.'},
               {t:'Payment & Estimate Follow-Up Sequences',d:'3-step automated sequences for both unpaid invoices and unanswered estimates — fully customizable timing and copy.'},
-              {t:'500+ Texts/Month Included',d:'500 texts a month on Start, 1,000 on Pro, 2,000 on Crew — sent and received. Add more in blocks of 500 for $15 each.'},
+              {t:'500+ Texts/Month Included (US & Canada)',d:'500 texts a month on Start, 1,000 on Pro, 2,000 on Crew — sent and received. Add more in blocks of 500 for $15 each.'},
               {t:'Auto-Routing Included',d:'50 auto-routes a month on Start, 100 on Pro, 1,000 on Crew. Need more? 250 are added automatically for $5. Smart Lasso selections are unlimited on every plan.'},
               {t:'Customizable Alert Templates',d:'Edit the message for every alert type. Use your own voice and include details that matter to your customers.'},
             ].map((f,i) => (

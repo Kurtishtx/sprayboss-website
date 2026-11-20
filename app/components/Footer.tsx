@@ -10,13 +10,13 @@ export default function Footer() {
           </a>
           <div className="site-footer-cols">
             <div className="site-footer-col">
-              <h4>Product</h4>
+              <h3 className="ft-h">Product</h3>
               <a href="/features">Features</a>
               <a href="/pricing">Pricing</a>
               <a href="https://my.spraybosspro.com" target="_blank" rel="noreferrer">Log In</a>
             </div>
             <div className="site-footer-col">
-              <h4>Solutions</h4>
+              <h3 className="ft-h">Solutions</h3>
               <a href="/lawn-care-software">Lawn Care Software</a>
               <a href="/lawn-care-scheduling-software">Lawn Care Scheduling</a>
               <a href="/mosquito-spray-software">Mosquito Spray</a>
@@ -28,7 +28,7 @@ export default function Footer() {
               <a href="/spray-business-software">Spray Business</a>
             </div>
             <div className="site-footer-col">
-              <h4>Compare</h4>
+              <h3 className="ft-h">Compare</h3>
               <a href="/vs-jobber">vs. Jobber</a>
               <a href="/vs-servicetitan">vs. ServiceTitan</a>
               <a href="/vs-housecallpro">vs. Housecall Pro</a>
@@ -42,11 +42,11 @@ export default function Footer() {
               <a href="/vs-spraye">vs. Spraye</a>
             </div>
             <div className="site-footer-col">
-              <h4>Resources</h4>
+              <h3 className="ft-h">Resources</h3>
               <a href="/blogs">Blog</a>
             </div>
             <div className="site-footer-col">
-              <h4>BossPro Family</h4>
+              <h3 className="ft-h">BossPro Family</h3>
               <a href="https://industrybosspro.com">IndustryBossPro — All-in-One Field Service Software</a>
             </div>
           </div>

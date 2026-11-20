@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: 'How does Canadian dollar billing work?',
-    a: 'You connect your own Canadian Stripe account and set your country to Canada in Company Info. From then on, every customer charge and payment link is issued in CAD automatically. There is nothing to configure per invoice.',
+    a: 'You connect your own Canadian merchant account and set your country to Canada in Company Info. From then on, every customer charge and payment link is issued in CAD automatically. There is nothing to configure per invoice.',
   },
   {
     q: 'Can it run quarterly, monthly, and seasonal programs at the same time?',
@@ -126,7 +126,7 @@ export default function Page() {
             </thead>
             <tbody>
               <tr><td>Customer billing currency</td><td className="sbp-col">Native CAD</td><td className="other-col">USD, or a workaround</td></tr>
-              <tr><td>Card-on-file after each treatment</td><td className="sbp-col">Your Canadian Stripe</td><td className="other-col">US processor, if at all</td></tr>
+              <tr><td>Card-on-file after each treatment</td><td className="sbp-col">Your Canadian merchant account</td><td className="other-col">US processor, if at all</td></tr>
               <tr><td>Quarterly + monthly + seasonal programs</td><td className="sbp-col">All at once</td><td className="other-col">One-size recurring</td></tr>
               <tr><td>Technician routing on Canadian streets</td><td className="sbp-col">Full Google mapping</td><td className="other-col">Varies by platform</td></tr>
               <tr><td>Subscription currency</td><td className="sbp-col">USD &mdash; stated up front</td><td className="other-col">USD &mdash; found on your statement</td></tr>
@@ -144,13 +144,13 @@ export default function Page() {
           <div className="highlight-text">
             <span className="section-label">Canadian Dollar Billing</span>
             <h2>Every charge, every invoice, every payment link &mdash; in CAD</h2>
-            <p>Set your country to Canada in Company Info &mdash; one field, once &mdash; and every invoice, card-on-file charge, and Pay Now link bills your customers in Canadian dollars through your own Canadian Stripe account. Your customers never see a US-dollar charge convert on their card, and Stripe deposits your money in CAD into your Canadian bank account.</p>
+            <p>Set your country to Canada in Company Info &mdash; one field, once &mdash; and every invoice, card-on-file charge, and Pay Now link bills your customers in Canadian dollars through your own Canadian merchant account. Your customers never see a US-dollar charge convert on their card, and your money is deposited in CAD into your Canadian bank account.</p>
             <p style={{ marginTop: '12px' }}>For a recurring business this matters twice: the quarterly card-on-file charge that runs after every treatment is in CAD, and so is the payment link on every one-off job. Nothing to configure per invoice, no per-customer currency fiddling, no explaining conversion fees to a commercial client&apos;s bookkeeper.</p>
             <ul className="check-list">
               <li>Set Country = Canada in Company Info &mdash; that is the whole setup</li>
               <li>Card-on-file charges after each treatment run in CAD automatically</li>
               <li>Pay Now links and emailed invoices issued in Canadian dollars</li>
-              <li>Your own Canadian Stripe account &mdash; payouts land in your bank in CAD</li>
+              <li>Your own Canadian merchant account &mdash; payouts land in your bank in CAD</li>
               <li>Estimates, discounts, and sales tax all handled in CAD</li>
               <li>Automated payment reminders chase unpaid invoices for you</li>
               <li>Full payment history &mdash; method, date, amount &mdash; on every account</li>
@@ -158,15 +158,15 @@ export default function Page() {
           </div>
           <div className="highlight-visual">
             <div style={{ color: 'rgba(255,255,255,.5)', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '14px' }}>A Real CAD Payment Page</div>
-            {/* Genuine, uncropped Stripe checkout from the founder's own Canada-set company. */}
-            <img src="/cad-checkout.png" alt="Stripe payment page for Hamann Lawn Care Invoice #459 charging CA$9.74 in Canadian dollars"
+            {/* Genuine, uncropped checkout from the founder's own Canada-set company. */}
+            <img src="/cad-checkout.png" alt="Payment page for Hamann Lawn Care Invoice #459 charging CA$9.74 in Canadian dollars"
                  style={{ width: '100%', maxWidth: '100%', display: 'block', borderRadius: '10px', border: '1px solid rgba(255,255,255,.14)', boxShadow: '0 12px 36px rgba(0,0,0,.35)', background: '#fff' }} />
             <div style={{ color: 'rgba(255,255,255,.5)', fontSize: '12px', lineHeight: 1.6, margin: '10px 0 16px', textAlign: 'center' }}>A real payment page from the platform &mdash; a Canada-set company&apos;s customer pays in Canadian dollars. (The founder&apos;s own company.)</div>
             <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Quarterly Perimeter &mdash; Q3</div><div className="mock-sub">Card on file &middot; charged after treatment</div></div><div className="mock-badge green">$129.00 CAD</div></div>
             <div className="mock-item"><div className="mock-dot blue"></div><div><div className="mock-label">Commercial Account &mdash; Monthly</div><div className="mock-sub">Invoice emailed &middot; paid via link</div></div><div className="mock-badge blue">$210.00 CAD</div></div>
             <div style={{ marginTop: '16px', background: 'rgba(255,255,255,.07)', borderRadius: '8px', padding: '14px 16px', textAlign: 'center' }}>
               <div style={{ color: 'var(--orange)', fontSize: '16px', fontWeight: 700 }}>One setting. Every charge in CAD.</div>
-              <div style={{ color: 'rgba(255,255,255,.45)', fontSize: '12px', marginTop: '4px' }}>Country = Canada in Company Info, connected to your own Canadian Stripe.</div>
+              <div style={{ color: 'rgba(255,255,255,.45)', fontSize: '12px', marginTop: '4px' }}>Country = Canada in Company Info, connected to your own Canadian merchant account.</div>
             </div>
           </div>
         </div>

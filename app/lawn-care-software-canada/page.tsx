@@ -13,15 +13,15 @@ import HeroDemo from '../components/HeroDemo';
 const faqs = [
   {
     q: 'Does SprayBossPro actually work for Canadian lawn care companies?',
-    a: 'Yes. Scheduling, routing, customer records, estimates, invoicing in Canadian dollars, the crew app and the customer app all work in Canada today. You connect your own Canadian Stripe account and your customers are billed in CAD.',
+    a: 'Yes. Scheduling, routing, customer records, estimates, invoicing in Canadian dollars, the crew app and the customer app all work in Canada today. You connect your own Canadian merchant account and your customers are billed in CAD.',
   },
   {
     q: 'Do my customers get charged in Canadian dollars?',
     a: 'Yes. Set your country to Canada on the Company Info page and every invoice, card-on-file charge, and payment link goes out in CAD automatically. Your customers see plain Canadian dollars on their statements — no US-dollar line items, no conversion complaints.',
   },
   {
-    q: 'Do I need a special Stripe setup for Canada?',
-    a: 'No — you connect your own Canadian Stripe account, the same free Stripe account any Canadian business can open. Payments land in your Canadian bank account in CAD. SprayBossPro never touches your money; Stripe pays you directly.',
+    q: 'Do I need a special payment setup for Canada?',
+    a: 'No — card payments are built in and work in Canada. Payments land in your Canadian bank account in CAD, and SprayBossPro never touches your money.',
   },
   {
     q: 'What does the subscription itself cost in Canada?',
@@ -127,7 +127,7 @@ export default function Page() {
             </thead>
             <tbody>
               <tr><td>Customer invoices &amp; charges</td><td className="sbp-col">Native CAD</td><td className="other-col">USD, or a workaround</td></tr>
-              <tr><td>Card-on-file billing</td><td className="sbp-col">Your Canadian Stripe</td><td className="other-col">US processor, if at all</td></tr>
+              <tr><td>Card-on-file billing</td><td className="sbp-col">Your Canadian merchant account</td><td className="other-col">US processor, if at all</td></tr>
               <tr><td>Routing on Canadian streets</td><td className="sbp-col">Full Google mapping</td><td className="other-col">Varies by platform</td></tr>
               <tr><td>Subscription currency</td><td className="sbp-col">USD &mdash; stated up front</td><td className="other-col">USD &mdash; found on your statement</td></tr>
               <tr><td>Texting in Canada</td><td className="sbp-col">Set up during onboarding</td><td className="other-col">Often not addressed at all</td></tr>
@@ -144,12 +144,12 @@ export default function Page() {
           <div className="highlight-text">
             <span className="section-label">Canadian Dollars, Native</span>
             <h2>Your customers pay in CAD. Full stop.</h2>
-            <p>This is the part most US platforms fumble. In SprayBossPro you set your country to Canada on the Company Info page &mdash; one field, once &mdash; and from that moment every invoice, every card-on-file charge, and every Pay Now link bills your customers in Canadian dollars through your own Canadian Stripe account.</p>
-            <p style={{ marginTop: '12px' }}>No customer ever sees a US-dollar line item on their statement. No conversion fee complaints. No explaining to Mrs. Tremblay why her $65 lawn treatment showed up as $47.20 USD plus a foreign transaction fee. Stripe deposits your money in CAD, into your Canadian bank account, and SprayBossPro never touches it in between.</p>
+            <p>This is the part most US platforms fumble. In SprayBossPro you set your country to Canada on the Company Info page &mdash; one field, once &mdash; and from that moment every invoice, every card-on-file charge, and every Pay Now link bills your customers in Canadian dollars through your own Canadian merchant account.</p>
+            <p style={{ marginTop: '12px' }}>No customer ever sees a US-dollar line item on their statement. No conversion fee complaints. No explaining to Mrs. Tremblay why her $65 lawn treatment showed up as $47.20 USD plus a foreign transaction fee. Your money is deposited in CAD, into your Canadian bank account, and SprayBossPro never touches it in between.</p>
             <ul className="check-list">
               <li>Set Country = Canada in Company Info &mdash; that is the whole setup</li>
               <li>Every invoice, card charge, and payment link issued in CAD automatically</li>
-              <li>Connect your own Canadian Stripe account &mdash; payouts land in your bank in CAD</li>
+              <li>Connect your own Canadian merchant account &mdash; payouts land in your bank in CAD</li>
               <li>Card-on-file: charge after service without chasing anyone</li>
               <li>Estimates, invoices, discounts, and sales tax all in Canadian dollars</li>
               <li>Automated payment reminders chase unpaid invoices for you &mdash; in CAD</li>
@@ -158,8 +158,8 @@ export default function Page() {
           </div>
           <div className="highlight-visual">
             <div style={{ color: 'rgba(255,255,255,.5)', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '14px' }}>A Real CAD Payment Page</div>
-            {/* Genuine, uncropped Stripe checkout from the founder's own Canada-set company. */}
-            <img src="/cad-checkout.png" alt="Stripe payment page for Hamann Lawn Care Invoice #459 charging CA$9.74 in Canadian dollars"
+            {/* Genuine, uncropped checkout from the founder's own Canada-set company. */}
+            <img src="/cad-checkout.png" alt="Payment page for Hamann Lawn Care Invoice #459 charging CA$9.74 in Canadian dollars"
                  style={{ width: '100%', maxWidth: '100%', display: 'block', borderRadius: '10px', border: '1px solid rgba(255,255,255,.14)', boxShadow: '0 12px 36px rgba(0,0,0,.35)', background: '#fff' }} />
             <div style={{ color: 'rgba(255,255,255,.5)', fontSize: '12px', lineHeight: 1.6, margin: '10px 0 16px', textAlign: 'center' }}>A real payment page from the platform &mdash; a Canada-set company&apos;s customer pays in Canadian dollars. (The founder&apos;s own company.)</div>
             <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Lawn Fertilization &mdash; Round 3</div><div className="mock-sub">Card on file &middot; charged after service</div></div><div className="mock-badge green">$89.00 CAD</div></div>
@@ -168,7 +168,7 @@ export default function Page() {
             <div className="mock-item"><div className="mock-dot blue"></div><div><div className="mock-label">Season Program &mdash; Prepay</div><div className="mock-sub">Estimate accepted &middot; converted to invoice</div></div><div className="mock-badge blue">$486.00 CAD</div></div>
             <div style={{ marginTop: '16px', background: 'rgba(255,255,255,.07)', borderRadius: '8px', padding: '14px 16px', textAlign: 'center' }}>
               <div style={{ color: 'var(--orange)', fontSize: '16px', fontWeight: 700 }}>One setting. Every charge in CAD.</div>
-              <div style={{ color: 'rgba(255,255,255,.45)', fontSize: '12px', marginTop: '4px' }}>Country = Canada in Company Info, connected to your own Canadian Stripe.</div>
+              <div style={{ color: 'rgba(255,255,255,.45)', fontSize: '12px', marginTop: '4px' }}>Country = Canada in Company Info, connected to your own Canadian merchant account.</div>
             </div>
           </div>
         </div>

@@ -35,6 +35,8 @@ declare global {
 let leadSent = false;
 export function pixelDemoStarted() {
   if (leadSent) return;
+  // The pixel loads on first interaction, so on a very first click it may not exist yet: retry briefly.
+  if (!window.fbq) { let n = 0; const t = setInterval(() => { if (window.fbq || ++n > 20) { clearInterval(t); if (window.fbq) pixelDemoStarted(); } }, 250); return; }
   leadSent = true;
   try {
     window.fbq?.('track', 'Lead', { content_category: PRODUCT, content_name: 'demo_engaged' });

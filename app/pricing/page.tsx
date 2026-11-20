@@ -130,7 +130,7 @@ const tableRows = [
   ['Chemical Application Tracking', 'Log product, rate, gallons, weather, and tech per stop'],
   ['Compliance Reports', 'Print-ready pesticide application reports for any inspector'],
   ['Estimates', 'Build, email, and track estimates with a service catalog'],
-  ['Invoices & Payments', 'Stripe card-on-file billing, payment history, partial payments'],
+  ['Invoices & Payments', 'Card-on-file billing, payment history, partial payments'],
   ['Two-Way SMS Inbox', 'Send and receive texts with customers inside the app'],
   ['Automated SMS Alerts (10+ types)', 'Service scheduled, completed, estimate sent, review request, and more'],
   ['Estimate Follow-Up Sequence', "3 automated texts if a client doesn't respond to an estimate"],
@@ -147,7 +147,7 @@ const tableRows = [
   ['Discount Codes & Sales Tax', 'Percentage or flat discounts, auto tax calculation per invoice'],
   ['Unlimited Clients', 'Add every employee at no per-user cost'],
   ['Unlimited Clients & Properties', 'No caps — 50 accounts or 5,000, same price'],
-  ['500 texts/month', 'Sent and received, 160 characters per text; +$15 per additional 500 after that'],
+  ['500 texts/month (US & Canada)', 'Sent and received, 160 characters per text; +$15 per additional 500 after that'],
   ['Auto-routing', '50 / 100 / 1,000 per month by plan; need more and 250 are added automatically for $5'],
 ];
 
@@ -156,8 +156,9 @@ const faqs = [
   { q: 'What happens after the 14-day free trial?', a: "You'll be prompted to enter a card and continue on whichever plan fits, from $59/month. If you decide not to continue, your account simply stops — no charges, no cancellation fees. We don't auto-charge without you knowing it's coming." },
   { q: 'Do I need a credit card to start the trial?', a: 'No. Create your account and get full access for 14 days with no card required. You only enter payment info if you decide to keep going after the trial.' },
   { q: 'How many users can I add?', a: 'Office users: 2 on Start, 3 on Pro, unlimited on Crew. Employees are unlimited on every plan. Clients and properties are unlimited on every plan — you are never charged per customer.' },
-  { q: 'Does it work outside the US?', a: 'Yes. It runs in the US, Canada, Australia, New Zealand and the UK. Set your country once and your invoices and card charges run in your own currency — USD, CAD, AUD, NZD or GBP — through your own Stripe account.' },
-  { q: "What's the SMS pricing?", a: 'Start includes 500 texts a month, Pro 1,000, and Crew 2,000 — sent and received. A text is 160 characters; a longer one counts as two. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit their limit.' },
+  { q: 'Does it work outside the US?', a: 'Yes. It runs in the US, Canada, Australia, New Zealand and the UK. Set your country once and your invoices and card charges run in your own currency — USD, CAD, AUD, NZD or GBP — through your own merchant account.' },
+  { q: 'Where do the included texts apply?', a: 'The US and Canada. Carriers in Australia, New Zealand and the UK charge several times more to deliver a text, so texting there is set up on request and priced by country — everything else works the same, and email alerts are included everywhere.' },
+  { q: "What's the SMS pricing?", a: 'In the US and Canada, Start includes 500 texts a month, Pro 1,000, and Crew 2,000 — sent and received. A text is 160 characters; a longer one counts as two. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active properties never hit their limit.' },
   { q: 'How does auto-routing pricing work?', a: 'Start includes 50 auto-routes a month, Pro 100, and Crew 1,000. Go over and 250 more are added automatically for $5 - your dispatcher is never stopped mid-day. Smart Lasso map selections are unlimited on every plan.' },
   { q: 'Are there any contracts or annual commitments?', a: 'None. Month to month, always. Cancel anytime from your account settings.' },
   { q: 'Does this work for both lawn care and pest control?', a: 'Yes. SprayBossPro was built for spray businesses — lawn care, pest control, mosquito treatment, or any combination. The service types, chemical tracking, and waiting list work the same way regardless of what you spray.' },
@@ -190,7 +191,6 @@ export default function Pricing() {
         <h1>From $59/Month.<br /><span>Every Feature Included.</span></h1>
         <p>Pick the plan that fits your operation. Unlimited clients and properties on every plan, chemical tracking from day one — you only scale up as your crew does.</p>
         <p style={{color:'rgba(255,255,255,.45)',fontSize:'14px',marginBottom:'10px'}}>14-day free trial · No credit card required · Cancel anytime</p>
-        <p style={{color:'rgba(255,255,255,.7)',fontSize:'14px',marginBottom:'40px'}}>Works in the US, Canada, Australia, New Zealand and the UK — bills your customers in your own currency.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
         </div>
